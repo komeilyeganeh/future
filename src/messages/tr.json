@@ -1,0 +1,192 @@
+{
+  "Home": {
+    "nav": {
+      "about": "Hakkımızda",
+      "services": "Hizmetler",
+      "products": "Ürünler",
+      "contact": "İletişim",
+      "startProject": "Proje Başlat"
+    },
+
+    "hero": {
+      "eyebrow": "YAZILIM · TEKNOLOJİ · İNOVASYON",
+      "titleLineOne": "İşinizi ileriye taşıyan",
+      "titleLineTwo": "teknoloji.",
+      "description": "İnsanları, süreçleri ve verileri birbirine bağlayan, daha akıllı bir dijital gelecek için yenilikçi yazılım çözümleri geliştiriyoruz.",
+      "primaryCta": "Çözümlerimizi keşfedin",
+      "secondaryCta": "İletişime geçin",
+      "scroll": "Keşfetmek için kaydırın",
+      "badge": "Geleceği teknolojiyle inşa ediyoruz",
+      "floatingLabelTwo": "AKILLI TEKNOLOJİ",
+      "floatingStatus": "SİSTEMLER BAĞLI",
+      "floatingLabel": "DİJİTAL ÇÖZÜMLER"
+    },
+
+    "about": {
+      "kicker": "BİZ KİMİZ",
+      "title": "Amaca yönelik teknoloji.",
+      "description": "RoshaSoft, kurumların operasyonlarını kolaylaştırmasına, sistemlerini birbirine bağlamasına ve dijital geleceğe güvenle ilerlemesine yardımcı olan yenilikçi yazılım çözümleri geliştiren bir teknoloji şirketidir.",
+      "pointOne": "Gerçek iş ihtiyaçları etrafında tasarlanan yenilikçi çözümler.",
+      "pointTwo": "Uzun vadeli büyüme için tasarlanmış ölçeklenebilir teknoloji.",
+      "pointThree": "Fikirden uygulamaya kadar güvenilir bir teknoloji ortağı.",
+      "visualTitle": "Fark yaratan teknolojiler geliştiriyoruz.",
+      "cardLabel": "YILLIK DENEYİM",
+      "button": "Hizmetlerimizi keşfedin"
+    },
+
+    "products": {
+      "kicker": "TEKNOLOJİ EKOSİSTEMİMİZ",
+      "title": "Birlikte çalışan teknoloji.",
+      "description": "Operasyonları kolaylaştırmak, insanları ve verileri birbirine bağlamak ve kurumların daha ileriye gitmesine yardımcı olmak için tasarlanmış bağlantılı bir akıllı yazılım ekosistemi.",
+      "explore": "Keşfet",
+      "bottomLabel": "TEK EKOSİSTEM · SINIRSIZ İMKÂNLAR",
+
+      "his": {
+        "title": "HIS",
+        "description": "Klinik, idari ve operasyonel süreçleri birbirine bağlamak için tasarlanmış Sağlık Bilgi Yönetim Sistemi."
+      },
+
+      "cms": {
+        "title": "CMS",
+        "description": "Dijital içeriklerin daha kolay yönetilmesini, düzenlenmesini ve yayınlanmasını sağlayan İçerik Yönetim Sistemi."
+      },
+
+      "rfid": {
+        "title": "RFID",
+        "description": "Varlıkların, kişilerin ve envanterin akıllı şekilde tanımlanması ve takip edilmesi için RFID çözümleri."
+      },
+
+      "erp": {
+        "title": "ERP",
+        "description": "Finans, operasyon, kaynaklar ve iş verilerini tek bir yapıda bir araya getiren Kurumsal Kaynak Planlama çözümü."
+      },
+
+      "bpms": {
+        "title": "BPMS",
+        "description": "İş süreçlerini otomatikleştirmeye, optimize etmeye ve daha verimli hale getirmeye yardımcı olan İş Süreçleri Yönetim Sistemi."
+      },
+
+      "crm": {
+        "title": "CRM",
+        "description": "Ekiplerin müşterileriyle daha güçlü ve anlamlı ilişkiler kurmasına yardımcı olan Müşteri İlişkileri Yönetimi çözümleri."
+      },
+
+      "mms": {
+        "title": "MMS",
+        "description": "Operasyonel görünürlüğü, kontrolü ve verimliliği artırmak için geliştirilen yönetim ve izleme çözümleri."
+      }
+    },
+
+    "services": {
+      "kicker": "HİZMETLERİMİZ",
+      "title": "Performans için tasarlanmış dijital çözümler.",
+      "description": "Modern dijital deneyimler tasarlıyor ve geliştiriyoruz; güçlü tasarımı, güvenilir teknolojiyi ve ölçülebilir iş değerini bir araya getiriyoruz.",
+      "learnMore": "Daha fazla bilgi",
+      "mobile": {
+        "title": "Mobil Uygulama Geliştirme",
+        "description": "Modern cihazlarda kusursuz deneyimler sunmak için tasarlanmış güçlü ve kullanıcı odaklı mobil uygulamalar."
+      },
+      "web": {
+        "title": "Web Geliştirme",
+        "description": "İşletmenizi müşterileriniz ve dijital ekosisteminizle buluşturmak için geliştirilen hızlı, ölçeklenebilir ve modern web uygulamaları."
+      },
+      "design": {
+        "title": "UI/UX Tasarım",
+        "description": "Görsel netlik, kullanılabilirlik ve güçlü marka kimliğini bir araya getiren insan odaklı dijital deneyimler."
+      },
+      "software": {
+        "title": "Yazılım Geliştirme",
+        "description": "Benzersiz iş ihtiyaçlarınıza göre geliştirilen ölçeklenebilir, güvenilir ve yüksek performanslı yazılım çözümleri."
+      },
+      "cloud": {
+        "title": "Bulut Çözümleri",
+        "description": "Esneklik, ölçeklenebilirlik, performans ve operasyonel verimliliği artıran modern bulut altyapıları ve çözümleri."
+      },
+      "ai": {
+        "title": "Yapay Zeka",
+        "description": "Verileri anlamlı içgörülere dönüştüren, süreçleri otomatikleştiren ve yeni fırsatların önünü açan akıllı çözümler."
+      },
+      "security": {
+        "title": "Siber Güvenlik",
+        "description": "Sistemlerinizi, verilerinizi ve dijital operasyonlarınızı gelişen tehditlere karşı korumak için tasarlanmış güvenli teknoloji çözümleri."
+      },
+      "transformation": {
+        "title": "Dijital Dönüşüm",
+        "description": "Süreçleri modernleştiren, sistemleri birbirine bağlayan ve kurumunuzu geleceğe hazırlayan stratejik dijital dönüşüm çözümleri."
+      }
+    },
+    "servicesPreview": {
+      "kicker": "HİZMETLERİMİZ",
+      "title": "Performans için tasarlanmış dijital çözümler.",
+      "description": "Modern dijital deneyimler tasarlıyor ve geliştiriyoruz; güçlü tasarımı, güvenilir teknolojiyi ve ölçülebilir iş değerini bir araya getiriyoruz.",
+      "learnMore": "Daha fazla bilgi",
+      "mobile": {
+        "title": "Mobil Uygulama Geliştirme",
+        "description": "Modern cihazlarda kusursuz deneyimler sunmak için tasarlanmış güçlü ve kullanıcı odaklı mobil uygulamalar."
+      },
+      "web": {
+        "title": "Web Geliştirme",
+        "description": "İşletmenizi müşterileriniz ve dijital ekosisteminizle buluşturmak için geliştirilen hızlı, ölçeklenebilir ve modern web uygulamaları."
+      },
+      "design": {
+        "title": "UI/UX Tasarım",
+        "description": "Görsel netlik, kullanılabilirlik ve güçlü marka kimliğini bir araya getiren insan odaklı dijital deneyimler."
+      }
+    },
+
+    "whyUs": {
+      "eyebrow": "NEDEN ROSHASOFT",
+      "title": "Yarının zorlukları için tasarlandı.",
+      "description": "Kalıcı teknoloji çözümleri sunmak için teknik uzmanlığı, sektör deneyimini ve insan odaklı yaklaşımı bir araya getiriyoruz.",
+
+      "innovation": {
+        "title": "İnovasyon",
+        "description": "Karmaşık sorunları çözmek için yeni teknolojileri ve daha iyi yöntemleri sürekli olarak araştırıyoruz."
+      },
+
+      "expertise": {
+        "title": "Uzmanlık",
+        "description": "Farklı sektörlerdeki deneyimimiz, sorunları birden fazla perspektiften anlamamızı sağlıyor."
+      },
+
+      "reliability": {
+        "title": "Güvenilirlik",
+        "description": "Gerçek dünya ihtiyaçları için güvenli, ölçeklenebilir ve güvenilir çözümler geliştiriyoruz."
+      },
+
+      "partnership": {
+        "title": "İş Ortaklığı",
+        "description": "Müşterilerimizle yalnızca bir hizmet sağlayıcı olarak değil, uzun vadeli teknoloji ortağı olarak çalışıyoruz."
+      }
+    },
+
+    "stats": {
+      "experience": "Yıllık Deneyim",
+      "projects": "Tamamlanan Proje",
+      "services": "Ana Hizmet",
+      "support": "Destek ve Erişilebilirlik"
+    },
+
+    "cta": {
+      "eyebrow": "GELECEĞİ BİRLİKTE İNŞA EDELİM",
+      "title": "Bir sonraki adımı birlikte inşa etmeye hazır mısınız?",
+      "description": "Fikirlerinizi güçlü dijital çözümlere dönüştürelim.",
+      "button": "İletişime Geç",
+      "secondaryButton": "Çözümlerimizi keşfedin"
+    },
+
+    "footer": {
+      "description": "İşletmelerin büyümesine, dönüşmesine ve geleceğe ilerlemesine yardımcı olmak için tasarlanmış teknoloji, yazılım ve dijital çözümler.",
+      "company": "Şirket",
+      "about": "Hakkımızda",
+      "services": "Hizmetler",
+      "products": "Ürünler",
+      "mobile": "Mobil Uygulama Geliştirme",
+      "web": "Web Geliştirme",
+      "design": "UI/UX Tasarım",
+      "connect": "Bağlantı",
+      "contact": "İletişim",
+      "rights": "Tüm hakları saklıdır."
+    }
+  }
+}

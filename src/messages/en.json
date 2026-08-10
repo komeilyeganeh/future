@@ -1,0 +1,192 @@
+{
+  "Home": {
+    "nav": {
+      "about": "About",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "startProject": "Start a Project"
+    },
+
+    "hero": {
+      "eyebrow": "SOFTWARE · TECHNOLOGY · INNOVATION",
+      "titleLineOne": "Technology that moves",
+      "titleLineTwo": "your business forward.",
+      "description": "We build intelligent software solutions that connect people, processes and data to create a smarter digital future.",
+      "primaryCta": "Explore our solutions",
+      "secondaryCta": "Let's talk",
+      "scroll": "Scroll to explore",
+      "badge": "Building the future with technology",
+      "floatingLabelTwo": "SMART TECHNOLOGY",
+      "floatingStatus": "SYSTEMS CONNECTED",
+      "floatingLabel": "DIGITAL SOLUTIONS"
+    },
+
+    "about": {
+      "kicker": "WHO WE ARE",
+      "title": "Technology with a purpose.",
+      "description": "RoshaSoft is a technology company focused on creating innovative software solutions that help organizations simplify their operations, connect their systems and move confidently into the digital future.",
+      "pointOne": "Innovative solutions built around real business needs.",
+      "pointTwo": "Scalable technology designed for long-term growth.",
+      "pointThree": "A reliable technology partner from idea to implementation.",
+      "visualTitle": "Building technology that makes a difference.",
+      "cardLabel": "YEARS OF EXPERIENCE",
+      "button": "Discover our services"
+    },
+
+    "products": {
+      "kicker": "OUR TECHNOLOGY ECOSYSTEM",
+      "title": "Technology that works together.",
+      "description": "A connected ecosystem of intelligent software solutions designed to simplify operations, connect people and data, and help organizations move forward.",
+      "explore": "Explore",
+      "bottomLabel": "ONE ECOSYSTEM · MULTIPLE POSSIBILITIES",
+
+      "his": {
+        "title": "HIS",
+        "description": "Healthcare Information System designed to connect clinical, administrative and operational processes."
+      },
+
+      "cms": {
+        "title": "CMS",
+        "description": "Content Management System that makes digital content easier to manage, organize and publish."
+      },
+
+      "rfid": {
+        "title": "RFID",
+        "description": "Smart identification and tracking solutions for assets, people, inventory and operational processes."
+      },
+
+      "erp": {
+        "title": "ERP",
+        "description": "Integrated enterprise resource planning to connect finance, operations, resources and business data."
+      },
+
+      "bpms": {
+        "title": "BPMS",
+        "description": "Business Process Management solutions that help organizations automate and optimize workflows."
+      },
+
+      "crm": {
+        "title": "CRM",
+        "description": "Customer relationship management tools that help teams build stronger and more meaningful relationships."
+      },
+
+      "mms": {
+        "title": "MMS",
+        "description": "Management and monitoring solutions built to improve visibility, control and operational efficiency."
+      }
+    },
+
+    "services": {
+      "kicker": "OUR SERVICES",
+      "title": "Digital solutions, built to perform.",
+      "description": "We design and develop modern digital experiences that combine thoughtful design, reliable technology and measurable business value.",
+      "learnMore": "Learn more",
+      "mobile": {
+        "title": "Mobile Development",
+        "description": "Powerful and intuitive mobile applications designed to deliver seamless experiences across modern devices."
+      },
+      "web": {
+        "title": "Web Development",
+        "description": "Fast, scalable and modern web applications built to connect your business with its customers and digital ecosystem."
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "description": "Human-centered digital experiences that combine visual clarity, usability and a strong brand identity."
+      },
+      "software": {
+        "title": "Software Development",
+        "description": "Scalable, reliable and high-performance software solutions built around your unique business requirements."
+      },
+      "cloud": {
+        "title": "Cloud Solutions",
+        "description": "Modern cloud infrastructure and solutions that improve flexibility, scalability, performance and operational efficiency."
+      },
+      "ai": {
+        "title": "Artificial Intelligence",
+        "description": "Intelligent solutions that turn data into meaningful insights, automate processes and unlock new opportunities."
+      },
+      "security": {
+        "title": "Cybersecurity",
+        "description": "Secure technology solutions designed to protect your systems, data and digital operations against evolving threats."
+      },
+      "transformation": {
+        "title": "Digital Transformation",
+        "description": "Strategic digital transformation that modernizes processes, connects systems and prepares your organization for the future."
+      }
+    },
+    "servicesPreview": {
+      "kicker": "OUR SERVICES",
+      "title": "Digital solutions, built to perform.",
+      "description": "We design and develop modern digital experiences that combine thoughtful design, reliable technology and measurable business value.",
+      "learnMore": "Learn more",
+      "mobile": {
+        "title": "Mobile Development",
+        "description": "Powerful and intuitive mobile applications designed to deliver seamless experiences across modern devices."
+      },
+      "web": {
+        "title": "Web Development",
+        "description": "Fast, scalable and modern web applications built to connect your business with its customers and digital ecosystem."
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "description": "Human-centered digital experiences that combine visual clarity, usability and a strong brand identity."
+      }
+    },
+
+    "whyUs": {
+      "eyebrow": "WHY ROSHASOFT",
+      "title": "Built for the challenges of tomorrow.",
+      "description": "We combine technical expertise, industry knowledge and a human-centered approach to deliver technology that lasts.",
+
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously explore new technologies and better ways to solve complex problems."
+      },
+
+      "expertise": {
+        "title": "Expertise",
+        "description": "Our experience across different industries allows us to understand challenges from multiple perspectives."
+      },
+
+      "reliability": {
+        "title": "Reliability",
+        "description": "We build secure, scalable and dependable solutions designed for real-world use."
+      },
+
+      "partnership": {
+        "title": "Partnership",
+        "description": "We work closely with our clients as a long-term technology partner, not simply as a vendor."
+      }
+    },
+
+    "stats": {
+      "experience": "Years of Experience",
+      "projects": "Projects Delivered",
+      "services": "Core Services",
+      "support": "Support & Availability"
+    },
+
+    "cta": {
+      "eyebrow": "LET'S BUILD THE FUTURE",
+      "title": "Ready to build what comes next?",
+      "description": "Let's turn your ideas into powerful digital solutions.",
+      "button": "Let's Talk",
+      "secondaryButton": "Explore our solutions"
+    },
+
+    "footer": {
+      "description": "Technology, software and digital solutions designed to help businesses grow, transform and move forward.",
+      "company": "Company",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "mobile": "Mobile Development",
+      "web": "Web Development",
+      "design": "UI/UX Design",
+      "connect": "Connect",
+      "contact": "Contact Us",
+      "rights": "All rights reserved."
+    }
+  }
+}
