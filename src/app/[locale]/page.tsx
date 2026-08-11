@@ -1,27 +1,23 @@
-import Navbar from "@/components/home/Navbar";
+import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/home/Hero";
-import AboutPreview from "@/components/home/AboutPreview";
-import ServicesPreview from "@/components/home/ServicesPreview";
-import ProductsPreview from "@/components/home/ProductsPreview";
+import About from "@/components/home/About";
+import Services from "@/components/home/Services";
+import Products from "@/components/home/Products";
 import Stats from "@/components/home/Stats";
-import CTA from "@/components/home/CTA";
-import Footer from "@/components/home/Footer";
+import Contact from "@/components/home/Contact";
+import Footer from "@/components/layout/Footer";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen overflow-hidden bg-[#f8f9fc] text-[#11131a]">
+    <main className="overflow-hidden bg-[#f6fafb] text-[#082f3a]">
       <Navbar />
-
-      <main>
-        <Hero />
-        <AboutPreview />
-        <ServicesPreview />
-        <ProductsPreview />
-        <Stats />
-        <CTA />
-      </main>
-
+      <Hero />
+      <About />
+      <Services />
+      <Products />
+      <Stats />
+      <Contact />
       <Footer />
-    </div>
+    </main>
   );
 }

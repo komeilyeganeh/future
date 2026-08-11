@@ -93,11 +93,11 @@ export default function ProductsPreview() {
 
       {/* Ambient glows */}
 
-      <div className="pointer-events-none absolute left-1/2 top-[45%] h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(112,76,255,.12),rgba(54,200,232,.045)_38%,transparent_70%)] blur-3xl" />
+      <div className="pointer-events-none absolute left-1/2 top-[45%] h-175 w-175 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(112,76,255,.12),rgba(54,200,232,.045)_38%,transparent_70%)] blur-3xl" />
 
-      <div className="pointer-events-none absolute -right-[200px] top-[30%] h-[500px] w-[500px] rounded-full bg-[#36c8e8]/[0.04] blur-3xl" />
+      <div className="pointer-events-none absolute -right-[200px] top-[30%] h-125 w-125 rounded-full bg-[#36c8e8]/[0.04] blur-3xl" />
 
-      <div className="relative z-10 mx-auto w-[calc(100%-30px)] max-w-[1240px] md:w-[calc(100%-48px)]">
+      <div className="relative z-10 mx-auto w-[calc(100%-30px)] max-w-310 md:w-[calc(100%-48px)]">
         {/* Header */}
 
         <div className="mx-auto max-w-[760px] text-center">
@@ -113,7 +113,7 @@ export default function ProductsPreview() {
             viewport={{
               once: true,
             }}
-            className="inline-flex items-center gap-2 rounded-full border border-black/[0.06] bg-white/80 px-3 py-2 text-[9px] font-bold uppercase tracking-[.18em] text-[#704cff] shadow-[0_10px_30px_rgba(27,31,55,.04)] backdrop-blur-xl"
+            className="inline-flex items-center gap-2 rounded-full border border-black/6 bg-white/80 px-3 py-2 text-[9px] font-bold uppercase tracking-[.18em] text-[#704cff] shadow-[0_10px_30px_rgba(27,31,55,.04)] backdrop-blur-xl"
           >
             <span className="h-1.5 w-1.5 rounded-full bg-[#704cff]" />
 
@@ -155,7 +155,7 @@ export default function ProductsPreview() {
             transition={{
               delay: 0.16,
             }}
-            className="mx-auto mt-6 max-w-[620px] text-[13px] leading-[1.9] text-[#747b88]"
+            className="mx-auto mt-6 max-w-155 text-[13px] leading-[1.9] text-[#747b88]"
           >
             {t("description")}
           </motion.p>
@@ -434,7 +434,7 @@ export default function ProductsPreview() {
 
               {/* Center */}
 
-              <div className="absolute left-1/2 top-1/2 flex h-[105px] w-[105px] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-[32px] border border-white/30 bg-white/[0.1] shadow-[0_30px_60px_rgba(20,30,100,.18)] backdrop-blur-xl sm:h-[130px] sm:w-[130px]">
+              <div className="absolute left-1/2 top-1/2 flex h-[105px] w-[105px] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-4xl border border-white/30 bg-white/[0.1] shadow-[0_30px_60px_rgba(20,30,100,.18)] backdrop-blur-xl sm:h-[130px] sm:w-[130px]">
                 <Server
                   size={28}
                   strokeWidth={1.2}
@@ -512,7 +512,7 @@ export default function ProductsPreview() {
                 >
                   {/* Hover glow */}
 
-                  <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-[#704cff]/[0.08] blur-2xl transition-transform duration-700 group-hover:scale-[2]" />
+                  <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-[#704cff]/8 blur-2xl transition-transform duration-700 group-hover:scale-[2]" />
 
                   {/* Number */}
 
@@ -525,7 +525,7 @@ export default function ProductsPreview() {
                   <div
                     className={`
                       relative flex items-center justify-center rounded-[14px]
-                      bg-gradient-to-br from-[#704cff]/[0.1] to-[#36c8e8]/[0.08]
+                      bg-linear-to-br from-[#704cff]/[0.1] to-[#36c8e8]/8
                       text-[#704cff]
                       ${
                         isSmall
@@ -633,7 +633,7 @@ export default function ProductsPreview() {
           viewport={{
             once: true,
           }}
-          className="mx-auto max-w-[600px] text-center"
+          className="mx-auto max-w-150 text-center"
         >
           <p className="text-[10px] font-semibold uppercase tracking-[.16em] text-[#a2a7b1]">
             {t("bottomLabel")}

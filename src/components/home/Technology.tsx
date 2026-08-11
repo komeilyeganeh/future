@@ -52,7 +52,7 @@ export default function Technology() {
       id="technology"
       className="relative overflow-hidden bg-white py-28 sm:py-36"
     >
-      <div className="mx-auto w-[calc(100%-30px)] max-w-[1240px] md:w-[calc(100%-48px)]">
+      <div className="mx-auto w-[calc(100%-30px)] max-w-310 md:w-[calc(100%-48px)]">
         <motion.div
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -67,7 +67,7 @@ export default function Technology() {
             {t("title")}
           </h2>
 
-          <p className="mx-auto mt-6 max-w-[620px] text-[14px] leading-[1.9] text-[#737a88]">
+          <p className="mx-auto mt-6 max-w-155 text-[14px] leading-[1.9] text-[#737a88]">
             {t("description")}
           </p>
         </motion.div>
@@ -87,7 +87,7 @@ export default function Technology() {
                   delay: index * .06,
                 }}
                 whileHover={{ y: -5 }}
-                className="group rounded-[25px] border border-black/[0.06] bg-[#f8f9fc] p-6 transition-shadow duration-500 hover:shadow-[0_25px_60px_rgba(27,31,55,.08)]"
+                className="group rounded-[25px] border border-black/6 bg-[#f8f9fc] p-6 transition-shadow duration-500 hover:shadow-[0_25px_60px_rgba(27,31,55,.08)]"
               >
                 <div className="flex items-center justify-between">
                   <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-white text-[#6c4cff] shadow-[0_10px_25px_rgba(27,31,55,.05)]">
@@ -107,7 +107,7 @@ export default function Technology() {
                   {tech.items.map((item) => (
                     <span
                       key={item}
-                      className="rounded-full border border-black/[0.05] bg-white px-2.5 py-1.5 text-[8px] font-semibold text-[#7d8490]"
+                      className="rounded-full border border-black/5 bg-white px-2.5 py-1.5 text-[8px] font-semibold text-[#7d8490]"
                     >
                       {item}
                     </span>

@@ -8,155 +8,106 @@
       "startProject": "Proje Başlat"
     },
 
+    "floatingLabel": "Modern işletmeler için dijital çözümler",
+    "titleLineOne": "İşletmeleri ileriye",
+    "titleLineTwo": "taşıyan teknoloji.",
+    "description": "Kuruluşların operasyonlarını kolaylaştırmasına, performanslarını artırmasına ve güvenle büyümesine yardımcı olan akıllı dijital çözümler tasarlıyor ve geliştiriyoruz.",
+    "primaryButton": "Proje Başlat",
+    "secondaryButton": "Hizmetleri Keşfet",
+
+    "floatingLabelTwo": "Güvenilir dijital çözümler",
+    "floatingStatus": "Sistemler aktif",
+
     "hero": {
-      "eyebrow": "YAZILIM · TEKNOLOJİ · İNOVASYON",
-      "titleLineOne": "İşinizi ileriye taşıyan",
-      "titleLineTwo": "teknoloji.",
-      "description": "İnsanları, süreçleri ve verileri birbirine bağlayan, daha akıllı bir dijital gelecek için yenilikçi yazılım çözümleri geliştiriyoruz.",
-      "primaryCta": "Çözümlerimizi keşfedin",
-      "secondaryCta": "İletişime geçin",
-      "scroll": "Keşfetmek için kaydırın",
-      "badge": "Geleceği teknolojiyle inşa ediyoruz",
-      "floatingLabelTwo": "AKILLI TEKNOLOJİ",
-      "floatingStatus": "SİSTEMLER BAĞLI",
-      "floatingLabel": "DİJİTAL ÇÖZÜMLER"
+      "digitalIntelligence": "Dijital Zeka",
+      "technology": "Teknoloji",
+      "builtForTomorrow": "gelecek için tasarlandı.",
+      "intelligentSystems": "Akıllı sistemler",
+      "innovation": "İnovasyon",
+      "delivery": "Teslimat",
+      "smart": "Akıllı",
+      "solutions": "Çözümler",
+      "alwaysEvolving": "Sürekli gelişen"
     },
 
     "about": {
-      "kicker": "BİZ KİMİZ",
-      "title": "Amaca yönelik teknoloji.",
-      "description": "RoshaSoft, kurumların operasyonlarını kolaylaştırmasına, sistemlerini birbirine bağlamasına ve dijital geleceğe güvenle ilerlemesine yardımcı olan yenilikçi yazılım çözümleri geliştiren bir teknoloji şirketidir.",
-      "pointOne": "Gerçek iş ihtiyaçları etrafında tasarlanan yenilikçi çözümler.",
-      "pointTwo": "Uzun vadeli büyüme için tasarlanmış ölçeklenebilir teknoloji.",
-      "pointThree": "Fikirden uygulamaya kadar güvenilir bir teknoloji ortağı.",
-      "visualTitle": "Fark yaratan teknolojiler geliştiriyoruz.",
-      "cardLabel": "YILLIK DENEYİM",
-      "button": "Hizmetlerimizi keşfedin"
-    },
-
-    "products": {
-      "kicker": "TEKNOLOJİ EKOSİSTEMİMİZ",
-      "title": "Birlikte çalışan teknoloji.",
-      "description": "Operasyonları kolaylaştırmak, insanları ve verileri birbirine bağlamak ve kurumların daha ileriye gitmesine yardımcı olmak için tasarlanmış bağlantılı bir akıllı yazılım ekosistemi.",
-      "explore": "Keşfet",
-      "bottomLabel": "TEK EKOSİSTEM · SINIRSIZ İMKÂNLAR",
-
-      "his": {
-        "title": "HIS",
-        "description": "Klinik, idari ve operasyonel süreçleri birbirine bağlamak için tasarlanmış Sağlık Bilgi Yönetim Sistemi."
-      },
-
-      "cms": {
-        "title": "CMS",
-        "description": "Dijital içeriklerin daha kolay yönetilmesini, düzenlenmesini ve yayınlanmasını sağlayan İçerik Yönetim Sistemi."
-      },
-
-      "rfid": {
-        "title": "RFID",
-        "description": "Varlıkların, kişilerin ve envanterin akıllı şekilde tanımlanması ve takip edilmesi için RFID çözümleri."
-      },
-
-      "erp": {
-        "title": "ERP",
-        "description": "Finans, operasyon, kaynaklar ve iş verilerini tek bir yapıda bir araya getiren Kurumsal Kaynak Planlama çözümü."
-      },
-
-      "bpms": {
-        "title": "BPMS",
-        "description": "İş süreçlerini otomatikleştirmeye, optimize etmeye ve daha verimli hale getirmeye yardımcı olan İş Süreçleri Yönetim Sistemi."
-      },
-
-      "crm": {
-        "title": "CRM",
-        "description": "Ekiplerin müşterileriyle daha güçlü ve anlamlı ilişkiler kurmasına yardımcı olan Müşteri İlişkileri Yönetimi çözümleri."
-      },
-
-      "mms": {
-        "title": "MMS",
-        "description": "Operasyonel görünürlüğü, kontrolü ve verimliliği artırmak için geliştirilen yönetim ve izleme çözümleri."
-      }
+      "kicker": "RoshaSoft Hakkında",
+      "title": "Net bir amaç için teknoloji.",
+      "description": "İnsanları, süreçleri ve teknolojiyi bir araya getiren güvenilir dijital ürünler ve akıllı sistemler geliştiriyoruz. Yaklaşımımız; stratejik düşünceyi, modern yazılım mühendisliğini ve özenli tasarımı bir araya getirerek gerçek ihtiyaçlara yönelik çözümler sunar.",
+      "pointOne": "İş hedeflerine odaklı teknoloji çözümleri",
+      "pointTwo": "Ölçeklenebilir ve güvenilir dijital sistemler",
+      "pointThree": "Uzun vadeli iş ortaklığı ve destek",
+      "visualTitle": "Ölçülebilir değer yaratan teknolojiler geliştiriyoruz.",
+      "cardLabel": "Yıllık deneyim"
     },
 
     "services": {
-      "kicker": "HİZMETLERİMİZ",
-      "title": "Performans için tasarlanmış dijital çözümler.",
-      "description": "Modern dijital deneyimler tasarlıyor ve geliştiriyoruz; güçlü tasarımı, güvenilir teknolojiyi ve ölçülebilir iş değerini bir araya getiriyoruz.",
-      "learnMore": "Daha fazla bilgi",
-      "mobile": {
-        "title": "Mobil Uygulama Geliştirme",
-        "description": "Modern cihazlarda kusursuz deneyimler sunmak için tasarlanmış güçlü ve kullanıcı odaklı mobil uygulamalar."
-      },
-      "web": {
-        "title": "Web Geliştirme",
-        "description": "İşletmenizi müşterileriniz ve dijital ekosisteminizle buluşturmak için geliştirilen hızlı, ölçeklenebilir ve modern web uygulamaları."
-      },
-      "design": {
-        "title": "UI/UX Tasarım",
-        "description": "Görsel netlik, kullanılabilirlik ve güçlü marka kimliğini bir araya getiren insan odaklı dijital deneyimler."
-      },
+      "kicker": "Hizmetlerimiz",
+      "title": "Stratejiden akıllı dijital ürünlere.",
+      "description": "Yazılım geliştirme, bulut teknolojileri, yapay zeka, siber güvenlik ve dijital dönüşüm alanlarındaki çözümlerimizle fikirlerinizi ölçeklenebilir dijital ürünlere dönüştürmenize yardımcı oluyoruz.",
+
       "software": {
         "title": "Yazılım Geliştirme",
-        "description": "Benzersiz iş ihtiyaçlarınıza göre geliştirilen ölçeklenebilir, güvenilir ve yüksek performanslı yazılım çözümleri."
+        "description": "İş hedeflerinize ve operasyonel ihtiyaçlarınıza göre tasarlanmış özel web, mobil ve kurumsal uygulamalar."
       },
+
       "cloud": {
         "title": "Bulut Çözümleri",
-        "description": "Esneklik, ölçeklenebilirlik, performans ve operasyonel verimliliği artıran modern bulut altyapıları ve çözümleri."
+        "description": "Modern uygulamaları ve büyüyen işletmeleri desteklemek için tasarlanmış güvenli, ölçeklenebilir ve güvenilir bulut altyapıları."
       },
+
       "ai": {
         "title": "Yapay Zeka",
-        "description": "Verileri anlamlı içgörülere dönüştüren, süreçleri otomatikleştiren ve yeni fırsatların önünü açan akıllı çözümler."
+        "description": "İş verilerini içgörülere, otomasyona ve daha akıllı karar alma süreçlerine dönüştüren pratik yapay zeka çözümleri."
       },
+
       "security": {
         "title": "Siber Güvenlik",
-        "description": "Sistemlerinizi, verilerinizi ve dijital operasyonlarınızı gelişen tehditlere karşı korumak için tasarlanmış güvenli teknoloji çözümleri."
+        "description": "Uygulamaları, sistemleri, verileri ve iş operasyonlarını korumak için güvenlik odaklı mimari ve çözümler."
       },
+
       "transformation": {
         "title": "Dijital Dönüşüm",
-        "description": "Süreçleri modernleştiren, sistemleri birbirine bağlayan ve kurumunuzu geleceğe hazırlayan stratejik dijital dönüşüm çözümleri."
-      }
-    },
-    "servicesPreview": {
-      "kicker": "HİZMETLERİMİZ",
-      "title": "Performans için tasarlanmış dijital çözümler.",
-      "description": "Modern dijital deneyimler tasarlıyor ve geliştiriyoruz; güçlü tasarımı, güvenilir teknolojiyi ve ölçülebilir iş değerini bir araya getiriyoruz.",
-      "learnMore": "Daha fazla bilgi",
-      "mobile": {
-        "title": "Mobil Uygulama Geliştirme",
-        "description": "Modern cihazlarda kusursuz deneyimler sunmak için tasarlanmış güçlü ve kullanıcı odaklı mobil uygulamalar."
-      },
-      "web": {
-        "title": "Web Geliştirme",
-        "description": "İşletmenizi müşterileriniz ve dijital ekosisteminizle buluşturmak için geliştirilen hızlı, ölçeklenebilir ve modern web uygulamaları."
-      },
-      "design": {
-        "title": "UI/UX Tasarım",
-        "description": "Görsel netlik, kullanılabilirlik ve güçlü marka kimliğini bir araya getiren insan odaklı dijital deneyimler."
+        "description": "Süreçlerinizi modernleştirin, sistemlerinizi birbirine bağlayın ve daha verimli dijital operasyonlar oluşturun."
       }
     },
 
-    "whyUs": {
-      "eyebrow": "NEDEN ROSHASOFT",
-      "title": "Yarının zorlukları için tasarlandı.",
-      "description": "Kalıcı teknoloji çözümleri sunmak için teknik uzmanlığı, sektör deneyimini ve insan odaklı yaklaşımı bir araya getiriyoruz.",
+    "products": {
+      "kicker": "Ürünlerimiz",
+      "title": "Karmaşık iş ihtiyaçları için tasarlanmış sistemler.",
+      "description": "Operasyonları kolaylaştırmak, bilgileri merkezileştirmek ve daha akıllı iş akışları oluşturmak için geliştirdiğimiz dijital ürünleri keşfedin.",
+      "solutionLabel": "Dijital Çözüm",
+      "previewLabel": "Sistem Yetenekleri",
+      "activeStatus": "Aktif",
 
-      "innovation": {
-        "title": "İnovasyon",
-        "description": "Karmaşık sorunları çözmek için yeni teknolojileri ve daha iyi yöntemleri sürekli olarak araştırıyoruz."
+      "his": {
+        "title": "Hastane Bilgi Sistemi",
+        "shortDescription": "Modern sağlık kuruluşları için kapsamlı dijital platform.",
+        "description": "Hastaları, sağlık ekiplerini, idari süreçleri ve operasyonel verileri tek bir akıllı sistemde bir araya getiren kapsamlı hastane yönetim platformu."
       },
 
-      "expertise": {
-        "title": "Uzmanlık",
-        "description": "Farklı sektörlerdeki deneyimimiz, sorunları birden fazla perspektiften anlamamızı sağlıyor."
+      "cms": {
+        "title": "İçerik Yönetim Sistemi",
+        "shortDescription": "Dijital içerik ve operasyonları yönetmek için esnek araçlar.",
+        "description": "Kuruluşların dijital içerikleri hızlı ve verimli bir şekilde oluşturmasına, yönetmesine, yayınlamasına ve organize etmesine yardımcı olan güçlü içerik yönetim platformu."
       },
 
-      "reliability": {
-        "title": "Güvenilirlik",
-        "description": "Gerçek dünya ihtiyaçları için güvenli, ölçeklenebilir ve güvenilir çözümler geliştiriyoruz."
+      "erp": {
+        "title": "Kurumsal Kaynak Planlama",
+        "shortDescription": "Bağlantılı operasyonlar için entegre iş yönetimi.",
+        "description": "İş süreçlerini, finansal verileri, kaynakları ve operasyonel iş akışlarını merkezi bir ortamda bir araya getiren entegre kurumsal platform."
       },
 
-      "partnership": {
-        "title": "İş Ortaklığı",
-        "description": "Müşterilerimizle yalnızca bir hizmet sağlayıcı olarak değil, uzun vadeli teknoloji ortağı olarak çalışıyoruz."
+      "ai": {
+        "title": "Yapay Zeka",
+        "shortDescription": "Daha iyi kararlar ve otomasyon için akıllı teknolojiler.",
+        "description": "Kuruluşların bilgileri analiz etmesine, tekrarlayan süreçleri otomatikleştirmesine, örüntüleri keşfetmesine ve daha doğru kararlar almasına yardımcı olan yapay zeka çözümleri."
+      },
+
+      "cloud": {
+        "title": "Bulut Altyapısı",
+        "shortDescription": "Modern uygulamalar için güvenli ve ölçeklenebilir altyapı.",
+        "description": "Ölçeklenebilirlik, performans, güvenlik ve sürekli erişilebilirlik için tasarlanmış güvenilir bulut altyapısı."
       }
     },
 
@@ -164,29 +115,141 @@
       "experience": "Yıllık Deneyim",
       "projects": "Tamamlanan Proje",
       "services": "Ana Hizmet",
-      "support": "Destek ve Erişilebilirlik"
+      "support": "Destek Erişilebilirliği"
     },
 
     "cta": {
-      "eyebrow": "GELECEĞİ BİRLİKTE İNŞA EDELİM",
-      "title": "Bir sonraki adımı birlikte inşa etmeye hazır mısınız?",
-      "description": "Fikirlerinizi güçlü dijital çözümlere dönüştürelim.",
-      "button": "İletişime Geç",
-      "secondaryButton": "Çözümlerimizi keşfedin"
+      "title": "Birlikte anlamlı bir şey geliştirelim.",
+      "description": "Bir fikriniz, iş probleminiz veya geliştirilmesi gereken bir sisteminiz mi var? Teknolojinin daha iyi bir çözüm oluşturmanıza nasıl yardımcı olabileceğini konuşalım.",
+      "button": "Görüşmeye Başla"
     },
 
     "footer": {
-      "description": "İşletmelerin büyümesine, dönüşmesine ve geleceğe ilerlemesine yardımcı olmak için tasarlanmış teknoloji, yazılım ve dijital çözümler.",
+      "description": "RoshaSoft, ileriye doğru ilerlemeye hazır kuruluşlar için modern yazılımlar, akıllı sistemler ve dijital çözümler geliştirir.",
       "company": "Şirket",
       "about": "Hakkımızda",
       "services": "Hizmetler",
       "products": "Ürünler",
-      "mobile": "Mobil Uygulama Geliştirme",
+      "mobile": "Mobil Geliştirme",
       "web": "Web Geliştirme",
-      "design": "UI/UX Tasarım",
+      "design": "Dijital Tasarım",
       "connect": "Bağlantı",
       "contact": "İletişim",
       "rights": "Tüm hakları saklıdır."
+    }
+  },
+  "About": {
+    "about": {
+      "eyebrow": "BİZ KİMİZ",
+      "title": "Teknolojiyi insan odaklı geliştiriyoruz.",
+      "description": "RoshaSoft, teknolojinin işletmeleri daha akıllı, daha verimli ve geleceğe daha hazır hale getirmesi gerektiği fikri üzerine kurulmuş bir teknoloji şirketidir.",
+      "description2": "Ekibimizin 20 yılı aşkın deneyimiyle işletmelerin ve bireylerin teknoloji ihtiyaçlarını anlayarak geleceğe yönelik yenilikçi çözümler geliştiriyoruz.",
+      "card": "Teknoloji",
+      "cardAccent": "amaç ile",
+      "point1": "BT yönetimi",
+      "point2": "Siber güvenlik",
+      "point3": "Uygulama geliştirme"
+    },
+
+    "history": {
+      "eyebrow": "TARİHÇEMİZ",
+      "title": "RoshaSoft'un hikâyesi.",
+      "description": "Profesyonel ekibimiz web geliştirme, yazılım mühendisliği ve siber güvenlik alanlarında uzun yıllara dayanan deneyime sahiptir. Müşterilerimizin gerçek ihtiyaçlarına göre yüksek kaliteli çözümler üretmekten gurur duyuyoruz.",
+      "quote": "Deneyim bize bakış açısı kazandırır. Yenilikçilik bize yön verir.",
+      "label": "YOLCULUĞUMUZ",
+      "year": "2030",
+      "yearText": "Gelecek burada başlıyor."
+    },
+
+    "team": {
+      "eyebrow": "EKİBİMİZ",
+      "title": "Bir ekipten daha fazlası.",
+      "accent": "Bir aile.",
+      "description": "Teknolojiye yaklaşımımızı farklılaştırıyor; işletmelerin nasıl çalıştığını ve başarıları için neyin önemli olduğunu anlamaya odaklanıyoruz.",
+      "executives": "ÜST DÜZEY YÖNETİCİLER",
+      "managers": "YÖNETİCİLER",
+      "members": "EKİP ÜYELERİ",
+      "viewProfile": "Profili görüntüle",
+      "roles": {
+        "hamed": "CTO & Kurucu Ortak",
+        "masoud": "CFAO & Kurucu Ortak",
+        "yaser": "CEO",
+        "zahra": "CPO & Kurucu Ortak",
+        "alireza": "CGO",
+        "milad": "Ar-Ge Müdürü",
+        "samira": "Pazarlama Müdürü",
+        "komeil": "Frontend Geliştirici",
+        "farimah": "Frontend Geliştirici",
+        "sina": "Frontend Geliştirici",
+        "mostafa": "Backend Geliştirici",
+        "mohammad": "İş Geliştirme Müdürü"
+      }
+    },
+
+    "values": {
+      "eyebrow": "ŞİRKET DEĞERLERİ",
+      "title": "İnandıklarımız",
+      "accent": "bizi farklılaştırır.",
+      "description": "Müşterilerimizin beklentilerini yalnızca karşılamakla kalmayıp aşan yüksek kaliteli ürün ve hizmetler sunmaya kararlıyız.",
+
+      "innovation": {
+        "title": "Yenilikçilik",
+        "description": "Teknolojinin ön saflarında kalmaya ve müşterilerimizin hedeflerine ulaşmasına yardımcı olabilecek yeni fikirleri keşfetmeye kararlıyız."
+      },
+
+      "excellence": {
+        "title": "Mükemmellik",
+        "description": "BT sektöründe başarının anahtarının kalite olduğuna inanıyoruz. Mükemmelliğe olan bağlılığımız bizi güvenilir bir teknoloji ortağı haline getiriyor."
+      },
+
+      "collaboration": {
+        "title": "İş Birliği",
+        "description": "Yaratıcılık ve çeviklik kültürümüzün temel özellikleridir. Değişimlere uyum sağlamamızı ve müşterilerimize değer sunmamızı sağlar."
+      },
+
+      "client": {
+        "title": "Müşteri ihtiyaçları",
+        "description": "Müşterilerimizin ihtiyaçlarını anlamak ve onların gereksinimlerine özel çözümler oluşturmak için yakın iş birliği içinde çalışıyoruz."
+      },
+
+      "transparency": {
+        "title": "Şeffaflık",
+        "description": "Açık iletişim ve müşteri odaklılık, müşterilerimiz ve iş ortaklarımızla güvene dayalı ilişkiler kurmanın temelidir."
+      }
+    },
+
+    "facts": {
+      "eyebrow": "VERİLER",
+      "title": "Şirketimiz hakkında",
+      "accent": "tüm veriler.",
+      "experience": "Yıllık deneyim",
+      "clients": "Mutlu müşteri",
+      "projects": "Tamamlanan proje",
+      "support": "Destek",
+      "office": "Merkez ofis",
+      "employees": "Çalışan",
+      "payment": "Ödeme başarısı",
+      "awards": "Ödül"
+    },
+
+    "location": {
+      "eyebrow": "KONUMUMUZ",
+      "title": "Neredeyiz?",
+      "description": "Yenilikçilik ve iş birliğiyle öne çıkan canlı bir teknoloji ortamında bulunmaktan gurur duyuyoruz. Konumumuz geniş bir yetenek ve kaynak ağına erişmemizi sağlıyor.",
+      "london": "Londra",
+      "uk": "Birleşik Krallık",
+      "global": "Dünya genelindeki işletmelere hizmet"
+    },
+
+    "contact": {
+      "eyebrow": "İLETİŞİM",
+      "title": "Birlikte bir şeyler",
+      "accent": "harika yapalım.",
+      "description": "Bir fikriniz, karşılaştığınız bir sorun veya geliştirmek istediğiniz bir projeniz mi var? Bize anlatın, ekibimiz sizinle iletişime geçsin.",
+      "email": "E-posta",
+      "address": "Merkez ofis",
+      "phone": "Telefon",
+      "button": "İletişime geçin"
     }
   }
 }

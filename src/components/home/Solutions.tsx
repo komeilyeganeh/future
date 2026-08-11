@@ -18,9 +18,9 @@ export default function Solutions() {
       id="solutions"
       className="relative overflow-hidden bg-[#f6f7fb] py-28 sm:py-36"
     >
-      <div className="pointer-events-none absolute left-1/2 top-0 h-[600px] w-[800px] -translate-x-1/2 rounded-full bg-[#6c4cff]/[0.045] blur-[120px]" />
+      <div className="pointer-events-none absolute left-1/2 top-0 h-150 w-[800px] -translate-x-1/2 rounded-full bg-[#6c4cff]/4.5 blur-[120px]" />
 
-      <div className="relative mx-auto w-[calc(100%-30px)] max-w-[1240px] md:w-[calc(100%-48px)]">
+      <div className="relative mx-auto w-[calc(100%-30px)] max-w-310 md:w-[calc(100%-48px)]">
         <div className="grid items-center gap-16 lg:grid-cols-[.8fr_1.2fr]">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -42,7 +42,7 @@ export default function Solutions() {
 
             <a
               href="#contact"
-              className="group mt-8 inline-flex items-center gap-2 rounded-full border border-black/[0.08] bg-white px-5 py-3 text-[10px] font-bold text-[#292d36] shadow-[0_10px_30px_rgba(27,31,55,.05)] transition hover:-translate-y-1 hover:shadow-[0_18px_45px_rgba(27,31,55,.1)]"
+              className="group mt-8 inline-flex items-center gap-2 rounded-full border border-black/8 bg-white px-5 py-3 text-[10px] font-bold text-[#292d36] shadow-[0_10px_30px_rgba(27,31,55,.05)] transition hover:-translate-y-1 hover:shadow-[0_18px_45px_rgba(27,31,55,.1)]"
             >
               Explore solutions
               <ArrowUpRight
@@ -52,7 +52,7 @@ export default function Solutions() {
             </a>
           </motion.div>
 
-          <div className="relative min-h-[500px]">
+          <div className="relative min-h-125">
             <div className="absolute inset-0 flex items-center justify-center">
               <motion.div
                 animate={{ rotate: 360 }}
@@ -75,7 +75,7 @@ export default function Solutions() {
               className="absolute left-1/2 top-1/2 flex h-[190px] w-[190px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-[45px] border border-white bg-white shadow-[0_35px_90px_rgba(27,31,55,.13)]"
             >
               <div className="text-center">
-                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[#6c4cff] to-[#36c8e8] text-white shadow-[0_15px_35px_rgba(108,76,255,.25)]">
+                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-linear-to-br from-[#6c4cff] to-[#36c8e8] text-white shadow-[0_15px_35px_rgba(108,76,255,.25)]">
                   <Network size={24} />
                 </div>
 

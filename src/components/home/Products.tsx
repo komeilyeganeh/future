@@ -1,0 +1,294 @@
+"use client";
+
+import { AnimatePresence, motion } from "framer-motion";
+import {
+  ArrowUpRight,
+  BrainCircuit,
+  Building2,
+  ChevronRight,
+  Cloud,
+  Database,
+  Stethoscope,
+} from "lucide-react";
+import { useState } from "react";
+import { useTranslations } from "next-intl";
+
+export default function Products() {
+  const t = useTranslations("Home");
+
+  const [activeProduct, setActiveProduct] = useState(0);
+
+  const products = [
+    {
+      key: "his",
+      icon: Stethoscope,
+      number: "01",
+      gradient: "from-[#063b4a] via-[#07566a] to-[#0a8290]",
+      stats: [
+        "Hospital Management",
+        "Patient Records",
+        "Medical Workflow",
+      ],
+    },
+    {
+      key: "cms",
+      icon: Building2,
+      number: "02",
+      gradient: "from-[#073b46] via-[#086576] to-[#1495a3]",
+      stats: [
+        "Content Management",
+        "Digital Operations",
+        "Business Workflow",
+      ],
+    },
+    {
+      key: "erp",
+      icon: Database,
+      number: "03",
+      gradient: "from-[#092f40] via-[#104d63] to-[#147b91]",
+      stats: [
+        "Business Management",
+        "Data Integration",
+        "Process Automation",
+      ],
+    },
+    {
+      key: "ai",
+      icon: BrainCircuit,
+      number: "04",
+      gradient: "from-[#062d3b] via-[#0b5365] to-[#13829a]",
+      stats: [
+        "AI Solutions",
+        "Intelligent Analytics",
+        "Automation",
+      ],
+    },
+    {
+      key: "cloud",
+      icon: Cloud,
+      number: "05",
+      gradient: "from-[#0b3949] via-[#075e73] to-[#1390a6]",
+      stats: [
+        "Cloud Infrastructure",
+        "Scalable Systems",
+        "Secure Deployment",
+      ],
+    },
+  ];
+
+  const product = products[activeProduct];
+  const ProductIcon = product.icon;
+
+  return (
+    <section
+      id="products"
+      className="relative overflow-hidden bg-white px-5 py-28 sm:px-8 sm:py-36"
+    >
+      <div className="pointer-events-none absolute right-[-200px] top-[100px] h-150 w-150 rounded-full bg-[#08788c]/[0.055] blur-[120px]" />
+
+      <div className="relative mx-auto max-w-310">
+        <motion.div
+          initial={{ opacity: 0, y: 25 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+        >
+          <span className="text-[10px] font-bold uppercase tracking-[.2em] text-[#08788c]">
+            {t("products.kicker")}
+          </span>
+
+          <h2 className="mt-4 max-w-[780px] text-[44px] font-extrabold leading-[.97] tracking-[-.07em] text-[#082f3a] sm:text-[62px]">
+            {t("products.title")}
+          </h2>
+
+          <p className="mt-6 max-w-155 text-[14px] leading-[1.9] text-[#71838a]">
+            {t("products.description")}
+          </p>
+        </motion.div>
+
+        <div className="mt-16 grid gap-5 lg:grid-cols-[.72fr_1.28fr]">
+          <div className="rounded-[34px] border border-[#082f3a]/6 bg-[#f5f9fa] p-3">
+            {products.map((item, index) => {
+              const Icon = item.icon;
+              const isActive = activeProduct === index;
+
+              return (
+                <button
+                  key={item.key}
+                  type="button"
+                  onClick={() => setActiveProduct(index)}
+                  className="relative mb-2 block w-full text-left last:mb-0"
+                >
+                  <motion.div
+                    animate={{
+                      backgroundColor: isActive
+                        ? "#ffffff"
+                        : "rgba(255,255,255,0)",
+                    }}
+                    className="relative overflow-hidden rounded-[25px] border border-transparent p-5 transition-all"
+                  >
+                    {isActive && (
+                      <motion.div
+                        layoutId="activeProduct"
+                        className="absolute inset-0 rounded-[25px] border border-[#08788c]/10 shadow-[0_15px_45px_rgba(7,47,58,.07)]"
+                      />
+                    )}
+
+                    <div className="relative flex items-center gap-4">
+                      <div
+                        className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl transition-all ${
+                          isActive
+                            ? "bg-[#082f3a] text-white"
+                            : "bg-white text-[#66828a]"
+                        }`}
+                      >
+                        <Icon size={19} />
+                      </div>
+
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-center gap-2">
+                          <span className="text-[8px] font-bold tracking-[.12em] text-[#a0b0b5]">
+                            {item.number}
+                          </span>
+
+                          <h3
+                            className={`text-[15px] font-bold tracking-[-.025em] ${
+                              isActive
+                                ? "text-[#082f3a]"
+                                : "text-[#6d8187]"
+                            }`}
+                          >
+                            {t(`products.${item.key}.title`)}
+                          </h3>
+                        </div>
+
+                        <p
+                          className={`mt-1 text-[10px] leading-[1.6] ${
+                            isActive
+                              ? "text-[#789097]"
+                              : "text-[#a0adb1]"
+                          }`}
+                        >
+                          {t(
+                            `products.${item.key}.shortDescription`
+                          )}
+                        </p>
+                      </div>
+
+                      <ChevronRight
+                        size={17}
+                        className={`shrink-0 transition-all ${
+                          isActive
+                            ? "translate-x-0 text-[#08788c]"
+                            : "-translate-x-1 text-[#b4c0c3]"
+                        }`}
+                      />
+                    </div>
+                  </motion.div>
+                </button>
+              );
+            })}
+          </div>
+
+          <div className="relative min-h-135 overflow-hidden rounded-[38px] border border-white bg-[#eef5f6] p-3 shadow-[0_30px_90px_rgba(7,47,58,.08)] sm:p-5">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={product.key}
+                initial={{
+                  opacity: 0,
+                  scale: 0.97,
+                  y: 15,
+                }}
+                animate={{
+                  opacity: 1,
+                  scale: 1,
+                  y: 0,
+                }}
+                exit={{
+                  opacity: 0,
+                  scale: 0.97,
+                  y: -10,
+                }}
+                transition={{
+                  duration: 0.4,
+                }}
+                className={`relative h-full min-h-125 overflow-hidden rounded-[31px] bg-linear-to-br ${product.gradient}`}
+              >
+                <div className="absolute -right-32 -top-32 h-[400px] w-[400px] rounded-full border border-white/10" />
+
+                <div className="absolute -bottom-40 -left-32 h-[480px] w-[480px] rounded-full border border-white/10" />
+
+                <div className="absolute right-20 top-28 h-40 w-40 rounded-full bg-white/5 blur-3xl" />
+
+                <div className="relative flex items-center justify-between p-7 sm:p-9">
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-white/10 text-white backdrop-blur-xl">
+                      <ProductIcon size={21} />
+                    </div>
+
+                    <div>
+                      <span className="block text-[8px] font-bold uppercase tracking-[.2em] text-white/35">
+                        RoshaSoft
+                      </span>
+
+                      <span className="mt-1 block text-[11px] font-semibold text-white/80">
+                        {product.number} / 05
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/10 text-white/70">
+                    <ArrowUpRight size={15} />
+                  </div>
+                </div>
+
+                <div className="relative px-7 pt-10 sm:px-9">
+                  <span className="text-[9px] font-bold uppercase tracking-[.2em] text-white/40">
+                    {t("products.solutionLabel")}
+                  </span>
+
+                  <h3 className="mt-4 max-w-150 text-[42px] font-extrabold leading-[.94] tracking-[-.065em] text-white sm:text-[58px]">
+                    {t(`products.${product.key}.title`)}
+                  </h3>
+
+                  <p className="mt-6 max-w-[520px] text-[12px] leading-[1.9] text-white/55 sm:text-[13px]">
+                    {t(`products.${product.key}.description`)}
+                  </p>
+                </div>
+
+                <div className="absolute bottom-7 left-7 right-7 overflow-hidden rounded-[25px] border border-white/10 bg-white/8 p-4 backdrop-blur-xl sm:bottom-9 sm:left-9 sm:right-9">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[8px] font-bold uppercase tracking-[.16em] text-white/35">
+                      {t("products.previewLabel")}
+                    </span>
+
+                    <span className="flex items-center gap-1.5 text-[8px] font-bold text-white/60">
+                      <span className="h-1.5 w-1.5 rounded-full bg-[#75e6d0]" />
+                      {t("products.activeStatus")}
+                    </span>
+                  </div>
+
+                  <div className="mt-4 grid gap-2 sm:grid-cols-3">
+                    {product.stats.map((stat, index) => (
+                      <div
+                        key={stat}
+                        className="rounded-2xl border border-white/[0.07] bg-white/6 p-3"
+                      >
+                        <span className="text-[8px] text-white/35">
+                          0{index + 1}
+                        </span>
+
+                        <span className="mt-2 block text-[9px] font-semibold leading-[1.4] text-white/70">
+                          {stat}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </motion.div>
+            </AnimatePresence>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

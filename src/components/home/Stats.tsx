@@ -1,71 +1,36 @@
-"use client";
-
-import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
-const stats = [
-  {
-    value: "20+",
-    key: "experience",
-  },
-  {
-    value: "100+",
-    key: "projects",
-  },
-  {
-    value: "03",
-    key: "services",
-  },
-  {
-    value: "24/7",
-    key: "support",
-  },
-];
-
 export default function Stats() {
-  const t = useTranslations("Home.stats");
+  const t = useTranslations("Home");
+
+  const stats = [
+    ["20+", t("stats.experience")],
+    ["100+", t("stats.projects")],
+    ["03", t("stats.services")],
+    ["24/7", t("stats.support")],
+  ];
 
   return (
-    <section className="relative overflow-hidden bg-[#f6f7fb] py-20">
-      <div className="mx-auto w-[calc(100%-30px)] max-w-[1240px] md:w-[calc(100%-48px)]">
-        <div className="grid grid-cols-2 overflow-hidden rounded-[30px] border border-black/[0.05] bg-white lg:grid-cols-4">
-          {stats.map((stat, index) => (
-            <motion.div
-              key={stat.key}
-              initial={{
-                opacity: 0,
-                y: 15,
-              }}
-              whileInView={{
-                opacity: 1,
-                y: 0,
-              }}
-              viewport={{
-                once: true,
-              }}
-              transition={{
-                delay: index * 0.08,
-              }}
-              className={`relative px-6 py-9 text-center sm:px-10 ${
-                index < 3
-                  ? "border-b border-black/[0.05] lg:border-b-0 lg:border-r"
-                  : ""
-              } ${
-                index === 0 || index === 2
-                  ? "border-r border-black/[0.05]"
-                  : ""
-              }`}
-            >
-              <strong className="block bg-gradient-to-r from-[#704cff] to-[#36c8e8] bg-clip-text text-[38px] font-extrabold tracking-[-.07em] text-transparent sm:text-[48px]">
-                {stat.value}
-              </strong>
+    <section className="bg-[#f5f9fa] px-5 py-10 sm:px-8">
+      <div className="mx-auto grid max-w-310 grid-cols-2 rounded-[30px] border border-white bg-white shadow-[0_15px_50px_rgba(7,47,58,.05)] lg:grid-cols-4">
+        {stats.map(([value, label], index) => (
+          <div
+            key={label}
+            className={`relative px-5 py-9 text-center sm:px-10 ${
+              index < 3
+                ? "border-b border-[#082f3a]/5 lg:border-b-0 lg:border-r"
+                : ""
+            }`}
+          >
+            <strong className="text-[40px] font-extrabold tracking-[-.07em] text-[#082f3a] sm:text-[48px]">
+              {value}
+            </strong>
 
-              <span className="mt-2 block text-[9px] font-bold uppercase tracking-[.15em] text-[#9aa0aa]">
-                {t(stat.key)}
-              </span>
-            </motion.div>
-          ))}
-        </div>
+            <span className="mt-2 block text-[9px] font-bold uppercase tracking-[.15em] text-[#9aa9ae]">
+              {label}
+            </span>
+          </div>
+        ))}
       </div>
     </section>
   );

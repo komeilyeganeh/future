@@ -32,7 +32,7 @@ export default function ServicesPreview() {
       id="services"
       className="relative overflow-hidden bg-[#f6f7fb] py-28 sm:py-36"
     >
-      <div className="mx-auto w-[calc(100%-30px)] max-w-[1240px] md:w-[calc(100%-48px)]">
+      <div className="mx-auto w-[calc(100%-30px)] max-w-310 md:w-[calc(100%-48px)]">
         <div className="flex flex-col justify-between gap-8 md:flex-row md:items-end">
           <div className="max-w-[680px]">
             <span className="text-[10px] font-bold uppercase tracking-[.18em] text-[#704cff]">
@@ -43,7 +43,7 @@ export default function ServicesPreview() {
               {t("title")}
             </h2>
 
-            <p className="mt-6 max-w-[600px] text-[14px] leading-[1.9] text-[#747b88]">
+            <p className="mt-6 max-w-150 text-[14px] leading-[1.9] text-[#747b88]">
               {t("description")}
             </p>
           </div>
@@ -79,7 +79,7 @@ export default function ServicesPreview() {
                 whileHover={{
                   y: -8,
                 }}
-                className="group relative overflow-hidden rounded-[32px] border border-black/[0.05] bg-white p-7 shadow-[0_10px_40px_rgba(27,31,55,.04)] transition-shadow duration-500 hover:shadow-[0_30px_80px_rgba(27,31,55,.1)]"
+                className="group relative overflow-hidden rounded-4xl border border-black/5 bg-white p-7 shadow-[0_10px_40px_rgba(27,31,55,.04)] transition-shadow duration-500 hover:shadow-[0_30px_80px_rgba(27,31,55,.1)]"
               >
                 {/* Glow */}
 
@@ -88,7 +88,7 @@ export default function ServicesPreview() {
                 {/* Number */}
 
                 <div className="relative flex items-start justify-between">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#704cff]/[0.08] text-[#704cff]">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#704cff]/8 text-[#704cff]">
                     <Icon
                       size={21}
                       strokeWidth={1.6}

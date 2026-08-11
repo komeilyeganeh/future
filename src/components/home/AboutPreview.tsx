@@ -23,7 +23,7 @@ export default function AboutPreview() {
       id="about"
       className="relative overflow-hidden bg-white py-28 sm:py-36"
     >
-      <div className="mx-auto w-[calc(100%-30px)] max-w-[1240px] md:w-[calc(100%-48px)]">
+      <div className="mx-auto w-[calc(100%-30px)] max-w-310 md:w-[calc(100%-48px)]">
         <div className="grid items-center gap-16 lg:grid-cols-[.9fr_1.1fr]">
           {/* Visual */}
 
@@ -43,11 +43,11 @@ export default function AboutPreview() {
             transition={{
               duration: 0.8,
             }}
-            className="relative min-h-[500px]"
+            className="relative min-h-125"
           >
             <div className="absolute left-0 top-12 h-[390px] w-[390px] rounded-[45px] bg-[#f0f1f7]" />
 
-            <div className="absolute left-[9%] top-0 h-[390px] w-[390px] overflow-hidden rounded-[45px] bg-gradient-to-br from-[#704cff] via-[#6280ff] to-[#35c8e8] shadow-[0_40px_90px_rgba(88,76,220,.2)]">
+            <div className="absolute left-[9%] top-0 h-[390px] w-[390px] overflow-hidden rounded-[45px] bg-linear-to-br from-[#704cff] via-[#6280ff] to-[#35c8e8] shadow-[0_40px_90px_rgba(88,76,220,.2)]">
               <div className="absolute -right-24 -top-24 h-64 w-64 rounded-full border border-white/20" />
 
               <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full border border-white/15" />
@@ -79,7 +79,7 @@ export default function AboutPreview() {
                 repeat: Infinity,
                 ease: "easeInOut",
               }}
-              className="absolute bottom-3 right-0 rounded-[25px] border border-black/[0.05] bg-white p-5 shadow-[0_25px_70px_rgba(27,31,55,.12)]"
+              className="absolute bottom-3 right-0 rounded-[25px] border border-black/5 bg-white p-5 shadow-[0_25px_70px_rgba(27,31,55,.12)]"
             >
               <span className="text-[8px] font-bold uppercase tracking-[.15em] text-[#9da3ad]">
                 {t("cardLabel")}
@@ -118,7 +118,7 @@ export default function AboutPreview() {
               {t("title")}
             </h2>
 
-            <p className="mt-7 max-w-[610px] text-[14px] leading-[1.9] text-[#727986]">
+            <p className="mt-7 max-w-152.5 text-[14px] leading-[1.9] text-[#727986]">
               {t("description")}
             </p>
 
@@ -128,7 +128,7 @@ export default function AboutPreview() {
                   key={point}
                   className="flex items-center gap-3"
                 >
-                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#704cff]/[0.08] text-[#704cff]">
+                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#704cff]/8 text-[#704cff]">
                     <Check size={13} />
                   </span>
 

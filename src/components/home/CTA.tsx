@@ -28,11 +28,11 @@ export default function CTA() {
         viewport={{
           once: true,
         }}
-        className="relative mx-auto max-w-[1240px] overflow-hidden rounded-[38px] bg-[#11131a] px-7 py-20 text-center sm:px-12"
+        className="relative mx-auto max-w-310 overflow-hidden rounded-[38px] bg-[#11131a] px-7 py-20 text-center sm:px-12"
       >
         {/* Ambient */}
 
-        <div className="pointer-events-none absolute left-1/2 top-1/2 h-[600px] w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(112,76,255,.3),rgba(54,200,232,.08)_38%,transparent_70%)] blur-3xl" />
+        <div className="pointer-events-none absolute left-1/2 top-1/2 h-150 w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(112,76,255,.3),rgba(54,200,232,.08)_38%,transparent_70%)] blur-3xl" />
 
         <motion.div
           animate={{
