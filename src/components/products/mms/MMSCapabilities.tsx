@@ -88,8 +88,8 @@ export default function MMSCapabilities() {
                 <div
                   className={`absolute -right-16 -top-16 h-40 w-40 rounded-full transition-transform duration-700 group-hover:scale-125 ${
                     item.featured
-                      ? "bg-white/[0.04]"
-                      : "bg-[#082f3a]/[0.025]"
+                      ? "bg-white/4"
+                      : "bg-[#082f3a]/2.5"
                   }`}
                 />
 
@@ -108,7 +108,7 @@ export default function MMSCapabilities() {
                       className={`flex h-12 w-12 items-center justify-center rounded-2xl ${
                         item.featured
                           ? "bg-white text-[#082f3a]"
-                          : "bg-[#082f3a]/[0.05] text-[#082f3a]"
+                          : "bg-[#082f3a]/5 text-[#082f3a]"
                       }`}
                     >
                       <Icon size={20} strokeWidth={1.7} />
@@ -136,15 +136,15 @@ export default function MMSCapabilities() {
                         key={featureIndex}
                         className={`flex items-center gap-3 border-b pb-3 last:border-0 ${
                           item.featured
-                            ? "border-white/[0.08]"
-                            : "border-[#082f3a]/[0.06]"
+                            ? "border-white/8"
+                            : "border-[#082f3a]/6"
                         }`}
                       >
                         <span
                           className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
                             item.featured
                               ? "bg-white/10 text-white"
-                              : "bg-[#082f3a]/[0.05] text-[#082f3a]"
+                              : "bg-[#082f3a]/5 text-[#082f3a]"
                           }`}
                         >
                           <Check size={11} strokeWidth={2.5} />

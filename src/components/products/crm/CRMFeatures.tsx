@@ -82,8 +82,8 @@ export default function CRMFeatures() {
                 <div
                   className={`absolute -right-16 -top-16 h-40 w-40 rounded-full ${
                     item.featured
-                      ? "bg-white/[0.04]"
-                      : "bg-[#082f3a]/[0.025]"
+                      ? "bg-white/4"
+                      : "bg-[#082f3a]/2.5"
                   } transition-transform duration-700 group-hover:scale-125`}
                 />
 
@@ -103,7 +103,7 @@ export default function CRMFeatures() {
                       className={`flex h-11 w-11 items-center justify-center rounded-2xl ${
                         item.featured
                           ? "bg-white text-[#082f3a]"
-                          : "bg-[#082f3a]/[0.05] text-[#082f3a]"
+                          : "bg-[#082f3a]/5 text-[#082f3a]"
                       }`}
                     >
                       <Icon size={19} strokeWidth={1.7} />

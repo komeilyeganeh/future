@@ -8,15 +8,15 @@ export default function RFIDHero() {
   const t = useTranslations("RFID.hero");
 
   return (
-    <section className="relative min-h-[760px] overflow-hidden bg-[#f8faf9]">
+    <section className="relative min-h-190 overflow-hidden bg-[#f8faf9]">
       {/* Background */}
       <div className="absolute inset-0">
-        <div className="absolute left-[-180px] top-[-180px] h-[520px] w-[520px] rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+        <div className="absolute -left-45 -top-45 h-130 w-130 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
 
-        <div className="absolute bottom-[-220px] right-[-150px] h-[500px] w-[500px] rounded-full bg-[#082f3a]/[0.035] blur-3xl" />
+        <div className="absolute -bottom-55 -right-37.5 h-125 w-125 rounded-full bg-[#082f3a]/[0.035] blur-3xl" />
       </div>
 
-      <div className="relative mx-auto grid min-h-[760px] max-w-7xl items-center gap-16 px-5 py-28 md:px-8 lg:grid-cols-[0.9fr_1.1fr]">
+      <div className="relative mx-auto grid min-h-190 max-w-7xl items-center gap-16 px-5 py-28 md:px-8 lg:grid-cols-[0.9fr_1.1fr]">
         {/* Content */}
         <div>
           <motion.div
@@ -87,12 +87,12 @@ export default function RFIDHero() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.15 }}
-          className="relative mx-auto aspect-square w-full max-w-[570px]"
+          className="relative mx-auto aspect-square w-full max-w-142.5"
         >
           {/* Radar rings */}
           <div className="absolute inset-[8%] rounded-full border border-[#082f3a]/[0.07]" />
-          <div className="absolute inset-[18%] rounded-full border border-[#082f3a]/[0.08]" />
-          <div className="absolute inset-[29%] rounded-full border border-[#082f3a]/[0.09]" />
+          <div className="absolute inset-[18%] rounded-full border border-[#082f3a]/8" />
+          <div className="absolute inset-[29%] rounded-full border border-[#082f3a]/9" />
 
           {/* Center */}
           <div className="absolute left-1/2 top-1/2 flex h-36 w-36 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#082f3a] shadow-[0_30px_100px_rgba(8,47,58,0.2)] md:h-44 md:w-44">
@@ -175,7 +175,7 @@ export default function RFIDHero() {
           </motion.div>
 
           <div className="absolute bottom-[5%] left-[8%]">
-            <span className="text-6xl font-semibold tracking-[-0.08em] text-[#082f3a]/[0.06]">
+            <span className="text-6xl font-semibold tracking-[-0.08em] text-[#082f3a]/6">
               RFID
             </span>
           </div>

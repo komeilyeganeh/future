@@ -54,7 +54,7 @@ export default function MobileAppProcess() {
             </p>
           </div>
 
-          <div className="border-t border-[#082f3a]/[0.08]">
+          <div className="border-t border-[#082f3a]/8">
             {steps.map((step, index) => {
               const Icon = step.icon;
 
@@ -68,7 +68,7 @@ export default function MobileAppProcess() {
                     duration: 0.6,
                     delay: index * 0.08,
                   }}
-                  className="group grid grid-cols-[60px_1fr_auto] items-center gap-5 border-b border-[#082f3a]/[0.08] py-6"
+                  className="group grid grid-cols-[60px_1fr_auto] items-center gap-5 border-b border-[#082f3a]/8 py-6"
                 >
                   <span className="text-[10px] font-semibold tracking-[0.2em] text-[#71838a]">
                     0{index + 1}
@@ -84,7 +84,7 @@ export default function MobileAppProcess() {
                     </p>
                   </div>
 
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#082f3a]/[0.04] text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#082f3a]/4 text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
                     <Icon size={15} />
                   </div>
                 </motion.div>

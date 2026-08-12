@@ -75,7 +75,7 @@ export default function HISFeatures() {
                 whileHover={{ y: -5 }}
                 className="group rounded-[28px] border border-[#082f3a]/[0.07] bg-white p-7"
               >
-                <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/[0.05] text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
+                <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/5 text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
                   <Icon size={19} strokeWidth={1.7} />
                 </div>
 

@@ -17,9 +17,9 @@ export default function ServicesHero() {
     <section className="relative overflow-hidden bg-[#f8faf9]">
       {/* Background */}
       <div className="absolute inset-0">
-        <div className="absolute left-1/2 top-[-180px] h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+        <div className="absolute left-1/2 -top-45 h-125 w-125 -translate-x-1/2 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
 
-        <div className="absolute right-[-120px] top-1/3 h-[300px] w-[300px] rounded-full bg-[#082f3a]/[0.02] blur-3xl" />
+        <div className="absolute right-[-120px] top-1/3 h-[300px] w-[300px] rounded-full bg-[#082f3a]/2 blur-3xl" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -90,13 +90,13 @@ export default function ServicesHero() {
             initial={{ opacity: 0, scale: 0.94 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="relative mx-auto w-full max-w-[520px]"
+            className="relative mx-auto w-full max-w-130"
           >
             <div className="relative aspect-square">
               {/* Main circle */}
-              <div className="absolute inset-[12%] rounded-full border border-[#082f3a]/[0.08]" />
+              <div className="absolute inset-[12%] rounded-full border border-[#082f3a]/8" />
 
-              <div className="absolute inset-[22%] rounded-full border border-[#082f3a]/[0.08]" />
+              <div className="absolute inset-[22%] rounded-full border border-[#082f3a]/8" />
 
               <div className="absolute inset-[32%] rounded-full bg-[#082f3a] shadow-[0_30px_100px_rgba(8,47,58,0.2)]">
                 <div className="flex h-full flex-col items-center justify-center text-center text-white">

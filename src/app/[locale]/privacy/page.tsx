@@ -60,11 +60,11 @@ export default function PrivacyPage() {
       {/* HERO */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute left-1/2 top-[-260px] h-[650px] w-[650px] -translate-x-1/2 rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+          <div className="absolute left-1/2 top-[-260px] h-[650px] w-[650px] -translate-x-1/2 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
 
-          <div className="absolute right-[-180px] top-[20%] h-[420px] w-[420px] rounded-full border border-[#082f3a]/[0.04]" />
+          <div className="absolute right-[-180px] top-[20%] h-[420px] w-[420px] rounded-full border border-[#082f3a]/4" />
 
-          <div className="absolute bottom-[-180px] left-[-160px] h-[420px] w-[420px] rounded-full bg-[#082f3a]/[0.02] blur-3xl" />
+          <div className="absolute -bottom-45 left-[-160px] h-[420px] w-[420px] rounded-full bg-[#082f3a]/2 blur-3xl" />
         </div>
 
         <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -165,7 +165,7 @@ export default function PrivacyPage() {
             </p>
 
             <div className="mt-8 flex items-center gap-3">
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#082f3a]/[0.05]">
+              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#082f3a]/5">
                 <Check size={14} />
               </div>
 
@@ -197,7 +197,7 @@ export default function PrivacyPage() {
                   className="group rounded-[30px] border border-[#082f3a]/[0.07] bg-white p-7 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_25px_80px_rgba(8,47,58,0.06)] md:p-9"
                 >
                   <div className="flex items-start justify-between">
-                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/[0.05] text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/5 text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
                       <Icon size={18} strokeWidth={1.6} />
                     </div>
 
@@ -225,7 +225,7 @@ export default function PrivacyPage() {
                           key={item}
                           className="flex items-center gap-3 text-xs text-[#082f3a]/70"
                         >
-                          <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#082f3a]/[0.05]">
+                          <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#082f3a]/5">
                             <Check size={11} />
                           </span>
                           {item}
@@ -263,7 +263,7 @@ export default function PrivacyPage() {
               ).map((item, index) => (
                 <div
                   key={item.title}
-                  className="rounded-[24px] border border-white/[0.08] bg-white/[0.035] p-6"
+                  className="rounded-3xl border border-white/8 bg-white/[0.035] p-6"
                 >
                   <span className="text-[10px] font-semibold tracking-[0.2em] text-white/30">
                     {String(index + 1).padStart(2, "0")}
@@ -324,7 +324,7 @@ export default function PrivacyPage() {
       <section className="border-t border-[#082f3a]/[0.07] bg-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-10 md:flex-row md:items-center md:justify-between md:px-8">
           <div className="flex items-center gap-3">
-            <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#082f3a]/[0.05]">
+            <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#082f3a]/5">
               <Mail size={15} />
             </div>
 

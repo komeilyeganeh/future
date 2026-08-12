@@ -4,14 +4,11 @@ import { ArrowUpRight, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
-export default function ProductsCTA() {
-  const t = useTranslations("Products");
+export default function ModularDesignCTA() {
+  const t = useTranslations("MODULAR.cta");
 
   return (
-    <section
-      id="contact"
-      className="bg-[#f8faf9] px-5 py-6 md:px-8 md:py-8"
-    >
+    <section id="contact" className="bg-[#f8faf9] px-5 py-6 md:px-8 md:py-8">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -33,19 +30,16 @@ export default function ProductsCTA() {
               </div>
 
               <span className="text-[9px] font-semibold uppercase tracking-[0.3em] text-white/40">
-                {t("cta.eyebrow")}
+                {t("eyebrow")}
               </span>
             </div>
 
             <h2 className="max-w-3xl text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-white md:text-6xl">
-              {t("cta.title")}
-              <span className="block text-white/40">
-                {t("cta.titleAccent")}
-              </span>
+              {t("title")}
             </h2>
 
             <p className="mt-7 max-w-xl text-sm leading-7 text-white/50">
-              {t("cta.description")}
+              {t("description")}
             </p>
           </div>
 
@@ -53,7 +47,7 @@ export default function ProductsCTA() {
             href="mailto:hello@roshasoft.com"
             className="group inline-flex w-fit items-center gap-4 rounded-full bg-white px-6 py-4 text-[10px] font-semibold text-[#082f3a] transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
           >
-            {t("cta.button")}
+            {t("button")}
 
             <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#082f3a] text-white transition-transform duration-300 group-hover:rotate-45">
               <ArrowUpRight size={14} />

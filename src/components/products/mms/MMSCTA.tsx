@@ -20,11 +20,11 @@ export default function MMSCTA() {
         className="relative mx-auto max-w-7xl overflow-hidden rounded-[36px] bg-[#082f3a] px-7 py-16 md:px-14 md:py-20 lg:px-20"
       >
         {/* Decorative circles */}
-        <div className="absolute -right-32 -top-32 h-[400px] w-[400px] rounded-full border border-white/[0.05]" />
+        <div className="absolute -right-32 -top-32 h-100 w-100 rounded-full border border-white/5" />
 
-        <div className="absolute -right-20 -top-20 h-[250px] w-[250px] rounded-full border border-white/[0.05]" />
+        <div className="absolute -right-20 -top-20 h-62.5 w-62.5 rounded-full border border-white/5" />
 
-        <div className="absolute bottom-[-100px] left-[-100px] h-[250px] w-[250px] rounded-full bg-white/[0.025] blur-3xl" />
+        <div className="absolute -bottom-25 -left-25 h-62.5 w-62.5 rounded-full bg-white/2.5 blur-3xl" />
 
         {/* Content */}
         <div className="relative z-10 grid gap-12 lg:grid-cols-[1fr_auto] lg:items-end">

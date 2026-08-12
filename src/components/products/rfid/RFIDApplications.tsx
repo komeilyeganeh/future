@@ -82,7 +82,7 @@ export default function RFIDApplications() {
                   className="group rounded-[26px] border border-[#082f3a]/[0.07] p-6 transition-all duration-300 hover:-translate-y-1 hover:bg-[#f8faf9]"
                 >
                   <div className="flex items-center justify-between">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#082f3a]/[0.05] text-[#082f3a] transition-colors group-hover:bg-[#082f3a] group-hover:text-white">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#082f3a]/5 text-[#082f3a] transition-colors group-hover:bg-[#082f3a] group-hover:text-white">
                       <Icon size={17} strokeWidth={1.7} />
                     </div>
 

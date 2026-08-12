@@ -69,7 +69,7 @@ export default function MobileAppBenefits() {
                 }}
                 className="rounded-[26px] border border-[#082f3a]/[0.07] bg-white p-6"
               >
-                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#082f3a]/[0.05] text-[#082f3a]">
+                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#082f3a]/5 text-[#082f3a]">
                   <Icon size={17} />
                 </div>
 

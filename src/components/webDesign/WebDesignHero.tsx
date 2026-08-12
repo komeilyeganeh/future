@@ -17,11 +17,11 @@ export default function WebDesignHero() {
     <section className="relative overflow-hidden bg-[#f8faf9]">
       {/* Background */}
       <div className="absolute inset-0">
-        <div className="absolute left-[8%] top-[20%] h-72 w-72 rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+        <div className="absolute left-[8%] top-[20%] h-72 w-72 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
 
-        <div className="absolute right-[-150px] top-[-150px] h-[500px] w-[500px] rounded-full border border-[#082f3a]/[0.04]" />
+        <div className="absolute right-[-150px] top-[-150px] h-125 w-125 rounded-full border border-[#082f3a]/4" />
 
-        <div className="absolute bottom-[-180px] left-1/2 h-[400px] w-[400px] -translate-x-1/2 rounded-full bg-[#082f3a]/[0.02] blur-3xl" />
+        <div className="absolute -bottom-45 left-1/2 h-100 w-100 -translate-x-1/2 rounded-full bg-[#082f3a]/2 blur-3xl" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -45,7 +45,7 @@ export default function WebDesignHero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="max-w-3xl text-5xl font-semibold leading-[0.96] tracking-[-0.05em] text-[#082f3a] sm:text-6xl lg:text-7xl"
+              className="max-w-3xl text-5xl font-semibold leading-[0.96] tracking-tighter text-[#082f3a] sm:text-6xl lg:text-7xl"
             >
               {t("title")}
             </motion.h1>
@@ -92,13 +92,13 @@ export default function WebDesignHero() {
             initial={{ opacity: 0, scale: 0.94 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="relative mx-auto w-full max-w-[520px]"
+            className="relative mx-auto w-full max-w-130"
           >
             <div className="relative aspect-square">
               {/* Browser */}
               <div className="absolute left-[8%] top-[12%] w-[84%] overflow-hidden rounded-[28px] border border-[#082f3a]/10 bg-white shadow-[0_35px_100px_rgba(8,47,58,0.12)]">
                 {/* Browser top */}
-                <div className="flex items-center gap-2 border-b border-[#082f3a]/[0.06] px-5 py-4">
+                <div className="flex items-center gap-2 border-b border-[#082f3a]/6 px-5 py-4">
                   <span className="h-2 w-2 rounded-full bg-[#082f3a]/15" />
                   <span className="h-2 w-2 rounded-full bg-[#082f3a]/10" />
                   <span className="h-2 w-2 rounded-full bg-[#082f3a]/10" />

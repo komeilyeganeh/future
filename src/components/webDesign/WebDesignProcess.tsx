@@ -26,7 +26,7 @@ export default function WebDesignProcess() {
 
   return (
     <section className="relative overflow-hidden bg-[#f8faf9]">
-      <div className="absolute right-[-180px] top-1/2 h-[500px] w-[500px] -translate-y-1/2 rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+      <div className="absolute right-[-180px] top-1/2 h-125 w-125 -translate-y-1/2 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         <div className="max-w-2xl">
@@ -43,7 +43,7 @@ export default function WebDesignProcess() {
           </p>
         </div>
 
-        <div className="mt-16 border-t border-[#082f3a]/[0.08]">
+        <div className="mt-16 border-t border-[#082f3a]/8">
           {steps.map((step, index) => {
             const Icon = icons[index];
 
@@ -57,13 +57,13 @@ export default function WebDesignProcess() {
                   duration: 0.6,
                   delay: index * 0.08,
                 }}
-                className="group grid gap-6 border-b border-[#082f3a]/[0.08] py-7 md:grid-cols-[80px_80px_1fr_auto] md:items-center"
+                className="group grid gap-6 border-b border-[#082f3a]/8 py-7 md:grid-cols-[80px_80px_1fr_auto] md:items-center"
               >
                 <span className="text-[10px] font-semibold tracking-[0.2em] text-[#71838a]">
                   {String(index + 1).padStart(2, "0")}
                 </span>
 
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#082f3a]/[0.05] text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#082f3a]/5 text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
                   <Icon size={16} />
                 </div>
 

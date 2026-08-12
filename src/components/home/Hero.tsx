@@ -333,20 +333,11 @@ export default function Hero() {
             />
 
             <motion.div
-              animate={{
-                y: [0, -12, 0],
-                rotate: [0, 0.7, 0],
-              }}
-              transition={{
-                duration: 7,
-                repeat: Infinity,
-                ease: "easeInOut",
-              }}
               className="relative overflow-hidden rounded-[38px] border border-white/70 bg-white/55 p-4 shadow-[0_40px_100px_rgba(24,71,88,.13)] backdrop-blur-2xl sm:p-5"
             >
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_15%,rgba(80,198,220,.20),transparent_30%),radial-gradient(circle_at_90%_85%,rgba(25,100,125,.13),transparent_35%)]" />
 
-              <div className="relative flex items-center justify-between rounded-[24px] border border-white/80 bg-white/65 px-4 py-3 backdrop-blur-xl">
+              <div className="relative flex items-center justify-between rounded-3xl border border-white/80 bg-white/65 px-4 py-3 backdrop-blur-xl">
                 <div className="flex items-center gap-2">
                   <span className="h-2 w-2 rounded-full bg-[#2d8ba5]" />
                   <span className="h-2 w-2 rounded-full bg-[#73b9c8]" />

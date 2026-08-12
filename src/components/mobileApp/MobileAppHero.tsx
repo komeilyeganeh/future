@@ -17,11 +17,11 @@ export default function MobileAppHero() {
     <section className="relative overflow-hidden bg-[#f8faf9]">
       {/* Background */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-1/2 top-[-180px] h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+        <div className="absolute left-1/2 -top-45 h-125 w-125 -translate-x-1/2 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
 
-        <div className="absolute bottom-[-180px] right-[-100px] h-[400px] w-[400px] rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+        <div className="absolute -bottom-45 -right-25 h-100 w-100 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
 
-        <div className="absolute left-[8%] top-[25%] h-px w-[84%] bg-[#082f3a]/[0.05]" />
+        <div className="absolute left-[8%] top-[25%] h-px w-[84%] bg-[#082f3a]/5" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -99,16 +99,16 @@ export default function MobileAppHero() {
             initial={{ opacity: 0, scale: 0.92, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="relative mx-auto w-full max-w-[440px]"
+            className="relative mx-auto w-full max-w-110"
           >
             <div className="relative aspect-square">
               {/* Outer rings */}
-              <div className="absolute inset-[5%] rounded-full border border-[#082f3a]/[0.06]" />
+              <div className="absolute inset-[5%] rounded-full border border-[#082f3a]/6" />
 
-              <div className="absolute inset-[15%] rounded-full border border-[#082f3a]/[0.06]" />
+              <div className="absolute inset-[15%] rounded-full border border-[#082f3a]/6" />
 
               {/* Phone */}
-              <div className="absolute left-1/2 top-1/2 h-[390px] w-[200px] -translate-x-1/2 -translate-y-1/2 rounded-[38px] border-[6px] border-[#082f3a] bg-[#082f3a] shadow-[0_40px_100px_rgba(8,47,58,0.18)]">
+              <div className="absolute left-1/2 top-1/2 h-97.5 w-50 -translate-x-1/2 -translate-y-1/2 rounded-[38px] border-[6px] border-[#082f3a] bg-[#082f3a] shadow-[0_40px_100px_rgba(8,47,58,0.18)]">
                 {/* Screen */}
                 <div className="relative h-full overflow-hidden rounded-[30px] bg-[#f8faf9]">
                   {/* Notch */}
@@ -148,9 +148,9 @@ export default function MobileAppHero() {
                     </div>
 
                     <div className="mt-auto grid grid-cols-3 gap-2">
-                      <div className="h-12 rounded-xl bg-[#082f3a]/[0.05]" />
-                      <div className="h-12 rounded-xl bg-[#082f3a]/[0.08]" />
-                      <div className="h-12 rounded-xl bg-[#082f3a]/[0.05]" />
+                      <div className="h-12 rounded-xl bg-[#082f3a]/5" />
+                      <div className="h-12 rounded-xl bg-[#082f3a]/8" />
+                      <div className="h-12 rounded-xl bg-[#082f3a]/5" />
                     </div>
                   </div>
                 </div>

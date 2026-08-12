@@ -55,7 +55,7 @@ export default function MMSWorkflow() {
         </div>
 
         {/* Steps */}
-        <div className="mt-16 grid gap-0 border-t border-[#082f3a]/[0.08] md:grid-cols-5">
+        <div className="mt-16 grid gap-0 border-t border-[#082f3a]/8 md:grid-cols-5">
           {steps.map((step, index) => {
             const Icon = step.icon;
 
@@ -69,7 +69,7 @@ export default function MMSWorkflow() {
                   duration: 0.6,
                   delay: index * 0.08,
                 }}
-                className="group relative border-b border-[#082f3a]/[0.08] py-8 md:border-b-0 md:border-r md:px-6 md:last:border-r-0"
+                className="group relative border-b border-[#082f3a]/8 py-8 md:border-b-0 md:border-r md:px-6 md:last:border-r-0"
               >
                 {/* Top */}
                 <div className="flex items-center justify-between">
@@ -77,7 +77,7 @@ export default function MMSWorkflow() {
                     {t(`steps.${step.key}.number`)}
                   </span>
 
-                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#082f3a]/[0.04] text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#082f3a]/4 text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
                     <Icon size={15} strokeWidth={1.8} />
                   </div>
                 </div>

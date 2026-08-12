@@ -18,11 +18,11 @@ export default function WebServiceHero() {
     <section className="relative overflow-hidden bg-[#f8faf9]">
       {/* Background */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        <div className="absolute left-[-180px] top-[10%] h-[420px] w-[420px] rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+        <div className="absolute -left-45 top-[10%] h-[420px] w-[420px] rounded-full bg-[#082f3a]/2.5 blur-3xl" />
 
-        <div className="absolute right-[-140px] top-[30%] h-[420px] w-[420px] rounded-full bg-[#082f3a]/[0.02] blur-3xl" />
+        <div className="absolute right-[-140px] top-[30%] h-[420px] w-[420px] rounded-full bg-[#082f3a]/2 blur-3xl" />
 
-        <div className="absolute inset-x-0 bottom-0 h-px bg-[#082f3a]/[0.06]" />
+        <div className="absolute inset-x-0 bottom-0 h-px bg-[#082f3a]/6" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -46,7 +46,7 @@ export default function WebServiceHero() {
               initial={{ opacity: 0, y: 25 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="max-w-2xl text-5xl font-semibold leading-[0.96] tracking-[-0.05em] text-[#082f3a] sm:text-6xl lg:text-[76px]"
+              className="max-w-2xl text-5xl font-semibold leading-[0.96] tracking-tighter text-[#082f3a] sm:text-6xl lg:text-[76px]"
             >
               {t("title")}
               <span className="block text-[#71838a]">
@@ -207,7 +207,7 @@ export default function WebServiceHero() {
                           {t("visual.performance")}
                         </p>
 
-                        <p className="mt-2 text-4xl font-semibold tracking-[-0.05em] text-white">
+                        <p className="mt-2 text-4xl font-semibold tracking-tighter text-white">
                           84.7%
                         </p>
                       </div>
@@ -249,7 +249,7 @@ export default function WebServiceHero() {
                           24.8K
                         </p>
 
-                        <div className="mt-3 h-1 overflow-hidden rounded-full bg-[#082f3a]/[0.06]">
+                        <div className="mt-3 h-1 overflow-hidden rounded-full bg-[#082f3a]/6">
                           <div className="h-full w-[78%] rounded-full bg-[#082f3a]" />
                         </div>
                       </div>
@@ -322,7 +322,7 @@ export default function WebServiceHero() {
                 className="absolute -bottom-5 left-4 rounded-2xl border border-[#082f3a]/[0.07] bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.1)] md:-left-7"
               >
                 <div className="flex items-center gap-3">
-                  <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#082f3a]/[0.05]">
+                  <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#082f3a]/5">
                     <Wifi size={12} className="text-[#082f3a]" />
                   </div>
 

@@ -36,9 +36,9 @@ export default function Footer() {
             </span>
 
             <div className="mt-5 flex flex-col gap-3 text-[10px] text-[#71838a]">
-              <a href="#about">{t("about")}</a>
-              <a href="#services">{t("services")}</a>
-              <a href="#products">{t("products")}</a>
+              <Link href="/about">{t("about")}</Link>
+              <Link href="/services">{t("services")}</Link>
+              <Link href="/products">{t("products")}</Link>
             </div>
           </div>
 

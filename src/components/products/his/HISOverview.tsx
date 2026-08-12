@@ -55,9 +55,9 @@ export default function HISOverview() {
                       duration: 0.6,
                       delay: index * 0.08,
                     }}
-                    className="rounded-[24px] border border-[#082f3a]/[0.07] bg-[#f8faf9] p-6"
+                    className="rounded-3xl border border-[#082f3a]/[0.07] bg-[#f8faf9] p-6"
                   >
-                    <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#082f3a]/[0.05] text-[#082f3a]">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#082f3a]/5 text-[#082f3a]">
                       <Icon size={18} strokeWidth={1.7} />
                     </div>
 

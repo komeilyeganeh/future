@@ -41,7 +41,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="absolute bottom-0 right-0 rounded-[24px] border border-white bg-white p-5 shadow-[0_25px_70px_rgba(7,47,58,.12)]">
+          <div className="absolute bottom-0 right-0 rounded-3xl border border-white bg-white p-5 shadow-[0_25px_70px_rgba(7,47,58,.12)]">
             <span className="text-[8px] font-bold uppercase tracking-[.15em] text-[#99a9ae]">
               {t("about.cardLabel")}
             </span>

@@ -17,9 +17,9 @@ export default function HISPromise() {
           transition={{ duration: 0.7 }}
           className="relative overflow-hidden rounded-[34px] bg-[#082f3a] px-7 py-14 md:px-14 md:py-20"
         >
-          <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full border border-white/[0.05]" />
+          <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full border border-white/5" />
 
-          <div className="absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-white/[0.02] blur-3xl" />
+          <div className="absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-white/2 blur-3xl" />
 
           <div className="relative z-10 grid gap-12 lg:grid-cols-[1fr_auto] lg:items-end">
             <div>
@@ -42,7 +42,7 @@ export default function HISPromise() {
               </p>
             </div>
 
-            <div className="flex h-20 w-20 items-center justify-center rounded-[24px] bg-white/10 text-white">
+            <div className="flex h-20 w-20 items-center justify-center rounded-3xl bg-white/10 text-white">
               <Layers3 size={32} strokeWidth={1.3} />
             </div>
           </div>

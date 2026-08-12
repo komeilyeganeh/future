@@ -49,7 +49,7 @@ export default function ERPModules() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.06 }}
-                className="group rounded-[24px] border border-white/[0.08] bg-white/[0.03] p-6 transition-all duration-300 hover:bg-white/[0.06]"
+                className="group rounded-3xl border border-white/8 bg-white/3 p-6 transition-all duration-300 hover:bg-white/6"
               >
                 <Icon
                   size={20}

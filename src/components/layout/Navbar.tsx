@@ -12,7 +12,8 @@ export default function Navbar() {
   const t = useTranslations("Home");
   const locale = useLocale();
   const [menuOpen, setMenuOpen] = useState(false);
-  const pathname = usePathname().split("/")[2] ?? "/";
+  const arrPathname = usePathname().split("/").slice(2);
+  const pathname = arrPathname.length > 0 ? arrPathname.join("/") : "/";
 
   return (
     <header className="fixed left-0 right-0 top-0 z-50 px-4 pt-4 sm:px-6">

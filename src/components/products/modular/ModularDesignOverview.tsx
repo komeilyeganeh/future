@@ -1,41 +1,30 @@
 "use client";
 
-import {
-  ArrowUpRight,
-  Globe2,
-  Layers3,
-  MonitorSmartphone,
-  Network,
-} from "lucide-react";
+import { Boxes, GitBranch, Settings2 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
-const integrations = [
+const items = [
   {
-    key: "pos",
-    icon: MonitorSmartphone,
+    key: "independent",
+    icon: Boxes,
   },
   {
-    key: "ecommerce",
-    icon: Globe2,
+    key: "flexible",
+    icon: Settings2,
   },
   {
-    key: "erp",
-    icon: Layers3,
-  },
-  {
-    key: "custom",
-    icon: Network,
+    key: "scalable",
+    icon: GitBranch,
   },
 ];
 
-export default function MMSIntegrations() {
-  const t = useTranslations("MMS.integrations");
+export default function ModularDesignOverview() {
+  const t = useTranslations("MODULAR.overview");
 
   return (
-    <section className="bg-[#f8faf9]">
+    <section className="bg-white">
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
-        {/* Header */}
         <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
             <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
@@ -49,11 +38,16 @@ export default function MMSIntegrations() {
             <p className="mt-6 max-w-xl text-sm leading-7 text-[#71838a]">
               {t("description")}
             </p>
+
+            <div className="mt-8 border-l-2 border-[#082f3a] pl-5">
+              <p className="text-sm font-semibold leading-6 text-[#082f3a]">
+                {t("highlight")}
+              </p>
+            </div>
           </div>
 
-          {/* Integration Cards */}
-          <div className="grid gap-3 sm:grid-cols-2">
-            {integrations.map((item, index) => {
+          <div className="grid gap-3 sm:grid-cols-3">
+            {items.map((item, index) => {
               const Icon = item.icon;
 
               return (
@@ -61,28 +55,19 @@ export default function MMSIntegrations() {
                   key={item.key}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, amount: 0.2 }}
+                  viewport={{ once: true }}
                   transition={{
                     duration: 0.6,
                     delay: index * 0.08,
                   }}
                   whileHover={{ y: -5 }}
-                  className="group rounded-[28px] border border-[#082f3a]/[0.07] bg-white p-7 transition-shadow duration-500 hover:shadow-[0_20px_60px_rgba(8,47,58,0.07)]"
+                  className="rounded-[28px] border border-[#082f3a]/[0.07] bg-[#f8faf9] p-7"
                 >
-                  {/* Icon */}
-                  <div className="flex items-center justify-between">
-                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/5 text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
-                      <Icon size={19} strokeWidth={1.7} />
-                    </div>
-
-                    <ArrowUpRight
-                      size={15}
-                      className="text-[#082f3a]/20 transition-transform duration-300 group-hover:rotate-45"
-                    />
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/5 text-[#082f3a]">
+                    <Icon size={19} strokeWidth={1.7} />
                   </div>
 
-                  {/* Content */}
-                  <h3 className="mt-10 text-xl font-semibold tracking-tight text-[#082f3a]">
+                  <h3 className="mt-9 text-lg font-semibold tracking-tight text-[#082f3a]">
                     {t(`items.${item.key}.title`)}
                   </h3>
 

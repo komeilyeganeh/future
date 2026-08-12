@@ -20,11 +20,11 @@ export default function HISHero() {
     <section className="relative overflow-hidden bg-[#f8faf9]">
       {/* Background */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-[-180px] top-[-180px] h-[520px] w-[520px] rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+        <div className="absolute -left-45 -top-45 h-130 w-130 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
 
-        <div className="absolute right-[-160px] bottom-[-180px] h-[500px] w-[500px] rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+        <div className="absolute -right-40 -bottom-45 h-125 w-125 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
 
-        <div className="absolute inset-x-0 top-1/2 h-px bg-[#082f3a]/[0.025]" />
+        <div className="absolute inset-x-0 top-1/2 h-px bg-[#082f3a]/2.5" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -50,7 +50,7 @@ export default function HISHero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="max-w-2xl text-5xl font-semibold leading-[0.97] tracking-[-0.05em] text-[#082f3a] sm:text-6xl lg:text-7xl"
+              className="max-w-2xl text-5xl font-semibold leading-[0.97] tracking-tighter text-[#082f3a] sm:text-6xl lg:text-7xl"
             >
               {t("title")}
             </motion.h1>
@@ -98,9 +98,9 @@ export default function HISHero() {
             initial={{ opacity: 0, x: 35, scale: 0.97 }}
             animate={{ opacity: 1, x: 0, scale: 1 }}
             transition={{ duration: 0.9, delay: 0.15 }}
-            className="relative mx-auto w-full max-w-[620px]"
+            className="relative mx-auto w-full max-w-155"
           >
-            <div className="relative rounded-[34px] border border-[#082f3a]/[0.08] bg-white p-4 shadow-[0_35px_100px_rgba(8,47,58,0.08)] md:p-5">
+            <div className="relative rounded-[34px] border border-[#082f3a]/8 bg-white p-4 shadow-[0_35px_100px_rgba(8,47,58,0.08)] md:p-5">
               {/* Dashboard header */}
               <div className="flex items-center justify-between border-b border-[#082f3a]/[0.07] px-3 pb-5">
                 <div className="flex items-center gap-3">
@@ -119,7 +119,7 @@ export default function HISHero() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-2 rounded-full bg-[#082f3a]/[0.04] px-3 py-2">
+                <div className="flex items-center gap-2 rounded-full bg-[#082f3a]/4 px-3 py-2">
                   <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
 
                   <span className="text-[9px] font-medium text-[#71838a]">
@@ -130,7 +130,7 @@ export default function HISHero() {
 
               {/* Patient overview */}
               <div className="grid gap-4 pt-5 md:grid-cols-[1.15fr_0.85fr]">
-                <div className="rounded-[24px] bg-[#f8faf9] p-5">
+                <div className="rounded-3xl bg-[#f8faf9] p-5">
                   <div className="flex items-center justify-between">
                     <span className="text-[9px] font-semibold uppercase tracking-[0.2em] text-[#71838a]">
                       {t("patientOverview")}
@@ -203,7 +203,7 @@ export default function HISHero() {
                 </div>
 
                 {/* Schedule */}
-                <div className="rounded-[24px] bg-[#082f3a] p-5 text-white">
+                <div className="rounded-3xl bg-[#082f3a] p-5 text-white">
                   <div className="flex items-center justify-between">
                     <CalendarDays size={17} className="text-white/50" />
 
@@ -220,7 +220,7 @@ export default function HISHero() {
                     {t("appointments")}
                   </p>
 
-                  <div className="mt-7 h-px bg-white/[0.08]" />
+                  <div className="mt-7 h-px bg-white/8" />
 
                   <div className="mt-5 flex items-center justify-between">
                     <span className="text-[9px] text-white/45">
@@ -237,7 +237,7 @@ export default function HISHero() {
               </div>
 
               {/* Activity */}
-              <div className="mt-4 rounded-[24px] border border-[#082f3a]/[0.07] p-5">
+              <div className="mt-4 rounded-3xl border border-[#082f3a]/[0.07] p-5">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-[9px] font-semibold uppercase tracking-[0.2em] text-[#71838a]">
@@ -336,7 +336,7 @@ function TimelineItem({
 
         <div
           className={`h-px flex-1 ${
-            active ? "bg-[#082f3a]/20" : "bg-[#082f3a]/[0.06]"
+            active ? "bg-[#082f3a]/20" : "bg-[#082f3a]/6"
           }`}
         />
       </div>
@@ -350,7 +350,7 @@ function TimelineItem({
 
 function TrendingIndicator() {
   return (
-    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#082f3a]/[0.04]">
+    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#082f3a]/4">
       <Activity size={14} className="text-[#082f3a]" />
     </div>
   );

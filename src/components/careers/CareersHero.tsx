@@ -21,13 +21,13 @@ export default function CareersHero() {
       {/* -------------------------------------------------- */}
 
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-[8%] top-[18%] h-px w-[84%] bg-[#082f3a]/[0.06]" />
+        <div className="absolute left-[8%] top-[18%] h-px w-[84%] bg-[#082f3a]/6" />
 
-        <div className="absolute left-[8%] top-[18%] h-[70%] w-px bg-[#082f3a]/[0.06]" />
+        <div className="absolute left-[8%] top-[18%] h-[70%] w-px bg-[#082f3a]/6" />
 
-        <div className="absolute right-[8%] top-[18%] h-[70%] w-px bg-[#082f3a]/[0.06]" />
+        <div className="absolute right-[8%] top-[18%] h-[70%] w-px bg-[#082f3a]/6" />
 
-        <div className="absolute bottom-[-180px] left-1/2 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+        <div className="absolute -bottom-45 left-1/2 h-105 w-105 -translate-x-1/2 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
       </div>
 
       {/* -------------------------------------------------- */}
@@ -40,7 +40,7 @@ export default function CareersHero() {
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="flex items-center justify-between border-b border-[#082f3a]/[0.08] pb-5"
+          className="flex items-center justify-between border-b border-[#082f3a]/8 pb-5"
         >
           <div className="flex items-center gap-3">
             <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#082f3a] text-white">
@@ -67,7 +67,7 @@ export default function CareersHero() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
-            className="pointer-events-none absolute -right-3 top-4 select-none text-[180px] font-semibold leading-none tracking-[-0.1em] text-[#082f3a]/[0.025] md:-right-5 md:text-[280px]"
+            className="pointer-events-none absolute -right-3 top-4 select-none text-[180px] font-semibold leading-none -tracking-widest text-[#082f3a]/2.5 md:-right-5 md:text-[280px]"
           >
             01
           </motion.div>
@@ -100,7 +100,7 @@ export default function CareersHero() {
         {/* Bottom content */}
         {/* ------------------------------------------------ */}
 
-        <div className="grid gap-8 border-t border-[#082f3a]/[0.08] pt-8 md:grid-cols-[1fr_auto] md:items-end">
+        <div className="grid gap-8 border-t border-[#082f3a]/8 pt-8 md:grid-cols-[1fr_auto] md:items-end">
           {/* Left text */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -146,9 +146,9 @@ export default function CareersHero() {
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.45 }}
-            className="relative w-full max-w-[300px] justify-self-start md:justify-self-end"
+            className="relative w-full max-w-75 justify-self-start md:justify-self-end"
           >
-            <div className="group relative overflow-hidden rounded-[26px] border border-[#082f3a]/[0.08] bg-white p-5 shadow-[0_25px_80px_rgba(8,47,58,0.06)]">
+            <div className="group relative overflow-hidden rounded-[26px] border border-[#082f3a]/8 bg-white p-5 shadow-[0_25px_80px_rgba(8,47,58,0.06)]">
               {/* Small glow */}
               <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-[#082f3a]/[0.035] blur-2xl" />
 

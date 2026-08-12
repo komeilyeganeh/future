@@ -24,55 +24,35 @@ export default function Products() {
       icon: Stethoscope,
       number: "01",
       gradient: "from-[#063b4a] via-[#07566a] to-[#0a8290]",
-      stats: [
-        "Hospital Management",
-        "Patient Records",
-        "Medical Workflow",
-      ],
+      stats: ["Hospital Management", "Patient Records", "Medical Workflow"],
     },
     {
       key: "cms",
       icon: Building2,
       number: "02",
       gradient: "from-[#073b46] via-[#086576] to-[#1495a3]",
-      stats: [
-        "Content Management",
-        "Digital Operations",
-        "Business Workflow",
-      ],
+      stats: ["Content Management", "Digital Operations", "Business Workflow"],
     },
     {
       key: "erp",
       icon: Database,
       number: "03",
       gradient: "from-[#092f40] via-[#104d63] to-[#147b91]",
-      stats: [
-        "Business Management",
-        "Data Integration",
-        "Process Automation",
-      ],
+      stats: ["Business Management", "Data Integration", "Process Automation"],
     },
     {
       key: "ai",
       icon: BrainCircuit,
       number: "04",
       gradient: "from-[#062d3b] via-[#0b5365] to-[#13829a]",
-      stats: [
-        "AI Solutions",
-        "Intelligent Analytics",
-        "Automation",
-      ],
+      stats: ["AI Solutions", "Intelligent Analytics", "Automation"],
     },
     {
       key: "cloud",
       icon: Cloud,
       number: "05",
       gradient: "from-[#0b3949] via-[#075e73] to-[#1390a6]",
-      stats: [
-        "Cloud Infrastructure",
-        "Scalable Systems",
-        "Secure Deployment",
-      ],
+      stats: ["Cloud Infrastructure", "Scalable Systems", "Secure Deployment"],
     },
   ];
 
@@ -152,9 +132,7 @@ export default function Products() {
 
                           <h3
                             className={`text-[15px] font-bold tracking-[-.025em] ${
-                              isActive
-                                ? "text-[#082f3a]"
-                                : "text-[#6d8187]"
+                              isActive ? "text-[#082f3a]" : "text-[#6d8187]"
                             }`}
                           >
                             {t(`products.${item.key}.title`)}
@@ -163,14 +141,10 @@ export default function Products() {
 
                         <p
                           className={`mt-1 text-[10px] leading-[1.6] ${
-                            isActive
-                              ? "text-[#789097]"
-                              : "text-[#a0adb1]"
+                            isActive ? "text-[#789097]" : "text-[#a0adb1]"
                           }`}
                         >
-                          {t(
-                            `products.${item.key}.shortDescription`
-                          )}
+                          {t(`products.${item.key}.shortDescription`)}
                         </p>
                       </div>
 
@@ -189,104 +163,108 @@ export default function Products() {
             })}
           </div>
 
-          <div className="relative min-h-135 overflow-hidden rounded-[38px] border border-white bg-[#eef5f6] p-3 shadow-[0_30px_90px_rgba(7,47,58,.08)] sm:p-5">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={product.key}
-                initial={{
-                  opacity: 0,
-                  scale: 0.97,
-                  y: 15,
-                }}
-                animate={{
-                  opacity: 1,
-                  scale: 1,
-                  y: 0,
-                }}
-                exit={{
-                  opacity: 0,
-                  scale: 0.97,
-                  y: -10,
-                }}
-                transition={{
-                  duration: 0.4,
-                }}
-                className={`relative h-full min-h-125 overflow-hidden rounded-[31px] bg-linear-to-br ${product.gradient}`}
-              >
-                <div className="absolute -right-32 -top-32 h-[400px] w-[400px] rounded-full border border-white/10" />
+          <div className="relative overflow-hidden rounded-[38px] border border-white bg-[#eef5f6] p-3 shadow-[0_30px_90px_rgba(7,47,58,.08)] sm:min-h-[540px] sm:p-5">
+  <AnimatePresence mode="wait">
+    <motion.div
+      key={product.key}
+      initial={{
+        opacity: 0,
+        scale: 0.97,
+        y: 15,
+      }}
+      animate={{
+        opacity: 1,
+        scale: 1,
+        y: 0,
+      }}
+      exit={{
+        opacity: 0,
+        scale: 0.97,
+        y: -10,
+      }}
+      transition={{
+        duration: 0.4,
+      }}
+      className={`relative flex min-h-[680px] flex-col overflow-hidden rounded-[31px] bg-linear-to-br ${product.gradient} sm:min-h-[500px]`}
+    >
+      {/* Decorative shapes */}
+      <div className="pointer-events-none absolute -right-32 -top-32 h-[400px] w-[400px] rounded-full border border-white/10" />
 
-                <div className="absolute -bottom-40 -left-32 h-[480px] w-[480px] rounded-full border border-white/10" />
+      <div className="pointer-events-none absolute -bottom-40 -left-32 h-[480px] w-[480px] rounded-full border border-white/10" />
 
-                <div className="absolute right-20 top-28 h-40 w-40 rounded-full bg-white/5 blur-3xl" />
+      <div className="pointer-events-none absolute right-20 top-28 h-40 w-40 rounded-full bg-white/5 blur-3xl" />
 
-                <div className="relative flex items-center justify-between p-7 sm:p-9">
-                  <div className="flex items-center gap-3">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-white/10 text-white backdrop-blur-xl">
-                      <ProductIcon size={21} />
-                    </div>
-
-                    <div>
-                      <span className="block text-[8px] font-bold uppercase tracking-[.2em] text-white/35">
-                        RoshaSoft
-                      </span>
-
-                      <span className="mt-1 block text-[11px] font-semibold text-white/80">
-                        {product.number} / 05
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/10 text-white/70">
-                    <ArrowUpRight size={15} />
-                  </div>
-                </div>
-
-                <div className="relative px-7 pt-10 sm:px-9">
-                  <span className="text-[9px] font-bold uppercase tracking-[.2em] text-white/40">
-                    {t("products.solutionLabel")}
-                  </span>
-
-                  <h3 className="mt-4 max-w-150 text-[42px] font-extrabold leading-[.94] tracking-[-.065em] text-white sm:text-[58px]">
-                    {t(`products.${product.key}.title`)}
-                  </h3>
-
-                  <p className="mt-6 max-w-[520px] text-[12px] leading-[1.9] text-white/55 sm:text-[13px]">
-                    {t(`products.${product.key}.description`)}
-                  </p>
-                </div>
-
-                <div className="absolute bottom-7 left-7 right-7 overflow-hidden rounded-[25px] border border-white/10 bg-white/8 p-4 backdrop-blur-xl sm:bottom-9 sm:left-9 sm:right-9">
-                  <div className="flex items-center justify-between">
-                    <span className="text-[8px] font-bold uppercase tracking-[.16em] text-white/35">
-                      {t("products.previewLabel")}
-                    </span>
-
-                    <span className="flex items-center gap-1.5 text-[8px] font-bold text-white/60">
-                      <span className="h-1.5 w-1.5 rounded-full bg-[#75e6d0]" />
-                      {t("products.activeStatus")}
-                    </span>
-                  </div>
-
-                  <div className="mt-4 grid gap-2 sm:grid-cols-3">
-                    {product.stats.map((stat, index) => (
-                      <div
-                        key={stat}
-                        className="rounded-2xl border border-white/[0.07] bg-white/6 p-3"
-                      >
-                        <span className="text-[8px] text-white/35">
-                          0{index + 1}
-                        </span>
-
-                        <span className="mt-2 block text-[9px] font-semibold leading-[1.4] text-white/70">
-                          {stat}
-                        </span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </motion.div>
-            </AnimatePresence>
+      {/* Header */}
+      <div className="relative z-10 flex items-center justify-between gap-4 p-6 sm:p-9">
+        <div className="flex min-w-0 items-center gap-3">
+          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/10 text-white backdrop-blur-xl sm:h-12 sm:w-12">
+            <ProductIcon size={20} />
           </div>
+
+          <div className="min-w-0">
+            <span className="block truncate text-[8px] font-bold uppercase tracking-[.2em] text-white/35">
+              RoshaSoft
+            </span>
+
+            <span className="mt-1 block text-[10px] font-semibold text-white/80 sm:text-[11px]">
+              {product.number} / 05
+            </span>
+          </div>
+        </div>
+
+        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/10 text-white/70 backdrop-blur-xl">
+          <ArrowUpRight size={15} />
+        </div>
+      </div>
+
+      {/* Main content */}
+      <div className="relative z-10 flex-1 px-6 pb-8 pt-6 sm:px-9 sm:pt-10">
+        <span className="text-[9px] font-bold uppercase tracking-[.2em] text-white/40">
+          {t("products.solutionLabel")}
+        </span>
+
+        <h3 className="mt-4 max-w-[95%] text-[38px] font-extrabold leading-[0.96] tracking-[-0.055em] text-white sm:max-w-[600px] sm:text-[58px] sm:leading-[.94] sm:tracking-[-.065em]">
+          {t(`products.${product.key}.title`)}
+        </h3>
+
+        <p className="mt-6 max-w-[520px] text-[12px] leading-[1.8] text-white/55 sm:text-[13px] sm:leading-[1.9]">
+          {t(`products.${product.key}.description`)}
+        </p>
+      </div>
+
+      {/* Preview */}
+      <div className="relative z-10 mx-6 mb-6 rounded-[25px] border border-white/10 bg-white/8 p-4 backdrop-blur-xl sm:absolute sm:bottom-9 sm:left-9 sm:right-9 sm:mx-0 sm:mb-0">
+        <div className="flex items-center justify-between gap-4">
+          <span className="truncate text-[8px] font-bold uppercase tracking-[.16em] text-white/35">
+            {t("products.previewLabel")}
+          </span>
+
+          <span className="flex shrink-0 items-center gap-1.5 text-[8px] font-bold text-white/60">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#75e6d0]" />
+            {t("products.activeStatus")}
+          </span>
+        </div>
+
+        <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-3">
+          {product.stats.map((stat, index) => (
+            <div
+              key={stat}
+              className="min-w-0 rounded-2xl border border-white/[0.07] bg-white/6 p-3"
+            >
+              <span className="text-[8px] text-white/35">
+                0{index + 1}
+              </span>
+
+              <span className="mt-2 block break-words text-[9px] font-semibold leading-[1.4] text-white/70">
+                {stat}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </motion.div>
+  </AnimatePresence>
+</div>
         </div>
       </div>
     </section>

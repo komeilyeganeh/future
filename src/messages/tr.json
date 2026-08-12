@@ -1216,11 +1216,21 @@
   "ERP": {
     "hero": {
       "eyebrow": "KURUMSAL KAYNAK PLANLAMA",
-      "title": "Tüm işletmeniz için tek akıllı sistem.",
-      "description": "Finans, operasyon, insan kaynakları, üretim ve tedarik zincirinizi, işletmenizin çalışma biçimine göre tasarlanmış güçlü bir ERP platformunda bir araya getirin.",
+      "title": "Tüm işletmeniz için tek ve bağlantılı bir sistem.",
+      "description": "Finans, operasyon, stok, insan kaynakları ve işletme verilerini güçlü bir ERP platformunda tek bir sistem altında birleştirin.",
       "primaryButton": "ERP'yi Keşfet",
-      "secondaryButton": "Uzmanla Görüş",
-      "visualLabel": "Bağlantılı İşletme"
+      "secondaryButton": "ERP Talep Et",
+      "visualLabel": "Bağlantılı işletme platformu",
+
+      "modules": {
+        "data": "İşletme Verileri",
+        "finance": "Finans",
+        "inventory": "Stok",
+        "people": "İnsan Kaynakları"
+      },
+
+      "dataStream": "Canlı Veri",
+      "systemStatus": "Sistem Bağlı"
     },
 
     "overview": {
@@ -2077,6 +2087,236 @@
       "title": "İşletmenizin çalışma şeklini daha akıllı hale getirin.",
       "description": "İş akışlarınızı, operasyonel zorluklarınızı ve iş hedeflerinizi bize anlatın. Kuruluşunuzun gerçek çalışma biçimine uygun BPMS çözümünü birlikte tasarlayalım.",
       "button": "BPMS Talep Et"
+    }
+  },
+  "MODULAR": {
+    "hero": {
+      "eyebrow": "MODÜLER TASARIM VE ÜRÜNLER",
+      "title": "İşletmenizin ihtiyaçlarına göre tam olarak ihtiyacınız olan sistemi oluşturun.",
+      "description": "Kuruluşunuz için doğru teknoloji çözümünü oluşturmak üzere bir araya getirilebilen, yapılandırılabilen ve ihtiyaçlara göre uyarlanabilen bağımsız iş modüllerinden oluşan esnek bir ekosistem.",
+      "primaryButton": "Modülleri İncele",
+      "secondaryButton": "Çözüm Talep Et",
+      "label": "MODÜLER TASARIM",
+      "card1": "Bağımsız",
+      "card2": "Esnek",
+      "card3": "Ölçeklenebilir"
+    },
+
+    "overview": {
+      "eyebrow": "MODÜLER TASARIM NEDİR",
+      "title": "Tek ekosistem. Sayısız olanak.",
+      "description": "Modüler yaklaşımımız, işletmelerin bağımsız yazılım modüllerini operasyonel ihtiyaçlarına uygun yapılandırmalarda bir araya getirmesine olanak tanır.",
+      "highlight": "İhtiyacınızı seçin. Önemli sistemleri bağlayın. Hazır olduğunuzda büyütün.",
+
+      "items": {
+        "independent": {
+          "title": "Bağımsız Modüller",
+          "description": "Her modül bağımsız olarak çalışabilir ve diğer iş sistemleriyle bağlantı kurmaya hazırdır."
+        },
+        "flexible": {
+          "title": "Esnek",
+          "description": "İşletmenizi sabit bir yapıya zorlamak yerine sisteminizi iş akışlarınıza göre oluşturun."
+        },
+        "scalable": {
+          "title": "Ölçeklenebilir",
+          "description": "Bugün ihtiyacınız olanla başlayın ve kuruluşunuz geliştikçe sisteminizi genişletin."
+        }
+      }
+    },
+
+    "modules": {
+      "eyebrow": "MODÜLER ÜRÜNLER",
+      "title": "İşletmenize uygun modülleri seçin.",
+      "description": "Bağımsız olarak kullanılabilen veya daha kapsamlı bir çözüm oluşturmak için birleştirilebilen özel iş sistemlerini keşfedin.",
+      "search": "Modüllerde ara...",
+      "empty": "Aramanızla eşleşen modül bulunamadı.",
+
+      "items": {
+        "financial": {
+          "title": "Finans Sistemi",
+          "description": "Finansal operasyon ve yönetim."
+        },
+        "ticketReservation": {
+          "title": "Bilet Rezervasyon Sistemi",
+          "description": "Bilet rezervasyonu ve rezervasyon yönetimi."
+        },
+        "projectManagement": {
+          "title": "Proje Yönetim Sistemi",
+          "description": "Projeleri planlayın, yönetin ve takip edin."
+        },
+        "resultRanking": {
+          "title": "Sonuç Sıralama",
+          "description": "Sıralama, sonuç ve performans verilerini yönetin."
+        },
+        "customersClub": {
+          "title": "Müşteri Kulübü",
+          "description": "Müşteri sadakati ve ilişki programları."
+        },
+        "mailroom": {
+          "title": "Posta Yönetimi",
+          "description": "Gelen ve giden yazışmaları yönetin."
+        },
+        "property": {
+          "title": "Gayrimenkul Sistemi",
+          "description": "Gayrimenkul ve varlık yönetimi."
+        },
+        "paraclinical": {
+          "title": "Paraklinik Hizmetler",
+          "description": "Paraklinik hizmet operasyonlarını yönetin."
+        },
+        "automation": {
+          "title": "Otomasyon",
+          "description": "Tekrarlanan operasyonel iş akışlarını otomatikleştirin."
+        },
+        "welfare": {
+          "title": "Sosyal Hizmet Sistemi",
+          "description": "Sosyal hizmetleri ve ilgili operasyonları yönetin."
+        },
+        "productionFormulation": {
+          "title": "Üretim Formülasyonu",
+          "description": "Üretim formülleri ve formülasyon yönetimi."
+        },
+        "distribution": {
+          "title": "Ürün Dağıtım Ağı",
+          "description": "Ürün dağıtım operasyonlarını koordine edin."
+        },
+        "logistics": {
+          "title": "Lojistik ve Taşımacılık Otomasyonu",
+          "description": "Lojistik ve taşımacılık süreçlerini yönetin."
+        },
+        "payroll": {
+          "title": "Bordro Sistemleri",
+          "description": "Bordro ve çalışan ödeme yönetimi."
+        },
+        "cashier": {
+          "title": "Kasa Sistemi",
+          "description": "Kasa ve işlem operasyonları."
+        },
+        "production": {
+          "title": "Üretim Sistemi",
+          "description": "Üretim planlama ve operasyon yönetimi."
+        },
+        "treasury": {
+          "title": "Hazine Yönetim Sistemi",
+          "description": "Hazine ve nakit yönetimi."
+        },
+        "pool": {
+          "title": "Havuz Yönetim Sistemi",
+          "description": "Havuz tesisi ve operasyon yönetimi."
+        },
+        "ticketing": {
+          "title": "Biletleme Sistemi",
+          "description": "Biletleme ve etkinlik yönetimi."
+        },
+        "forum": {
+          "title": "Forum",
+          "description": "Topluluk ve tartışma yönetimi."
+        },
+        "marketing": {
+          "title": "Pazarlama Yönetim Sistemi",
+          "description": "Pazarlama faaliyetleri ve kampanya yönetimi."
+        },
+        "jobClassification": {
+          "title": "İş Sınıflandırma Sistemi",
+          "description": "İş rolleri ve sınıflandırma yönetimi."
+        },
+        "acceptor": {
+          "title": "Kabul Sistemi",
+          "description": "Kabul ve onay süreçlerinin yönetimi."
+        },
+        "regionalSales": {
+          "title": "Bölgesel Satış",
+          "description": "Bölgesel satış ve bölge yönetimi."
+        },
+        "dataManagement": {
+          "title": "Veri Yönetimi",
+          "description": "Merkezi işletme veri yönetimi."
+        },
+        "internalTrade": {
+          "title": "İç Ticaret",
+          "description": "İç ticaret ve işlem yönetimi."
+        },
+        "fuelManagement": {
+          "title": "Yakıt Yönetim Sistemi",
+          "description": "Yakıt stok ve operasyon yönetimi."
+        },
+        "personalInformation": {
+          "title": "Kişisel Bilgi Yönetimi",
+          "description": "Çalışan ve kişisel bilgi yönetimi."
+        },
+        "hotelManagement": {
+          "title": "Otel Yönetimi",
+          "description": "Otel ve konaklama operasyonları."
+        },
+        "priceCalculator": {
+          "title": "Toplam Fiyat Hesaplayıcı",
+          "description": "Ürün toplam fiyatlandırmasını hesaplayın ve yönetin."
+        },
+        "gymManagement": {
+          "title": "Spor Salonu Yönetimi",
+          "description": "Spor salonu üyelik ve tesis yönetimi."
+        },
+        "productTracking": {
+          "title": "Ürün Takibi",
+          "description": "Ürünleri operasyonel süreçler boyunca takip edin."
+        },
+        "warehouse": {
+          "title": "Depo Sistemleri",
+          "description": "Depo ve stok organizasyonu."
+        },
+        "transactionManagement": {
+          "title": "İşlem Yönetimi",
+          "description": "İşletme işlemlerini ve faaliyetlerini yönetin."
+        },
+        "capillaryDistribution": {
+          "title": "Kılcal Dağıtım",
+          "description": "Dağıtılmış ve yerel satış ağlarını yönetin."
+        },
+        "internationalTrading": {
+          "title": "Uluslararası Ticaret Sistemi",
+          "description": "Uluslararası ticaret ve ticari operasyonlar."
+        }
+      }
+    },
+
+    "categories": {
+      "eyebrow": "İŞ ALANLARI",
+      "title": "Farklı operasyonel ihtiyaçlar için tasarlanmış modüller.",
+      "description": "Finans, ticaret, operasyon, lojistik ve kurumsal yönetim alanlarındaki özel yetenekleri bir araya getirin.",
+
+      "items": {
+        "finance": {
+          "title": "Finans",
+          "description": "Finans, hazine, fiyatlandırma ve işlem yönetimi."
+        },
+        "commerce": {
+          "title": "Ticaret",
+          "description": "Satış, müşteri, pazarlama, biletleme ve ticari operasyonlar."
+        },
+        "operations": {
+          "title": "Operasyon",
+          "description": "Üretim, iş gücü, otomasyon ve operasyonel iş akışları."
+        },
+        "logistics": {
+          "title": "Lojistik",
+          "description": "Depolama, dağıtım, taşımacılık ve ürün takibi."
+        },
+        "enterprise": {
+          "title": "Kurumsal",
+          "description": "Projeler, veri, mülk, iç süreçler ve kurumsal sistemler."
+        },
+        "hospitality": {
+          "title": "Konaklama ve Hizmet",
+          "description": "Otel, spor salonu, havuz ve müşteri odaklı tesis yönetimi."
+        }
+      }
+    },
+
+    "cta": {
+      "eyebrow": "ÇÖZÜMÜNÜZÜ OLUŞTURUN",
+      "title": "İşletmenizin çalışma şekline göre bir sistem oluşturun.",
+      "description": "Kuruluşunuzun ihtiyaçlarını bize anlatın. Doğru modülleri belirlemenize ve işletmenizle birlikte gelişebilecek esnek bir teknoloji çözümü oluşturmanıza yardımcı olalım.",
+      "button": "Çözüm Talep Et"
     }
   },
   "Footer": {

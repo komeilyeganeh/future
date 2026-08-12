@@ -66,7 +66,7 @@ export default function WebDesignTypes() {
                     0{index + 1}
                   </span>
 
-                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/[0.05] text-[#082f3a] transition-all duration-500 group-hover:rotate-6 group-hover:bg-[#082f3a] group-hover:text-white">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/5 text-[#082f3a] transition-all duration-500 group-hover:rotate-6 group-hover:bg-[#082f3a] group-hover:text-white">
                     <Icon size={19} strokeWidth={1.7} />
                   </div>
                 </div>
@@ -87,7 +87,7 @@ export default function WebDesignTypes() {
                     (feature) => (
                       <div
                         key={feature}
-                        className="flex items-center gap-3 border-b border-[#082f3a]/[0.06] pb-3 last:border-0"
+                        className="flex items-center gap-3 border-b border-[#082f3a]/6 pb-3 last:border-0"
                       >
                         <span className="h-1.5 w-1.5 rounded-full bg-[#082f3a]/30" />
 

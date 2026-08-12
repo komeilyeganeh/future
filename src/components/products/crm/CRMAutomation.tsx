@@ -35,7 +35,7 @@ export default function CRMAutomation() {
           {/* Text */}
           <div>
             <div className="mb-7 flex items-center gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#082f3a]/[0.05] text-[#082f3a]">
+              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#082f3a]/5 text-[#082f3a]">
                 <Sparkles size={14} />
               </div>
 
@@ -87,10 +87,10 @@ export default function CRMAutomation() {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="relative overflow-hidden rounded-[32px] bg-[#082f3a] p-8 md:p-10">
-              <div className="absolute -right-24 -top-24 h-64 w-64 rounded-full border border-white/[0.06]" />
+            <div className="relative overflow-hidden rounded-4xl bg-[#082f3a] p-8 md:p-10">
+              <div className="absolute -right-24 -top-24 h-64 w-64 rounded-full border border-white/6" />
 
-              <div className="absolute -bottom-20 -left-20 h-52 w-52 rounded-full bg-white/[0.025] blur-3xl" />
+              <div className="absolute -bottom-20 -left-20 h-52 w-52 rounded-full bg-white/2.5 blur-3xl" />
 
               <div className="relative z-10">
                 <span className="text-[9px] font-semibold uppercase tracking-[0.3em] text-white/35">
@@ -105,7 +105,7 @@ export default function CRMAutomation() {
                   {automationItems.map((item, index) => (
                     <div
                       key={item.key}
-                      className="flex items-center gap-4 rounded-2xl border border-white/[0.07] bg-white/[0.04] p-4"
+                      className="flex items-center gap-4 rounded-2xl border border-white/[0.07] bg-white/4 p-4"
                     >
                       <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-[10px] font-bold text-[#082f3a]">
                         0{index + 1}

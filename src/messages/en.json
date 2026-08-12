@@ -1215,11 +1215,21 @@
   "ERP": {
     "hero": {
       "eyebrow": "ENTERPRISE RESOURCE PLANNING",
-      "title": "One intelligent system for your entire business.",
-      "description": "Connect finance, operations, people, production, and supply chain through a powerful ERP platform built around the way your organization works.",
+      "title": "One connected system for your entire business.",
+      "description": "Bring finance, operations, inventory, people, and business data together in one powerful ERP platform.",
       "primaryButton": "Explore ERP",
-      "secondaryButton": "Talk to an Expert",
-      "visualLabel": "Connected Business"
+      "secondaryButton": "Request ERP",
+      "visualLabel": "Connected business platform",
+
+      "modules": {
+        "data": "Business Data",
+        "finance": "Finance",
+        "inventory": "Inventory",
+        "people": "People"
+      },
+
+      "dataStream": "Live Data",
+      "systemStatus": "System Connected"
     },
 
     "overview": {
@@ -2076,6 +2086,236 @@
       "title": "Make the way your business works smarter.",
       "description": "Tell us about your workflows, operational challenges, and business goals. We will help you design a BPMS solution around the way your organization actually works.",
       "button": "Request BPMS"
+    }
+  },
+  "MODULAR": {
+    "hero": {
+      "eyebrow": "MODULAR DESIGN & PRODUCTS",
+      "title": "Build the exact system your business needs.",
+      "description": "A flexible ecosystem of independent business modules that can be combined, configured, and adapted to create the right technology solution for your organization.",
+      "primaryButton": "Explore Modules",
+      "secondaryButton": "Request a Solution",
+      "label": "MODULAR DESIGN",
+      "card1": "Independent",
+      "card2": "Flexible",
+      "card3": "Scalable"
+    },
+
+    "overview": {
+      "eyebrow": "WHAT IS MODULAR DESIGN",
+      "title": "One ecosystem. Many possibilities.",
+      "description": "Our modular approach allows businesses to combine independent software modules into configurations that match their operational requirements.",
+      "highlight": "Choose what you need. Connect what matters. Grow when you're ready.",
+
+      "items": {
+        "independent": {
+          "title": "Independent Modules",
+          "description": "Each module can operate independently while remaining ready to connect with other business systems."
+        },
+        "flexible": {
+          "title": "Flexible",
+          "description": "Build configurations around your workflows instead of forcing your business into a fixed structure."
+        },
+        "scalable": {
+          "title": "Scalable",
+          "description": "Start with what you need today and expand your system as your organization evolves."
+        }
+      }
+    },
+
+    "modules": {
+      "eyebrow": "MODULAR PRODUCTS",
+      "title": "Choose the modules that fit your business.",
+      "description": "Explore a collection of specialized business systems that can be used independently or combined into a broader solution.",
+      "search": "Search modules...",
+      "empty": "No modules match your search.",
+
+      "items": {
+        "financial": {
+          "title": "Financial System",
+          "description": "Financial operations and management."
+        },
+        "ticketReservation": {
+          "title": "Ticket Reservation System",
+          "description": "Ticket booking and reservation management."
+        },
+        "projectManagement": {
+          "title": "Project Management System",
+          "description": "Plan, manage, and track projects."
+        },
+        "resultRanking": {
+          "title": "Result Ranking",
+          "description": "Manage rankings, results, and performance data."
+        },
+        "customersClub": {
+          "title": "Customers Club",
+          "description": "Customer loyalty and relationship programs."
+        },
+        "mailroom": {
+          "title": "Mailroom Management",
+          "description": "Manage incoming and outgoing correspondence."
+        },
+        "property": {
+          "title": "Property System",
+          "description": "Property and asset management."
+        },
+        "paraclinical": {
+          "title": "Para-clinical Services",
+          "description": "Manage para-clinical service operations."
+        },
+        "automation": {
+          "title": "Automation",
+          "description": "Automate recurring operational workflows."
+        },
+        "welfare": {
+          "title": "Welfare Service System",
+          "description": "Manage welfare services and related operations."
+        },
+        "productionFormulation": {
+          "title": "Production Formulation",
+          "description": "Production formulas and formulation management."
+        },
+        "distribution": {
+          "title": "Product Distribution Network",
+          "description": "Coordinate product distribution operations."
+        },
+        "logistics": {
+          "title": "Logistics & Transportation Automation",
+          "description": "Manage logistics and transportation workflows."
+        },
+        "payroll": {
+          "title": "Payroll Systems",
+          "description": "Payroll and employee payment management."
+        },
+        "cashier": {
+          "title": "Cashier System",
+          "description": "Cashier and transaction operations."
+        },
+        "production": {
+          "title": "Production System",
+          "description": "Production planning and operational management."
+        },
+        "treasury": {
+          "title": "Treasury Management System",
+          "description": "Treasury and cash management."
+        },
+        "pool": {
+          "title": "Pool Management System",
+          "description": "Pool facility and operational management."
+        },
+        "ticketing": {
+          "title": "Ticketing System",
+          "description": "Ticketing and event management."
+        },
+        "forum": {
+          "title": "Forum",
+          "description": "Community and discussion management."
+        },
+        "marketing": {
+          "title": "Marketing Management System",
+          "description": "Marketing activities and campaign management."
+        },
+        "jobClassification": {
+          "title": "Job Classification System",
+          "description": "Job roles and classification management."
+        },
+        "acceptor": {
+          "title": "Acceptor",
+          "description": "Acceptance and approval workflow management."
+        },
+        "regionalSales": {
+          "title": "Regional Sales",
+          "description": "Regional sales and territory management."
+        },
+        "dataManagement": {
+          "title": "Data Management",
+          "description": "Centralized business data management."
+        },
+        "internalTrade": {
+          "title": "Internal Trade",
+          "description": "Internal commerce and transaction management."
+        },
+        "fuelManagement": {
+          "title": "Fuel Management System",
+          "description": "Fuel inventory and operational management."
+        },
+        "personalInformation": {
+          "title": "Personal Information",
+          "description": "Employee and personal information management."
+        },
+        "hotelManagement": {
+          "title": "Hotel Management",
+          "description": "Hotel and hospitality operations."
+        },
+        "priceCalculator": {
+          "title": "Total Price Calculator",
+          "description": "Calculate and manage total product pricing."
+        },
+        "gymManagement": {
+          "title": "Gym Management",
+          "description": "Gym membership and facility management."
+        },
+        "productTracking": {
+          "title": "Product Tracking",
+          "description": "Track products across operational processes."
+        },
+        "warehouse": {
+          "title": "Warehouse Storage Systems",
+          "description": "Warehouse storage and inventory organization."
+        },
+        "transactionManagement": {
+          "title": "Transaction Management",
+          "description": "Manage business transactions and activities."
+        },
+        "capillaryDistribution": {
+          "title": "Capillary Distribution",
+          "description": "Manage distributed and local sales networks."
+        },
+        "internationalTrading": {
+          "title": "International Trading System",
+          "description": "International trade and commercial operations."
+        }
+      }
+    },
+
+    "categories": {
+      "eyebrow": "BUSINESS AREAS",
+      "title": "Modules built for different operational needs.",
+      "description": "Combine specialized capabilities across finance, commerce, operations, logistics, and enterprise management.",
+
+      "items": {
+        "finance": {
+          "title": "Finance",
+          "description": "Financial, treasury, pricing, and transaction management."
+        },
+        "commerce": {
+          "title": "Commerce",
+          "description": "Sales, customers, marketing, ticketing, and commercial operations."
+        },
+        "operations": {
+          "title": "Operations",
+          "description": "Production, workforce, automation, and operational workflows."
+        },
+        "logistics": {
+          "title": "Logistics",
+          "description": "Warehousing, distribution, transportation, and product tracking."
+        },
+        "enterprise": {
+          "title": "Enterprise",
+          "description": "Projects, data, property, internal processes, and organizational systems."
+        },
+        "hospitality": {
+          "title": "Hospitality",
+          "description": "Hotel, gym, pool, and customer-focused facility management."
+        }
+      }
+    },
+
+    "cta": {
+      "eyebrow": "BUILD YOUR SOLUTION",
+      "title": "Create a system around the way your business works.",
+      "description": "Tell us what your organization needs. We can help you identify the right modules and create a flexible technology solution that can evolve with your business.",
+      "button": "Request a Solution"
     }
   },
   "Footer": {

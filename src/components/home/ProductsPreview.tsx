@@ -95,7 +95,7 @@ export default function ProductsPreview() {
 
       <div className="pointer-events-none absolute left-1/2 top-[45%] h-175 w-175 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(112,76,255,.12),rgba(54,200,232,.045)_38%,transparent_70%)] blur-3xl" />
 
-      <div className="pointer-events-none absolute -right-[200px] top-[30%] h-125 w-125 rounded-full bg-[#36c8e8]/[0.04] blur-3xl" />
+      <div className="pointer-events-none absolute -right-[200px] top-[30%] h-125 w-125 rounded-full bg-[#36c8e8]/4 blur-3xl" />
 
       <div className="relative z-10 mx-auto w-[calc(100%-30px)] max-w-310 md:w-[calc(100%-48px)]">
         {/* Header */}

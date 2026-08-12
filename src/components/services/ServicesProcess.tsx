@@ -36,7 +36,7 @@ export default function ServicesProcess() {
 
   return (
     <section className="relative overflow-hidden bg-white">
-      <div className="absolute right-[-200px] top-1/2 h-[500px] w-[500px] -translate-y-1/2 rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+      <div className="absolute right-[-200px] top-1/2 h-125 w-125 -translate-y-1/2 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         {/* Heading */}
@@ -55,7 +55,7 @@ export default function ServicesProcess() {
         </div>
 
         {/* Steps */}
-        <div className="mt-16 grid gap-0 border-t border-[#082f3a]/[0.08] md:grid-cols-4">
+        <div className="mt-16 grid gap-0 border-t border-[#082f3a]/8 md:grid-cols-4">
           {steps.map((step, index) => {
             const Icon = step.icon;
 
@@ -69,14 +69,14 @@ export default function ServicesProcess() {
                   duration: 0.6,
                   delay: index * 0.1,
                 }}
-                className="group relative border-b border-[#082f3a]/[0.08] py-8 md:border-b-0 md:border-r md:px-7 md:first:pl-0 md:last:border-r-0"
+                className="group relative border-b border-[#082f3a]/8 py-8 md:border-b-0 md:border-r md:px-7 md:first:pl-0 md:last:border-r-0"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-[10px] font-semibold tracking-[0.2em] text-[#71838a]">
                     {step.number}
                   </span>
 
-                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#082f3a]/[0.04] text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#082f3a]/4 text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
                     <Icon size={15} />
                   </div>
                 </div>

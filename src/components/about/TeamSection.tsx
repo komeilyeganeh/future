@@ -25,12 +25,6 @@ const team: TeamMember[] = [
     image: "/images/team/zahra.jpg",
   },
   {
-    name: "Alireza Ashrafi",
-    role: "alireza",
-    group: "executives",
-    image: "/images/team/alireza.png",
-  },
-  {
     name: "Milad Taghizadeh",
     role: "milad",
     group: "managers",

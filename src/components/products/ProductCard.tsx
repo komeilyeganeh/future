@@ -29,16 +29,16 @@ export default function ProductCard({
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.7 }}
       whileHover={{ y: -8 }}
-      className={`group relative overflow-hidden rounded-[32px] border p-7 transition-all duration-500 md:p-9 ${
+      className={`group relative overflow-hidden rounded-4xl border p-7 transition-all duration-500 md:p-9 ${
         featured
           ? "border-[#082f3a] bg-[#082f3a] text-white"
-          : "border-[#082f3a]/[0.08] bg-white text-[#082f3a] hover:border-[#082f3a]/20 hover:shadow-[0_25px_80px_rgba(8,47,58,0.08)]"
+          : "border-[#082f3a]/8 bg-white text-[#082f3a] hover:border-[#082f3a]/20 hover:shadow-[0_25px_80px_rgba(8,47,58,0.08)]"
       }`}
     >
       {/* Decoration */}
       <div
         className={`absolute -right-20 -top-20 h-48 w-48 rounded-full transition-transform duration-700 group-hover:scale-125 ${
-          featured ? "bg-white/[0.035]" : "bg-[#082f3a]/[0.025]"
+          featured ? "bg-white/[0.035]" : "bg-[#082f3a]/2.5"
         }`}
       />
 
@@ -57,7 +57,7 @@ export default function ProductCard({
             className={`flex h-12 w-12 items-center justify-center rounded-2xl transition-all duration-500 group-hover:rotate-6 ${
               featured
                 ? "bg-white text-[#082f3a]"
-                : "bg-[#082f3a]/[0.05] text-[#082f3a]"
+                : "bg-[#082f3a]/5 text-[#082f3a]"
             }`}
           >
             {icon}
@@ -94,15 +94,15 @@ export default function ProductCard({
               key={feature}
               className={`flex items-center gap-3 border-b pb-3 last:border-0 ${
                 featured
-                  ? "border-white/[0.08]"
-                  : "border-[#082f3a]/[0.06]"
+                  ? "border-white/8"
+                  : "border-[#082f3a]/6"
               }`}
             >
               <span
                 className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
                   featured
                     ? "bg-white/10 text-white"
-                    : "bg-[#082f3a]/[0.05] text-[#082f3a]"
+                    : "bg-[#082f3a]/5 text-[#082f3a]"
                 }`}
               >
                 <Check size={11} strokeWidth={2.5} />

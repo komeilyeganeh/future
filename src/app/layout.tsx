@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Preloader from "@/components/ui/Preloader";
 import "./globals.css";
+import BackToTop from "@/components/backToTop/BackToTop";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} font-sans antialiased`}>
         <Preloader />
         {children}
+        <BackToTop />
       </body>
     </html>
   );

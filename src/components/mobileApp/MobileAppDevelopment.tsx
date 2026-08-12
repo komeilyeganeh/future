@@ -31,7 +31,7 @@ export default function MobileAppDevelopment() {
       id="development"
       className="relative overflow-hidden bg-[#f8faf9] py-24 md:py-32"
     >
-      <div className="absolute right-[-180px] top-1/2 h-[450px] w-[450px] -translate-y-1/2 rounded-full bg-[#082f3a]/[0.025] blur-3xl" />
+      <div className="absolute -right-45 top-1/2 h-112.5 w-112.5 -translate-y-1/2 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-5 md:px-8">
         <div className="max-w-2xl">
@@ -63,10 +63,10 @@ export default function MobileAppDevelopment() {
                   delay: index * 0.1,
                 }}
                 whileHover={{ y: -8 }}
-                className={`group relative overflow-hidden rounded-[32px] border p-8 ${
+                className={`group relative overflow-hidden rounded-4xl border p-8 ${
                   index === 0
                     ? "border-[#082f3a] bg-[#082f3a] text-white"
-                    : "border-[#082f3a]/[0.08] bg-white text-[#082f3a]"
+                    : "border-[#082f3a]/8 bg-white text-[#082f3a]"
                 }`}
               >
                 <span
@@ -83,7 +83,7 @@ export default function MobileAppDevelopment() {
                   className={`mt-10 flex h-12 w-12 items-center justify-center rounded-2xl ${
                     index === 0
                       ? "bg-white text-[#082f3a]"
-                      : "bg-[#082f3a]/[0.05] text-[#082f3a]"
+                      : "bg-[#082f3a]/5 text-[#082f3a]"
                   }`}
                 >
                   <Icon size={20} />

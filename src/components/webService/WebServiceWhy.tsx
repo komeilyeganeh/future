@@ -69,7 +69,7 @@ export default function WebServiceWhy() {
                   }}
                   className="rounded-[26px] border border-[#082f3a]/[0.07] bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(8,47,58,0.06)]"
                 >
-                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/[0.05] text-[#082f3a]">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/5 text-[#082f3a]">
                     <Icon />
                   </div>
 
