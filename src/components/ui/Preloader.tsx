@@ -140,8 +140,8 @@ export default function Preloader() {
 
           {/* Logo container */}
           <div
-            className={`relative flex h-20.5 w-20.5 items-center justify-center rounded-[26px] border border-white/80 bg-white/75 shadow-[0_20px_60px_rgba(8,47,58,0.10)] backdrop-blur-xl transition-all duration-1200 ${
-              progress > 8 ? "scale-100 opacity-100" : "scale-75 opacity-0"
+            className={`relative flex h-20.5 w-20.5 items-center justify-center rounded-[26px] border border-white/80 bg-white/75 shadow-[0_20px_60px_rgba(8,47,58,0.10)] backdrop-blur-xl transition-all duration-500 ${
+              progress > 1 ? "scale-100 opacity-100" : "scale-75 opacity-0"
             }`}
           >
             <Image

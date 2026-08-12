@@ -122,20 +122,6 @@
       "title": "Birlikte anlamlı bir şey geliştirelim.",
       "description": "Bir fikriniz, iş probleminiz veya geliştirilmesi gereken bir sisteminiz mi var? Teknolojinin daha iyi bir çözüm oluşturmanıza nasıl yardımcı olabileceğini konuşalım.",
       "button": "Görüşmeye Başla"
-    },
-
-    "footer": {
-      "description": "RoshaSoft, ileriye doğru ilerlemeye hazır kuruluşlar için modern yazılımlar, akıllı sistemler ve dijital çözümler geliştirir.",
-      "company": "Şirket",
-      "about": "Hakkımızda",
-      "services": "Hizmetler",
-      "products": "Ürünler",
-      "mobile": "Mobil Geliştirme",
-      "web": "Web Geliştirme",
-      "design": "Dijital Tasarım",
-      "connect": "Bağlantı",
-      "contact": "İletişim",
-      "rights": "Tüm hakları saklıdır."
     }
   },
   "About": {
@@ -251,5 +237,1868 @@
       "phone": "Telefon",
       "button": "İletişime geçin"
     }
+  },
+  "Services": {
+    "eyebrow": "NE YAPIYORUZ",
+    "title": "İşletmenizi ileriye taşıyan dijital çözümler.",
+    "description": "Strateji ve tasarımdan geliştirme ve büyümeye kadar, hedefleriniz doğrultusunda amaca yönelik ve ölçeklenebilir dijital deneyimler oluşturuyoruz.",
+    "explore": "Hizmeti Keşfet",
+
+    "items": {
+      "web": {
+        "title": "Web Geliştirme",
+        "description": "Her cihazda kusursuz bir deneyim sunmak için tasarlanmış, yüksek performanslı web siteleri ve dijital ürünler geliştiriyoruz.",
+        "services": [
+          "Kurumsal web siteleri",
+          "Landing page'ler",
+          "Web uygulamaları",
+          "Özel platformlar",
+          "Performans optimizasyonu"
+        ]
+      },
+
+      "design": {
+        "title": "UI / UX Tasarımı",
+        "description": "Netlik, estetik ve kullanılabilirliği bir araya getirerek akılda kalıcı dijital deneyimler oluşturan kullanıcı odaklı arayüzler tasarlıyoruz.",
+        "services": [
+          "Kullanıcı arayüzü tasarımı",
+          "Kullanıcı deneyimi tasarımı",
+          "Tasarım sistemleri",
+          "Wireframe ve prototipler",
+          "Responsive tasarım"
+        ]
+      },
+
+      "marketing": {
+        "title": "Dijital Pazarlama",
+        "description": "Markanızın doğru kitleye ulaşmasını ve ilgiyi anlamlı bir büyümeye dönüştürmesini sağlayan veri odaklı dijital stratejiler geliştiriyoruz.",
+        "services": [
+          "SEO stratejisi",
+          "İçerik stratejisi",
+          "Sosyal medya",
+          "Kampanya yönetimi",
+          "Analiz ve optimizasyon"
+        ]
+      },
+
+      "cloud": {
+        "title": "Bulut ve Teknoloji",
+        "description": "Dijital ekosisteminizin ölçeklenebilirliğini, güvenliğini ve uzun vadeli performansını geliştiren güvenilir teknoloji çözümleri sunuyoruz.",
+        "services": [
+          "Bulut çözümleri",
+          "Altyapı kurulumu",
+          "API entegrasyonları",
+          "Teknik danışmanlık",
+          "Güvenlik ve optimizasyon"
+        ]
+      }
+    },
+
+    "hero": {
+      "eyebrow": "HİZMETLERİMİZ",
+      "title": "İşletmeniz için tasarlanmış teknoloji.",
+      "description": "Yazılım geliştirmeden yapay zekâya, bulut altyapısından siber güvenliğe kadar gerçek iş sorunlarını çözmek için tasarlanmış dijital çözümler geliştiriyoruz.",
+      "primaryButton": "Proje Başlat",
+      "secondaryButton": "Hizmetleri Keşfet",
+      "status": "Dijital sistemler. Performans için tasarlandı.",
+      "scroll": "Keşfet"
+    },
+
+    "process": {
+      "eyebrow": "NASIL ÇALIŞIYORUZ",
+      "title": "İlk fikirden başarılı lansmana.",
+      "description": "Başarılı dijital ürünler tesadüfen ortaya çıkmaz. Sürecimiz; strateji, tasarım ve teknolojiyi başlangıçtan teslimata kadar uyum içinde ilerletir.",
+
+      "steps": {
+        "discover": {
+          "number": "01",
+          "title": "Keşfet",
+          "description": "Tek bir satır kod yazmadan önce işinizi, kullanıcılarınızı, karşılaştığınız zorlukları ve hedeflerinizi anlamaya odaklanıyoruz."
+        },
+
+        "design": {
+          "number": "02",
+          "title": "Tasarla",
+          "description": "Fikirlerinizi sade ve etkili dijital deneyimlere dönüştürüyor; kullanıcı odaklı arayüzler ve anlamlı etkileşimler tasarlıyoruz."
+        },
+
+        "build": {
+          "number": "03",
+          "title": "Geliştir",
+          "description": "Mühendislik ekibimiz konsepti güvenilir, ölçeklenebilir ve üretime hazır bir teknoloji çözümüne dönüştürüyor."
+        },
+
+        "launch": {
+          "number": "04",
+          "title": "Yayınla ve Büyüt",
+          "description": "Ürününüzü güvenle yayına almanıza yardımcı oluyor, performansını geliştiriyor ve işletmeniz büyüdükçe ürününüzü geliştirmeye devam ediyoruz."
+        }
+      }
+    },
+
+    "why": {
+      "eyebrow": "NEDEN ROSHASOFT",
+      "title": "Bir amacı olan teknoloji.",
+      "description": "Teknolojiyi yalnızca mümkün olduğu için geliştirmiyoruz. Kuruluşunuz için ölçülebilir bir değer oluşturması gerektiğine inanıyoruz.",
+
+      "business": {
+        "title": "İş odaklı",
+        "description": "Her teknik karar, iş hedefleriniz ve gerçek operasyonel ihtiyaçlarınız doğrultusunda şekillenir."
+      },
+
+      "scalable": {
+        "title": "Ölçeklenebilir",
+        "description": "Sistemlerimizi, kuruluşunuzla birlikte gelişecek ve gelecekte teknik bir sınırlamaya dönüşmeyecek şekilde tasarlıyoruz."
+      },
+
+      "reliable": {
+        "title": "Güvenilir tasarım",
+        "description": "Performans, güvenlik, sürdürülebilirlik ve güvenilirlik daha en başından itibaren sürecin bir parçasıdır."
+      },
+
+      "partnership": {
+        "title": "Uzun vadeli iş ortaklığı",
+        "description": "Teslimattan sonra da yanınızda oluyor ve teknolojinizin zaman içinde gelişmeye devam etmesine yardımcı oluyoruz."
+      }
+    },
+
+    "cta": {
+      "eyebrow": "BİRLİKTE GELİŞTİRELİM",
+      "title": "Çözülmeye değer bir zorluğunuz mu var?",
+      "description": "Ulaşmak istediğiniz hedefi bize anlatın. Doğru teknoloji, strateji ve ilerleme yolunu birlikte belirleyelim.",
+      "button": "Görüşmeye Başla"
+    }
+  },
+  "Products": {
+    "hero": {
+      "eyebrow": "ÜRÜNLERİMİZ",
+      "title": "Çalışma şekliniz için",
+      "titleAccent": "tasarlanmış yazılımlar.",
+      "description": "Operasyonlarınızı kolaylaştırmak, ekiplerinizi birbirine bağlamak ve işletmenizin güvenle büyümesine yardımcı olmak için geliştirilmiş, amaca yönelik dijital ürünler.",
+      "primaryButton": "Ürünleri Keşfet",
+      "secondaryButton": "Ürün Talep Et",
+      "centerEyebrow": "ROSHASOFT",
+      "centerTitle": "Dijital",
+      "centerAccent": "ürünler"
+    },
+
+    "catalog": {
+      "eyebrow": "ÜRÜN EKOSİSTEMİMİZ",
+      "title": "Gerçek iş ihtiyaçları için tasarlanmış teknoloji.",
+      "description": "Kurumsal yönetim ve müşteri ilişkilerinden sağlık, otomasyon, tanımlama ve esnek iş araçlarına kadar ürünlerimiz, karmaşık operasyonel ihtiyaçları çözmek için tasarlanmıştır."
+    },
+
+    "items": {
+      "rfid": {
+        "shortName": "RFID",
+        "name": "Radyo Frekansı ile Tanımlama",
+        "description": "Varlıkları, ürünleri, kişileri ve operasyonları daha yüksek doğrulukla izlemeye ve yönetmeye yardımcı olan modern bir tanımlama ve takip çözümü.",
+        "features": [
+          "Otomatik tanımlama",
+          "Gerçek zamanlı takip",
+          "Varlık yönetimi",
+          "Operasyonel görünürlük",
+          "Ölçeklenebilir altyapı"
+        ]
+      },
+
+      "erp": {
+        "shortName": "ERP",
+        "name": "Kurumsal Kaynak Planlama",
+        "description": "Temel operasyonları, kaynakları, finansal süreçleri ve kurumsal verileri tek bir entegre platformda bir araya getiren kapsamlı iş çözümü.",
+        "features": [
+          "İş süreçleri yönetimi",
+          "Finansal yönetim",
+          "Kaynak planlama",
+          "Operasyonel raporlama",
+          "Entegre iş akışları"
+        ]
+      },
+
+      "mms": {
+        "shortName": "MMS",
+        "name": "Ticari Yönetim Sistemi",
+        "description": "Stok, satın alma, satış ve günlük ticari operasyonların tek bir merkezi platform üzerinden yönetilmesini sağlayan çözüm.",
+        "features": [
+          "Stok yönetimi",
+          "Satın alma yönetimi",
+          "Satış operasyonları",
+          "İş raporlaması",
+          "Merkezi veri yönetimi"
+        ]
+      },
+
+      "crm": {
+        "shortName": "CRM",
+        "name": "Müşteri İlişkileri Yönetimi",
+        "description": "Müşterileri daha iyi anlamanıza, potansiyel müşterileri yönetmenize, satış süreçlerini geliştirmenize ve güçlü müşteri ilişkileri kurmanıza yardımcı olan esnek bir platform.",
+        "features": [
+          "Müşteri yönetimi",
+          "Potansiyel müşteri takibi",
+          "Satış yönetimi",
+          "Etkileşim geçmişi",
+          "Özel iş akışları"
+        ]
+      },
+
+      "his": {
+        "shortName": "HIS",
+        "name": "Sağlık Bilgi Sistemi",
+        "description": "Bilgileri birbirine bağlamak, süreçleri kolaylaştırmak ve daha iyi koordinasyon ile karar alma süreçlerini desteklemek için tasarlanmış kapsamlı sağlık platformu.",
+        "features": [
+          "Sağlık verilerinin yönetimi",
+          "Hasta bilgileri",
+          "Süreç koordinasyonu",
+          "Operasyonel takip",
+          "Karar destek sistemi"
+        ]
+      },
+
+      "bpms": {
+        "shortName": "BPMS",
+        "name": "İş Süreçleri Yönetim Sistemi",
+        "description": "İş akışlarını standartlaştırmaya, manuel işlemleri azaltmaya ve operasyonel verimliliği artırmaya yardımcı olan süreç otomasyon platformu.",
+        "features": [
+          "İş akışı otomasyonu",
+          "Süreç optimizasyonu",
+          "Görev yönetimi",
+          "Performans takibi",
+          "İş entegrasyonu"
+        ]
+      },
+
+      "modular": {
+        "shortName": "MODULAR",
+        "name": "Modüler Tasarım ve Araçlar",
+        "description": "Kuruluşunuzun özel ihtiyaçlarına göre uyarlanabilen, birleştirilebilen ve zaman içinde genişletilebilen esnek ve ölçeklenebilir teknoloji bileşenleri.",
+        "features": [
+          "Modüler mimari",
+          "Esnek bileşenler",
+          "Özel yapılandırmalar",
+          "Ölçeklenebilir sistemler",
+          "Kolay genişletilebilirlik"
+        ]
+      }
+    },
+
+    "cta": {
+      "eyebrow": "BİRLİKTE GELİŞTİRELİM",
+      "title": "Doğru dijital ürünü",
+      "titleAccent": "mi arıyorsunuz?",
+      "description": "Kuruluşunuzun ihtiyaçlarını bize anlatın. İhtiyaçlarınıza uygun ürünü seçmenize veya işletmenize özel bir çözüm oluşturmanıza yardımcı olalım.",
+      "button": "Ürün Talep Et"
+    }
+  },
+  "Careers": {
+    "hero": {
+      "eyebrow": "KARİYER",
+      "meta": "GELECEĞİ BİRLİKTE İNŞA EDELİM",
+      "intro": "Merak eden, düşünen, üreten ve teknolojinin gerçek bir fark yaratabileceğine inanan insanlardan oluşan bir ekip kuruyoruz.",
+      "title": "Sadece bir",
+      "titleAccent": "iş değil, yerini bul.",
+      "description": "Fikirlerin değer gördüğü, insanların birbirini desteklediği ve her projenin anlamlı bir şey üretmek için yeni bir fırsat olduğu büyüyen teknoloji ekibimize katılın.",
+      "primaryButton": "Açık Pozisyonları Gör",
+      "secondaryButton": "Kültürümüz",
+      "status": "Yeni ekip arkadaşları arıyoruz",
+      "cardTitle": "Bir sonraki bölümünüz burada başlayabilir.",
+      "cardDescription": "Öğrenmek, üretmek ve gerçek bir etki yaratmak isteyen yetenekli insanlarla her zaman tanışmak istiyoruz.",
+      "cardPeople": "Geleceği inşa eden ekip",
+      "ticker": {
+        "development": "Yazılım Geliştirme",
+        "design": "Ürün ve Tasarım",
+        "ai": "Yapay Zeka",
+        "marketing": "Dijital Pazarlama"
+      }
+    },
+
+    "culture": {
+      "eyebrow": "ROSHASOFT'TA ÇALIŞMAK",
+      "title": "İnsanlar, fikirler ve gelişim üzerine kurulu bir ekip.",
+      "description": "Harika işlerin; yetenekli insanların düşünme, iş birliği yapma, öğrenme ve sorumluluk alma özgürlüğüne sahip olduğunda ortaya çıktığına inanıyoruz. Birlikte çalışıyor, birbirimizi destekliyor ve sürekli ileriye bakıyoruz.",
+
+      "values": {
+        "innovation": {
+          "title": "Farklı düşün",
+          "description": "Merakımızı koruyor, varsayımları sorguluyor ve karmaşık problemlere daha iyi çözümler bulmaya çalışıyoruz."
+        },
+
+        "collaboration": {
+          "title": "Birlikte üret",
+          "description": "En iyi fikirlerin açık iletişimden, farklı bakış açılarından ve gerçek ekip çalışmasından doğduğuna inanıyoruz."
+        },
+
+        "growth": {
+          "title": "Gelişmeye devam et",
+          "description": "Sürekli öğrenmeyi destekliyor ve kişisel ve profesyonel gelişim için yeni fırsatlar yaratıyoruz."
+        },
+
+        "trust": {
+          "title": "Sorumluluk al",
+          "description": "İnsanlarımıza güveniyor, karar almalarını, sorumluluk üstlenmelerini ve fikirlerine güvenle katkıda bulunmalarını destekliyoruz."
+        }
+      }
+    },
+
+    "jobs": {
+      "eyebrow": "AÇIK POZİSYONLAR",
+      "title": "Ekibimizdeki yerini bul.",
+      "description": "Teknolojiye, yaratıcı problem çözmeye ve değer yaratan ürünler geliştirmeye tutkuyla yaklaşan yetenekli insanlarla her zaman tanışmak istiyoruz.",
+
+      "items": {
+        "frontend": {
+          "title": "Front-End Developer",
+          "location": "Uzaktan",
+          "type": "Tam zamanlı"
+        },
+
+        "backend": {
+          "title": "Back-End Developer",
+          "location": "Uzaktan",
+          "type": "Tam zamanlı"
+        },
+
+        "ai": {
+          "title": "Yapay Zeka Uzmanı",
+          "location": "Uzaktan",
+          "type": "Tam zamanlı"
+        },
+
+        "marketing": {
+          "title": "Dijital Pazarlama Uzmanı",
+          "location": "Uzaktan",
+          "type": "Tam zamanlı"
+        },
+
+        "financial": {
+          "title": "Finans ve Hukuk Danışmanı",
+          "location": "Londra / Nottingham",
+          "type": "Yarı zamanlı"
+        },
+
+        "assistant": {
+          "title": "Yönetici Asistanı",
+          "location": "Londra / Nottingham",
+          "type": "Tam zamanlı"
+        }
+      }
+    },
+
+    "cta": {
+      "eyebrow": "YOLCULUĞA KATIL",
+      "title": "Pozisyonunuzu göremiyor musunuz?",
+      "titleAccent": "Yine de konuşalım.",
+      "description": "RoshaSoft'a değer katabileceğinize inanıyorsanız, sizden haber almak isteriz. Bize ne yaptığınızı ve nereye gitmek istediğinizi anlatın.",
+      "button": "Başvurunuzu gönderin"
+    }
+  },
+  "MobileApp": {
+    "hero": {
+      "eyebrow": "MOBİL UYGULAMALAR",
+      "title": "İnsanların kullanmayı",
+      "titleAccent": "sevdiği uygulamalar geliştirin.",
+      "description": "iOS, Android ve modern web için sezgisel mobil uygulamalar tasarlıyor ve geliştiriyoruz. Etkileyici kullanıcı deneyimini güvenilir teknolojiyle bir araya getiriyoruz.",
+      "primaryButton": "Geliştirmeyi Keşfet",
+      "secondaryButton": "Proje Başlat",
+      "visual": {
+        "eyebrow": "Mobil teknoloji",
+        "title": "Kullanıcılarınız için tasarlandı.",
+        "cardLabel": "Deneyim",
+        "cardTitle": "Hızlı. Basit. Sezgisel.",
+        "mobile": "Mobil",
+        "development": "Geliştirme"
+      }
+    },
+
+    "platforms": {
+      "eyebrow": "PLATFORMLAR",
+      "title": "Tek fikir. Her platform.",
+      "description": "Kullanıcılarınıza, iş modelinize ve ürün stratejinize en uygun platformu seçin.",
+      "ios": {
+        "title": "iOS",
+        "description": "Apple ekosistemi için yüksek performans ve kusursuz kullanıcı deneyimi sunan native uygulamalar."
+      },
+      "android": {
+        "title": "Android",
+        "description": "Farklı cihazlarda yüksek performans gösterecek esnek ve ölçeklenebilir Android uygulamaları."
+      },
+      "pwa": {
+        "title": "PWA",
+        "description": "Web'in erişilebilirliğini mobil uygulama deneyimiyle birleştiren hızlı ve kurulabilir web çözümleri."
+      }
+    },
+
+    "development": {
+      "eyebrow": "GELİŞTİRME",
+      "title": "Ürününüz için doğru teknoloji.",
+      "description": "Platforma özel uygulamalardan çoklu platform çözümlerine kadar, işletmeniz için en doğru yaklaşımı seçiyoruz.",
+      "learnMore": "Yaklaşımı keşfet",
+
+      "native": {
+        "title": "Native",
+        "description": "Maksimum performans, akıcılık ve cihaz özelliklerine erişim için platforma özel geliştirilen uygulamalar."
+      },
+
+      "hybrid": {
+        "title": "Hybrid",
+        "description": "Modern web teknolojileriyle geliştirilen ve farklı platformlarda tutarlı bir deneyim sunan uygulamalar."
+      },
+
+      "crossPlatform": {
+        "title": "Cross-platform",
+        "description": "Ortak bir kod tabanıyla Android ve iOS kullanıcılarına ulaşırken geliştirme süresini ve maliyeti azaltın."
+      }
+    },
+
+    "process": {
+      "eyebrow": "NASIL ÇALIŞIYORUZ",
+      "title": "Fikirden App Store'a.",
+      "description": "Geliştirme sürecimiz, ilk fikirden lansmana kadar ürün stratejisini, kullanıcı deneyimini ve mühendisliği aynı doğrultuda tutar.",
+
+      "planning": {
+        "title": "Planlama",
+        "description": "Hedeflerinizi, kullanıcı kitlenizi, özellikleri ve teknik gereksinimleri belirliyoruz."
+      },
+
+      "design": {
+        "title": "Tasarım",
+        "description": "Gerçek kullanıcı ihtiyaçları doğrultusunda sezgisel arayüzler ve kullanıcı deneyimleri oluşturuyoruz."
+      },
+
+      "development": {
+        "title": "Geliştirme",
+        "description": "Mühendislerimiz onaylanan tasarımı güvenilir ve ölçeklenebilir mobil teknolojiye dönüştürüyor."
+      },
+
+      "testing": {
+        "title": "Test",
+        "description": "Hedef cihazlarda işlevsellik, performans, uyumluluk ve kullanıcı deneyimini kapsamlı şekilde test ediyoruz."
+      },
+
+      "deployment": {
+        "title": "Yayınlama",
+        "description": "Uygulamanızı yayına hazırlıyor ve güvenli bir şekilde lansman yapmanıza yardımcı oluyoruz."
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "NEDEN MOBİL",
+      "title": "Gerçek değer yaratan teknoloji.",
+      "description": "İyi tasarlanmış bir mobil uygulama, işletmeniz ile müşterileriniz arasında güçlü bir dijital bağlantı oluşturabilir.",
+
+      "experience": {
+        "title": "Daha iyi deneyim",
+        "description": "Etkileşimi ve kullanıcı memnuniyetini artıran sezgisel deneyimler oluşturun."
+      },
+
+      "cost": {
+        "title": "Maliyet avantajı",
+        "description": "Uzun vadeli maliyetleri kontrol etmek için doğru mimari ve geliştirme stratejisini seçin."
+      },
+
+      "audience": {
+        "title": "Daha geniş kitle",
+        "description": "Native, cross-platform ve web tabanlı deneyimlerle daha fazla kullanıcıya ulaşın."
+      },
+
+      "business": {
+        "title": "İşletmeniz için",
+        "description": "Her özellik, işletmenizin özel hedefleri ve operasyonel ihtiyaçları doğrultusunda tasarlanır."
+      },
+
+      "loyalty": {
+        "title": "Müşteri sadakati",
+        "description": "Müşteri bağlılığını ve uzun vadeli etkileşimi destekleyen faydalı dijital deneyimler sunun."
+      }
+    },
+
+    "cta": {
+      "eyebrow": "BİRLİKTE GELİŞTİRELİM",
+      "title": "Bir mobil uygulama fikriniz mi var?",
+      "titleAccent": "Onu gerçeğe dönüştürelim.",
+      "description": "Ne geliştirmek istediğinizi anlatın; doğru platform, teknoloji ve geliştirme yaklaşımını birlikte belirleyelim.",
+      "button": "Görüşmeye Başla"
+    }
+  },
+  "WebService": {
+    "hero": {
+      "eyebrow": "WEB HİZMETLERİ",
+      "title": "Güçlü web",
+      "titleAccent": "deneyimleri, yüksek performansla.",
+      "description": "İşletmenizin büyümesi için ihtiyaç duyduğu performans, güvenilir teknoloji ve düşünülmüş kullanıcı deneyimini bir araya getiren modern web platformları tasarlıyor ve geliştiriyoruz.",
+      "primaryButton": "Hizmetleri İncele",
+      "secondaryButton": "Proje Başlat",
+
+      "stats": {
+        "reliability": "Güvenilirlik",
+        "availability": "Kullanılabilirlik"
+      },
+
+      "visual": {
+        "dashboard": "Performans",
+        "performance": "Sistem performansı",
+        "operational": "Tüm sistemler çalışıyor",
+        "connected": "Bağlandı",
+        "fastAndReliable": "Hızlı ve güvenilir",
+        "infrastructure": "Modern altyapı"
+      }
+    },
+
+    "services": {
+      "eyebrow": "SUNDUKLARIMIZ",
+      "title": "Web sitenizin çevrimiçi kalması için ihtiyacınız olan her şey.",
+      "description": "Web sitenizin güvenli, erişilebilir ve büyümeye hazır kalmasını sağlayan güvenilir web altyapısı ve teknik hizmetler sunuyoruz.",
+      "explore": "Hizmeti keşfet",
+
+      "hosting": {
+        "title": "Web Hosting",
+        "description": "Web sitenizin hızlı, kararlı ve sürekli erişilebilir kalması için tasarlanmış güvenli ve güvenilir hosting altyapısı.",
+        "features": [
+          "Güvenilir hosting altyapısı",
+          "Performans odaklı yapılandırma",
+          "Güvenli sunucu ortamı",
+          "Ölçeklenebilir hosting seçenekleri"
+        ]
+      },
+
+      "domain": {
+        "title": "Alan Adı Kaydı",
+        "description": "Markanız için doğru alan adını bulun ve profesyonel alan adı kayıt ve yönetim hizmetleriyle güvence altına alın.",
+        "features": [
+          "Alan adı arama",
+          "Alan adı kaydı",
+          "DNS yönetimi",
+          "Alan adı yenileme"
+        ]
+      },
+
+      "ssl": {
+        "title": "SSL Sertifikası",
+        "description": "Hassas bilgileri şifreleyen ve kullanıcı güvenini artıran SSL sertifikalarıyla web sitenizi ve kullanıcılarınızı koruyun.",
+        "features": [
+          "SSL sertifikası kurulumu",
+          "HTTPS yapılandırması",
+          "Güvenli veri aktarımı",
+          "Sertifika yönetimi"
+        ]
+      },
+
+      "maintenance": {
+        "title": "Bakım ve Destek",
+        "description": "Sürekli teknik bakım ve destek ile web sitenizi güvenli, güncel ve sorunsuz şekilde çalışır durumda tutun.",
+        "features": [
+          "Düzenli güncellemeler",
+          "Güvenlik takibi",
+          "Yedekleme yönetimi",
+          "Hata giderme"
+        ]
+      },
+
+      "api": {
+        "title": "API Entegrasyonu",
+        "description": "Güvenilir API çözümleriyle web sitenizi ve uygulamalarınızı harici platformlara, servislere ve dahili sistemlere bağlayın.",
+        "features": [
+          "API geliştirme",
+          "Üçüncü taraf entegrasyonları",
+          "Veri senkronizasyonu",
+          "Sistem bağlantıları"
+        ]
+      }
+    },
+
+    "process": {
+      "eyebrow": "NASIL ÇALIŞIYORUZ",
+      "title": "İhtiyaçlarınıza göre şekillenen web altyapısı.",
+      "description": "Her projeye net bir süreçle yaklaşıyor, altyapı, güvenlik ve performans hedeflerini iş hedeflerinizle birlikte ilerletiyoruz.",
+
+      "planning": {
+        "title": "Anlıyoruz",
+        "description": "Web sitenizi, trafiğinizi, teknoloji altyapınızı ve teknik gereksinimlerinizi analiz ediyoruz."
+      },
+
+      "setup": {
+        "title": "Kuruyoruz",
+        "description": "Projeniz için doğru hosting, alan adı, servisler ve teknik ortamı yapılandırıyoruz."
+      },
+
+      "secure": {
+        "title": "Güvence Altına Alıyoruz",
+        "description": "SSL, güvenli yapılandırmalar ve doğru güvenlik uygulamalarıyla web sitenizi koruyoruz."
+      },
+
+      "maintain": {
+        "title": "Bakım Yapıyoruz",
+        "description": "Web sitenizi düzenli olarak güncel, izlenen ve güvenilir şekilde çalışır durumda tutuyoruz."
+      },
+
+      "optimize": {
+        "title": "Optimize Ediyoruz",
+        "description": "İhtiyaçlarınız geliştikçe performansı, güvenilirliği ve ölçeklenebilirliği sürekli iyileştiriyoruz."
+      }
+    },
+
+    "why": {
+      "eyebrow": "NEDEN ROSHASOFT",
+      "title": "Web sitenizin hak ettiği teknik altyapı.",
+      "description": "Harika bir web sitesi yalnızca güzel bir tasarıma ihtiyaç duymaz. Güvenli, güvenilir ve geleceğe hazır bir altyapıya da ihtiyaç duyar.",
+
+      "reliable": {
+        "title": "Güvenilir altyapı",
+        "description": "Kararlılık, erişilebilirlik ve uzun vadeli performans için tasarlanmış web ortamları oluşturuyor ve yapılandırıyoruz."
+      },
+
+      "secure": {
+        "title": "Önce güvenlik",
+        "description": "SSL, güvenli yapılandırmalar ve sürekli güvenlik yaklaşımımız web sitenizi ve kullanıcılarınızı korumaya yardımcı olur."
+      },
+
+      "performance": {
+        "title": "Performans odaklı",
+        "description": "Web sitenizin hızlı ve duyarlı kalması için altyapıyı ve teknik yapılandırmaları optimize ediyoruz."
+      },
+
+      "support": {
+        "title": "Sürekli destek",
+        "description": "İlişkimiz projenin yayına alınmasıyla sona ermez. Dijital altyapınızı geliştirmek ve sürdürmek için yanınızda olmaya devam ederiz."
+      }
+    },
+
+    "cta": {
+      "eyebrow": "BİRLİKTE GELİŞTİRELİM",
+      "title": "Daha güçlü bir web altyapısına mı ihtiyacınız var?",
+      "titleAccent": "Birlikte oluşturalım.",
+      "description": "Web siteniz ve teknik ihtiyaçlarınız hakkında bize bilgi verin. Bir sonraki aşamanız için doğru altyapı ve hizmetleri birlikte belirleyelim.",
+      "button": "İletişime Geç"
+    }
+  },
+  "WebDesign": {
+    "hero": {
+      "eyebrow": "WEB TASARIMI",
+      "title": "İşletmenizi öne çıkaran web siteleri.",
+      "description": "Dijital varlığınızı güçlü bir iş aracına dönüştüren modern, duyarlı ve amaca yönelik web siteleri tasarlıyoruz.",
+      "primaryButton": "Web Tasarımını Keşfet",
+      "secondaryButton": "Proje Başlat",
+
+      "visual": {
+        "web": "Web",
+        "experience": "Deneyim",
+        "status": "Odak",
+        "performance": "Performans"
+      }
+    },
+
+    "types": {
+      "eyebrow": "NELER YAPIYORUZ",
+      "title": "İş yapış şeklinize uygun doğru web sitesi.",
+      "description": "İster sade bir dijital varlığa, ister dinamik bir platforma veya içerik odaklı bir web sitesine ihtiyacınız olsun, hedeflerinize uygun deneyimler geliştiriyoruz.",
+
+      "explore": "Keşfet",
+
+      "static": {
+        "title": "Statik Web Siteleri",
+        "description": "Netlik, performans ve güçlü bir dijital varlık için tasarlanmış hızlı ve hafif web siteleri.",
+        "features": [
+          "Yüksek performans",
+          "Responsive tasarım",
+          "Temiz mimari",
+          "Düşük bakım ihtiyacı",
+          "Kurumsal web siteleri için ideal"
+        ]
+      },
+
+      "dynamic": {
+        "title": "Dinamik Web Siteleri",
+        "description": "Gelişen işletme ihtiyaçlarını ve daha zengin dijital deneyimleri destekleyen interaktif ve veri odaklı web siteleri.",
+        "features": [
+          "Dinamik içerik",
+          "Özel fonksiyonlar",
+          "Veritabanı entegrasyonu",
+          "İnteraktif deneyimler",
+          "Ölçeklenebilir mimari"
+        ]
+      },
+
+      "cms": {
+        "title": "CMS Web Siteleri",
+        "description": "Ekibinizin her güncelleme için geliştiriciye ihtiyaç duymadan web sitenizi kolayca yönetmesini sağlayan esnek içerik yönetim çözümleri.",
+        "features": [
+          "Kolay içerik yönetimi",
+          "Özel CMS kurulumu",
+          "Yapılandırılmış içerik",
+          "SEO uyumlu mimari",
+          "Ölçeklenebilir yayın sistemi"
+        ]
+      }
+    },
+
+    "process": {
+      "eyebrow": "NASIL ÇALIŞIYORUZ",
+      "title": "İlk fikirden performansa hazır bir web sitesine.",
+      "description": "Strateji, tasarım, yazılım ve test süreçlerini bir araya getirerek hem etkileyici hem de güvenilir web siteleri oluşturuyoruz.",
+
+      "planning": {
+        "title": "Planlama ve Strateji",
+        "description": "Web sitesinin yapısını ve yönünü belirlemeden önce işletmenizi, hedef kitlenizi, amaçlarınızı ve ihtiyaçlarınızı analiz ediyoruz."
+      },
+
+      "design": {
+        "title": "Tasarım",
+        "description": "Markanıza ve kullanıcılarınıza uygun net bir görsel dil ve sezgisel bir kullanıcı deneyimi oluşturuyoruz."
+      },
+
+      "development": {
+        "title": "Geliştirme",
+        "description": "Onaylanan tasarımı hızlı, responsive ve yayına hazır bir web sitesine dönüştürüyoruz."
+      },
+
+      "testing": {
+        "title": "Test ve Optimizasyon",
+        "description": "Web sitesini farklı cihaz ve tarayıcılarda test ederek performans, kullanılabilirlik ve güvenilirlik açısından optimize ediyoruz."
+      },
+
+      "launch": {
+        "title": "Yayınlama",
+        "description": "Web sitesini yayına alıyor, son kullanıcı deneyimini kontrol ediyor ve her şeyin hazır olduğundan emin oluyoruz."
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "FARKLI TASARLIYORUZ",
+      "title": "Güzel bir web sitesi sadece başlangıçtır.",
+      "description": "Görsel tasarımı güçlü bir yazılım altyapısıyla birleştiriyoruz. Web siteniz sadece iyi görünmemeli; performans göstermeli, iletişim kurmalı ve işletmenizle birlikte büyümeli.",
+
+      "performance": {
+        "title": "Performans",
+        "description": "Kullanıcıların deneyimini iyileştiren ve gereksiz beklemeleri azaltan hızlı web deneyimleri."
+      },
+
+      "responsive": {
+        "title": "Her cihazda uyumlu",
+        "description": "Her arayüz masaüstü, tablet ve mobil cihazlarda doğal ve kusursuz çalışacak şekilde tasarlanır."
+      },
+
+      "seo": {
+        "title": "Arama motorlarına hazır",
+        "description": "Arama motorlarının web sitenizi daha iyi anlamasına yardımcı olan temiz yapı ve teknik altyapı."
+      },
+
+      "reliable": {
+        "title": "Güvenilir altyapı",
+        "description": "Bakımı kolay kod, doğru mimari ve güvenlik ile uzun vadeli kararlılığa odaklanan sağlam bir altyapı."
+      }
+    },
+
+    "cta": {
+      "eyebrow": "TASARLAYALIM",
+      "title": "İşletmenizi gerçekten temsil eden bir web sitesi oluşturmaya hazır mısınız?",
+      "description": "Aklınızdaki projeyi bize anlatın. Bir sonraki web siteniz için doğru yapı, deneyim ve teknolojiyi birlikte belirleyelim.",
+      "button": "Görüşme Başlat"
+    }
+  },
+  "Privacy": {
+    "hero": {
+      "eyebrow": "GİZLİLİK & GÜVEN",
+      "title": "Verileriniz",
+      "titleAccent": "korunmayı hak ediyor.",
+      "description": "RoshaSoft olarak teknolojinin güveni tehlikeye atmadan değer yaratması gerektiğine inanıyoruz. Bu Gizlilik Politikası, dijital hizmetlerimizle etkileşim kurduğunuzda bilgileri nasıl topladığımızı, kullandığımızı, koruduğumuzu ve yönettiğimizi açıklar.",
+      "badge": "TAAHHÜDÜMÜZ",
+      "badgeTitle": "Tasarımdan itibaren gizlilik.",
+      "badgeDescription": "Kişisel bilgileri sorumlu bir şekilde ele alıyor ve bize emanet edilen verileri korumak için uygun güvenlik önlemleri uyguluyoruz.",
+      "status": "Güven, teknolojimizin bir parçasıdır."
+    },
+
+    "intro": {
+      "eyebrow": "YAKLAŞIMIMIZ",
+      "title": "Açık, sorumlu ve şeffaf.",
+      "description": "Bu Gizlilik Politikası; web sitemiz, hizmetlerimiz, iletişim kanallarımız ve dijital ürünlerimiz aracılığıyla sağlanan bilgileri işlerken izlediğimiz temel ilkeleri açıklar.",
+      "commitment": "Yalnızca makul ölçüde gerekli olan bilgileri topluyoruz."
+    },
+
+    "sections": {
+      "information": {
+        "title": "Topladığımız Bilgiler",
+        "description": "Bizimle iletişime geçtiğinizde, bir hizmet talep ettiğinizde, proje gönderdiğinizde veya ekibimizle iletişim kurduğunuzda gönüllü olarak sağladığınız bilgileri toplayabiliriz.",
+        "items": [
+          "Ad ve iletişim bilgileri",
+          "Şirket ve proje bilgileri",
+          "Mesajlar ve iletişim içerikleri",
+          "Teknik bilgiler",
+          "Web sitesi kullanım bilgileri"
+        ]
+      },
+
+      "usage": {
+        "title": "Bilgileri Nasıl Kullanıyoruz?",
+        "description": "Bilgiler; taleplerinize yanıt vermek, hizmetlerimizi sunmak ve geliştirmek, sizinle iletişim kurmak, web sitemizin kullanımını anlamak ve dijital deneyimimizin kalitesini korumak amacıyla kullanılabilir."
+      },
+
+      "protection": {
+        "title": "Veri Koruma",
+        "description": "Kişisel bilgileri yetkisiz erişim, kötüye kullanım, değiştirme, ifşa veya kayba karşı korumak için makul idari, teknik ve organizasyonel güvenlik önlemleri uyguluyoruz."
+      },
+
+      "cookies": {
+        "title": "Çerezler & Analitik",
+        "description": "Web sitemiz; temel işlevleri sağlamak, kullanım alışkanlıklarını anlamak, performansı geliştirmek ve daha iyi bir deneyim sunmak için çerezler veya benzer teknolojiler kullanabilir."
+      },
+
+      "rights": {
+        "title": "Gizlilik Haklarınız",
+        "description": "Geçerli yasalar ve bulunduğunuz bölgeye bağlı olarak kişisel bilgilerinizle ilgili erişim, düzeltme, silme, işlemenin sınırlandırılması veya işlemeye itiraz etme gibi haklara sahip olabilirsiniz."
+      },
+
+      "updates": {
+        "title": "Politika Güncellemeleri",
+        "description": "Hizmetlerimiz, teknolojilerimiz veya yasal yükümlülüklerimiz değiştiğinde bu Gizlilik Politikasını güncelleyebiliriz. Güncellenmiş sürüm, son güncelleme tarihiyle birlikte bu sayfada yayınlanacaktır."
+      }
+    },
+
+    "principles": {
+      "eyebrow": "GİZLİLİK İLKELERİ",
+      "title": "Bilgileri ele alma şeklimizin temelindeki ilkeler.",
+      "items": [
+        {
+          "title": "Amaç",
+          "description": "Bilgileri meşru ve açık şekilde tanımlanmış iş ve hizmet amaçları doğrultusunda kullanıyoruz."
+        },
+        {
+          "title": "Veri Minimizasyonu",
+          "description": "Yalnızca belirlenen amaç için ilgili ve makul ölçüde gerekli olan bilgileri toplamayı hedefliyoruz."
+        },
+        {
+          "title": "Güvenlik",
+          "description": "Yetkisiz erişim veya kötüye kullanım riskini azaltmak için uygun güvenlik önlemleri uyguluyoruz."
+        },
+        {
+          "title": "Şeffaflık",
+          "description": "Kişisel bilgileri nasıl ele aldığımızı mümkün olduğunca açık ve anlaşılır şekilde sunmaya çalışıyoruz."
+        }
+      ]
+    },
+
+    "cta": {
+      "eyebrow": "SORUNUZ MU VAR?",
+      "title": "Bilgilerinizi nasıl işlediğimiz hakkında daha fazla bilgi ister misiniz?",
+      "description": "Bu Gizlilik Politikası veya bilgilerinizin nasıl işlendiği hakkında sorularınız varsa, ekibimiz size yardımcı olmaktan memnuniyet duyar.",
+      "button": "Bize Ulaşın"
+    },
+
+    "contact": {
+      "label": "Gizlilik soruları ve talepleri"
+    }
+  },
+  "RFID": {
+    "hero": {
+      "eyebrow": "RFID TEKNOLOJİSİ",
+      "title": "Neyin hareket ettiğini bilin.",
+      "titleAccent": "Hareket etmeden önce.",
+      "description": "Fiziksel nesneleri; görünürlüğü, doğruluğu ve operasyonel verimliliği artırmak için tasarlanmış akıllı dijital sistemlere RFID teknolojisiyle bağlayın.",
+      "explore": "Nasıl çalışır?",
+      "button": "RFID Çözümü Talep Et",
+      "tag": "RFID Etiketi",
+      "reader": "RFID Okuyucu",
+      "connected": "Sistem bağlı"
+    },
+
+    "overview": {
+      "eyebrow": "RFID",
+      "title": "Fiziksel dünyayı dijital sistemlerinize bağlayın.",
+      "description": "Radyo Frekansı ile Tanımlama (RFID), doğrudan görüş gerektirmeden nesneleri radyo dalgaları aracılığıyla otomatik olarak tanımlamayı ve takip etmeyi sağlar. Kurumların daha hızlı ve güvenilir veriler toplamasına ve fiziksel operasyonları anlamlı dijital verilere dönüştürmesine yardımcı olur.",
+
+      "features": {
+        "identification": {
+          "title": "Otomatik tanımlama",
+          "description": "Her ürünü manuel olarak taramaya gerek kalmadan etiketli nesneleri hızlı bir şekilde tanımlayın."
+        },
+        "efficiency": {
+          "title": "Operasyonel verimlilik",
+          "description": "Tekrarlayan süreçleri azaltın ve günlük operasyonlarınızı daha hızlı ve verimli hale getirin."
+        },
+        "accuracy": {
+          "title": "Daha yüksek doğruluk",
+          "description": "Manuel hataları ve kaçırılan taramaları azaltarak daha tutarlı tanımlama verileri elde edin."
+        }
+      }
+    },
+
+    "howItWorks": {
+      "eyebrow": "NASIL ÇALIŞIR?",
+      "title": "Üç bileşen. Tek bir bağlantılı sistem.",
+      "description": "Bir RFID çözümü; tanımlama verilerini toplamak, aktarmak ve işlemek için etiketleri, okuyucuları ve yazılım sistemlerini bir araya getirir.",
+
+      "steps": {
+        "tag": {
+          "title": "RFID Etiketi",
+          "description": "Bir nesneye takılan küçük RFID etiketi benzersiz bir kimlik numarası içerir ve kablosuz olarak iletişim kurar."
+        },
+        "reader": {
+          "title": "RFID Okuyucu",
+          "description": "Okuyucu, yakındaki etiketleri algılar ve kimlik bilgilerini radyo dalgaları aracılığıyla alır."
+        },
+        "system": {
+          "title": "Dijital Sistem",
+          "description": "Toplanan veriler depolama, analiz ve operasyonel kararlar için yazılım platformunuza aktarılır."
+        }
+      }
+    },
+
+    "applications": {
+      "eyebrow": "UYGULAMALAR",
+      "title": "Gerçek operasyonel ihtiyaçlar için RFID.",
+      "description": "Depolardan tedarik zincirlerine, sağlık hizmetlerinden toplu taşımaya kadar RFID daha bağlantılı ve ölçülebilir operasyonlar oluşturmanıza yardımcı olabilir.",
+
+      "inventory": {
+        "title": "Envanter Yönetimi",
+        "description": "Daha az manuel tarama ve daha yüksek görünürlük ile ürün ve stoklarınızı takip edin."
+      },
+
+      "supplyChain": {
+        "title": "Tedarik Zinciri",
+        "description": "Tedarik zinciriniz boyunca ürünlerin görünürlüğünü ve izlenebilirliğini artırın."
+      },
+
+      "assets": {
+        "title": "Varlık Takibi",
+        "description": "Önemli ekipman ve varlıklarınızın nerede olduğunu ve nasıl hareket ettiğini takip edin."
+      },
+
+      "access": {
+        "title": "Erişim Kontrolü",
+        "description": "Tesislere, sistemlere ve kontrollü alanlara erişimi RFID kimliklendirme ile yönetin."
+      },
+
+      "healthcare": {
+        "title": "Sağlık Hizmetleri",
+        "description": "Ekipman, ilaç ve diğer kritik sağlık varlıklarının takibini destekleyin."
+      },
+
+      "transport": {
+        "title": "Ulaşım",
+        "description": "Ulaşım sistemlerinde daha hızlı kimliklendirme ve biletleme deneyimleri oluşturun."
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "AVANTAJLAR",
+      "title": "Daha fazla görünürlük. Daha az manuel işlem.",
+      "description": "RFID, kuruluşların birden fazla etiketli ürünü aynı anda işlemesine, manuel taramayı azaltmasına ve daha doğru operasyonel veriler oluşturmasına yardımcı olabilir.",
+
+      "points": {
+        "one": "Birden fazla nesne aynı anda tanımlanabilir",
+        "two": "Doğrudan görüş hattı gerektirmez",
+        "three": "Daha hızlı operasyonel süreçler",
+        "four": "Daha yüksek veri doğruluğu ve izlenebilirlik"
+      },
+
+      "visibility": {
+        "title": "Gerçek zamanlı görünürlük",
+        "description": "Nesnelerin nerede olduğunu ve operasyonunuz içinde nasıl hareket ettiğini daha net bir şekilde takip edin."
+      },
+
+      "speed": {
+        "title": "Daha hızlı operasyonlar",
+        "description": "Tekrarlayan tanımlama işlemlerini otomatikleştirin ve manuel tarama için harcanan zamanı azaltın."
+      },
+
+      "scalability": {
+        "title": "Ölçeklenebilir yapı",
+        "description": "Kuruluşunuzla birlikte büyüyebilen ve mevcut yazılımlarınızla entegre olabilen bir RFID ekosistemi oluşturun."
+      }
+    },
+
+    "cta": {
+      "eyebrow": "RFID İLE GELİŞTİRİN",
+      "title": "Fiziksel operasyonlarınızı",
+      "titleAccent": "bağlamaya hazır mısınız?",
+      "description": "İş akışınız, varlıklarınız veya operasyonel probleminiz hakkında bize bilgi verin. Doğru RFID donanım ve yazılım çözümünü tasarlamanıza yardımcı olalım.",
+      "button": "Görüşme Başlat"
+    }
+  },
+  "ERP": {
+    "hero": {
+      "eyebrow": "KURUMSAL KAYNAK PLANLAMA",
+      "title": "Tüm işletmeniz için tek akıllı sistem.",
+      "description": "Finans, operasyon, insan kaynakları, üretim ve tedarik zincirinizi, işletmenizin çalışma biçimine göre tasarlanmış güçlü bir ERP platformunda bir araya getirin.",
+      "primaryButton": "ERP'yi Keşfet",
+      "secondaryButton": "Uzmanla Görüş",
+      "visualLabel": "Bağlantılı İşletme"
+    },
+
+    "overview": {
+      "eyebrow": "ERP PLATFORMU",
+      "title": "İşletmenizin tüm bölümlerini tek çatı altında birleştirin.",
+      "description": "ERP, kuruluşunuzun en önemli operasyonlarına bütünsel bir bakış sağlar. Birbirinden kopuk sistemler ve tekrarlanan veriler yerine ekipleriniz tek ve bağlantılı bir platform üzerinden çalışabilir.",
+      "areas": {
+        "finance": "Finans",
+        "accounting": "Muhasebe",
+        "production": "Üretim",
+        "humanResources": "İnsan Kaynakları",
+        "supplyChain": "Tedarik Zinciri",
+        "analytics": "Analitik"
+      }
+    },
+
+    "features": {
+      "eyebrow": "İŞLETMENİZ İÇİN TASARLANDI",
+      "title": "Varsayılan olarak güçlü. İhtiyacınız olduğunda esnek.",
+      "items": {
+        "customizable": {
+          "title": "Tamamen Özelleştirilebilir",
+          "description": "İş akışlarını, modülleri, yetkileri ve özellikleri kuruluşunuzun özel ihtiyaçlarına göre uyarlayın."
+        },
+        "infrastructure": {
+          "title": "Güçlü Altyapı",
+          "description": "Performans, güvenlik, ölçeklenebilirlik ve uzun vadeli büyüme için tasarlanmış güvenilir bir teknoloji altyapısı."
+        },
+        "reporting": {
+          "title": "Kapsamlı Raporlama",
+          "description": "Operasyonel verileri anlamlı raporlara ve daha iyi yönetim kararlarına dönüştürün."
+        },
+        "multilingual": {
+          "title": "Çok Dilli",
+          "description": "Farklı dillerde ve pazarlarda faaliyet gösteren ekipleri ve kuruluşları destekleyin."
+        },
+        "expandable": {
+          "title": "Genişletilebilir",
+          "description": "Bugün ihtiyacınız olan özelliklerle başlayın ve kuruluşunuz büyüdükçe yeni yetenekler ekleyin."
+        },
+        "support": {
+          "title": "Özel Destek",
+          "description": "ERP sisteminizin yaşam döngüsü boyunca sürekli teknik destek ve yardım alın."
+        }
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "İŞLETMEYE KATKISI",
+      "title": "Daha iyi kararlar almanıza yardımcı olan teknoloji.",
+      "description": "Modern bir ERP yalnızca bilgi depolamaktan fazlasını yapmalıdır. İşletmenizin daha hızlı çalışmasına, gereksiz maliyetleri azaltmasına ve daha güvenli kararlar almasına yardımcı olmalıdır.",
+      "items": {
+        "realTime": {
+          "title": "Gerçek Zamanlı Karar Alma",
+          "description": "Güncel işletme bilgilerine erişin ve değişen koşullara daha hızlı yanıt verin."
+        },
+        "reduceCosts": {
+          "title": "Operasyonel Maliyetleri Azaltın",
+          "description": "Tekrarlanan süreçleri ortadan kaldırın ve gereksiz manuel işleri azaltın."
+        },
+        "customization": {
+          "title": "Kuruluşunuza Uyum Sağlar",
+          "description": "Platformu iş akışlarınıza, ekiplerinize ve işletme gereksinimlerinize göre yapılandırın."
+        },
+        "deployment": {
+          "title": "Bulut veya Yerinde Kurulum",
+          "description": "ERP sisteminizi altyapı, güvenlik ve operasyonel ihtiyaçlarınıza göre dağıtın."
+        },
+        "integration": {
+          "title": "Bağlantılı Ekosistem",
+          "description": "ERP sistemini diğer işletme uygulamalarıyla entegre ederek birleşik bir teknoloji ortamı oluşturun."
+        }
+      }
+    },
+
+    "modules": {
+      "eyebrow": "TEMEL MODÜLLER",
+      "title": "Operasyonunuzun ihtiyaç duyduğu her şey.",
+      "description": "Modern kuruluşların temel ihtiyaçlarını desteklemek üzere tasarlanmış modüllerle bağlantılı bir işletme ortamı oluşturun.",
+      "items": {
+        "finance": {
+          "title": "Finans",
+          "description": "Finansal operasyonları, işlemleri ve işletme performansını yönetin."
+        },
+        "accounting": {
+          "title": "Muhasebe",
+          "description": "Muhasebe süreçlerini düzenleyin ve doğru finansal kayıtlar oluşturun."
+        },
+        "humanResources": {
+          "title": "İnsan Kaynakları",
+          "description": "Çalışanları, personel bilgilerini, bordroyu ve organizasyonel süreçleri yönetin."
+        },
+        "production": {
+          "title": "Üretim",
+          "description": "Üretim süreçlerini ve kaynaklarını planlayın, takip edin ve yönetin."
+        },
+        "inventory": {
+          "title": "Stok Yönetimi",
+          "description": "Ürünleri, stok seviyelerini, depoları ve stok hareketlerini takip edin."
+        },
+        "supplyChain": {
+          "title": "Tedarik Zinciri",
+          "description": "Satın alma, lojistik, dağıtım ve tedarik zinciri operasyonlarını birbirine bağlayın."
+        }
+      }
+    },
+
+    "cta": {
+      "eyebrow": "ERP'NİZİ OLUŞTURUN",
+      "title": "İşletmenizi birbirine bağlamaya hazır mısınız?",
+      "description": "Kuruluşunuz, mevcut zorluklarınız ve hedefleriniz hakkında bize bilgi verin. Size en uygun ERP yaklaşımını birlikte tasarlayalım.",
+      "button": "Görüşme Başlat"
+    }
+  },
+  "MMS": {
+    "hero": {
+      "eyebrow": "ÜRÜN YÖNETİM SİSTEMİ",
+      "title": "Ürün verilerini daha iyi iş kararlarına dönüştürün.",
+      "description": "Stok, satın alma, satış ve operasyon süreçlerini tek bir platform üzerinden yönetmenizi sağlayan güçlü bir ürün yönetim sistemi.",
+      "primaryButton": "MMS Talep Et",
+      "secondaryButton": "Özellikleri Keşfet",
+      "status": "Stok. Satış. Operasyon. Bağlantılı.",
+      "label": "MMS"
+    },
+
+    "overview": {
+      "eyebrow": "MMS NEDİR?",
+      "title": "Tüm ürün operasyonunuz için tek bir sistem.",
+      "description": "MMS; perakendecilerin, toptancıların, distribütörlerin ve ticari kuruluşların ürün, stok, satın alma, satış ve operasyonel verilerini tek bir dijital sistem üzerinden yönetmesine yardımcı olur.",
+      "highlight": "Daha iyi yönetin. Daha hızlı karar verin. Daha akıllı büyüyün."
+    },
+
+    "capabilities": {
+      "eyebrow": "TEMEL YETKİNLİKLER",
+      "title": "Ürün yönetimini güvenle gerçekleştirmek için ihtiyacınız olan her şey.",
+      "description": "Satın alma ve stok kontrolünden raporlama ve satış operasyonlarına kadar MMS, ürün yönetiminin temel süreçlerini tek bir sistemde bir araya getirir.",
+
+      "items": {
+        "inventory": {
+          "title": "Stok Yönetimi",
+          "description": "Operasyonunuz genelinde stok seviyelerini, ürün hareketlerini, bulunabilirliği ve stok değişikliklerini takip edin.",
+          "item1": "Gerçek zamanlı stok takibi",
+          "item2": "Stok seviyesi yönetimi",
+          "item3": "Ürün hareketlerinin takibi",
+          "item4": "Depo yönetimi",
+          "item5": "Stok raporlama"
+        },
+
+        "purchasing": {
+          "title": "Satın Alma Yönetimi",
+          "description": "Doğru iş verilerine dayanarak satın alma süreçlerinizi düzenleyin ve daha doğru tedarik kararları alın.",
+          "item1": "Satın alma siparişi yönetimi",
+          "item2": "Tedarikçi yönetimi",
+          "item3": "Tedarik süreci takibi",
+          "item4": "Satın alma geçmişi",
+          "item5": "Maliyet analizi"
+        },
+
+        "sales": {
+          "title": "Satış Yönetimi",
+          "description": "Ürün verilerini satış operasyonlarıyla birleştirerek performansı anlayın ve gelirinizi artırın.",
+          "item1": "Satış takibi",
+          "item2": "Ürün performansı",
+          "item3": "Fiyat yönetimi",
+          "item4": "Satış raporlama",
+          "item5": "Gelir analizi"
+        },
+
+        "reporting": {
+          "title": "İş Zekâsı",
+          "description": "Operasyonel verileri daha hızlı ve bilinçli kararlar almanızı sağlayan anlamlı içgörülere dönüştürün.",
+          "item1": "Performans panoları",
+          "item2": "Stok raporları",
+          "item3": "Satış analitiği",
+          "item4": "Satın alma analitiği",
+          "item5": "Karar destek sistemi"
+        }
+      }
+    },
+
+    "workflow": {
+      "eyebrow": "NASIL ÇALIŞIR?",
+      "title": "Satın almadan satışa bağlantılı bir süreç.",
+      "description": "MMS, ürün operasyonunuzun en önemli aşamalarını birbirine bağlayarak ekiplerinizin aynı bilgi kaynağı üzerinden çalışmasını sağlar.",
+
+      "steps": {
+        "purchase": {
+          "number": "01",
+          "title": "Satın Al",
+          "description": "Tedarikçi ve satın alma bilgilerini düzenli tutarak satın alma siparişleri oluşturun ve yönetin."
+        },
+
+        "receive": {
+          "number": "02",
+          "title": "Teslim Al",
+          "description": "Gelen ürünleri kaydedin ve ürünler operasyonunuza girdikçe stok bilgilerini güncelleyin."
+        },
+
+        "manage": {
+          "number": "03",
+          "title": "Yönet",
+          "description": "Kuruluşunuz genelinde stokları, ürün hareketlerini, depoları ve stok seviyelerini takip edin."
+        },
+
+        "sell": {
+          "number": "04",
+          "title": "Sat",
+          "description": "Ürün bilgilerini satış kanallarıyla birleştirin ve hangi ürünlerin daha iyi performans gösterdiğini anlayın."
+        },
+
+        "analyze": {
+          "number": "05",
+          "title": "Analiz Et",
+          "description": "Fırsatları belirlemek ve daha doğru kararlar almak için raporları ve operasyonel verileri kullanın."
+        }
+      }
+    },
+
+    "integrations": {
+      "eyebrow": "BAĞLANTILI EKOSİSTEM",
+      "title": "Zaten kullandığınız sistemlerle birlikte çalışacak şekilde tasarlandı.",
+      "description": "MMS, kuruluşunuzun operasyonlarına daha kapsamlı bir bakış sunmak için diğer iş teknolojileriyle entegre olabilir.",
+
+      "items": {
+        "pos": {
+          "title": "Satış Noktası",
+          "description": "Satış faaliyetlerini ürün ve stok verileriyle birleştirin."
+        },
+
+        "ecommerce": {
+          "title": "E-Ticaret",
+          "description": "Dijital satış kanallarını ürün operasyonlarınızla senkronize edin."
+        },
+
+        "erp": {
+          "title": "ERP",
+          "description": "Ürün operasyonlarını daha geniş kurumsal süreçlerle birbirine bağlayın."
+        },
+
+        "custom": {
+          "title": "Özel Entegrasyonlar",
+          "description": "MMS'i mevcut yazılımlarınız ve iş altyapınızla entegre edin."
+        }
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "İŞLETMEYE KATKISI",
+      "title": "İşletmenizin çalışma şeklini geliştirmek için tasarlandı.",
+      "description": "MMS, operasyonel karmaşayı azaltmak ve daha akıllı kararlar almak için kuruluşlara ihtiyaç duydukları görünürlük ve kontrolü sağlar.",
+
+      "items": {
+        "accuracy": {
+          "title": "Daha Doğru Stok Bilgisi",
+          "description": "Ürünler ve stoklar hakkında daha net ve güvenilir bilgiler elde edin."
+        },
+
+        "stockouts": {
+          "title": "Daha Az Stok Sorunu",
+          "description": "Stok görünürlüğünü artırın ve ürünlerin bulunamaması riskini azaltın."
+        },
+
+        "efficiency": {
+          "title": "Daha Yüksek Operasyonel Verimlilik",
+          "description": "Manuel süreçleri azaltın ve ürün operasyonlarınızı daha düzenli hale getirin."
+        },
+
+        "sales": {
+          "title": "Daha İyi Satış Performansı",
+          "description": "Yeni fırsatları belirlemek için ürün ve satış performansını daha iyi anlayın."
+        },
+
+        "profitability": {
+          "title": "Daha Yüksek Karlılık",
+          "description": "Daha kârlı kararlar almak için doğru satın alma, stok ve satış verilerini kullanın."
+        },
+
+        "customer": {
+          "title": "Daha İyi Müşteri Deneyimi",
+          "description": "Müşterileriniz için ürün bulunabilirliğini ve operasyonel tutarlılığı iyileştirin."
+        }
+      }
+    },
+
+    "why": {
+      "eyebrow": "NEDEN ROSHASOFT?",
+      "title": "İşletmenizin gerçek çalışma biçimine uyum sağlayan MMS.",
+      "description": "Ürün yönetiminin kuruluşunuzu katı bir sürece zorlaması gerektiğine inanmıyoruz. Teknolojiyi operasyonel gerçekliğinize göre yapılandırıyoruz.",
+
+      "items": {
+        "custom": {
+          "title": "İşletmenize Özel",
+          "description": "Sistem; ürünlerinize, iş akışlarınıza, ekiplerinize ve operasyonel gereksinimlerinize göre uyarlanabilir."
+        },
+
+        "scalable": {
+          "title": "Ölçeklenebilir",
+          "description": "Stoklarınız, lokasyonlarınız, kullanıcılarınız ve operasyonlarınız büyüdükçe gelişebilen bir sistem oluşturun."
+        },
+
+        "integrated": {
+          "title": "Entegre",
+          "description": "MMS'i kuruluşunuzun ihtiyaç duyduğu diğer sistemler ve dijital kanallarla bağlayın."
+        },
+
+        "data": {
+          "title": "Veri Odaklı",
+          "description": "Daha iyi iş kararları almak için operasyonel bilgileri anlamlı içgörülere dönüştürün."
+        }
+      }
+    },
+
+    "cta": {
+      "eyebrow": "KONTROLÜ ELE ALMAYA HAZIR MISINIZ?",
+      "title": "Ürün operasyonlarınızı daha akıllı hale getirin.",
+      "description": "Ürünleriniz, stok, satın alma ve satış süreçleriniz hakkında bize bilgi verin. Kuruluşunuz için doğru MMS çözümünü tasarlamanıza yardımcı olalım.",
+      "button": "MMS Talep Et"
+    }
+  },
+  "CRM": {
+    "hero": {
+      "eyebrow": "MÜŞTERİ İLİŞKİLERİ YÖNETİMİ",
+      "title": "Daha iyi verilerle daha güçlü müşteri ilişkileri kurun.",
+      "description": "Müşteri verilerini, satış fırsatlarını, etkileşimleri ve müşteri odaklı iş süreçlerini tek bir bağlantılı sistem üzerinden yönetmenizi sağlayan güçlü ve esnek bir CRM platformu.",
+      "primaryButton": "Özellikleri Keşfet",
+      "secondaryButton": "CRM Talep Et",
+      "label": "CRM",
+      "cards": {
+        "customers": "Müşteriler",
+        "leads": "Satış Fırsatları",
+        "analytics": "Analitik"
+      }
+    },
+
+    "overview": {
+      "eyebrow": "CRM NEDİR?",
+      "title": "Müşteri ilişkileriniz için tek bir bağlantılı sistem.",
+      "description": "CRM; müşteri bilgilerini, iletişim geçmişini, satış faaliyetlerini ve ilişki verilerini tek bir yerde bir araya getirerek ekiplerinizin müşterilerinizi daha iyi anlamasına ve daha etkili hizmet sunmasına yardımcı olur.",
+      "highlight": "Müşterilerinizi tanıyın. Her etkileşimi geliştirin. Daha güçlü ilişkiler kurun."
+    },
+
+    "features": {
+      "eyebrow": "TEMEL YETKİNLİKLER",
+      "title": "Müşteri ilişkilerini yönetmek için ihtiyacınız olan her şey.",
+      "description": "Müşteri verilerinden satış fırsatlarına, etkileşimlerden özelleştirmeye kadar CRM, ekiplerinize daha güçlü müşteri ilişkileri kurmak için ihtiyaç duydukları araçları sunar.",
+
+      "items": {
+        "customers": {
+          "title": "Müşteri Yönetimi",
+          "description": "Müşteri bilgilerini tek bir bağlantılı platform üzerinden düzenli ve erişilebilir şekilde yönetin."
+        },
+
+        "leads": {
+          "title": "Satış Fırsatları Takibi",
+          "description": "Fırsatları, satış adaylarını ve potansiyel müşterileri müşteri yolculuğu boyunca takip edin."
+        },
+
+        "interactions": {
+          "title": "Müşteri Etkileşimleri",
+          "description": "Daha tutarlı müşteri deneyimleri oluşturmak için iletişim ve etkileşimleri takip edin."
+        },
+
+        "data": {
+          "title": "Müşteri Verileri",
+          "description": "Müşteri tercihlerini, satın alma geçmişini ve ilgili iş bilgilerini tek bir sistemde bir araya getirin."
+        },
+
+        "customization": {
+          "title": "Tamamen Özelleştirilebilir",
+          "description": "CRM iş akışlarını ve fonksiyonlarını kuruluşunuzun özel iş gereksinimlerine göre uyarlayın."
+        }
+      }
+    },
+
+    "workflow": {
+      "eyebrow": "NASIL ÇALIŞIR?",
+      "title": "Müşteri verilerinden daha güçlü ilişkilere.",
+      "description": "CRM; ekibinizin müşteri bilgilerini düzenlemesine, fırsatları anlamasına, satış adaylarını geliştirmesine ve etkileşimleri anlamlı iş ilişkilerine dönüştürmesine yardımcı olur.",
+
+      "steps": {
+        "capture": {
+          "number": "01",
+          "title": "Topla",
+          "description": "İşletmenizin kullandığı kanallardan ve etkileşimlerden müşteri bilgilerini toplayın ve düzenleyin."
+        },
+
+        "organize": {
+          "number": "02",
+          "title": "Düzenle",
+          "description": "Müşteri profillerini, tercihlerini, satın alma geçmişini ve iş verilerini düzenli ve erişilebilir tutun."
+        },
+
+        "nurture": {
+          "number": "03",
+          "title": "Geliştir",
+          "description": "Potansiyel ve mevcut müşterilerle düzenli iletişim ve hedefli etkileşimler kurun."
+        },
+
+        "convert": {
+          "number": "04",
+          "title": "Dönüştür",
+          "description": "Daha iyi müşteri anlayışını güçlü ilişkilere, satış fırsatlarına ve uzun vadeli büyümeye dönüştürün."
+        }
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "İŞLETMEYE KATKISI",
+      "title": "Müşteri ilişkilerini daha değerli hale getirmek için tasarlandı.",
+      "description": "CRM, ekiplerinize müşteriler ve satış faaliyetleri hakkında daha iyi görünürlük sağlarken daha kişiselleştirilmiş ve verimli deneyimler oluşturmanıza yardımcı olur.",
+
+      "items": {
+        "satisfaction": {
+          "title": "Daha Yüksek Müşteri Memnuniyeti",
+          "description": "Daha ilgili ve kişiselleştirilmiş deneyimler sunmak için müşteri bilgilerini kullanın."
+        },
+
+        "relationships": {
+          "title": "Daha Güçlü İlişkiler",
+          "description": "Kalıcı ilişkiler kurmak için müşteri ihtiyaçlarını, tercihlerini ve geçmişini anlayın."
+        },
+
+        "sales": {
+          "title": "Gelişmiş Satış Performansı",
+          "description": "Satış süreci boyunca fırsatları ve satış adaylarını daha etkili şekilde takip edin."
+        },
+
+        "visibility": {
+          "title": "Daha İyi Müşteri Görünürlüğü",
+          "description": "Daha net bir işletme görünümü için müşteri bilgilerini ve etkileşimlerini bir araya getirin."
+        },
+
+        "efficiency": {
+          "title": "Daha Yüksek Ekip Verimliliği",
+          "description": "Dağınık bilgileri azaltın ve müşteriyle ilgili faaliyetleri düzenli tutun."
+        },
+
+        "communication": {
+          "title": "Daha İyi İletişim",
+          "description": "Ekipleriniz ve kanallarınız arasında müşteri iletişimini tutarlı hale getirin."
+        }
+      }
+    },
+
+    "automation": {
+      "eyebrow": "CRM OTOMASYONU",
+      "title": "Tekrarlayan görevleri otomatikleştirin ve ilişkilere odaklanın.",
+      "description": "CRM, tekrarlayan faaliyetleri otomatikleştirerek satış süreçlerini kolaylaştırabilir ve satış ekibinize müşterilere, fırsatlara ve anlaşmaları sonuçlandırmaya daha fazla zaman ayırma imkânı sunar.",
+      "visualTitle": "Daha akıllı bir satış iş akışı.",
+
+      "items": {
+        "leadNurturing": "Satış adaylarını geliştirme",
+        "followUp": "Takip e-postaları",
+        "appointments": "Randevu planlama"
+      }
+    },
+
+    "cta": {
+      "eyebrow": "DAHA İYİ İLİŞKİLER KURMAYA HAZIR MISINIZ?",
+      "title": "Müşteri ilişkilerinizi daha akıllı hale getirin.",
+      "description": "Müşterileriniz, satış süreçleriniz, iletişim kanallarınız ve iş hedefleriniz hakkında bize bilgi verin. Kuruluşunuz için doğru CRM çözümünü tasarlamanıza yardımcı olalım.",
+      "button": "CRM Talep Et"
+    }
+  },
+  "HIS": {
+    "hero": {
+      "eyebrow": "HASTANE BİLGİ YÖNETİM SİSTEMİ",
+      "title": "Hasta bakımının her aşamasını birbirine bağlayın.",
+      "description": "Hastaları, klinisyenleri, randevuları, klinik verileri ve sağlık hizmetleri operasyonlarını tek bir akıllı platformda bir araya getiren entegre hastane bilgi yönetim sistemi.",
+      "primaryButton": "HIS'yi Keşfet",
+      "secondaryButton": "HIS Talep Et",
+
+      "dashboardLabel": "KLİNİK PLATFORM",
+      "dashboardTitle": "Hasta Özeti",
+      "live": "Canlı",
+
+      "patientOverview": "HASTA ÖZETİ",
+      "patientName": "Hasta Profili",
+      "patientStatus": "Aktif bakım süreci",
+
+      "heartRate": "Kalp Atışı",
+      "bloodPressure": "Tansiyon",
+      "status": "Durum",
+      "stable": "Stabil",
+
+      "today": "BUGÜN",
+      "appointments": "Randevu",
+      "completed": "Tamamlanan",
+
+      "activity": "BAKIM AKTİVİTESİ",
+      "patientJourney": "Hasta Süreci",
+
+      "registration": "Kayıt",
+      "examination": "Muayene",
+      "diagnosis": "Tanı",
+      "followUp": "Takip",
+
+      "connectedCare": "Entegre Bakım",
+      "systemReady": "Sistem Hazır"
+    },
+
+    "overview": {
+      "eyebrow": "HIS NEDİR?",
+      "title": "Modern sağlık hizmetleri için tek ve bağlantılı bir sistem.",
+      "description": "HIS; sağlık bilgilerini, klinik faaliyetleri, idari süreçleri ve operasyonel verileri tek bir dijital platformda bir araya getirir.",
+      "highlight": "Bilgileri bağlayın. Koordinasyonu geliştirin. Daha iyi sağlık hizmeti sunun.",
+
+      "items": {
+        "clinical": {
+          "title": "Klinik Bilgiler",
+          "description": "Hasta bakımı sırasında oluşturulan bilgileri düzenleyin ve yönetin."
+        },
+        "information": {
+          "title": "Merkezi Veri",
+          "description": "Sağlık bilgilerini toplayın, saklayın, işleyin, erişin ve paylaşın."
+        },
+        "coordination": {
+          "title": "Daha İyi Koordinasyon",
+          "description": "Ekipleri, departmanları ve operasyonel süreçleri tek bir sistem üzerinden birbirine bağlayın."
+        }
+      }
+    },
+
+    "features": {
+      "eyebrow": "TEMEL ÖZELLİKLER",
+      "title": "Modern sağlık kuruluşlarının ihtiyaçları etrafında tasarlandı.",
+      "description": "HIS; güvenilir altyapı, raporlama, finansal araçlar ve ölçeklenebilir teknolojiyi temel sağlık bilgi yönetimi yetenekleriyle birleştirir.",
+
+      "items": {
+        "financial": {
+          "title": "Finansal Sistemler",
+          "description": "Bağlantılı bir sağlık ortamındaki finansal ve idari süreçleri destekleyin."
+        },
+        "infrastructure": {
+          "title": "Güçlü Altyapı",
+          "description": "Yoğun sağlık operasyonlarını destekleyen güvenilir teknoloji altyapısı."
+        },
+        "interface": {
+          "title": "Standart Kullanıcı Arayüzü",
+          "description": "Kuruluş genelindeki kullanıcılar için tutarlı ve erişilebilir deneyimler sağlayın."
+        },
+        "reporting": {
+          "title": "Raporlama ve Yönetim",
+          "description": "Operasyonel bilgileri faydalı raporlara ve yönetim içgörülerine dönüştürün."
+        },
+        "multilingual": {
+          "title": "Çok Dilli",
+          "description": "Farklı sağlık kuruluşlarının ve çok dilli ortamların ihtiyaçlarını destekleyin."
+        },
+        "scalable": {
+          "title": "Genişletilebilir",
+          "description": "Departmanlar, kullanıcılar, hizmetler ve operasyonel ihtiyaçlar büyüdükçe sistemi genişletin."
+        }
+      }
+    },
+
+    "clinical": {
+      "eyebrow": "KLİNİK TEKNOLOJİ",
+      "title": "Yalnızca bir yönetim sistemi değil. Modern sağlık hizmetleri için klinik bir araç.",
+      "description": "Sağlık teknolojileri geliştikçe HIS; klinik operasyonların önemli bir parçası haline gelir ve uzmanlaşmış departmanları, klinik bilgileri ve sağlık teknolojilerini birbirine bağlar.",
+
+      "items": {
+        "clinical": {
+          "title": "Klinik Operasyonlar",
+          "description": "Sağlık ekiplerine klinik iş akışları boyunca ihtiyaç duydukları bilgileri sağlayın."
+        },
+        "departments": {
+          "title": "Departman Bağlantısı",
+          "description": "Uzmanlaşmış klinik ve paraklinik departmanları ortak bilgi üzerinden birbirine bağlayın."
+        },
+        "devices": {
+          "title": "Sağlık Teknolojileri",
+          "description": "Sağlık ortamlarında kullanılan sistemler ve ekipmanlar için dijital bir temel oluşturun."
+        },
+        "patient": {
+          "title": "Hasta Bilgileri",
+          "description": "İlgili hasta ve bakım bilgilerini bağlantılı iş akışları boyunca erişilebilir tutun."
+        }
+      }
+    },
+
+    "integration": {
+      "eyebrow": "BAĞLANTILI SAĞLIK SİSTEMİ",
+      "title": "Entegre sağlık bilgi yönetimi için tasarlandı.",
+      "description": "HIS; sağlık kuruluşlarının sistemler arasında bilgileri güvenli ve verimli şekilde paylaşmasına yardımcı olan entegre bir bilgi mimarisini destekler.",
+
+      "hl7": {
+        "title": "HL7 Entegrasyonu",
+        "description": "Standart sağlık bilgi alışverişini ve sistemler arasındaki bilgi akışının daha verimli olmasını destekler."
+      },
+
+      "privacy": {
+        "title": "Gizlilik ve Veri Güvenliği",
+        "description": "Gizliliğin ve sorumlu bilgi yönetiminin kritik olduğu sağlık ortamlarını destekler."
+      },
+
+      "data": {
+        "title": "Bağlantılı Veriler",
+        "description": "Bağlantılı bilgiler sayesinde sağlık operasyonlarının daha kapsamlı bir görünümünü oluşturun."
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "İŞ VE KLİNİK ETKİ",
+      "title": "Sağlık kuruluşlarının daha iyi çalışmasına yardımcı olan teknoloji.",
+      "description": "HIS; koordinasyonu, verimliliği, yönetimi ve sağlık hizmetlerinin kalitesini geliştirmek için kuruluşlara ihtiyaç duydukları bilgi ve araçları sağlar.",
+
+      "items": {
+        "quality": {
+          "title": "Daha Yüksek Sağlık Hizmeti Kalitesi",
+          "description": "Sağlık ekiplerine ilgili bilgi ve kaynaklara daha iyi erişim sağlayın."
+        },
+        "efficiency": {
+          "title": "Daha Yüksek Verimlilik",
+          "description": "Parçalı süreçleri azaltın ve kuruluş kaynaklarını daha verimli kullanın."
+        },
+        "coordination": {
+          "title": "Geliştirilmiş Koordinasyon",
+          "description": "Departmanları ve ekipleri ortak bir bilgi ortamı üzerinden birbirine bağlayın."
+        },
+        "decisions": {
+          "title": "Daha İyi Kararlar",
+          "description": "Planlama ve karar alma süreçlerini doğru ve erişilebilir bilgilerle destekleyin."
+        },
+        "management": {
+          "title": "Daha Güçlü Yönetim",
+          "description": "Klinik, idari ve operasyonel faaliyetler genelinde görünürlüğü artırın."
+        },
+        "patient": {
+          "title": "Daha İyi Hasta Sonuçları",
+          "description": "Sağlık ekiplerine daha tutarlı bakım sunmaları için ihtiyaç duydukları bilgileri sağlayın."
+        }
+      }
+    },
+
+    "promise": {
+      "eyebrow": "YAKLAŞIMIMIZ",
+      "title": "Gerçek sağlık operasyonları etrafında tasarlanmış kapsamlı bir HIS.",
+      "description": "Bir sağlık bilgi sisteminin temel bileşenlerini gelişmiş finans, otomasyon ve operasyonel yeteneklerle birleştirerek kuruluşunuzla birlikte gelişebilen teknoloji sunuyoruz."
+    },
+
+    "cta": {
+      "eyebrow": "SAĞLIK HİZMETLERİNİ MODERNİZE ETMEYE HAZIR MISINIZ?",
+      "title": "Daha akıllı bir sağlık bilgi sistemi oluşturun.",
+      "description": "Hastaneniz, sağlık kuruluşunuz, departmanlarınız, iş akışlarınız ve teknoloji ihtiyaçlarınız hakkında bize bilgi verin. Size uygun HIS çözümünü birlikte tasarlayalım.",
+      "button": "HIS Talep Et"
+    }
+  },
+  "BPMS": {
+    "hero": {
+      "eyebrow": "İŞ SÜREÇLERİ YÖNETİM SİSTEMİ",
+      "title": "Karmaşık iş süreçlerini basit ve bağlantılı iş akışlarına dönüştürün.",
+      "description": "Kuruluşların iş akışlarını otomatikleştirmesine, ekipleri birbirine bağlamasına, süreçleri izlemesine ve iş yapış biçimlerini sürekli olarak geliştirmesine yardımcı olan güçlü bir iş süreçleri yönetim sistemi.",
+      "primaryButton": "BPMS'yi Keşfet",
+      "secondaryButton": "BPMS Talep Et",
+      "workflowLabel": "SÜREÇ KONTROLÜ",
+      "workflowTitle": "Sipariş Onay Süreci",
+      "active": "AKTİF",
+      "automation": "OTOMASYON",
+      "automationTitle": "İş akışı çalışıyor",
+      "progress": "Süreç ilerlemesi",
+      "automationStatus": "Otomasyon aktif",
+      "smartAutomation": "Akıllı Otomasyon",
+      "statusLabel": "SİSTEM DURUMU",
+      "status": "Çalışıyor",
+      "steps": {
+        "request": "Talep",
+        "review": "İnceleme",
+        "process": "Süreç",
+        "complete": "Tamamlandı"
+      }
+    },
+
+    "overview": {
+      "eyebrow": "BPMS NEDİR",
+      "title": "İşlerin kuruluşunuz içinde nasıl ilerlediğini yönetmek için tek platform.",
+      "description": "BPMS, kuruluşların iş süreçlerini modellemesine, otomatikleştirmesine, izlemesine ve geliştirmesine yardımcı olur. İşlerin çalışanlar, departmanlar, sistemler ve karar noktaları arasında nasıl ilerlediğini net bir şekilde görmenizi sağlar.",
+      "highlight": "Daha iyi otomatikleştirin. Daha fazlasını görün. Sürekli geliştirin.",
+      "cards": {
+        "automation": {
+          "title": "Süreç Otomasyonu",
+          "description": "Tekrarlayan görevleri otomatikleştirin ve daha az manuel işlemle işlerin ilerlemesini sağlayın."
+        },
+        "integration": {
+          "title": "Sistem Entegrasyonu",
+          "description": "Uygulamaları, verileri ve departmanları birbirine bağlayarak bilgilerin ihtiyaç duyulan yere ulaşmasını sağlayın."
+        },
+        "visibility": {
+          "title": "Süreç Görünürlüğü",
+          "description": "Süreçleri gerçek zamanlı takip edin ve sorunlar büyümeden önce darboğazları belirleyin."
+        }
+      }
+    },
+
+    "capabilities": {
+      "eyebrow": "TEMEL YETKİNLİKLER",
+      "title": "İş süreçlerini oluşturmak ve geliştirmek için ihtiyacınız olan her şey.",
+      "description": "İş akışı otomasyonu ve sistem entegrasyonundan izleme ve ekip iş birliğine kadar BPMS, süreç yönetimi için gerekli araçları tek bir platformda bir araya getirir.",
+
+      "items": {
+        "automation": {
+          "title": "Süreç Otomasyonu",
+          "description": "Tekrarlayan faaliyetleri otomatikleştirin ve iş süreçlerinin daha az manuel müdahaleyle ilerlemesini sağlayın.",
+          "item1": "Görev otomasyonu",
+          "item2": "Kural tabanlı iş akışları",
+          "item3": "Otomatik bildirimler",
+          "item4": "Süreç tetikleyicileri"
+        },
+
+        "workflow": {
+          "title": "İş Akışı Yönetimi",
+          "description": "Görevlerin, onayların ve kararların kuruluşunuz içinde nasıl ilerleyeceğini açıkça tanımlayan yapılandırılmış iş akışları oluşturun.",
+          "item1": "Görsel iş akışı tasarımı",
+          "item2": "Onay süreçleri",
+          "item3": "Görev atama",
+          "item4": "Süreç yönlendirme"
+        },
+
+        "integration": {
+          "title": "Sistem Entegrasyonu",
+          "description": "Daha bütünleşik bir operasyon ortamı oluşturmak için iş uygulamalarını ve veri kaynaklarını birbirine bağlayın.",
+          "item1": "API entegrasyonu",
+          "item2": "Veri senkronizasyonu",
+          "item3": "Uygulama bağlantıları",
+          "item4": "Sistemler arası iş akışları"
+        },
+
+        "collaboration": {
+          "title": "Ekip İş Birliği",
+          "description": "Departmanlar arasında görevlerin, sorumlulukların, onayların ve bilgilerin daha koordineli şekilde yönetilmesini sağlayın.",
+          "item1": "Görev yönetimi",
+          "item2": "Rol yönetimi",
+          "item3": "Onay iş birliği",
+          "item4": "Ekip görünürlüğü"
+        },
+
+        "monitoring": {
+          "title": "Süreç İzleme",
+          "description": "Süreçlerin yürütülmesini izleyin ve sorunları ve geliştirme fırsatlarını belirlemek için operasyonel verilerden yararlanın.",
+          "item1": "Gerçek zamanlı takip",
+          "item2": "Performans izleme",
+          "item3": "Süreç analitiği",
+          "item4": "Darboğaz tespiti"
+        }
+      }
+    },
+
+    "workflow": {
+      "eyebrow": "NASIL ÇALIŞIR",
+      "title": "Süreç tasarımından sürekli geliştirmeye.",
+      "description": "BPMS; süreçleri tasarlayabileceğiniz, yürütmeyi otomatikleştirebileceğiniz, performansı izleyebileceğiniz ve iş akışlarını sürekli olarak geliştirebileceğiniz yapılandırılmış bir döngü oluşturur.",
+
+      "steps": {
+        "design": {
+          "number": "01",
+          "title": "Tasarla",
+          "description": "Süreci haritalandırın ve görevleri, rolleri, kararları ve iş kurallarını tanımlayın."
+        },
+
+        "configure": {
+          "number": "02",
+          "title": "Yapılandır",
+          "description": "İş akışlarını, yetkileri, entegrasyonları, bildirimleri ve onay adımlarını yapılandırın."
+        },
+
+        "automate": {
+          "number": "03",
+          "title": "Otomatikleştir",
+          "description": "Sistemin tekrarlayan işlemleri gerçekleştirmesine ve işleri süreç aşamaları arasında ilerletmesine izin verin."
+        },
+
+        "monitor": {
+          "number": "04",
+          "title": "İzle",
+          "description": "Süreçlerin yürütülmesini, performansını, gecikmeleri ve operasyonel darboğazları takip edin."
+        },
+
+        "improve": {
+          "number": "05",
+          "title": "Geliştir",
+          "description": "Süreç verilerini ve içgörüleri kullanarak iş akışlarını optimize edin ve iş performansını geliştirin."
+        }
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "İŞ ETKİSİ",
+      "title": "Kuruluşları daha hızlı, daha şeffaf ve daha verimli hale getirmek için tasarlandı.",
+      "description": "BPMS, operasyonel yükü azaltmanıza, süreçlerde tutarlılığı artırmanıza ve daha ölçülebilir bir çalışma ortamı oluşturmanıza yardımcı olur.",
+
+      "items": {
+        "efficiency": {
+          "title": "Daha Yüksek Verimlilik",
+          "description": "Manuel işleri azaltın ve gereksiz adımları ortadan kaldırarak süreçleri daha hızlı ilerletin."
+        },
+
+        "consistency": {
+          "title": "Süreç Tutarlılığı",
+          "description": "İş süreçlerini standartlaştırın ve ekiplerin tanımlanmış iş akışlarına uygun çalışmasını sağlayın."
+        },
+
+        "cost": {
+          "title": "Daha Düşük Operasyonel Maliyet",
+          "description": "Tekrarlayan işleri, gecikmeleri, hataları ve gereksiz operasyonel maliyetleri azaltın."
+        },
+
+        "visibility": {
+          "title": "Daha İyi Görünürlük",
+          "description": "İşlerin nerede olduğunu, hangi süreçlerin geciktiğini ve süreçlerin nasıl performans gösterdiğini anlayın."
+        },
+
+        "collaboration": {
+          "title": "Daha İyi İş Birliği",
+          "description": "Departmanları birbirine bağlayın ve sorumlulukları, görevleri ve onayları daha görünür hale getirin."
+        },
+
+        "satisfaction": {
+          "title": "Daha İyi Müşteri Deneyimi",
+          "description": "Hizmetlerin arkasındaki süreçleri geliştirerek daha hızlı ve tutarlı hizmet sunun."
+        }
+      }
+    },
+
+    "scalability": {
+      "eyebrow": "FARKLI KURULUŞLAR İÇİN TASARLANDI",
+      "title": "Büyük kuruluşlardan büyüyen işletmelere kadar esnek yapı.",
+      "description": "BPMS farklı organizasyon yapılarına, süreç karmaşıklıklarına ve operasyonel gereksinimlere uyarlanabilir. Bu nedenle hem büyük kuruluşlar hem de KOBİ'ler için kullanılabilir.",
+
+      "items": {
+        "enterprise": {
+          "title": "Kurumsal Yapılar",
+          "description": "Karmaşık süreçleri, birden fazla departmanı, onayları ve geniş operasyonel ortamları yönetin."
+        },
+
+        "manufacturing": {
+          "title": "Üretim",
+          "description": "Üretim, kalite, satın alma, lojistik ve onay süreçlerini birbirine bağlayın."
+        },
+
+        "services": {
+          "title": "Hizmet Kuruluşları",
+          "description": "Hizmet sunumunu, müşteri taleplerini, iç operasyonları ve onay süreçlerini standartlaştırın."
+        },
+
+        "sme": {
+          "title": "Küçük ve Orta Ölçekli İşletmeler",
+          "description": "Temel iş akışlarını otomatikleştirin ve gereksiz karmaşıklık eklemeden operasyonlarınızı ölçeklendirin."
+        }
+      }
+    },
+
+    "cta": {
+      "eyebrow": "SÜREÇLERİNİZİ GELİŞTİRMEYE HAZIR MISINIZ?",
+      "title": "İşletmenizin çalışma şeklini daha akıllı hale getirin.",
+      "description": "İş akışlarınızı, operasyonel zorluklarınızı ve iş hedeflerinizi bize anlatın. Kuruluşunuzun gerçek çalışma biçimine uygun BPMS çözümünü birlikte tasarlayalım.",
+      "button": "BPMS Talep Et"
+    }
+  },
+  "Footer": {
+    "description": "RoshaSoft, ileriye doğru ilerlemeye hazır kuruluşlar için modern yazılımlar, akıllı sistemler ve dijital çözümler geliştirir.",
+    "company": "Şirket",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "products": "Ürünler",
+    "mobile": "Mobil Uygulama",
+    "web": "Web Hizmeti",
+    "design": "Web Tasarımı",
+    "connect": "Bağlantı",
+    "contact": "İletişim",
+    "rights": "Tüm hakları saklıdır.",
+    "careers": "Kariyer",
+    "privacy": "Gizlilik Politikası",
+    "rfid": "RFID",
+    "erp": "ERP",
+    "mms": "MMS",
+    "crm": "CRM",
+    "his": "HIS",
+    "bpms": "BPMS",
+    "modularDesign": "Modüler Tasarım"
   }
 }

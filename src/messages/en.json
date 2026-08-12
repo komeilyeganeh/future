@@ -122,20 +122,6 @@
       "title": "Let's build something meaningful together.",
       "description": "Have an idea, a business challenge, or a system that needs to evolve? Let's talk about how technology can create a better solution.",
       "button": "Start a Conversation"
-    },
-
-    "footer": {
-      "description": "RoshaSoft creates modern software, intelligent systems, and digital solutions for organizations ready to move forward.",
-      "company": "Company",
-      "about": "About Us",
-      "services": "Services",
-      "products": "Products",
-      "mobile": "Mobile Development",
-      "web": "Web Development",
-      "design": "Digital Design",
-      "connect": "Connect",
-      "contact": "Contact Us",
-      "rights": "All rights reserved."
     }
   },
   "About": {
@@ -251,5 +237,1867 @@
       "phone": "Phone number",
       "button": "Start a conversation"
     }
+  },
+  "Services": {
+    "eyebrow": "WHAT WE DO",
+    "title": "Digital solutions built to move your business forward.",
+    "description": "From strategy and design to development and growth, we create digital experiences that are purposeful, scalable, and built around your goals.",
+    "explore": "Explore Service",
+
+    "items": {
+      "web": {
+        "title": "Web Development",
+        "description": "High-performance websites and digital products designed to deliver a seamless experience across every device.",
+        "services": [
+          "Corporate websites",
+          "Landing pages",
+          "Web applications",
+          "Custom platforms",
+          "Performance optimization"
+        ]
+      },
+
+      "design": {
+        "title": "UI / UX Design",
+        "description": "Thoughtful interfaces that combine clarity, aesthetics, and usability to create memorable digital experiences.",
+        "services": [
+          "User interface design",
+          "User experience design",
+          "Design systems",
+          "Wireframes & prototypes",
+          "Responsive design"
+        ]
+      },
+
+      "marketing": {
+        "title": "Digital Marketing",
+        "description": "Data-driven digital strategies that help your brand reach the right audience and turn attention into meaningful growth.",
+        "services": [
+          "SEO strategy",
+          "Content strategy",
+          "Social media",
+          "Campaign management",
+          "Analytics & optimization"
+        ]
+      },
+
+      "cloud": {
+        "title": "Cloud & Technology",
+        "description": "Reliable technology solutions that improve scalability, security, and the long-term performance of your digital ecosystem.",
+        "services": [
+          "Cloud solutions",
+          "Infrastructure setup",
+          "API integrations",
+          "Technical consulting",
+          "Security & optimization"
+        ]
+      }
+    },
+    "hero": {
+      "eyebrow": "OUR SERVICES",
+      "title": "Technology built around your business.",
+      "description": "From software development to artificial intelligence, cloud infrastructure, and cybersecurity, we create digital solutions designed to solve real business challenges.",
+      "primaryButton": "Start a Project",
+      "secondaryButton": "Explore Services",
+      "status": "Digital systems. Built to perform.",
+      "scroll": "Explore"
+    },
+
+    "process": {
+      "eyebrow": "HOW WE WORK",
+      "title": "From the first idea to the final launch.",
+      "description": "Great digital products don't happen by accident. Our process keeps strategy, design, and technology moving together from beginning to end.",
+
+      "steps": {
+        "discover": {
+          "number": "01",
+          "title": "Discover",
+          "description": "We understand your business, users, challenges, and goals before writing a single line of code."
+        },
+
+        "design": {
+          "number": "02",
+          "title": "Design",
+          "description": "We turn ideas into clear digital experiences with thoughtful interfaces and purposeful interactions."
+        },
+
+        "build": {
+          "number": "03",
+          "title": "Build",
+          "description": "Our engineers transform the concept into reliable, scalable, and production-ready technology."
+        },
+
+        "launch": {
+          "number": "04",
+          "title": "Launch & Grow",
+          "description": "We help you launch confidently, improve performance, and evolve your product as your business grows."
+        }
+      }
+    },
+
+    "why": {
+      "eyebrow": "WHY ROSHASOFT",
+      "title": "Technology with a purpose.",
+      "description": "We don't build technology simply because it is possible. We build it because it should create measurable value for your organization.",
+
+      "business": {
+        "title": "Business-focused",
+        "description": "Every technical decision starts with your business objectives and real operational needs."
+      },
+
+      "scalable": {
+        "title": "Built to scale",
+        "description": "Our systems are designed to evolve with your organization instead of becoming technical limitations."
+      },
+
+      "reliable": {
+        "title": "Reliable by design",
+        "description": "Performance, security, maintainability, and reliability are considered from the beginning."
+      },
+
+      "partnership": {
+        "title": "Long-term partnership",
+        "description": "We stay involved beyond delivery and help your technology continue to improve over time."
+      }
+    },
+
+    "cta": {
+      "eyebrow": "LET'S BUILD",
+      "title": "Have a challenge worth solving?",
+      "description": "Tell us what you are trying to achieve. We will help you find the right technology, strategy, and path forward.",
+      "button": "Start a Conversation"
+    }
+  },
+  "Products": {
+    "hero": {
+      "eyebrow": "OUR PRODUCTS",
+      "title": "Software built for",
+      "titleAccent": "the way you work.",
+      "description": "Purpose-built digital products designed to simplify operations, connect your teams, and help your organization grow with confidence.",
+      "primaryButton": "Explore Products",
+      "secondaryButton": "Request a Product",
+      "centerEyebrow": "ROS H A SOFT",
+      "centerTitle": "Digital",
+      "centerAccent": "products"
+    },
+
+    "catalog": {
+      "eyebrow": "OUR PRODUCT ECOSYSTEM",
+      "title": "Technology designed around real business needs.",
+      "description": "From enterprise management and customer relationships to healthcare, automation, identification, and flexible business tools, our products are built to solve complex operational challenges."
+    },
+
+    "items": {
+      "rfid": {
+        "shortName": "RFID",
+        "name": "Radio Frequency Identification",
+        "description": "A modern identification and tracking solution that helps organizations monitor assets, products, people, and operations with greater accuracy.",
+        "features": [
+          "Automated identification",
+          "Real-time tracking",
+          "Asset management",
+          "Operational visibility",
+          "Scalable infrastructure"
+        ]
+      },
+
+      "erp": {
+        "shortName": "ERP",
+        "name": "Enterprise Resource Planning",
+        "description": "An integrated business platform that brings core operations, resources, financial processes, and organizational data into one connected system.",
+        "features": [
+          "Business process management",
+          "Financial management",
+          "Resource planning",
+          "Operational reporting",
+          "Integrated workflows"
+        ]
+      },
+
+      "mms": {
+        "shortName": "MMS",
+        "name": "Merchant Management System",
+        "description": "A centralized platform for managing inventory, purchasing, sales, and day-to-day merchant operations from a single environment.",
+        "features": [
+          "Inventory management",
+          "Purchasing management",
+          "Sales operations",
+          "Business reporting",
+          "Centralized data"
+        ]
+      },
+
+      "crm": {
+        "shortName": "CRM",
+        "name": "Customer Relationship Management",
+        "description": "A flexible customer management platform designed to help teams understand customers, manage leads, improve sales, and build stronger relationships.",
+        "features": [
+          "Customer management",
+          "Lead tracking",
+          "Sales management",
+          "Interaction history",
+          "Custom workflows"
+        ]
+      },
+
+      "his": {
+        "shortName": "HIS",
+        "name": "Health Information System",
+        "description": "A comprehensive healthcare platform designed to connect information, streamline processes, and support better coordination and decision-making.",
+        "features": [
+          "Healthcare data management",
+          "Patient information",
+          "Process coordination",
+          "Operational monitoring",
+          "Decision support"
+        ]
+      },
+
+      "bpms": {
+        "shortName": "BPMS",
+        "name": "Business Process Management System",
+        "description": "A process automation platform that helps organizations standardize workflows, reduce manual operations, and improve efficiency.",
+        "features": [
+          "Workflow automation",
+          "Process optimization",
+          "Task management",
+          "Performance monitoring",
+          "Business integration"
+        ]
+      },
+
+      "modular": {
+        "shortName": "MODULAR",
+        "name": "Modular Design & Tools",
+        "description": "Flexible and scalable technology components that can be adapted, combined, and expanded around the specific needs of your organization.",
+        "features": [
+          "Modular architecture",
+          "Flexible components",
+          "Custom configurations",
+          "Scalable systems",
+          "Easy expansion"
+        ]
+      }
+    },
+
+    "cta": {
+      "eyebrow": "LET'S BUILD",
+      "title": "Looking for the right",
+      "titleAccent": "digital product?",
+      "description": "Tell us what your organization needs. We can help you choose the right product or create a solution tailored to your business.",
+      "button": "Request a Product"
+    }
+  },
+  "Careers": {
+    "hero": {
+      "eyebrow": "CAREERS",
+      "meta": "BUILD THE FUTURE WITH US",
+      "intro": "We're building a team of curious minds, thoughtful engineers and people who believe technology can make a real difference.",
+      "title": "Don't just find",
+      "titleAccent": "a job. Find your place.",
+      "description": "Join a growing technology team where ideas are valued, people support each other, and every project is an opportunity to build something meaningful.",
+      "primaryButton": "View Open Positions",
+      "secondaryButton": "Our Culture",
+      "status": "We're hiring",
+      "cardTitle": "Your next chapter could start here.",
+      "cardDescription": "We're always interested in meeting talented people who want to learn, create and make an impact.",
+      "cardPeople": "People building what's next",
+      "ticker": {
+        "development": "Software Development",
+        "design": "Product & Design",
+        "ai": "Artificial Intelligence",
+        "marketing": "Digital Marketing"
+      }
+    },
+
+    "culture": {
+      "eyebrow": "WORKING AT ROSHASOFT",
+      "title": "A team built around people, ideas and growth.",
+      "description": "We believe great work happens when talented people have the freedom to think, collaborate, learn and take ownership. We work together, support each other and keep moving forward.",
+
+      "values": {
+        "innovation": {
+          "title": "Think differently",
+          "description": "We stay curious, challenge assumptions and look for better ways to solve complex problems."
+        },
+
+        "collaboration": {
+          "title": "Build together",
+          "description": "We believe the best ideas come from open communication, different perspectives and genuine teamwork."
+        },
+
+        "growth": {
+          "title": "Keep growing",
+          "description": "We invest in continuous learning and create opportunities for both personal and professional development."
+        },
+
+        "trust": {
+          "title": "Own your work",
+          "description": "We trust our people to take responsibility, make decisions and contribute with confidence."
+        }
+      }
+    },
+
+    "jobs": {
+      "eyebrow": "OPEN POSITIONS",
+      "title": "Find your place on the team.",
+      "description": "We're always looking for talented people who are excited about technology, creative problem-solving and building things that matter.",
+
+      "items": {
+        "frontend": {
+          "title": "Front-End Developer",
+          "location": "Remote",
+          "type": "Full-time"
+        },
+
+        "backend": {
+          "title": "Back-End Developer",
+          "location": "Remote",
+          "type": "Full-time"
+        },
+
+        "ai": {
+          "title": "Artificial Intelligence Specialist",
+          "location": "Remote",
+          "type": "Full-time"
+        },
+
+        "marketing": {
+          "title": "Digital Marketing Specialist",
+          "location": "Remote",
+          "type": "Full-time"
+        },
+
+        "financial": {
+          "title": "Financial & Legal Consultant",
+          "location": "London / Nottingham",
+          "type": "Part-time"
+        },
+
+        "assistant": {
+          "title": "Executive Assistant",
+          "location": "London / Nottingham",
+          "type": "Full-time"
+        }
+      }
+    },
+
+    "cta": {
+      "eyebrow": "JOIN THE JOURNEY",
+      "title": "Don't see your role?",
+      "titleAccent": "Let's still talk.",
+      "description": "If you believe you can bring something valuable to RoshaSoft, we'd love to hear from you. Tell us what you do and where you want to go.",
+      "button": "Send your application"
+    }
+  },
+  "MobileApp": {
+    "hero": {
+      "eyebrow": "MOBILE APPLICATIONS",
+      "title": "Build apps people",
+      "titleAccent": "love to use.",
+      "description": "We design and develop intuitive mobile applications for iOS, Android and the modern web, combining thoughtful UX with reliable technology.",
+      "primaryButton": "Explore Development",
+      "secondaryButton": "Start a Project",
+      "visual": {
+        "eyebrow": "Mobile technology",
+        "title": "Designed around your users.",
+        "cardLabel": "Experience",
+        "cardTitle": "Fast. Simple. Intuitive.",
+        "mobile": "Mobile",
+        "development": "Development"
+      }
+    },
+
+    "platforms": {
+      "eyebrow": "PLATFORMS",
+      "title": "One idea. Every platform.",
+      "description": "Choose the platform that fits your users, business model and product strategy.",
+      "ios": {
+        "title": "iOS",
+        "description": "Native experiences designed for Apple's ecosystem with smooth performance and a polished user experience."
+      },
+      "android": {
+        "title": "Android",
+        "description": "Flexible and scalable Android applications built to perform across a wide range of devices."
+      },
+      "pwa": {
+        "title": "PWA",
+        "description": "Fast, installable web experiences that combine the reach of the web with the feel of a mobile application."
+      }
+    },
+
+    "development": {
+      "eyebrow": "DEVELOPMENT",
+      "title": "The right technology for your product.",
+      "description": "From platform-specific applications to flexible multi-platform solutions, we choose the approach that makes the most sense for your business.",
+      "learnMore": "Explore approach",
+
+      "native": {
+        "title": "Native",
+        "description": "Platform-specific applications built for maximum performance, responsiveness and access to device capabilities."
+      },
+
+      "hybrid": {
+        "title": "Hybrid",
+        "description": "Applications built with modern web technologies and deployed across multiple platforms with a consistent experience."
+      },
+
+      "crossPlatform": {
+        "title": "Cross-platform",
+        "description": "Reach Android and iOS users from a shared codebase while reducing development time and overall cost."
+      }
+    },
+
+    "process": {
+      "eyebrow": "HOW IT WORKS",
+      "title": "From concept to the App Store.",
+      "description": "Our development process keeps product strategy, user experience and engineering aligned from the first idea to launch.",
+
+      "planning": {
+        "title": "Planning",
+        "description": "We define your goals, audience, features and technical requirements."
+      },
+
+      "design": {
+        "title": "Design",
+        "description": "We create intuitive interfaces and user experiences built around real user needs."
+      },
+
+      "development": {
+        "title": "Development",
+        "description": "Our engineers turn the approved design into reliable and scalable mobile technology."
+      },
+
+      "testing": {
+        "title": "Testing",
+        "description": "We test functionality, performance, compatibility and user experience across target devices."
+      },
+
+      "deployment": {
+        "title": "Deployment",
+        "description": "We prepare the application for release and help you launch it confidently."
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "WHY MOBILE",
+      "title": "Technology that creates real value.",
+      "description": "A well-designed mobile application can become a powerful touchpoint between your business and its customers.",
+
+      "experience": {
+        "title": "Better experience",
+        "description": "Create intuitive interactions that improve engagement and user satisfaction."
+      },
+
+      "cost": {
+        "title": "Cost effective",
+        "description": "Choose the right architecture and development strategy to control long-term costs."
+      },
+
+      "audience": {
+        "title": "Wider audience",
+        "description": "Reach more users through native, cross-platform and web-based experiences."
+      },
+
+      "business": {
+        "title": "Built for business",
+        "description": "Every feature is designed around your specific objectives and operational needs."
+      },
+
+      "loyalty": {
+        "title": "Customer loyalty",
+        "description": "Deliver useful digital experiences that encourage retention and long-term engagement."
+      }
+    },
+
+    "cta": {
+      "eyebrow": "LET'S BUILD",
+      "title": "Have a mobile idea?",
+      "titleAccent": "Let's turn it into reality.",
+      "description": "Tell us what you are building and we will help you choose the right platform, technology and development approach.",
+      "button": "Start a Conversation"
+    }
+  },
+  "WebService": {
+    "hero": {
+      "eyebrow": "WEB SERVICES",
+      "title": "Powerful web",
+      "titleAccent": "experiences, built to perform.",
+      "description": "We design and build modern web platforms that combine thoughtful user experiences, reliable technology, and the performance your business needs to grow.",
+      "primaryButton": "Explore Services",
+      "secondaryButton": "Start a Project",
+
+      "stats": {
+        "reliability": "Reliability",
+        "availability": "Availability"
+      },
+
+      "visual": {
+        "dashboard": "Performance",
+        "performance": "System performance",
+        "operational": "All systems operational",
+        "connected": "Connected",
+        "fastAndReliable": "Fast & reliable",
+        "infrastructure": "Modern infrastructure"
+      }
+    },
+
+    "services": {
+      "eyebrow": "WHAT WE PROVIDE",
+      "title": "Everything your website needs to stay online.",
+      "description": "We provide reliable web infrastructure and technical services that keep your website secure, accessible and ready to grow.",
+      "explore": "Explore service",
+
+      "hosting": {
+        "title": "Web Hosting",
+        "description": "Secure and reliable hosting infrastructure designed to keep your website fast, stable and available.",
+        "features": [
+          "Reliable hosting infrastructure",
+          "Performance-focused setup",
+          "Secure server environment",
+          "Scalable hosting options"
+        ]
+      },
+
+      "domain": {
+        "title": "Domain Registration",
+        "description": "Find and secure the right domain name for your brand with professional domain registration and management.",
+        "features": [
+          "Domain search",
+          "Domain registration",
+          "DNS management",
+          "Domain renewal"
+        ]
+      },
+
+      "ssl": {
+        "title": "SSL Certification",
+        "description": "Protect your website and your users with SSL certificates that encrypt sensitive information and build trust.",
+        "features": [
+          "SSL certificate setup",
+          "HTTPS configuration",
+          "Secure data transmission",
+          "Certificate management"
+        ]
+      },
+
+      "maintenance": {
+        "title": "Maintenance & Support",
+        "description": "Keep your website secure, updated and running smoothly with continuous technical maintenance and support.",
+        "features": [
+          "Regular updates",
+          "Security monitoring",
+          "Backup management",
+          "Bug fixing"
+        ]
+      },
+
+      "api": {
+        "title": "API Integration",
+        "description": "Connect your website and applications with external platforms, services and internal systems through reliable APIs.",
+        "features": [
+          "API development",
+          "Third-party integrations",
+          "Data synchronization",
+          "System connectivity"
+        ]
+      }
+    },
+
+    "process": {
+      "eyebrow": "HOW IT WORKS",
+      "title": "A web infrastructure built around your needs.",
+      "description": "We approach every project with a clear process that keeps infrastructure, security and performance aligned with your business goals.",
+
+      "planning": {
+        "title": "Understand",
+        "description": "We understand your website, traffic, technology stack and infrastructure requirements."
+      },
+
+      "setup": {
+        "title": "Set Up",
+        "description": "We configure the right hosting, domains, services and technical environment for your project."
+      },
+
+      "secure": {
+        "title": "Secure",
+        "description": "We protect your website with SSL, secure configurations and the right security practices."
+      },
+
+      "maintain": {
+        "title": "Maintain",
+        "description": "We keep your website updated, monitored and running reliably over time."
+      },
+
+      "optimize": {
+        "title": "Optimize",
+        "description": "We continuously improve performance, reliability and scalability as your needs evolve."
+      }
+    },
+
+    "why": {
+      "eyebrow": "WHY ROSHASOFT",
+      "title": "The technical foundation your website deserves.",
+      "description": "A great website needs more than beautiful design. It needs infrastructure that is secure, reliable and ready for what comes next.",
+
+      "reliable": {
+        "title": "Reliable infrastructure",
+        "description": "We build and configure web environments designed for stability, availability and long-term performance."
+      },
+
+      "secure": {
+        "title": "Security first",
+        "description": "SSL, secure configurations and continuous attention to security help protect your website and users."
+      },
+
+      "performance": {
+        "title": "Performance focused",
+        "description": "We optimize infrastructure and technical configurations to help your website remain fast and responsive."
+      },
+
+      "support": {
+        "title": "Continuous support",
+        "description": "Our relationship does not end at launch. We remain available to maintain and improve your digital infrastructure."
+      }
+    },
+
+    "cta": {
+      "eyebrow": "LET'S BUILD",
+      "title": "Need a stronger web foundation?",
+      "titleAccent": "Let's build it together.",
+      "description": "Tell us about your website and your technical needs. We will help you choose the right infrastructure and services for your next stage.",
+      "button": "Start a Conversation"
+    }
+  },
+  "WebDesign": {
+    "hero": {
+      "eyebrow": "WEB DESIGN",
+      "title": "Websites designed to make your business stand out.",
+      "description": "We design modern, responsive and purposeful websites that turn your digital presence into a powerful business asset.",
+      "primaryButton": "Explore Web Design",
+      "secondaryButton": "Start a Project",
+
+      "visual": {
+        "web": "Web",
+        "experience": "Experience",
+        "status": "Built for",
+        "performance": "Performance"
+      }
+    },
+
+    "types": {
+      "eyebrow": "WHAT WE BUILD",
+      "title": "The right website for the way you work.",
+      "description": "Whether you need a simple digital presence, a dynamic platform, or a content-driven website, we build experiences around your goals.",
+
+      "explore": "Explore",
+
+      "static": {
+        "title": "Static Websites",
+        "description": "Fast, lightweight websites focused on clarity, performance and a strong digital presence.",
+        "features": [
+          "High performance",
+          "Responsive layouts",
+          "Clean architecture",
+          "Low maintenance",
+          "Ideal for company websites"
+        ]
+      },
+
+      "dynamic": {
+        "title": "Dynamic Websites",
+        "description": "Interactive and data-driven websites built to support evolving business needs and richer digital experiences.",
+        "features": [
+          "Dynamic content",
+          "Custom functionality",
+          "Database integration",
+          "Interactive experiences",
+          "Scalable architecture"
+        ]
+      },
+
+      "cms": {
+        "title": "CMS Websites",
+        "description": "Flexible content management solutions that give your team control over your website without relying on developers for every update.",
+        "features": [
+          "Easy content management",
+          "Custom CMS setup",
+          "Structured content",
+          "SEO-friendly architecture",
+          "Scalable publishing"
+        ]
+      }
+    },
+
+    "process": {
+      "eyebrow": "HOW IT WORKS",
+      "title": "From the first idea to a website ready to perform.",
+      "description": "Our process combines strategy, design, engineering and testing to create websites that look great and work reliably.",
+
+      "planning": {
+        "title": "Planning & Strategy",
+        "description": "We understand your business, audience, goals and requirements before defining the structure and direction of the website."
+      },
+
+      "design": {
+        "title": "Design",
+        "description": "We create a clear visual language and intuitive interface designed around your brand and your users."
+      },
+
+      "development": {
+        "title": "Development",
+        "description": "Our engineers transform the approved design into a fast, responsive and production-ready website."
+      },
+
+      "testing": {
+        "title": "Testing & Optimization",
+        "description": "We test the website across devices and browsers and optimize performance, usability and reliability."
+      },
+
+      "launch": {
+        "title": "Launch",
+        "description": "We deploy the website, verify the final experience and make sure everything is ready for your audience."
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "BUILT DIFFERENTLY",
+      "title": "A beautiful website is only the beginning.",
+      "description": "We combine visual design with engineering quality so your website does more than look good. It should perform, communicate and grow with your business.",
+
+      "performance": {
+        "title": "Performance",
+        "description": "Fast-loading experiences designed to keep users engaged and reduce unnecessary friction."
+      },
+
+      "responsive": {
+        "title": "Responsive by default",
+        "description": "Every interface is designed to work naturally across desktops, tablets and mobile devices."
+      },
+
+      "seo": {
+        "title": "Search ready",
+        "description": "Clean structure and technical foundations that make your website easier for search engines to understand."
+      },
+
+      "reliable": {
+        "title": "Reliable foundation",
+        "description": "Maintainable code, thoughtful architecture and attention to security and long-term stability."
+      }
+    },
+
+    "cta": {
+      "eyebrow": "LET'S DESIGN",
+      "title": "Ready to build a website that represents your business?",
+      "description": "Tell us what you have in mind. We will help you shape the right structure, experience and technology for your next website.",
+      "button": "Start a Conversation"
+    }
+  },
+  "Privacy": {
+    "hero": {
+      "eyebrow": "PRIVACY & TRUST",
+      "title": "Your data deserves",
+      "titleAccent": "to be protected.",
+      "description": "At RoshaSoft, we believe technology should create value without compromising trust. This Privacy Policy explains how we collect, use, protect, and manage information when you interact with our digital services.",
+      "badge": "OUR COMMITMENT",
+      "badgeTitle": "Privacy by design.",
+      "badgeDescription": "We treat personal information responsibly and apply appropriate safeguards to protect the data entrusted to us.",
+      "status": "Trust is part of our technology."
+    },
+
+    "intro": {
+      "eyebrow": "OUR APPROACH",
+      "title": "Clear, responsible and transparent.",
+      "description": "This Privacy Policy describes the principles we follow when handling information provided through our website, services, communication channels, and digital products.",
+      "commitment": "We collect only what is reasonably necessary."
+    },
+
+    "sections": {
+      "information": {
+        "title": "Information We Collect",
+        "description": "We may collect information that you voluntarily provide when contacting us, requesting a service, submitting a project inquiry, or communicating with our team.",
+        "items": [
+          "Name and contact information",
+          "Company and project details",
+          "Messages and communications",
+          "Technical information",
+          "Website usage information"
+        ]
+      },
+
+      "usage": {
+        "title": "How We Use Information",
+        "description": "Information may be used to respond to requests, provide and improve our services, communicate with you, understand how our website is used, and maintain the quality of our digital experience."
+      },
+
+      "protection": {
+        "title": "Data Protection",
+        "description": "We use reasonable administrative, technical, and organizational safeguards to protect personal information against unauthorized access, misuse, alteration, disclosure, or loss."
+      },
+
+      "cookies": {
+        "title": "Cookies & Analytics",
+        "description": "Our website may use cookies or similar technologies to maintain functionality, understand website usage, improve performance, and provide a better experience."
+      },
+
+      "rights": {
+        "title": "Your Privacy Rights",
+        "description": "Depending on applicable laws and your location, you may have rights regarding access, correction, deletion, restriction, or objection to the processing of your personal information."
+      },
+
+      "updates": {
+        "title": "Policy Updates",
+        "description": "We may update this Privacy Policy when our services, technologies, or legal obligations change. Any updated version will be published on this page with its latest revision date."
+      }
+    },
+
+    "principles": {
+      "eyebrow": "PRIVACY PRINCIPLES",
+      "title": "The principles behind how we handle information.",
+      "items": [
+        {
+          "title": "Purpose",
+          "description": "We use information for legitimate and clearly defined business and service purposes."
+        },
+        {
+          "title": "Minimization",
+          "description": "We aim to collect information that is relevant and reasonably necessary for the intended purpose."
+        },
+        {
+          "title": "Security",
+          "description": "We apply appropriate safeguards to reduce the risk of unauthorized access or misuse."
+        },
+        {
+          "title": "Transparency",
+          "description": "We strive to make our approach to personal information clear and understandable."
+        }
+      ]
+    },
+
+    "cta": {
+      "eyebrow": "HAVE A QUESTION?",
+      "title": "Want to know more about how we handle your information?",
+      "description": "If you have questions about this Privacy Policy or how your information is handled, our team is here to help.",
+      "button": "Contact Us"
+    },
+
+    "contact": {
+      "label": "Privacy questions & requests"
+    }
+  },
+  "RFID": {
+    "hero": {
+      "eyebrow": "RFID TECHNOLOGY",
+      "title": "Know what is moving.",
+      "titleAccent": "Before it moves again.",
+      "description": "Connect physical objects to intelligent digital systems with RFID technology designed to improve visibility, accuracy and operational efficiency.",
+      "explore": "How it works",
+      "button": "Request RFID Solution",
+      "tag": "RFID Tag",
+      "reader": "RFID Reader",
+      "connected": "System connected"
+    },
+
+    "overview": {
+      "eyebrow": "RFID",
+      "title": "Connecting the physical world to your digital systems.",
+      "description": "Radio Frequency Identification uses radio waves to automatically identify and track objects without requiring direct line-of-sight scanning. It enables organizations to collect reliable information faster and turn physical activity into actionable digital data.",
+
+      "features": {
+        "identification": {
+          "title": "Automatic identification",
+          "description": "Identify tagged objects quickly without manually scanning every item."
+        },
+        "efficiency": {
+          "title": "Operational efficiency",
+          "description": "Reduce repetitive processes and make everyday operations faster and more efficient."
+        },
+        "accuracy": {
+          "title": "Better accuracy",
+          "description": "Capture consistent identification data while reducing manual errors and missed scans."
+        }
+      }
+    },
+
+    "howItWorks": {
+      "eyebrow": "HOW IT WORKS",
+      "title": "Three components. One connected system.",
+      "description": "An RFID solution brings together tags, readers and software to capture, transmit and process identification data.",
+
+      "steps": {
+        "tag": {
+          "title": "RFID Tag",
+          "description": "A small tag attached to an object stores a unique identification number and communicates wirelessly."
+        },
+        "reader": {
+          "title": "RFID Reader",
+          "description": "The reader detects nearby tags and receives their identification information through radio waves."
+        },
+        "system": {
+          "title": "Digital System",
+          "description": "Collected data is transferred to your software platform for storage, analysis and operational decisions."
+        }
+      }
+    },
+
+    "applications": {
+      "eyebrow": "APPLICATIONS",
+      "title": "RFID built around real operational needs.",
+      "description": "From warehouses and supply chains to healthcare and public transportation, RFID can create a more connected and measurable operation.",
+
+      "inventory": {
+        "title": "Inventory Management",
+        "description": "Track products and inventory with less manual scanning and better visibility."
+      },
+
+      "supplyChain": {
+        "title": "Supply Chain",
+        "description": "Improve the visibility and traceability of goods throughout your supply chain."
+      },
+
+      "assets": {
+        "title": "Asset Tracking",
+        "description": "Know where important equipment and assets are and how they move."
+      },
+
+      "access": {
+        "title": "Access Control",
+        "description": "Use RFID identification to manage access to facilities, systems and controlled areas."
+      },
+
+      "healthcare": {
+        "title": "Healthcare",
+        "description": "Support the tracking of equipment, medication and other critical healthcare assets."
+      },
+
+      "transport": {
+        "title": "Transportation",
+        "description": "Enable faster identification and ticketing experiences across transportation systems."
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "THE ADVANTAGE",
+      "title": "More visibility. Less manual work.",
+      "description": "RFID can help organizations process multiple tagged items simultaneously, reduce manual scanning and build more accurate operational data.",
+
+      "points": {
+        "one": "Multiple items can be identified at the same time",
+        "two": "No direct line-of-sight scanning is required",
+        "three": "Faster operational workflows",
+        "four": "Improved data accuracy and traceability"
+      },
+
+      "visibility": {
+        "title": "Real-time visibility",
+        "description": "Create a clearer picture of where objects are and how they move through your operation."
+      },
+
+      "speed": {
+        "title": "Faster operations",
+        "description": "Automate repetitive identification tasks and reduce the time spent on manual scanning."
+      },
+
+      "scalability": {
+        "title": "Built to scale",
+        "description": "Design an RFID ecosystem that can grow with your organization and integrate with existing software."
+      }
+    },
+
+    "cta": {
+      "eyebrow": "BUILD WITH RFID",
+      "title": "Ready to connect",
+      "titleAccent": "your physical operations?",
+      "description": "Tell us about your workflow, assets or operational challenge. We can help you design the right RFID hardware and software solution.",
+      "button": "Start a Conversation"
+    }
+  },
+  "ERP": {
+    "hero": {
+      "eyebrow": "ENTERPRISE RESOURCE PLANNING",
+      "title": "One intelligent system for your entire business.",
+      "description": "Connect finance, operations, people, production, and supply chain through a powerful ERP platform built around the way your organization works.",
+      "primaryButton": "Explore ERP",
+      "secondaryButton": "Talk to an Expert",
+      "visualLabel": "Connected Business"
+    },
+
+    "overview": {
+      "eyebrow": "THE ERP PLATFORM",
+      "title": "Bring every part of your business together.",
+      "description": "ERP gives your organization a unified view of its most important operations. Instead of managing disconnected systems and duplicated data, your teams can work from one connected platform.",
+      "areas": {
+        "finance": "Finance",
+        "accounting": "Accounting",
+        "production": "Production",
+        "humanResources": "Human Resources",
+        "supplyChain": "Supply Chain",
+        "analytics": "Analytics"
+      }
+    },
+
+    "features": {
+      "eyebrow": "BUILT FOR YOUR BUSINESS",
+      "title": "Powerful by default. Flexible when you need it.",
+      "items": {
+        "customizable": {
+          "title": "Fully Customizable",
+          "description": "Adapt workflows, modules, permissions, and features to match your organization's specific requirements."
+        },
+        "infrastructure": {
+          "title": "Powerful Infrastructure",
+          "description": "A reliable technology foundation designed for performance, security, scalability, and long-term growth."
+        },
+        "reporting": {
+          "title": "Complete Reporting",
+          "description": "Turn operational data into meaningful reports and insights for better business management."
+        },
+        "multilingual": {
+          "title": "Multilingual",
+          "description": "Support teams and organizations operating across different languages and markets."
+        },
+        "expandable": {
+          "title": "Expandable",
+          "description": "Start with what you need today and add capabilities as your organization grows."
+        },
+        "support": {
+          "title": "Dedicated Support",
+          "description": "Get ongoing technical assistance and support throughout the lifecycle of your ERP system."
+        }
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "BUSINESS IMPACT",
+      "title": "Technology that helps you make better decisions.",
+      "description": "A modern ERP should do more than store information. It should help your organization operate faster, reduce unnecessary costs, and make decisions with greater confidence.",
+      "items": {
+        "realTime": {
+          "title": "Real-time decision making",
+          "description": "Access current business information and respond faster to changing conditions."
+        },
+        "reduceCosts": {
+          "title": "Reduce operational costs",
+          "description": "Eliminate redundant processes and reduce unnecessary manual work."
+        },
+        "customization": {
+          "title": "Adapt to your organization",
+          "description": "Configure the platform around your workflows, teams, and business requirements."
+        },
+        "deployment": {
+          "title": "Cloud or on-premise",
+          "description": "Deploy your ERP according to your infrastructure, security, and operational needs."
+        },
+        "integration": {
+          "title": "Connected ecosystem",
+          "description": "Integrate ERP with other business applications and create a unified technology environment."
+        }
+      }
+    },
+
+    "modules": {
+      "eyebrow": "CORE MODULES",
+      "title": "Everything your operation needs.",
+      "description": "Build a connected business environment with modules designed to support the essential functions of modern organizations.",
+      "items": {
+        "finance": {
+          "title": "Finance",
+          "description": "Manage financial operations, transactions, and business performance."
+        },
+        "accounting": {
+          "title": "Accounting",
+          "description": "Organize accounting processes and maintain accurate financial records."
+        },
+        "humanResources": {
+          "title": "Human Resources",
+          "description": "Manage people, workforce information, payroll, and organizational processes."
+        },
+        "production": {
+          "title": "Production",
+          "description": "Plan, monitor, and manage production processes and resources."
+        },
+        "inventory": {
+          "title": "Inventory",
+          "description": "Track products, stock levels, warehouses, and inventory movements."
+        },
+        "supplyChain": {
+          "title": "Supply Chain",
+          "description": "Connect purchasing, logistics, distribution, and supply chain operations."
+        }
+      }
+    },
+
+    "cta": {
+      "eyebrow": "BUILD YOUR ERP",
+      "title": "Ready to connect your business?",
+      "description": "Tell us about your organization, your current challenges, and where you want to go. We'll help you design the right ERP approach.",
+      "button": "Start a Conversation"
+    }
+  },
+  "MMS": {
+    "hero": {
+      "eyebrow": "MERCHANDISE MANAGEMENT SYSTEM",
+      "title": "Turn merchandise data into better business decisions.",
+      "description": "A powerful merchandise management system for controlling inventory, purchasing, sales, and operations from one connected platform.",
+      "primaryButton": "Request MMS",
+      "secondaryButton": "Explore Features",
+      "status": "Inventory. Sales. Operations. Connected.",
+      "label": "MMS"
+    },
+
+    "overview": {
+      "eyebrow": "WHAT IS MMS",
+      "title": "One system for your entire merchandise operation.",
+      "description": "MMS helps retailers, wholesalers, distributors, and commercial organizations manage products, inventory, purchasing, sales, and operational data through a unified digital system.",
+      "highlight": "Manage better. Decide faster. Grow smarter."
+    },
+
+    "capabilities": {
+      "eyebrow": "CORE CAPABILITIES",
+      "title": "Everything you need to manage merchandise with confidence.",
+      "description": "From purchasing and inventory control to reporting and sales operations, MMS brings the essential parts of merchandise management together.",
+
+      "items": {
+        "inventory": {
+          "title": "Inventory Management",
+          "description": "Track stock levels, product movements, availability, and inventory changes across your operation.",
+          "item1": "Real-time inventory tracking",
+          "item2": "Stock level management",
+          "item3": "Product movement tracking",
+          "item4": "Warehouse management",
+          "item5": "Inventory reporting"
+        },
+
+        "purchasing": {
+          "title": "Purchasing Management",
+          "description": "Organize purchasing operations and make better procurement decisions based on accurate business data.",
+          "item1": "Purchase order management",
+          "item2": "Supplier management",
+          "item3": "Procurement tracking",
+          "item4": "Purchase history",
+          "item5": "Cost analysis"
+        },
+
+        "sales": {
+          "title": "Sales Management",
+          "description": "Connect merchandise data with sales operations to understand performance and improve revenue.",
+          "item1": "Sales tracking",
+          "item2": "Product performance",
+          "item3": "Pricing management",
+          "item4": "Sales reporting",
+          "item5": "Revenue analysis"
+        },
+
+        "reporting": {
+          "title": "Business Intelligence",
+          "description": "Transform operational data into useful insights that support faster and more informed decisions.",
+          "item1": "Performance dashboards",
+          "item2": "Inventory reports",
+          "item3": "Sales analytics",
+          "item4": "Purchase analytics",
+          "item5": "Decision support"
+        }
+      }
+    },
+
+    "workflow": {
+      "eyebrow": "HOW IT WORKS",
+      "title": "A connected flow from purchase to sale.",
+      "description": "MMS connects the most important stages of your merchandise operation so your teams can work from the same source of information.",
+
+      "steps": {
+        "purchase": {
+          "number": "01",
+          "title": "Purchase",
+          "description": "Create and manage purchase orders while keeping supplier and procurement information organized."
+        },
+
+        "receive": {
+          "number": "02",
+          "title": "Receive",
+          "description": "Register incoming products and update inventory information as merchandise enters your operation."
+        },
+
+        "manage": {
+          "number": "03",
+          "title": "Manage",
+          "description": "Monitor stock, product movements, warehouses, and inventory levels across your organization."
+        },
+
+        "sell": {
+          "number": "04",
+          "title": "Sell",
+          "description": "Connect merchandise information with sales channels and understand what is performing."
+        },
+
+        "analyze": {
+          "number": "05",
+          "title": "Analyze",
+          "description": "Use reports and operational data to identify opportunities and make better decisions."
+        }
+      }
+    },
+
+    "integrations": {
+      "eyebrow": "CONNECTED ECOSYSTEM",
+      "title": "Designed to work with the systems you already use.",
+      "description": "MMS can integrate with other business technologies to create a more complete view of your organization's operations.",
+
+      "items": {
+        "pos": {
+          "title": "Point of Sale",
+          "description": "Connect sales activity with merchandise and inventory data."
+        },
+
+        "ecommerce": {
+          "title": "E-Commerce",
+          "description": "Synchronize digital sales channels with your merchandise operations."
+        },
+
+        "erp": {
+          "title": "ERP",
+          "description": "Connect merchandise operations with broader enterprise processes."
+        },
+
+        "custom": {
+          "title": "Custom Integrations",
+          "description": "Connect MMS with your existing software and business infrastructure."
+        }
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "BUSINESS IMPACT",
+      "title": "Built to improve the way your business operates.",
+      "description": "MMS gives organizations the visibility and control they need to reduce operational friction and make smarter decisions.",
+
+      "items": {
+        "accuracy": {
+          "title": "Better Inventory Accuracy",
+          "description": "Maintain clearer and more reliable information about products and stock."
+        },
+
+        "stockouts": {
+          "title": "Fewer Stockouts",
+          "description": "Improve inventory visibility and reduce the risk of unavailable products."
+        },
+
+        "efficiency": {
+          "title": "Higher Operational Efficiency",
+          "description": "Reduce manual processes and keep merchandise operations organized."
+        },
+
+        "sales": {
+          "title": "Improved Sales Performance",
+          "description": "Understand product and sales performance to identify new opportunities."
+        },
+
+        "profitability": {
+          "title": "Better Profitability",
+          "description": "Use accurate purchasing, inventory, and sales data to make more profitable decisions."
+        },
+
+        "customer": {
+          "title": "Better Customer Experience",
+          "description": "Improve product availability and operational consistency for your customers."
+        }
+      }
+    },
+
+    "why": {
+      "eyebrow": "WHY ROSHASOFT",
+      "title": "MMS adapted to the way your business actually works.",
+      "description": "We don't believe merchandise management should force your organization into a rigid process. We configure technology around your operational reality.",
+
+      "items": {
+        "custom": {
+          "title": "Business-specific",
+          "description": "The system can be adapted to your products, workflows, teams, and operational requirements."
+        },
+
+        "scalable": {
+          "title": "Scalable",
+          "description": "Build a system that can evolve as your inventory, locations, users, and operations grow."
+        },
+
+        "integrated": {
+          "title": "Integrated",
+          "description": "Connect MMS with the other systems and digital channels your organization depends on."
+        },
+
+        "data": {
+          "title": "Data-driven",
+          "description": "Turn operational information into meaningful insights for better business decisions."
+        }
+      }
+    },
+
+    "cta": {
+      "eyebrow": "READY TO TAKE CONTROL?",
+      "title": "Make your merchandise operations smarter.",
+      "description": "Tell us about your products, inventory, purchasing, and sales processes. We will help you design the right MMS solution for your organization.",
+      "button": "Request MMS"
+    }
+  },
+  "CRM": {
+    "hero": {
+      "eyebrow": "CUSTOMER RELATIONSHIP MANAGEMENT",
+      "title": "Build stronger customer relationships with better data.",
+      "description": "A powerful and flexible CRM platform for managing customer data, sales leads, interactions, and relationship-driven business operations from one connected system.",
+      "primaryButton": "Explore Features",
+      "secondaryButton": "Request CRM",
+      "label": "CRM",
+      "cards": {
+        "customers": "Customers",
+        "leads": "Sales Leads",
+        "analytics": "Analytics"
+      }
+    },
+
+    "overview": {
+      "eyebrow": "WHAT IS CRM",
+      "title": "One connected system for your customer relationships.",
+      "description": "CRM brings customer information, communication history, sales activity, and relationship data together so your teams can understand customers better and respond more effectively.",
+      "highlight": "Know your customers. Improve every interaction. Grow stronger relationships."
+    },
+
+    "features": {
+      "eyebrow": "CORE CAPABILITIES",
+      "title": "Everything you need to manage customer relationships.",
+      "description": "From customer data and sales leads to interactions and customization, CRM gives your teams the tools they need to build better relationships.",
+
+      "items": {
+        "customers": {
+          "title": "Customer Management",
+          "description": "Keep customer information organized and accessible from a single connected platform."
+        },
+
+        "leads": {
+          "title": "Sales Lead Tracking",
+          "description": "Track opportunities, sales leads, and prospects throughout the customer journey."
+        },
+
+        "interactions": {
+          "title": "Customer Interactions",
+          "description": "Monitor communication and interactions to create more consistent customer experiences."
+        },
+
+        "data": {
+          "title": "Customer Data",
+          "description": "Bring customer preferences, purchase history, and relevant business information together."
+        },
+
+        "customization": {
+          "title": "Fully Customizable",
+          "description": "Adapt CRM workflows and functionality to match your organization's specific business requirements."
+        }
+      }
+    },
+
+    "workflow": {
+      "eyebrow": "HOW IT WORKS",
+      "title": "From customer data to stronger relationships.",
+      "description": "CRM helps your team organize customer information, understand opportunities, nurture leads, and turn interactions into meaningful business relationships.",
+
+      "steps": {
+        "capture": {
+          "number": "01",
+          "title": "Capture",
+          "description": "Collect and organize customer information from the channels and interactions your business uses."
+        },
+
+        "organize": {
+          "number": "02",
+          "title": "Organize",
+          "description": "Keep customer profiles, preferences, purchase history, and business data structured and accessible."
+        },
+
+        "nurture": {
+          "number": "03",
+          "title": "Nurture",
+          "description": "Follow up with prospects and customers using consistent communication and targeted engagement."
+        },
+
+        "convert": {
+          "number": "04",
+          "title": "Convert",
+          "description": "Turn better customer understanding into stronger relationships, sales opportunities, and long-term growth."
+        }
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "BUSINESS IMPACT",
+      "title": "Built to make customer relationships more valuable.",
+      "description": "CRM gives your teams better visibility into customers and sales activity while helping them create more personalized and efficient experiences.",
+
+      "items": {
+        "satisfaction": {
+          "title": "Higher Customer Satisfaction",
+          "description": "Use customer information to provide more relevant and personalized experiences."
+        },
+
+        "relationships": {
+          "title": "Stronger Relationships",
+          "description": "Understand customer needs, preferences, and history to build lasting relationships."
+        },
+
+        "sales": {
+          "title": "Improved Sales Performance",
+          "description": "Track leads and opportunities more effectively throughout the sales process."
+        },
+
+        "visibility": {
+          "title": "Better Customer Visibility",
+          "description": "Bring customer information and interactions together for a clearer business view."
+        },
+
+        "efficiency": {
+          "title": "Higher Team Efficiency",
+          "description": "Reduce scattered information and keep customer-related activities organized."
+        },
+
+        "communication": {
+          "title": "Better Communication",
+          "description": "Keep customer communication consistent across your teams and channels."
+        }
+      }
+    },
+
+    "automation": {
+      "eyebrow": "CRM AUTOMATION",
+      "title": "Automate repetitive tasks and focus on relationships.",
+      "description": "CRM can streamline sales operations by automating repetitive activities, giving your sales team more time to focus on customers, opportunities, and closing deals.",
+      "visualTitle": "A smarter sales workflow.",
+
+      "items": {
+        "leadNurturing": "Lead nurturing",
+        "followUp": "Follow-up emails",
+        "appointments": "Appointment scheduling"
+      }
+    },
+
+    "cta": {
+      "eyebrow": "READY TO BUILD BETTER RELATIONSHIPS?",
+      "title": "Make your customer relationships smarter.",
+      "description": "Tell us about your customers, sales process, communication channels, and business goals. We will help you design the right CRM solution for your organization.",
+      "button": "Request CRM"
+    }
+  },
+  "HIS": {
+    "hero": {
+      "eyebrow": "HOSPITAL INFORMATION SYSTEM",
+      "title": "Connect every part of patient care.",
+      "description": "A connected hospital information system that brings patients, clinicians, appointments, clinical data, and healthcare operations together in one intelligent platform.",
+      "primaryButton": "Explore HIS",
+      "secondaryButton": "Request HIS",
+
+      "dashboardLabel": "CLINICAL PLATFORM",
+      "dashboardTitle": "Patient Overview",
+      "live": "Live",
+
+      "patientOverview": "PATIENT OVERVIEW",
+      "patientName": "Patient Profile",
+      "patientStatus": "Active care journey",
+
+      "heartRate": "Heart Rate",
+      "bloodPressure": "Blood Pressure",
+      "status": "Status",
+      "stable": "Stable",
+
+      "today": "TODAY",
+      "appointments": "Appointments",
+      "completed": "Completed",
+
+      "activity": "CARE ACTIVITY",
+      "patientJourney": "Patient Journey",
+
+      "registration": "Registration",
+      "examination": "Examination",
+      "diagnosis": "Diagnosis",
+      "followUp": "Follow-up",
+
+      "connectedCare": "Connected Care",
+      "systemReady": "System Ready"
+    },
+
+    "overview": {
+      "eyebrow": "WHAT IS HIS",
+      "title": "One connected system for modern healthcare.",
+      "description": "HIS brings healthcare information, clinical activities, administrative processes, and operational data together through a unified digital platform.",
+      "highlight": "Connect information. Improve coordination. Deliver better care.",
+
+      "items": {
+        "clinical": {
+          "title": "Clinical Information",
+          "description": "Organize and manage information generated throughout patient care."
+        },
+        "information": {
+          "title": "Centralized Data",
+          "description": "Collect, store, process, retrieve, and communicate healthcare information."
+        },
+        "coordination": {
+          "title": "Better Coordination",
+          "description": "Connect teams, departments, and operational processes through one system."
+        }
+      }
+    },
+
+    "features": {
+      "eyebrow": "CORE FEATURES",
+      "title": "Built around the needs of modern healthcare organizations.",
+      "description": "HIS combines essential healthcare information capabilities with reliable infrastructure, reporting, financial tools, and scalable technology.",
+
+      "items": {
+        "financial": {
+          "title": "Financial Systems",
+          "description": "Support financial and administrative processes within a connected healthcare environment."
+        },
+        "infrastructure": {
+          "title": "Powerful Infrastructure",
+          "description": "Built on reliable technology that supports demanding healthcare operations."
+        },
+        "interface": {
+          "title": "Standard User Interface",
+          "description": "Provide consistent and accessible experiences for users across the organization."
+        },
+        "reporting": {
+          "title": "Reporting & Management",
+          "description": "Turn operational information into useful reports and management insights."
+        },
+        "multilingual": {
+          "title": "Multilingual",
+          "description": "Support multilingual environments and the needs of diverse healthcare organizations."
+        },
+        "scalable": {
+          "title": "Expandable",
+          "description": "Extend the system as departments, users, services, and operational requirements grow."
+        }
+      }
+    },
+
+    "clinical": {
+      "eyebrow": "CLINICAL TECHNOLOGY",
+      "title": "More than a management system. A clinical tool for modern healthcare.",
+      "description": "As healthcare technology evolves, HIS becomes an essential part of clinical operations, connecting specialized departments, clinical information, and healthcare technology.",
+
+      "items": {
+        "clinical": {
+          "title": "Clinical Operations",
+          "description": "Support healthcare teams with the information they need throughout clinical workflows."
+        },
+        "departments": {
+          "title": "Department Connectivity",
+          "description": "Connect specialized clinical and paraclinical departments through shared information."
+        },
+        "devices": {
+          "title": "Healthcare Technology",
+          "description": "Create a digital foundation for systems and equipment used in healthcare environments."
+        },
+        "patient": {
+          "title": "Patient Information",
+          "description": "Keep relevant patient and care information accessible across connected workflows."
+        }
+      }
+    },
+
+    "integration": {
+      "eyebrow": "CONNECTED HEALTHCARE",
+      "title": "Designed for integrated healthcare information.",
+      "description": "HIS supports an integrated information architecture that helps healthcare organizations move information securely and efficiently between systems.",
+
+      "hl7": {
+        "title": "HL7 Integration",
+        "description": "Support standardized healthcare information exchange and more effective information flow between systems."
+      },
+
+      "privacy": {
+        "title": "Privacy & Confidentiality",
+        "description": "Support healthcare environments where confidentiality and responsible information handling are essential."
+      },
+
+      "data": {
+        "title": "Connected Data",
+        "description": "Create a more complete view of healthcare operations through connected information."
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "BUSINESS & CLINICAL IMPACT",
+      "title": "Technology that helps healthcare organizations work better.",
+      "description": "HIS provides the information and tools organizations need to improve coordination, efficiency, management, and the quality of healthcare services.",
+
+      "items": {
+        "quality": {
+          "title": "Better Healthcare Quality",
+          "description": "Provide healthcare teams with better access to relevant information and resources."
+        },
+        "efficiency": {
+          "title": "Higher Efficiency",
+          "description": "Reduce fragmented processes and make better use of organizational resources."
+        },
+        "coordination": {
+          "title": "Improved Coordination",
+          "description": "Connect departments and teams through a shared information environment."
+        },
+        "decisions": {
+          "title": "Better Decisions",
+          "description": "Use accurate and accessible information to support planning and decision-making."
+        },
+        "management": {
+          "title": "Stronger Management",
+          "description": "Improve visibility across clinical, administrative, and operational activities."
+        },
+        "patient": {
+          "title": "Better Patient Outcomes",
+          "description": "Support healthcare teams with the information needed to deliver more consistent care."
+        }
+      }
+    },
+
+    "promise": {
+      "eyebrow": "OUR APPROACH",
+      "title": "A comprehensive HIS built around real healthcare operations.",
+      "description": "We combine the fundamental components of a health information system with advanced financial, automation, and operational capabilities to create technology that can evolve with your organization."
+    },
+
+    "cta": {
+      "eyebrow": "READY TO MODERNIZE HEALTHCARE?",
+      "title": "Build a smarter healthcare information system.",
+      "description": "Tell us about your hospital, healthcare organization, departments, workflows, and technology requirements. We will help you design the right HIS solution.",
+      "button": "Request HIS"
+    }
+  },
+  "BPMS": {
+    "hero": {
+      "eyebrow": "BUSINESS PROCESS MANAGEMENT SYSTEM",
+      "title": "Turn complex business processes into simple, connected workflows.",
+      "description": "A powerful business process management system that helps organizations automate workflows, connect teams, monitor execution, and continuously improve the way work gets done.",
+      "primaryButton": "Explore BPMS",
+      "secondaryButton": "Request BPMS",
+      "workflowLabel": "PROCESS CONTROL",
+      "workflowTitle": "Order Approval Workflow",
+      "active": "ACTIVE",
+      "automation": "AUTOMATION",
+      "automationTitle": "Workflow running",
+      "progress": "Process progress",
+      "automationStatus": "Automation active",
+      "smartAutomation": "Smart Automation",
+      "statusLabel": "SYSTEM STATUS",
+      "status": "Running",
+      "steps": {
+        "request": "Request",
+        "review": "Review",
+        "process": "Process",
+        "complete": "Complete"
+      }
+    },
+
+    "overview": {
+      "eyebrow": "WHAT IS BPMS",
+      "title": "One platform for managing the way work moves through your organization.",
+      "description": "BPMS helps organizations model, automate, monitor, and improve business processes. It creates a clear view of how work moves between people, departments, systems, and decision points.",
+      "highlight": "Automate better. See more. Improve continuously.",
+      "cards": {
+        "automation": {
+          "title": "Process Automation",
+          "description": "Automate repetitive tasks and move work forward with fewer manual steps."
+        },
+        "integration": {
+          "title": "System Integration",
+          "description": "Connect applications, data, and departments so information moves where it is needed."
+        },
+        "visibility": {
+          "title": "Process Visibility",
+          "description": "Track execution in real time and identify bottlenecks before they become larger problems."
+        }
+      }
+    },
+
+    "capabilities": {
+      "eyebrow": "CORE CAPABILITIES",
+      "title": "Everything you need to build and improve business processes.",
+      "description": "From workflow automation and system integration to monitoring and collaboration, BPMS brings the essential tools for process management together.",
+
+      "items": {
+        "automation": {
+          "title": "Process Automation",
+          "description": "Automate repetitive activities and keep business processes moving with less manual intervention.",
+          "item1": "Task automation",
+          "item2": "Rule-based workflows",
+          "item3": "Automatic notifications",
+          "item4": "Process triggers"
+        },
+
+        "workflow": {
+          "title": "Workflow Management",
+          "description": "Design structured workflows that clearly define how tasks, approvals, and decisions move through your organization.",
+          "item1": "Visual workflow design",
+          "item2": "Approval processes",
+          "item3": "Task assignment",
+          "item4": "Process routing"
+        },
+
+        "integration": {
+          "title": "System Integration",
+          "description": "Connect business applications and data sources to create a more unified operational environment.",
+          "item1": "API integration",
+          "item2": "Data synchronization",
+          "item3": "Application connectivity",
+          "item4": "Cross-system workflows"
+        },
+
+        "collaboration": {
+          "title": "Team Collaboration",
+          "description": "Help teams coordinate work, responsibilities, approvals, and information across departments.",
+          "item1": "Task management",
+          "item2": "Role management",
+          "item3": "Approval collaboration",
+          "item4": "Team visibility"
+        },
+
+        "monitoring": {
+          "title": "Process Monitoring",
+          "description": "Monitor process execution and use operational data to identify issues and improvement opportunities.",
+          "item1": "Real-time tracking",
+          "item2": "Performance monitoring",
+          "item3": "Process analytics",
+          "item4": "Bottleneck identification"
+        }
+      }
+    },
+
+    "workflow": {
+      "eyebrow": "HOW IT WORKS",
+      "title": "From process design to continuous improvement.",
+      "description": "BPMS creates a structured cycle where organizations can design processes, automate execution, monitor performance, and continuously improve their workflows.",
+
+      "steps": {
+        "design": {
+          "number": "01",
+          "title": "Design",
+          "description": "Map the process and define tasks, roles, decisions, and business rules."
+        },
+
+        "configure": {
+          "number": "02",
+          "title": "Configure",
+          "description": "Set up workflows, permissions, integrations, notifications, and approval paths."
+        },
+
+        "automate": {
+          "number": "03",
+          "title": "Automate",
+          "description": "Let the system handle repetitive activities and move work between process stages."
+        },
+
+        "monitor": {
+          "number": "04",
+          "title": "Monitor",
+          "description": "Track process execution, performance, delays, and operational bottlenecks."
+        },
+
+        "improve": {
+          "number": "05",
+          "title": "Improve",
+          "description": "Use process data and insights to optimize workflows and improve business performance."
+        }
+      }
+    },
+
+    "benefits": {
+      "eyebrow": "BUSINESS IMPACT",
+      "title": "Built to make organizations faster, clearer, and more efficient.",
+      "description": "BPMS helps organizations reduce operational friction, improve consistency, and create a more measurable way of working.",
+
+      "items": {
+        "efficiency": {
+          "title": "Higher Efficiency",
+          "description": "Reduce manual work and move processes forward with fewer unnecessary steps."
+        },
+
+        "consistency": {
+          "title": "Process Consistency",
+          "description": "Standardize business processes and ensure teams follow defined workflows."
+        },
+
+        "cost": {
+          "title": "Lower Operational Costs",
+          "description": "Reduce repetitive work, delays, errors, and unnecessary operational overhead."
+        },
+
+        "visibility": {
+          "title": "Better Visibility",
+          "description": "Understand where work is, what is delayed, and how processes are performing."
+        },
+
+        "collaboration": {
+          "title": "Better Collaboration",
+          "description": "Connect departments and make responsibilities, tasks, and approvals clearer."
+        },
+
+        "satisfaction": {
+          "title": "Improved Customer Experience",
+          "description": "Deliver faster and more consistent services by improving the processes behind them."
+        }
+      }
+    },
+
+    "scalability": {
+      "eyebrow": "BUILT FOR DIFFERENT ORGANIZATIONS",
+      "title": "Flexible enough for enterprises and growing businesses.",
+      "description": "BPMS can be adapted to different organizational structures, process complexity, and operational requirements, making it useful for both large organizations and SMEs.",
+
+      "items": {
+        "enterprise": {
+          "title": "Enterprise Organizations",
+          "description": "Manage complex processes, multiple departments, approvals, and large operational environments."
+        },
+
+        "manufacturing": {
+          "title": "Manufacturing",
+          "description": "Connect production, quality, procurement, logistics, and approval workflows."
+        },
+
+        "services": {
+          "title": "Service Organizations",
+          "description": "Standardize service delivery, customer requests, internal operations, and approvals."
+        },
+
+        "sme": {
+          "title": "Small & Medium Businesses",
+          "description": "Automate essential workflows and scale operations without adding unnecessary complexity."
+        }
+      }
+    },
+
+    "cta": {
+      "eyebrow": "READY TO IMPROVE YOUR PROCESSES?",
+      "title": "Make the way your business works smarter.",
+      "description": "Tell us about your workflows, operational challenges, and business goals. We will help you design a BPMS solution around the way your organization actually works.",
+      "button": "Request BPMS"
+    }
+  },
+  "Footer": {
+    "description": "RoshaSoft creates modern software, intelligent systems, and digital solutions for organizations ready to move forward.",
+    "company": "Company",
+    "about": "About Us",
+    "services": "Services",
+    "products": "Products",
+    "mobile": "Mobile App",
+    "web": "Web Service",
+    "design": "Web Design",
+    "connect": "Connect",
+    "contact": "Contact Us",
+    "rights": "All rights reserved.",
+    "careers": "Careers",
+    "privacy": "Privacy Policy",
+    "rfid": "RFID",
+    "erp": "ERP",
+    "mms": "MMS",
+    "crm": "CRM",
+    "his": "HIS",
+    "bpms": "BPMS",
+    "modularDesign": "Modular Design"
   }
 }

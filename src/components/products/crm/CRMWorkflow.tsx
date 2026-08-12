@@ -1,0 +1,99 @@
+"use client";
+
+import {
+  ArrowRight,
+  Database,
+  Mail,
+  Target,
+  UserRound,
+} from "lucide-react";
+import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
+
+const steps = [
+  {
+    key: "capture",
+    icon: UserRound,
+  },
+  {
+    key: "organize",
+    icon: Database,
+  },
+  {
+    key: "nurture",
+    icon: Mail,
+  },
+  {
+    key: "convert",
+    icon: Target,
+  },
+];
+
+export default function CRMWorkflow() {
+  const t = useTranslations("CRM.workflow");
+
+  return (
+    <section className="bg-white">
+      <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
+        <div className="max-w-2xl">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+            {t("eyebrow")}
+          </span>
+
+          <h2 className="mt-5 text-4xl font-semibold tracking-[-0.04em] text-[#082f3a] md:text-5xl">
+            {t("title")}
+          </h2>
+
+          <p className="mt-6 max-w-xl text-sm leading-7 text-[#71838a]">
+            {t("description")}
+          </p>
+        </div>
+
+        <div className="mt-16 grid gap-0 border-t border-[#082f3a]/[0.08] md:grid-cols-4">
+          {steps.map((step, index) => {
+            const Icon = step.icon;
+
+            return (
+              <motion.div
+                key={step.key}
+                initial={{ opacity: 0, y: 25 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{
+                  duration: 0.6,
+                  delay: index * 0.08,
+                }}
+                className="group relative border-b border-[#082f3a]/[0.08] py-8 md:border-b-0 md:border-r md:px-7 md:last:border-r-0"
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-[10px] font-semibold tracking-[0.2em] text-[#71838a]">
+                    {t(`steps.${step.key}.number`)}
+                  </span>
+
+                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#082f3a]/[0.04] text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
+                    <Icon size={15} />
+                  </div>
+                </div>
+
+                <h3 className="mt-10 text-xl font-semibold tracking-tight text-[#082f3a]">
+                  {t(`steps.${step.key}.title`)}
+                </h3>
+
+                <p className="mt-4 text-xs leading-6 text-[#71838a]">
+                  {t(`steps.${step.key}.description`)}
+                </p>
+
+                {index !== steps.length - 1 && (
+                  <ArrowRight
+                    size={14}
+                    className="absolute bottom-8 right-5 hidden text-[#082f3a]/20 md:block"
+                  />
+                )}
+              </motion.div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}

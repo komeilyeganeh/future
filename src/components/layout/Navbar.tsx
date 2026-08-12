@@ -40,19 +40,19 @@ export default function Navbar() {
             {t("nav.about")}
           </Link>
 
-          <a
-            href="#services"
+          <Link
+            href="/services"
             className="text-[11px] font-semibold text-[#71838a] transition hover:text-[#082f3a]"
           >
             {t("nav.services")}
-          </a>
+          </Link>
 
-          <a
-            href="#products"
+          <Link
+            href="/products"
             className="text-[11px] font-semibold text-[#71838a] transition hover:text-[#082f3a]"
           >
             {t("nav.products")}
-          </a>
+          </Link>
 
           <a
             href="#contact"
@@ -117,19 +117,19 @@ export default function Navbar() {
             className="mx-auto mt-2 max-w-310 rounded-[28px] border border-white/70 bg-white/90 p-3 shadow-[0_25px_70px_rgba(7,47,58,.12)] backdrop-blur-2xl md:hidden"
           >
             {[
-              ["#about", t("nav.about")],
-              ["#services", t("nav.services")],
-              ["#products", t("nav.products")],
+              ["/about", t("nav.about")],
+              ["/services", t("nav.services")],
+              ["/products", t("nav.products")],
               ["#contact", t("nav.contact")],
             ].map(([href, label]) => (
-              <a
+              <Link
                 key={href}
                 href={href}
                 onClick={() => setMenuOpen(false)}
                 className="block rounded-2xl px-4 py-3 text-[12px] font-semibold text-[#63747b] hover:bg-[#082f3a]/4"
               >
                 {label}
-              </a>
+              </Link>
             ))}
 
             <div className="mt-2 flex gap-1 rounded-2xl border border-[#082f3a]/10 bg-white/70 p-1 shadow-[0_4px_20px_rgba(8,47,58,0.05)] backdrop-blur-md">
