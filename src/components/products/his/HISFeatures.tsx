@@ -42,18 +42,18 @@ export default function HISFeatures() {
   const t = useTranslations("HIS.features");
 
   return (
-    <section id="features" className="bg-[#f8faf9]">
+    <section id="features" className="bg-background-soft">
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         <div className="max-w-2xl">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
             {t("eyebrow")}
           </span>
 
-          <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-[#082f3a] md:text-5xl">
+          <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-primary md:text-5xl">
             {t("title")}
           </h2>
 
-          <p className="mt-6 max-w-xl text-sm leading-7 text-[#71838a]">
+          <p className="mt-6 max-w-xl text-sm leading-7 text-secondary">
             {t("description")}
           </p>
         </div>
@@ -73,17 +73,17 @@ export default function HISFeatures() {
                   delay: index * 0.07,
                 }}
                 whileHover={{ y: -5 }}
-                className="group rounded-[28px] border border-[#082f3a]/[0.07] bg-white p-7"
+                className="group rounded-[28px] border border-primary/7 bg-white p-7"
               >
-                <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/5 text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
+                <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/5 text-primary transition-all duration-300 group-hover:bg-primary group-hover:text-white">
                   <Icon size={19} strokeWidth={1.7} />
                 </div>
 
-                <h3 className="mt-9 text-xl font-semibold tracking-tight text-[#082f3a]">
+                <h3 className="mt-9 text-xl font-semibold tracking-tight text-primary">
                   {t(`items.${feature.key}.title`)}
                 </h3>
 
-                <p className="mt-3 text-xs leading-6 text-[#71838a]">
+                <p className="mt-3 text-xs leading-6 text-secondary">
                   {t(`items.${feature.key}.description`)}
                 </p>
               </motion.article>

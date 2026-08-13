@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function MMSHero() {
   const t = useTranslations("MMS.hero");
@@ -38,12 +39,12 @@ export default function MMSHero() {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-[#f8faf9]">
+    <section className="relative overflow-hidden bg-background-soft">
       {/* Background */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -right-40 -top-45 h-125 w-125 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
+        <div className="absolute -right-40 -top-45 h-125 w-125 rounded-full bg-primary/2.5 blur-3xl" />
 
-        <div className="absolute -bottom-40 -left-40 h-112.5 w-[450px] rounded-full bg-[#082f3a]/2 blur-3xl" />
+        <div className="absolute -bottom-40 -left-40 h-112.5 w-[450px] rounded-full bg-primary/2 blur-3xl" />
 
         <div
           className="absolute inset-0 opacity-[0.025]"
@@ -65,9 +66,9 @@ export default function MMSHero() {
               transition={{ duration: 0.6 }}
               className="mb-7 flex items-center gap-3"
             >
-              <span className="h-px w-8 bg-[#082f3a]" />
+              <span className="h-px w-8 bg-primary" />
 
-              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
                 {t("eyebrow")}
               </span>
             </motion.div>
@@ -76,7 +77,7 @@ export default function MMSHero() {
               initial={{ opacity: 0, y: 25 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="max-w-3xl text-5xl font-semibold leading-[0.95] tracking-tighter text-[#082f3a] sm:text-6xl lg:text-7xl"
+              className="max-w-3xl text-5xl font-semibold leading-[0.95] tracking-tighter text-primary sm:text-6xl lg:text-7xl"
             >
               {t("title")}
             </motion.h1>
@@ -85,7 +86,7 @@ export default function MMSHero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.25 }}
-              className="mt-8 max-w-xl text-sm leading-7 text-[#71838a] md:text-base"
+              className="mt-8 max-w-xl text-sm leading-7 text-secondary md:text-base"
             >
               {t("description")}
             </motion.p>
@@ -97,9 +98,9 @@ export default function MMSHero() {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="mt-9 flex flex-wrap gap-3"
             >
-              <a
+              <Link
                 href="#capabilities"
-                className="group inline-flex items-center gap-3 rounded-full bg-[#082f3a] px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                className="group inline-flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
                 {t("secondaryButton")}
 
@@ -107,16 +108,16 @@ export default function MMSHero() {
                   size={14}
                   className="transition-transform duration-300 group-hover:translate-y-1"
                 />
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="#contact"
-                className="inline-flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-[#082f3a] transition-all duration-300 hover:-translate-y-1 hover:border-[#082f3a]/20"
+                className="inline-flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:border-[#082f3a]/20"
               >
                 {t("primaryButton")}
 
                 <ArrowUpRight size={14} />
-              </a>
+              </Link>
             </motion.div>
           </div>
 
@@ -131,24 +132,24 @@ export default function MMSHero() {
               {/* Main dashboard */}
               <div className="relative overflow-hidden rounded-[28px] border border-[#082f3a]/8 bg-white shadow-[0_30px_100px_rgba(8,47,58,0.10)]">
                 {/* Top bar */}
-                <div className="flex items-center justify-between border-b border-[#082f3a]/[0.07] px-5 py-4 sm:px-6">
+                <div className="flex items-center justify-between border-b border-primary/7 px-5 py-4 sm:px-6">
                   <div className="flex items-center gap-3">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#082f3a] text-white">
+                    <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-white">
                       <Boxes size={16} />
                     </div>
 
                     <div>
-                      <p className="text-[10px] font-semibold text-[#082f3a]">
+                      <p className="text-[10px] font-semibold text-primary">
                         RoshaSoft
                       </p>
 
-                      <p className="text-[8px] uppercase tracking-[0.15em] text-[#71838a]">
+                      <p className="text-[8px] uppercase tracking-[0.15em] text-secondary">
                         MMS
                       </p>
                     </div>
                   </div>
 
-                  <span className="rounded-full bg-[#082f3a]/4 px-3 py-1.5 text-[8px] font-semibold uppercase tracking-[0.15em] text-[#71838a]">
+                  <span className="rounded-full bg-primary/4 px-3 py-1.5 text-[8px] font-semibold uppercase tracking-[0.15em] text-secondary">
                     {t("status")}
                   </span>
                 </div>
@@ -168,23 +169,23 @@ export default function MMSHero() {
                             duration: 0.5,
                             delay: 0.5 + index * 0.08,
                           }}
-                          className="rounded-2xl border border-[#082f3a]/6 bg-[#f8faf9] p-4"
+                          className="rounded-2xl border border-[#082f3a]/6 bg-background-soft p-4"
                         >
                           <div className="flex items-center justify-between">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white text-[#082f3a] shadow-sm">
+                            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white text-primary shadow-sm">
                               <Icon size={15} />
                             </div>
 
-                            <span className="text-[8px] font-semibold tracking-[0.15em] text-[#71838a]/50">
+                            <span className="text-[8px] font-semibold tracking-[0.15em] text-secondary/50">
                               {stat.value}
                             </span>
                           </div>
 
-                          <p className="mt-5 text-[10px] font-semibold text-[#082f3a]">
+                          <p className="mt-5 text-[10px] font-semibold text-primary">
                             {stat.label}
                           </p>
 
-                          <div className="mt-2 h-1 overflow-hidden rounded-full bg-[#082f3a]/6">
+                          <div className="mt-2 h-1 overflow-hidden rounded-full bg-primary/6">
                             <motion.div
                               initial={{ width: 0 }}
                               animate={{
@@ -194,7 +195,7 @@ export default function MMSHero() {
                                 duration: 0.9,
                                 delay: 0.8 + index * 0.08,
                               }}
-                              className="h-full rounded-full bg-[#082f3a]"
+                              className="h-full rounded-full bg-primary"
                             />
                           </div>
                         </motion.div>
@@ -206,18 +207,18 @@ export default function MMSHero() {
                   <div className="mt-3 rounded-2xl border border-[#082f3a]/6 p-4">
                     <div className="flex items-center justify-between">
                       <div>
-                        <p className="text-[9px] uppercase tracking-[0.18em] text-[#71838a]">
+                        <p className="text-[9px] uppercase tracking-[0.18em] text-secondary">
                           Merchandise overview
                         </p>
 
-                        <p className="mt-1 text-lg font-semibold tracking-tight text-[#082f3a]">
+                        <p className="mt-1 text-lg font-semibold tracking-tight text-primary">
                           Connected operations
                         </p>
                       </div>
 
                       <BarChart3
                         size={18}
-                        className="text-[#082f3a]/40"
+                        className="text-primary/40"
                       />
                     </div>
 
@@ -235,8 +236,8 @@ export default function MMSHero() {
                             }}
                             className={`flex-1 rounded-t-md ${
                               index === 9
-                                ? "bg-[#082f3a]"
-                                : "bg-[#082f3a]/8"
+                                ? "bg-primary"
+                                : "bg-primary/8"
                             }`}
                           />
                         )
@@ -251,12 +252,12 @@ export default function MMSHero() {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 1 }}
-                className="absolute -bottom-5 left-4 hidden rounded-2xl border border-[#082f3a]/[0.07] bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.10)] sm:block"
+                className="absolute -bottom-5 left-4 hidden rounded-2xl border border-primary/7 bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.10)] sm:block"
               >
                 <div className="flex items-center gap-3">
-                  <span className="h-2 w-2 rounded-full bg-[#082f3a]" />
+                  <span className="h-2 w-2 rounded-full bg-primary" />
 
-                  <span className="text-[9px] font-semibold text-[#082f3a]">
+                  <span className="text-[9px] font-semibold text-primary">
                     Inventory connected
                   </span>
                 </div>

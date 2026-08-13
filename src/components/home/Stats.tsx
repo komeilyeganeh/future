@@ -22,7 +22,7 @@ export default function Stats() {
                 : ""
             }`}
           >
-            <strong className="text-[40px] font-extrabold tracking-[-.07em] text-[#082f3a] sm:text-[48px]">
+            <strong className="text-[40px] font-extrabold tracking-[-.07em] text-primary sm:text-[48px]">
               {value}
             </strong>
 

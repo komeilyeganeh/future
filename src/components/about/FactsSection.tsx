@@ -32,7 +32,7 @@ export default function FactsSection() {
             </span>
           </div>
 
-          <h2 className="mt-6 text-[46px] font-black leading-[.92] tracking-[-.075em] text-[#082f3a] sm:text-[64px]">
+          <h2 className="mt-6 text-[46px] font-black leading-[.92] tracking-[-.075em] text-primary sm:text-[64px]">
             {t("title")}
 
             <br />
@@ -46,7 +46,7 @@ export default function FactsSection() {
     ========================================================= */}
         <div className="relative mt-20">
           {/* Vertical axis */}
-          <div className="pointer-events-none absolute left-4.5 top-0 hidden h-full w-px bg-[#082f3a]/8 sm:block" />
+          <div className="pointer-events-none absolute left-4.5 top-0 hidden h-full w-px bg-primary/8 sm:block" />
 
           {/* Data items */}
           <div className="grid grid-cols-1 sm:grid-cols-2">
@@ -100,7 +100,7 @@ export default function FactsSection() {
               `}
                 >
                   {/* Hover number */}
-                  <span className="absolute right-6 top-7 text-[9px] font-black tracking-[.2em] text-[#082f3a]/18 transition-all duration-500 group-hover:text-[#08788c]">
+                  <span className="absolute right-6 top-7 text-[9px] font-black tracking-[.2em] text-primary/18 transition-all duration-500 group-hover:text-[#08788c]">
                     0{index + 1}
                   </span>
 
@@ -115,7 +115,7 @@ export default function FactsSection() {
                   font-black
                   leading-none
                   tracking-[-.12em]
-                  text-[#082f3a]/2.5
+                  text-primary/2.5
                   transition-all
                   duration-700
                   group-hover:text-[#08788c]/5.5
@@ -142,7 +142,7 @@ export default function FactsSection() {
                     font-black
                     leading-none
                     tracking-[-.09em]
-                    text-[#082f3a]
+                    text-primary
                     transition-all
                     duration-500
                     group-hover:translate-x-2
@@ -166,13 +166,13 @@ export default function FactsSection() {
                     rounded-full
                     border
                     border-[#082f3a]/8
-                    text-[#71838a]
+                    text-secondary
                     opacity-0
                     transition-all
                     duration-500
                     group-hover:translate-x-0
                     group-hover:opacity-100
-                    group-hover:bg-[#082f3a]
+                    group-hover:bg-primary
                     group-hover:text-white
                   "
                     >
@@ -204,7 +204,7 @@ export default function FactsSection() {
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-[#08788c]" />
               </span>
 
-              <span className="text-[9px] font-black uppercase tracking-[.16em] text-[#71838a]">
+              <span className="text-[9px] font-black uppercase tracking-[.16em] text-secondary">
                 Building digital systems that scale
               </span>
             </div>

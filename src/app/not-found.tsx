@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function NotFound() {
   return (
-    <main className="relative h-screen overflow-hidden bg-[#f4f9fa] text-[#082f3a]">
+    <main className="relative h-screen overflow-hidden bg-[#f4f9fa] text-primary">
       {/* Background decoration */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -left-32 -top-32 h-96 w-96 rounded-full bg-[#d9eef1] blur-3xl" />
@@ -24,7 +24,7 @@ export default function NotFound() {
             transition={{ duration: 0.5 }}
             className="mb-8 inline-flex items-center gap-2 rounded-full border border-[#c8e1e5] bg-white/70 px-4 py-2 text-sm font-medium text-[#37636c] backdrop-blur"
           >
-            <span className="h-2 w-2 rounded-full bg-[#082f3a]" />
+            <span className="h-2 w-2 rounded-full bg-primary" />
             Page not found
           </motion.div>
 
@@ -41,13 +41,13 @@ export default function NotFound() {
           >
             <span
               aria-hidden="true"
-              className="select-none text-[clamp(8rem,25vw,18rem)] font-black leading-none tracking-[-0.08em] text-[#082f3a]/[0.07]"
+              className="select-none text-[clamp(8rem,25vw,18rem)] font-black leading-none tracking-[-0.08em] text-primary/[0.07]"
             >
               404
             </span>
 
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-[clamp(5rem,16vw,11rem)] font-black leading-none tracking-[-0.07em] text-[#082f3a]">
+              <span className="text-[clamp(5rem,16vw,11rem)] font-black leading-none tracking-[-0.07em] text-primary">
                 404
               </span>
             </div>
@@ -79,7 +79,7 @@ export default function NotFound() {
           >
             <Link
               href="/en"
-              className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-[#082f3a] px-7 text-sm font-semibold text-white shadow-lg shadow-[#082f3a]/15 transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#0d4654] hover:shadow-xl"
+              className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-primary px-7 text-sm font-semibold text-white shadow-lg shadow-[#082f3a]/15 transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#0d4654] hover:shadow-xl"
             >
               Back to home
 

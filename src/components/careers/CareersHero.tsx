@@ -10,24 +10,25 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function CareersHero() {
   const t = useTranslations("Careers");
 
   return (
-    <section className="relative overflow-hidden bg-[#f8faf9]">
+    <section className="relative overflow-hidden bg-background-soft">
       {/* -------------------------------------------------- */}
       {/* Background */}
       {/* -------------------------------------------------- */}
 
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-[8%] top-[18%] h-px w-[84%] bg-[#082f3a]/6" />
+        <div className="absolute left-[8%] top-[18%] h-px w-[84%] bg-primary/6" />
 
-        <div className="absolute left-[8%] top-[18%] h-[70%] w-px bg-[#082f3a]/6" />
+        <div className="absolute left-[8%] top-[18%] h-[70%] w-px bg-primary/6" />
 
-        <div className="absolute right-[8%] top-[18%] h-[70%] w-px bg-[#082f3a]/6" />
+        <div className="absolute right-[8%] top-[18%] h-[70%] w-px bg-primary/6" />
 
-        <div className="absolute -bottom-45 left-1/2 h-105 w-105 -translate-x-1/2 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
+        <div className="absolute -bottom-45 left-1/2 h-105 w-105 -translate-x-1/2 rounded-full bg-primary/2.5 blur-3xl" />
       </div>
 
       {/* -------------------------------------------------- */}
@@ -43,16 +44,16 @@ export default function CareersHero() {
           className="flex items-center justify-between border-b border-[#082f3a]/8 pb-5"
         >
           <div className="flex items-center gap-3">
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#082f3a] text-white">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white">
               <BriefcaseBusiness size={13} />
             </span>
 
-            <span className="text-[9px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+            <span className="text-[9px] font-semibold uppercase tracking-[0.3em] text-secondary">
               {t("hero.eyebrow")}
             </span>
           </div>
 
-          <span className="hidden text-[9px] font-medium uppercase tracking-[0.25em] text-[#71838a] md:block">
+          <span className="hidden text-[9px] font-medium uppercase tracking-[0.25em] text-secondary md:block">
             {t("hero.meta")}
           </span>
         </motion.div>
@@ -67,7 +68,7 @@ export default function CareersHero() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
-            className="pointer-events-none absolute -right-3 top-4 select-none text-[180px] font-semibold leading-none -tracking-widest text-[#082f3a]/2.5 md:-right-5 md:text-[280px]"
+            className="pointer-events-none absolute -right-3 top-4 select-none text-[180px] font-semibold leading-none -tracking-widest text-primary/2.5 md:-right-5 md:text-[280px]"
           >
             01
           </motion.div>
@@ -77,7 +78,7 @@ export default function CareersHero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.1 }}
-              className="mb-7 max-w-xl text-sm leading-7 text-[#71838a] md:text-base"
+              className="mb-7 max-w-xl text-sm leading-7 text-secondary md:text-base"
             >
               {t("hero.intro")}
             </motion.p>
@@ -86,10 +87,10 @@ export default function CareersHero() {
               initial={{ opacity: 0, y: 35 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.9, delay: 0.15 }}
-              className="max-w-5xl text-[clamp(3.5rem,9vw,8.5rem)] font-semibold leading-[0.86] tracking-[-0.065em] text-[#082f3a]"
+              className="max-w-5xl text-[clamp(3.5rem,9vw,8.5rem)] font-semibold leading-[0.86] tracking-[-0.065em] text-primary"
             >
               {t("hero.title")}
-              <span className="block text-[#71838a]">
+              <span className="block text-secondary">
                 {t("hero.titleAccent")}
               </span>
             </motion.h1>
@@ -108,25 +109,25 @@ export default function CareersHero() {
             transition={{ duration: 0.7, delay: 0.35 }}
             className="max-w-xl"
           >
-            <p className="text-sm leading-7 text-[#71838a]">
+            <p className="text-sm leading-7 text-secondary">
               {t("hero.description")}
             </p>
 
             <div className="mt-7 flex flex-wrap gap-3">
-              <a
+              <Link
                 href="#jobs"
-                className="group inline-flex items-center gap-3 rounded-full bg-[#082f3a] px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_40px_rgba(8,47,58,0.18)]"
+                className="group inline-flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_40px_rgba(8,47,58,0.18)]"
               >
                 {t("hero.primaryButton")}
 
                 <span className="flex h-7 w-7 items-center justify-center rounded-full bg-white/10 transition-transform duration-300 group-hover:rotate-45">
                   <ArrowUpRight size={13} />
                 </span>
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="#culture"
-                className="group inline-flex items-center gap-3 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-[#082f3a] transition-all duration-300 hover:-translate-y-1 hover:border-[#082f3a]/20"
+                className="group inline-flex items-center gap-3 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:border-[#082f3a]/20"
               >
                 {t("hero.secondaryButton")}
 
@@ -134,7 +135,7 @@ export default function CareersHero() {
                   size={13}
                   className="transition-transform duration-300 group-hover:translate-y-1"
                 />
-              </a>
+              </Link>
             </div>
           </motion.div>
 
@@ -150,35 +151,35 @@ export default function CareersHero() {
           >
             <div className="group relative overflow-hidden rounded-[26px] border border-[#082f3a]/8 bg-white p-5 shadow-[0_25px_80px_rgba(8,47,58,0.06)]">
               {/* Small glow */}
-              <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-[#082f3a]/[0.035] blur-2xl" />
+              <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-primary/[0.035] blur-2xl" />
 
               <div className="relative">
                 <div className="flex items-center justify-between">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#082f3a] text-white">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-white">
                     <Sparkles size={15} />
                   </div>
 
-                  <span className="flex items-center gap-2 text-[8px] font-semibold uppercase tracking-[0.2em] text-[#71838a]">
-                    <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-[#082f3a]" />
+                  <span className="flex items-center gap-2 text-[8px] font-semibold uppercase tracking-[0.2em] text-secondary">
+                    <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-primary" />
                     {t("hero.status")}
                   </span>
                 </div>
 
-                <h2 className="mt-8 text-xl font-semibold tracking-tight text-[#082f3a]">
+                <h2 className="mt-8 text-xl font-semibold tracking-tight text-primary">
                   {t("hero.cardTitle")}
                 </h2>
 
-                <p className="mt-3 text-xs leading-6 text-[#71838a]">
+                <p className="mt-3 text-xs leading-6 text-secondary">
                   {t("hero.cardDescription")}
                 </p>
 
                 <div className="mt-7 flex items-center gap-2">
                   <div className="flex -space-x-2">
-                    <div className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[#082f3a] text-white">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-primary text-white">
                       <Code2 size={12} />
                     </div>
 
-                    <div className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[#dfe7e5] text-[#082f3a]">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[#dfe7e5] text-primary">
                       <Users size={12} />
                     </div>
 
@@ -187,7 +188,7 @@ export default function CareersHero() {
                     </div>
                   </div>
 
-                  <span className="ml-2 text-[9px] font-medium text-[#71838a]">
+                  <span className="ml-2 text-[9px] font-medium text-secondary">
                     {t("hero.cardPeople")}
                   </span>
                 </div>
@@ -200,7 +201,7 @@ export default function CareersHero() {
         {/* Role ticker */}
         {/* ------------------------------------------------ */}
 
-        <div className="mt-14 overflow-hidden border-y border-[#082f3a]/[0.07] py-4">
+        <div className="mt-14 overflow-hidden border-y border-primary/7 py-4">
           <motion.div
             animate={{ x: ["0%", "-50%"] }}
             transition={{
@@ -215,29 +216,29 @@ export default function CareersHero() {
                 key={groupIndex}
                 className="flex items-center"
               >
-                <span className="mx-8 text-[9px] font-semibold uppercase tracking-[0.3em] text-[#082f3a]/40">
+                <span className="mx-8 text-[9px] font-semibold uppercase tracking-[0.3em] text-primary/40">
                   {t("hero.ticker.development")}
                 </span>
 
-                <span className="h-1 w-1 rounded-full bg-[#082f3a]/20" />
+                <span className="h-1 w-1 rounded-full bg-primary/20" />
 
-                <span className="mx-8 text-[9px] font-semibold uppercase tracking-[0.3em] text-[#082f3a]/40">
+                <span className="mx-8 text-[9px] font-semibold uppercase tracking-[0.3em] text-primary/40">
                   {t("hero.ticker.design")}
                 </span>
 
-                <span className="h-1 w-1 rounded-full bg-[#082f3a]/20" />
+                <span className="h-1 w-1 rounded-full bg-primary/20" />
 
-                <span className="mx-8 text-[9px] font-semibold uppercase tracking-[0.3em] text-[#082f3a]/40">
+                <span className="mx-8 text-[9px] font-semibold uppercase tracking-[0.3em] text-primary/40">
                   {t("hero.ticker.ai")}
                 </span>
 
-                <span className="h-1 w-1 rounded-full bg-[#082f3a]/20" />
+                <span className="h-1 w-1 rounded-full bg-primary/20" />
 
-                <span className="mx-8 text-[9px] font-semibold uppercase tracking-[0.3em] text-[#082f3a]/40">
+                <span className="mx-8 text-[9px] font-semibold uppercase tracking-[0.3em] text-primary/40">
                   {t("hero.ticker.marketing")}
                 </span>
 
-                <span className="h-1 w-1 rounded-full bg-[#082f3a]/20" />
+                <span className="h-1 w-1 rounded-full bg-primary/20" />
               </div>
             ))}
           </motion.div>

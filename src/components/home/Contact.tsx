@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, Sparkles } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function Contact() {
   const t = useTranslations("Home");
@@ -16,7 +17,7 @@ export default function Contact() {
         initial={{ opacity: 0, y: 25 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="relative mx-auto max-w-310 overflow-hidden rounded-[40px] bg-[#082f3a] px-7 py-20 text-center sm:px-12"
+        className="relative mx-auto max-w-310 overflow-hidden rounded-[40px] bg-primary px-7 py-20 text-center sm:px-12"
       >
         <div className="pointer-events-none absolute left-1/2 top-1/2 h-150 w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(20,160,175,.25),rgba(6,59,74,.08)_40%,transparent_70%)] blur-3xl" />
 
@@ -37,9 +38,9 @@ export default function Contact() {
             {t("cta.description")}
           </p>
 
-          <a
+          <Link
             href="mailto:hello@roshasoft.com"
-            className="group mt-8 inline-flex items-center gap-3 rounded-full bg-white px-6 py-4 text-[10px] font-bold text-[#082f3a] transition hover:-translate-y-1"
+            className="group mt-8 inline-flex items-center gap-3 rounded-full bg-white px-6 py-4 text-[10px] font-bold text-primary transition hover:-translate-y-1"
           >
             {t("cta.button")}
 
@@ -47,7 +48,7 @@ export default function Contact() {
               size={14}
               className="transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
             />
-          </a>
+          </Link>
         </div>
       </motion.div>
     </section>

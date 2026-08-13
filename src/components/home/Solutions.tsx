@@ -9,6 +9,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function Solutions() {
   const t = useTranslations("Home.solutions");
@@ -36,11 +37,11 @@ export default function Solutions() {
               {t("title")}
             </h2>
 
-            <p className="mt-7 max-w-[480px] text-[14px] leading-[1.9] text-[#737a88]">
+            <p className="mt-7 max-w-120 text-[14px] leading-[1.9] text-[#737a88]">
               {t("description")}
             </p>
 
-            <a
+            <Link
               href="#contact"
               className="group mt-8 inline-flex items-center gap-2 rounded-full border border-black/8 bg-white px-5 py-3 text-[10px] font-bold text-[#292d36] shadow-[0_10px_30px_rgba(27,31,55,.05)] transition hover:-translate-y-1 hover:shadow-[0_18px_45px_rgba(27,31,55,.1)]"
             >
@@ -49,7 +50,7 @@ export default function Solutions() {
                 size={14}
                 className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
               />
-            </a>
+            </Link>
           </motion.div>
 
           <div className="relative min-h-125">

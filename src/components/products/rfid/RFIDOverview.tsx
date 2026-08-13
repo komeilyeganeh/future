@@ -30,16 +30,16 @@ export default function RFIDOverview() {
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <div className="grid gap-14 lg:grid-cols-[0.85fr_1.15fr] lg:items-end">
           <div>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
               {t("eyebrow")}
             </span>
 
-            <h2 className="mt-5 text-4xl font-semibold tracking-[-0.045em] text-[#082f3a] md:text-5xl">
+            <h2 className="mt-5 text-4xl font-semibold tracking-[-0.045em] text-primary md:text-5xl">
               {t("title")}
             </h2>
           </div>
 
-          <p className="max-w-2xl text-sm leading-8 text-[#71838a] md:text-base">
+          <p className="max-w-2xl text-sm leading-8 text-secondary md:text-base">
             {t("description")}
           </p>
         </div>
@@ -58,17 +58,17 @@ export default function RFIDOverview() {
                   duration: 0.6,
                   delay: index * 0.1,
                 }}
-                className="rounded-[28px] border border-[#082f3a]/[0.07] bg-[#f8faf9] p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_25px_70px_rgba(8,47,58,0.07)]"
+                className="rounded-[28px] border border-primary/7 bg-background-soft p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_25px_70px_rgba(8,47,58,0.07)]"
               >
-                <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a] text-white">
+                <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary text-white">
                   <Icon size={19} strokeWidth={1.6} />
                 </div>
 
-                <h3 className="mt-8 text-xl font-semibold tracking-tight text-[#082f3a]">
+                <h3 className="mt-8 text-xl font-semibold tracking-tight text-primary">
                   {feature.title}
                 </h3>
 
-                <p className="mt-4 text-xs leading-6 text-[#71838a]">
+                <p className="mt-4 text-xs leading-6 text-secondary">
                   {feature.description}
                 </p>
               </motion.div>

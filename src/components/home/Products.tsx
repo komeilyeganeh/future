@@ -76,11 +76,11 @@ export default function Products() {
             {t("products.kicker")}
           </span>
 
-          <h2 className="mt-4 max-w-[780px] text-[44px] font-extrabold leading-[.97] tracking-[-.07em] text-[#082f3a] sm:text-[62px]">
+          <h2 className="mt-4 max-w-[780px] text-[44px] font-extrabold leading-[.97] tracking-[-.07em] text-primary sm:text-[62px]">
             {t("products.title")}
           </h2>
 
-          <p className="mt-6 max-w-155 text-[14px] leading-[1.9] text-[#71838a]">
+          <p className="mt-6 max-w-155 text-[14px] leading-[1.9] text-secondary">
             {t("products.description")}
           </p>
         </motion.div>
@@ -117,7 +117,7 @@ export default function Products() {
                       <div
                         className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl transition-all ${
                           isActive
-                            ? "bg-[#082f3a] text-white"
+                            ? "bg-primary text-white"
                             : "bg-white text-[#66828a]"
                         }`}
                       >
@@ -132,7 +132,7 @@ export default function Products() {
 
                           <h3
                             className={`text-[15px] font-bold tracking-[-.025em] ${
-                              isActive ? "text-[#082f3a]" : "text-[#6d8187]"
+                              isActive ? "text-primary" : "text-[#6d8187]"
                             }`}
                           >
                             {t(`products.${item.key}.title`)}

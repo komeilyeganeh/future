@@ -8,14 +8,14 @@ export default function HISPromise() {
   const t = useTranslations("HIS.promise");
 
   return (
-    <section className="bg-[#f8faf9]">
+    <section className="bg-background-soft">
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         <motion.div
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="relative overflow-hidden rounded-[34px] bg-[#082f3a] px-7 py-14 md:px-14 md:py-20"
+          className="relative overflow-hidden rounded-[34px] bg-primary px-7 py-14 md:px-14 md:py-20"
         >
           <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full border border-white/5" />
 

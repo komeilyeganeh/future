@@ -35,20 +35,20 @@ export default function CRMAutomation() {
           {/* Text */}
           <div>
             <div className="mb-7 flex items-center gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#082f3a]/5 text-[#082f3a]">
+              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary/5 text-primary">
                 <Sparkles size={14} />
               </div>
 
-              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
                 {t("eyebrow")}
               </span>
             </div>
 
-            <h2 className="text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-[#082f3a] md:text-5xl">
+            <h2 className="text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-primary md:text-5xl">
               {t("title")}
             </h2>
 
-            <p className="mt-6 max-w-xl text-sm leading-7 text-[#71838a]">
+            <p className="mt-6 max-w-xl text-sm leading-7 text-secondary">
               {t("description")}
             </p>
 
@@ -59,19 +59,19 @@ export default function CRMAutomation() {
                 return (
                   <div
                     key={item.key}
-                    className="flex items-center gap-4 rounded-2xl border border-[#082f3a]/[0.07] bg-[#f8faf9] p-4"
+                    className="flex items-center gap-4 rounded-2xl border border-primary/7 bg-background-soft p-4"
                   >
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#082f3a] text-white">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary text-white">
                       <Icon size={17} />
                     </div>
 
-                    <span className="text-sm font-semibold text-[#082f3a]">
+                    <span className="text-sm font-semibold text-primary">
                       {t(`items.${item.key}`)}
                     </span>
 
                     <Check
                       size={16}
-                      className="ml-auto text-[#082f3a]/30"
+                      className="ml-auto text-primary/30"
                     />
                   </div>
                 );
@@ -87,7 +87,7 @@ export default function CRMAutomation() {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="relative overflow-hidden rounded-4xl bg-[#082f3a] p-8 md:p-10">
+            <div className="relative overflow-hidden rounded-4xl bg-primary p-8 md:p-10">
               <div className="absolute -right-24 -top-24 h-64 w-64 rounded-full border border-white/6" />
 
               <div className="absolute -bottom-20 -left-20 h-52 w-52 rounded-full bg-white/2.5 blur-3xl" />
@@ -107,7 +107,7 @@ export default function CRMAutomation() {
                       key={item.key}
                       className="flex items-center gap-4 rounded-2xl border border-white/[0.07] bg-white/4 p-4"
                     >
-                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-[10px] font-bold text-[#082f3a]">
+                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-[10px] font-bold text-primary">
                         0{index + 1}
                       </span>
 

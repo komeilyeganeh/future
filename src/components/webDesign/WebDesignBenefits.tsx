@@ -36,15 +36,15 @@ export default function WebDesignBenefits() {
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
           <div>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
               {t("eyebrow")}
             </span>
 
-            <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-[#082f3a] md:text-5xl">
+            <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-primary md:text-5xl">
               {t("title")}
             </h2>
 
-            <p className="mt-6 max-w-md text-sm leading-7 text-[#71838a]">
+            <p className="mt-6 max-w-md text-sm leading-7 text-secondary">
               {t("description")}
             </p>
           </div>
@@ -63,17 +63,17 @@ export default function WebDesignBenefits() {
                     duration: 0.55,
                     delay: index * 0.08,
                   }}
-                  className="group rounded-[28px] border border-[#082f3a]/[0.07] bg-[#f8faf9] p-7 transition-all duration-500 hover:-translate-y-1 hover:bg-white hover:shadow-[0_25px_70px_rgba(8,47,58,0.07)]"
+                  className="group rounded-[28px] border border-primary/7 bg-background-soft p-7 transition-all duration-500 hover:-translate-y-1 hover:bg-white hover:shadow-[0_25px_70px_rgba(8,47,58,0.07)]"
                 >
-                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a] text-white">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary text-white">
                     <Icon size={18} strokeWidth={1.7} />
                   </div>
 
-                  <h3 className="mt-7 text-lg font-semibold tracking-tight text-[#082f3a]">
+                  <h3 className="mt-7 text-lg font-semibold tracking-tight text-primary">
                     {t(`${item.key}.title`)}
                   </h3>
 
-                  <p className="mt-3 text-xs leading-6 text-[#71838a]">
+                  <p className="mt-3 text-xs leading-6 text-secondary">
                     {t(`${item.key}.description`)}
                   </p>
                 </motion.div>

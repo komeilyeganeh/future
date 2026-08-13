@@ -33,20 +33,20 @@ export default function MMSIntegrations() {
   const t = useTranslations("MMS.integrations");
 
   return (
-    <section className="bg-[#f8faf9]">
+    <section className="bg-background-soft">
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         {/* Header */}
         <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
               {t("eyebrow")}
             </span>
 
-            <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-[#082f3a] md:text-5xl">
+            <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-primary md:text-5xl">
               {t("title")}
             </h2>
 
-            <p className="mt-6 max-w-xl text-sm leading-7 text-[#71838a]">
+            <p className="mt-6 max-w-xl text-sm leading-7 text-secondary">
               {t("description")}
             </p>
           </div>
@@ -67,26 +67,26 @@ export default function MMSIntegrations() {
                     delay: index * 0.08,
                   }}
                   whileHover={{ y: -5 }}
-                  className="group rounded-[28px] border border-[#082f3a]/[0.07] bg-white p-7 transition-shadow duration-500 hover:shadow-[0_20px_60px_rgba(8,47,58,0.07)]"
+                  className="group rounded-[28px] border border-primary/7 bg-white p-7 transition-shadow duration-500 hover:shadow-[0_20px_60px_rgba(8,47,58,0.07)]"
                 >
                   {/* Icon */}
                   <div className="flex items-center justify-between">
-                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/5 text-[#082f3a] transition-all duration-300 group-hover:bg-[#082f3a] group-hover:text-white">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/5 text-primary transition-all duration-300 group-hover:bg-primary group-hover:text-white">
                       <Icon size={19} strokeWidth={1.7} />
                     </div>
 
                     <ArrowUpRight
                       size={15}
-                      className="text-[#082f3a]/20 transition-transform duration-300 group-hover:rotate-45"
+                      className="text-primary/20 transition-transform duration-300 group-hover:rotate-45"
                     />
                   </div>
 
                   {/* Content */}
-                  <h3 className="mt-10 text-xl font-semibold tracking-tight text-[#082f3a]">
+                  <h3 className="mt-10 text-xl font-semibold tracking-tight text-primary">
                     {t(`items.${item.key}.title`)}
                   </h3>
 
-                  <p className="mt-3 text-xs leading-6 text-[#71838a]">
+                  <p className="mt-3 text-xs leading-6 text-secondary">
                     {t(`items.${item.key}.description`)}
                   </p>
                 </motion.article>

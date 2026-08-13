@@ -3,6 +3,7 @@
 import { ArrowUpRight, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function MMSCTA() {
   const t = useTranslations("MMS.cta");
@@ -10,14 +11,14 @@ export default function MMSCTA() {
   return (
     <section
       id="contact"
-      className="bg-[#f8faf9] px-5 py-6 md:px-8 md:py-8"
+      className="bg-background-soft px-5 py-6 md:px-8 md:py-8"
     >
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="relative mx-auto max-w-7xl overflow-hidden rounded-[36px] bg-[#082f3a] px-7 py-16 md:px-14 md:py-20 lg:px-20"
+        className="relative mx-auto max-w-7xl overflow-hidden rounded-[36px] bg-primary px-7 py-16 md:px-14 md:py-20 lg:px-20"
       >
         {/* Decorative circles */}
         <div className="absolute -right-32 -top-32 h-100 w-100 rounded-full border border-white/5" />
@@ -52,16 +53,16 @@ export default function MMSCTA() {
           </div>
 
           {/* CTA */}
-          <a
+          <Link
             href="mailto:hello@roshasoft.com"
-            className="group inline-flex w-fit items-center gap-4 rounded-full bg-white px-6 py-4 text-[10px] font-semibold text-[#082f3a] transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
+            className="group inline-flex w-fit items-center gap-4 rounded-full bg-white px-6 py-4 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
           >
             {t("button")}
 
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#082f3a] text-white transition-transform duration-300 group-hover:rotate-45">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:rotate-45">
               <ArrowUpRight size={14} />
             </span>
-          </a>
+          </Link>
         </div>
       </motion.div>
     </section>

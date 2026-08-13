@@ -40,15 +40,15 @@ export default function Services() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section Heading */}
         <div className="max-w-2xl">
-          <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#71838a]">
+          <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-secondary">
             {t("eyebrow")}
           </span>
 
-          <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#082f3a] md:text-5xl">
+          <h2 className="mt-4 text-4xl font-semibold tracking-tight text-primary md:text-5xl">
             {t("title")}
           </h2>
 
-          <p className="mt-5 max-w-xl text-sm leading-7 text-[#71838a]">
+          <p className="mt-5 max-w-xl text-sm leading-7 text-secondary">
             {t("description")}
           </p>
         </div>

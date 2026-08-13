@@ -26,11 +26,11 @@ export default function LocationSection() {
             {t("eyebrow")}
           </span>
 
-          <h2 className="mt-5 text-[46px] font-black leading-[.95] tracking-[-.075em] text-[#082f3a] sm:text-[64px]">
+          <h2 className="mt-5 text-[46px] font-black leading-[.95] tracking-[-.075em] text-primary sm:text-[64px]">
             {t("title")}
           </h2>
 
-          <p className="mt-7 max-w-135 text-[14px] leading-[1.95] text-[#71838a]">
+          <p className="mt-7 max-w-135 text-[14px] leading-[1.95] text-secondary">
             {t("description")}
           </p>
 
@@ -41,7 +41,7 @@ export default function LocationSection() {
               </span>
 
               <div>
-                <strong className="block text-[14px] font-black text-[#082f3a]">
+                <strong className="block text-[14px] font-black text-primary">
                   {t("london")}
                 </strong>
 
@@ -74,7 +74,7 @@ export default function LocationSection() {
           }}
           className="relative"
         >
-          <div className="relative min-h-117.5 overflow-hidden rounded-[42px] border border-white bg-[#082f3a] shadow-[0_40px_110px_rgba(8,47,58,.12)]">
+          <div className="relative min-h-117.5 overflow-hidden rounded-[42px] border border-white bg-primary shadow-[0_40px_110px_rgba(8,47,58,.12)]">
             {/* grid */}
             <div
               className="absolute inset-0 opacity-[0.08]"
@@ -115,7 +115,7 @@ export default function LocationSection() {
             <div className="absolute left-[48%] top-[42%] -translate-x-1/2 -translate-y-1/2">
               <span className="absolute -inset-5 animate-ping rounded-full bg-[#70dce7]/20" />
 
-              <span className="relative flex h-14 w-14 items-center justify-center rounded-full border border-white/20 bg-[#70dce7] text-[#082f3a] shadow-[0_0_50px_rgba(112,220,231,.35)]">
+              <span className="relative flex h-14 w-14 items-center justify-center rounded-full border border-white/20 bg-[#70dce7] text-primary shadow-[0_0_50px_rgba(112,220,231,.35)]">
                 <MapPin size={21} />
               </span>
             </div>

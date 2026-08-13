@@ -11,17 +11,17 @@ export default function CRMOverview() {
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
           <div>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
               {t("eyebrow")}
             </span>
 
-            <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-[#082f3a] md:text-5xl">
+            <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-primary md:text-5xl">
               {t("title")}
             </h2>
           </div>
 
           <div>
-            <p className="max-w-2xl text-sm leading-8 text-[#71838a] md:text-base">
+            <p className="max-w-2xl text-sm leading-8 text-secondary md:text-base">
               {t("description")}
             </p>
 
@@ -32,7 +32,7 @@ export default function CRMOverview() {
               transition={{ duration: 0.6 }}
               className="mt-8 border-l-2 border-[#082f3a] pl-5"
             >
-              <p className="text-lg font-semibold tracking-tight text-[#082f3a]">
+              <p className="text-lg font-semibold tracking-tight text-primary">
                 {t("highlight")}
               </p>
             </motion.div>

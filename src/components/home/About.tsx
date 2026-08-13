@@ -46,7 +46,7 @@ export default function About() {
               {t("about.cardLabel")}
             </span>
 
-            <strong className="mt-1 block text-[32px] tracking-[-.06em] text-[#082f3a]">
+            <strong className="mt-1 block text-[32px] tracking-[-.06em] text-primary">
               20+
             </strong>
           </div>
@@ -61,11 +61,11 @@ export default function About() {
             {t("about.kicker")}
           </span>
 
-          <h2 className="mt-4 max-w-[650px] text-[44px] font-extrabold leading-[.97] tracking-[-.07em] text-[#082f3a] sm:text-[62px]">
+          <h2 className="mt-4 max-w-[650px] text-[44px] font-extrabold leading-[.97] tracking-[-.07em] text-primary sm:text-[62px]">
             {t("about.title")}
           </h2>
 
-          <p className="mt-7 max-w-152.5 text-[14px] leading-[1.9] text-[#71838a]">
+          <p className="mt-7 max-w-152.5 text-[14px] leading-[1.9] text-secondary">
             {t("about.description")}
           </p>
 

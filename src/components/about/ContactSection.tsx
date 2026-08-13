@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function ContactSection() {
   const t = useTranslations("About.contact");
@@ -19,7 +20,7 @@ export default function ContactSection() {
         viewport={{
           once: true,
         }}
-        className="relative mx-auto max-w-310 overflow-hidden rounded-[45px] bg-[#082f3a] px-7 py-20 sm:px-14 sm:py-24"
+        className="relative mx-auto max-w-310 overflow-hidden rounded-[45px] bg-primary px-7 py-20 sm:px-14 sm:py-24"
       >
         <div className="pointer-events-none absolute left-1/2 top-1/2 h-150 w-225 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(48,190,207,.24),transparent_65%)] blur-3xl" />
 
@@ -41,14 +42,14 @@ export default function ContactSection() {
               {t("description")}
             </p>
 
-            <a
+            <Link
               href="mailto:hello@roshasoft.com"
-              className="mt-9 inline-flex items-center gap-3 rounded-full bg-white px-6 py-4 text-[10px] font-black text-[#082f3a] transition hover:-translate-y-1"
+              className="mt-9 inline-flex items-center gap-3 rounded-full bg-white px-6 py-4 text-[10px] font-black text-primary transition hover:-translate-y-1"
             >
               {t("button")}
 
               <ArrowUpRight size={14} />
-            </a>
+            </Link>
           </div>
 
           <div className="space-y-3">
@@ -63,12 +64,12 @@ export default function ContactSection() {
                     {t("email")}
                   </span>
 
-                  <a
+                  <Link
                     href="mailto:hello@roshasoft.com"
                     className="mt-1 block text-[11px] font-semibold text-white/75"
                   >
                     hello@roshasoft.com
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

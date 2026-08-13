@@ -42,18 +42,18 @@ export default function CRMFeatures() {
   const t = useTranslations("CRM.features");
 
   return (
-    <section id="features" className="bg-[#f8faf9]">
+    <section id="features" className="bg-background-soft">
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         <div className="max-w-2xl">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
             {t("eyebrow")}
           </span>
 
-          <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-[#082f3a] md:text-5xl">
+          <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-primary md:text-5xl">
             {t("title")}
           </h2>
 
-          <p className="mt-6 max-w-xl text-sm leading-7 text-[#71838a]">
+          <p className="mt-6 max-w-xl text-sm leading-7 text-secondary">
             {t("description")}
           </p>
         </div>
@@ -75,15 +75,15 @@ export default function CRMFeatures() {
                 whileHover={{ y: -6 }}
                 className={`group relative overflow-hidden rounded-[28px] border p-7 ${
                   item.featured
-                    ? "border-[#082f3a] bg-[#082f3a] text-white md:col-span-2"
-                    : "border-[#082f3a]/[0.07] bg-white text-[#082f3a]"
+                    ? "border-[#082f3a] bg-primary text-white md:col-span-2"
+                    : "border-primary/7 bg-white text-primary"
                 }`}
               >
                 <div
                   className={`absolute -right-16 -top-16 h-40 w-40 rounded-full ${
                     item.featured
                       ? "bg-white/4"
-                      : "bg-[#082f3a]/2.5"
+                      : "bg-primary/2.5"
                   } transition-transform duration-700 group-hover:scale-125`}
                 />
 
@@ -93,7 +93,7 @@ export default function CRMFeatures() {
                       className={`text-[10px] font-semibold tracking-[0.2em] ${
                         item.featured
                           ? "text-white/40"
-                          : "text-[#71838a]"
+                          : "text-secondary"
                       }`}
                     >
                       0{index + 1}
@@ -102,8 +102,8 @@ export default function CRMFeatures() {
                     <div
                       className={`flex h-11 w-11 items-center justify-center rounded-2xl ${
                         item.featured
-                          ? "bg-white text-[#082f3a]"
-                          : "bg-[#082f3a]/5 text-[#082f3a]"
+                          ? "bg-white text-primary"
+                          : "bg-primary/5 text-primary"
                       }`}
                     >
                       <Icon size={19} strokeWidth={1.7} />
@@ -118,7 +118,7 @@ export default function CRMFeatures() {
                     className={`mt-4 max-w-xl text-sm leading-7 ${
                       item.featured
                         ? "text-white/60"
-                        : "text-[#71838a]"
+                        : "text-secondary"
                     }`}
                   >
                     {t(`items.${item.key}.description`)}

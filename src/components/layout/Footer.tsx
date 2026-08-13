@@ -35,7 +35,7 @@ export default function Footer() {
               {t("company")}
             </span>
 
-            <div className="mt-5 flex flex-col gap-3 text-[10px] text-[#71838a]">
+            <div className="mt-5 flex flex-col gap-3 text-[10px] text-secondary">
               <Link href="/about">{t("about")}</Link>
               <Link href="/services">{t("services")}</Link>
               <Link href="/products">{t("products")}</Link>
@@ -47,7 +47,7 @@ export default function Footer() {
               {t("services")}
             </span>
 
-            <div className="mt-5 flex flex-col gap-3 text-[10px] text-[#71838a]">
+            <div className="mt-5 flex flex-col gap-3 text-[10px] text-secondary">
               <Link href="/mobile-app">{t("mobile")}</Link>
               <Link href="/web-service">{t("web")}</Link>
               <Link href="/web-design">{t("design")}</Link>
@@ -61,7 +61,7 @@ export default function Footer() {
               {t("products")}
             </span>
 
-            <div className="mt-5 flex flex-col gap-3 text-[10px] text-[#71838a]">
+            <div className="mt-5 flex flex-col gap-3 text-[10px] text-secondary">
               <Link href="/products/rfid">{t("rfid")}</Link>
               <Link href="/products/erp">{t("erp")}</Link>
               <Link href="/products/mms">{t("mms")}</Link>
@@ -77,7 +77,7 @@ export default function Footer() {
               {t("connect")}
             </span>
 
-            <div className="mt-5 flex flex-col gap-3 text-[10px] text-[#71838a]">
+            <div className="mt-5 flex flex-col gap-3 text-[10px] text-secondary">
               <a href="mailto:hello@roshasoft.com">Email</a>
 
               <a href="#" target="_blank" rel="noreferrer">

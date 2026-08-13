@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 type TeamMember = {
   name: string;
@@ -66,11 +67,11 @@ export default function TeamSection() {
           <span className="text-[10px] font-bold uppercase tracking-[.2em] text-[#08788c]">
             Our Team
           </span>
-          <h2 className="mt-4 text-[44px] font-extrabold leading-[.96] tracking-[-.07em] text-[#082f3a] sm:text-[62px]">
+          <h2 className="mt-4 text-[44px] font-extrabold leading-[.96] tracking-[-.07em] text-primary sm:text-[62px]">
             The people behind <br />
             <span className="text-[#08788c]">RoshaSoft.</span>
           </h2>
-          <p className="mt-6 max-w-152.5 text-[14px] leading-[1.9] text-[#71838a]">
+          <p className="mt-6 max-w-152.5 text-[14px] leading-[1.9] text-secondary">
             A multidisciplinary team of technology leaders, developers, and
             creative professionals working together to build intelligent digital
             solutions.
@@ -158,7 +159,7 @@ export default function TeamSection() {
                       {/* Arrow */}
                       <motion.div
                         whileHover={{ rotate: 45 }}
-                        className=" flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white shadow-[0_10px_30px_rgba(0,0,0,.15)] backdrop-blur-xl transition-all duration-300 group-hover:border-[#70d9e5]/40 group-hover:bg-[#70d9e5] group-hover:text-[#082f3a] "
+                        className=" flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white shadow-[0_10px_30px_rgba(0,0,0,.15)] backdrop-blur-xl transition-all duration-300 group-hover:border-[#70d9e5]/40 group-hover:bg-[#70d9e5] group-hover:text-primary "
                       >
                         <ArrowUpRight size={15} />
                       </motion.div>
@@ -170,12 +171,12 @@ export default function TeamSection() {
                       </span>
                       <div className="flex items-center gap-1.5">
                         {/* LinkedIn */}
-                        <a
+                        <Link
                           href="#"
                           target="_blank"
                           rel="noreferrer"
                           aria-label={`${member.name} LinkedIn`}
-                          className=" flex h-8 w-8 items-center justify-center rounded-full border border-white/15 bg-white/6 text-white/70 backdrop-blur-xl transition-all duration-300 hover:scale-110 hover:border-white hover:bg-white hover:text-[#082f3a] "
+                          className=" flex h-8 w-8 items-center justify-center rounded-full border border-white/15 bg-white/6 text-white/70 backdrop-blur-xl transition-all duration-300 hover:scale-110 hover:border-white hover:bg-white hover:text-primary "
                         >
                           <svg
                             width="12"
@@ -185,14 +186,14 @@ export default function TeamSection() {
                           >
                             <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.62 0 4.29 2.38 4.29 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM3.56 20.45h3.56V9H3.56v11.45z" />
                           </svg>
-                        </a>
+                        </Link>
                         {/* GitHub */}
-                        <a
+                        <Link
                           href="#"
                           target="_blank"
                           rel="noreferrer"
                           aria-label={`${member.name} GitHub`}
-                          className=" flex h-8 w-8 items-center justify-center rounded-full border border-white/15 bg-white/6 text-white/70 backdrop-blur-xl transition-all duration-300 hover:scale-110 hover:border-white hover:bg-white hover:text-[#082f3a] "
+                          className=" flex h-8 w-8 items-center justify-center rounded-full border border-white/15 bg-white/6 text-white/70 backdrop-blur-xl transition-all duration-300 hover:scale-110 hover:border-white hover:bg-white hover:text-primary "
                         >
                           <svg
                             width="13"
@@ -202,7 +203,7 @@ export default function TeamSection() {
                           >
                             <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.85 10.91.57.1.78-.25.78-.55v-2.1c-3.2.7-3.87-1.35-3.87-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.25 3.33.96.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.18-3.1.12-.29.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.73.81.78 1.07.78 2.16v3.19c0 .3.21.66.79.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z" />
                           </svg>
-                        </a>
+                        </Link>
                         {/* Status */}
                         <div className="ml-1 flex items-center gap-1.5 border-l border-white/10 pl-2">
                           <motion.span

@@ -87,15 +87,15 @@ export default function Preloader() {
           isExiting ? "-translate-y-4 opacity-0" : "translate-y-0 opacity-100"
         }`}
       >
-        <span className="h-1.5 w-1.5 rounded-full bg-[#082f3a]" />
+        <span className="h-1.5 w-1.5 rounded-full bg-primary" />
 
-        <span className="text-[8px] font-semibold uppercase tracking-[0.35em] text-[#082f3a]/50">
+        <span className="text-[8px] font-semibold uppercase tracking-[0.35em] text-primary/50">
           RoshaSoft
         </span>
       </div>
 
       <div
-        className={`absolute bottom-7 left-7 text-[8px] font-medium uppercase tracking-[0.3em] text-[#71838a]/60 transition-all duration-1000 md:bottom-10 md:left-10 ${
+        className={`absolute bottom-7 left-7 text-[8px] font-medium uppercase tracking-[0.3em] text-secondary/60 transition-all duration-1000 md:bottom-10 md:left-10 ${
           isExiting ? "translate-y-4 opacity-0" : "translate-y-0 opacity-100"
         }`}
       >
@@ -103,7 +103,7 @@ export default function Preloader() {
       </div>
 
       <div
-        className={`absolute bottom-7 right-7 font-mono text-[9px] font-medium tracking-[0.2em] text-[#71838a]/60 transition-all duration-1000 md:bottom-10 md:right-10 ${
+        className={`absolute bottom-7 right-7 font-mono text-[9px] font-medium tracking-[0.2em] text-secondary/60 transition-all duration-1000 md:bottom-10 md:right-10 ${
           isExiting ? "translate-y-4 opacity-0" : "translate-y-0 opacity-100"
         }`}
       >
@@ -122,7 +122,7 @@ export default function Preloader() {
           }`}
         >
           {/* Outer orbit */}
-          <div className="absolute inset-0 rounded-full border border-[#082f3a]/[0.07] animate-[spin_10s_linear_infinite]" />
+          <div className="absolute inset-0 rounded-full border border-primary/7 animate-[spin_10s_linear_infinite]" />
 
           {/* Middle orbit */}
           <div className="absolute inset-3.5 rounded-full border border-dashed border-[#082f3a]/10 animate-[spin_14s_linear_infinite_reverse]" />
@@ -132,11 +132,11 @@ export default function Preloader() {
 
           {/* Orbit dot */}
           <div className="absolute inset-0 animate-[spin_5s_linear_infinite]">
-            <span className="absolute left-1/2 -top-0.5 h-1.5 w-1.5 -translate-x-1/2 rounded-full bg-[#082f3a] shadow-[0_0_12px_rgba(8,47,58,0.45)]" />
+            <span className="absolute left-1/2 -top-0.5 h-1.5 w-1.5 -translate-x-1/2 rounded-full bg-primary shadow-[0_0_12px_rgba(8,47,58,0.45)]" />
           </div>
 
           {/* Logo glow */}
-          <div className="absolute h-24 w-24 rounded-full bg-[#082f3a]/[0.07] blur-2xl" />
+          <div className="absolute h-24 w-24 rounded-full bg-primary/[0.07] blur-2xl" />
 
           {/* Logo container */}
           <div
@@ -164,18 +164,18 @@ export default function Preloader() {
           }`}
         >
           <div className="flex flex-col items-center">
-            <h1 className="text-[13px] font-semibold uppercase tracking-[0.48em] text-[#082f3a]">
+            <h1 className="text-[13px] font-semibold uppercase tracking-[0.48em] text-primary">
               RoshaSoft
             </h1>
 
             <div className="mt-2 flex items-center gap-2">
-              <span className="h-px w-5 bg-[#082f3a]/20" />
+              <span className="h-px w-5 bg-primary/20" />
 
-              <span className="text-[7px] font-medium uppercase tracking-[0.3em] text-[#71838a]">
+              <span className="text-[7px] font-medium uppercase tracking-[0.3em] text-secondary">
                 Technology
               </span>
 
-              <span className="h-px w-5 bg-[#082f3a]/20" />
+              <span className="h-px w-5 bg-primary/20" />
             </div>
           </div>
         </div>
@@ -188,9 +188,9 @@ export default function Preloader() {
               : "translate-y-3 opacity-0"
           }`}
         >
-          <div className="relative h-0.5 w-45 overflow-hidden rounded-full bg-[#082f3a]/8">
+          <div className="relative h-0.5 w-45 overflow-hidden rounded-full bg-primary/8">
             <div
-              className="absolute left-0 top-0 h-full rounded-full bg-[#082f3a] transition-[width] duration-100 ease-out"
+              className="absolute left-0 top-0 h-full rounded-full bg-primary transition-[width] duration-100 ease-out"
               style={{
                 width: `${progress}%`,
               }}
@@ -206,11 +206,11 @@ export default function Preloader() {
           </div>
 
           <div className="mt-3 flex items-center justify-between">
-            <span className="text-[7px] font-medium uppercase tracking-[0.28em] text-[#71838a]">
+            <span className="text-[7px] font-medium uppercase tracking-[0.28em] text-secondary">
               Initializing
             </span>
 
-            <span className="font-mono text-[7px] text-[#71838a]">
+            <span className="font-mono text-[7px] text-secondary">
               {String(progress).padStart(3, "0")}
             </span>
           </div>
@@ -222,7 +222,7 @@ export default function Preloader() {
       ========================================================= */}
 
       <div
-        className={`pointer-events-none absolute inset-0 bg-[#082f3a] transition-all duration-900 ease-[cubic-bezier(0.76,0,0.24,1)] ${
+        className={`pointer-events-none absolute inset-0 bg-primary transition-all duration-900 ease-[cubic-bezier(0.76,0,0.24,1)] ${
           isExiting ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
         }`}
       />

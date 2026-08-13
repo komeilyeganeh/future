@@ -29,21 +29,21 @@ export default function MobileAppDevelopment() {
   return (
     <section
       id="development"
-      className="relative overflow-hidden bg-[#f8faf9] py-24 md:py-32"
+      className="relative overflow-hidden bg-background-soft py-24 md:py-32"
     >
-      <div className="absolute -right-45 top-1/2 h-112.5 w-112.5 -translate-y-1/2 rounded-full bg-[#082f3a]/2.5 blur-3xl" />
+      <div className="absolute -right-45 top-1/2 h-112.5 w-112.5 -translate-y-1/2 rounded-full bg-primary/2.5 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-5 md:px-8">
         <div className="max-w-2xl">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
             {t("eyebrow")}
           </span>
 
-          <h2 className="mt-5 text-4xl font-semibold tracking-[-0.04em] text-[#082f3a] md:text-5xl">
+          <h2 className="mt-5 text-4xl font-semibold tracking-[-0.04em] text-primary md:text-5xl">
             {t("title")}
           </h2>
 
-          <p className="mt-6 max-w-xl text-sm leading-7 text-[#71838a]">
+          <p className="mt-6 max-w-xl text-sm leading-7 text-secondary">
             {t("description")}
           </p>
         </div>
@@ -65,15 +65,15 @@ export default function MobileAppDevelopment() {
                 whileHover={{ y: -8 }}
                 className={`group relative overflow-hidden rounded-4xl border p-8 ${
                   index === 0
-                    ? "border-[#082f3a] bg-[#082f3a] text-white"
-                    : "border-[#082f3a]/8 bg-white text-[#082f3a]"
+                    ? "border-[#082f3a] bg-primary text-white"
+                    : "border-[#082f3a]/8 bg-white text-primary"
                 }`}
               >
                 <span
                   className={`text-[10px] font-semibold tracking-[0.25em] ${
                     index === 0
                       ? "text-white/40"
-                      : "text-[#71838a]"
+                      : "text-secondary"
                   }`}
                 >
                   0{index + 1}
@@ -82,8 +82,8 @@ export default function MobileAppDevelopment() {
                 <div
                   className={`mt-10 flex h-12 w-12 items-center justify-center rounded-2xl ${
                     index === 0
-                      ? "bg-white text-[#082f3a]"
-                      : "bg-[#082f3a]/5 text-[#082f3a]"
+                      ? "bg-white text-primary"
+                      : "bg-primary/5 text-primary"
                   }`}
                 >
                   <Icon size={20} />
@@ -97,7 +97,7 @@ export default function MobileAppDevelopment() {
                   className={`mt-4 text-sm leading-7 ${
                     index === 0
                       ? "text-white/60"
-                      : "text-[#71838a]"
+                      : "text-secondary"
                   }`}
                 >
                   {t(`${item.key}.description`)}
@@ -107,7 +107,7 @@ export default function MobileAppDevelopment() {
                   className={`mt-10 border-t pt-5 text-[9px] font-semibold uppercase tracking-[0.2em] ${
                     index === 0
                       ? "border-white/10 text-white/40"
-                      : "border-[#082f3a]/[0.07] text-[#71838a]"
+                      : "border-primary/7 text-secondary"
                   }`}
                 >
                   {t("learnMore")}

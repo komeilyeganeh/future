@@ -8,7 +8,7 @@ import ContactSection from "@/components/about/ContactSection";
 
 export default function AboutPage() {
   return (
-    <main className="overflow-hidden bg-[#f4f9fa] text-[#082f3a]">
+    <main className="overflow-hidden bg-[#f4f9fa] text-primary">
       <AboutSection />
 
       <HistorySection />

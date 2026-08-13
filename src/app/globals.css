@@ -1,8 +1,99 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f7f8fc;
-  --foreground: #11131a;
+  /* =========================================
+     BRAND
+  ========================================= */
+
+  --color-primary: #082f3a;
+  --color-primary-hover: #0b4655;
+
+  --color-secondary: #71838a;
+  --color-accent: #75e6d0;
+
+
+  /* =========================================
+     SURFACES
+  ========================================= */
+
+  --color-background: #ffffff;
+  --color-background-soft: #f8faf9;
+  --color-background-muted: #eef5f6;
+
+
+  /* =========================================
+     TEXT
+  ========================================= */
+
+  --color-text-primary: #082f3a;
+  --color-text-secondary: #71838a;
+  --color-text-muted: #9aa8ad;
+
+  --color-text-on-primary: #ffffff;
+
+
+  /* =========================================
+     BORDERS
+  ========================================= */
+
+  --color-border: rgba(8, 47, 58, 0.08);
+  --color-border-strong: rgba(8, 47, 58, 0.14);
+
+  --color-border-on-dark: rgba(255, 255, 255, 0.10);
+
+
+  /* =========================================
+     RADIUS
+  ========================================= */
+
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-xl: 36px;
+
+
+  /* =========================================
+     SHADOWS
+  ========================================= */
+
+  --shadow-card:
+    0 20px 60px rgba(8, 47, 58, 0.08);
+
+  --shadow-card-hover:
+    0 30px 80px rgba(8, 47, 58, 0.12);
+
+  --shadow-primary:
+    0 30px 100px rgba(8, 47, 58, 0.20);
+
+
+  /* =========================================
+     LAYOUT
+  ========================================= */
+
+  --container-width: 1280px;
+}
+
+@theme {
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+
+  --color-background-soft: var(--color-background-soft);
+  --color-background-muted: var(--color-background-muted);
+
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-muted: var(--color-text-muted);
+
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
+
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
 }
 
 html {

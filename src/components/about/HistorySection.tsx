@@ -24,11 +24,11 @@ export default function HistorySection() {
               {t("eyebrow")}
             </span>
 
-            <h2 className="mt-5 max-w-175 text-[46px] font-black leading-[.95] tracking-[-.075em] text-[#082f3a] sm:text-[64px]">
+            <h2 className="mt-5 max-w-175 text-[46px] font-black leading-[.95] tracking-[-.075em] text-primary sm:text-[64px]">
               {t("title")}
             </h2>
 
-            <p className="mt-8 max-w-155 text-[14px] leading-[1.95] text-[#71838a]">
+            <p className="mt-8 max-w-155 text-[14px] leading-[1.95] text-secondary">
               {t("description")}
             </p>
 
@@ -52,7 +52,7 @@ export default function HistorySection() {
             <div className="absolute inset-0 rounded-[45px] bg-[#08788c]/[0.07] blur-3xl" />
 
             <div className="relative overflow-hidden rounded-[42px] border border-white/80 bg-white/55 p-4 shadow-[0_40px_110px_rgba(8,47,58,.10)] backdrop-blur-2xl">
-              <div className="relative min-h-112.5 overflow-hidden rounded-[34px] bg-[#082f3a] p-8">
+              <div className="relative min-h-112.5 overflow-hidden rounded-[34px] bg-primary p-8">
                 <motion.div
                   animate={{
                     rotate: 360,

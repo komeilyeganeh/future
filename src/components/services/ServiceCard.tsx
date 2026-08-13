@@ -32,14 +32,14 @@ export default function ServiceCard({
       whileHover={{ y: -8 }}
       className={`group relative overflow-hidden rounded-4xl border p-7 transition-all duration-500 md:p-9 ${
         featured
-          ? "border-[#082f3a] bg-[#082f3a] text-white"
-          : "border-[#082f3a]/8 bg-white text-[#082f3a] hover:border-[#082f3a]/20 hover:shadow-[0_25px_80px_rgba(8,47,58,0.08)]"
+          ? "border-[#082f3a] bg-primary text-white"
+          : "border-[#082f3a]/8 bg-white text-primary hover:border-[#082f3a]/20 hover:shadow-[0_25px_80px_rgba(8,47,58,0.08)]"
       }`}
     >
       {/* Decorative circle */}
       <div
         className={`absolute -right-16 -top-16 h-40 w-40 rounded-full transition-transform duration-700 group-hover:scale-125 ${
-          featured ? "bg-white/4" : "bg-[#082f3a]/2.5"
+          featured ? "bg-white/4" : "bg-primary/2.5"
         }`}
       />
 
@@ -48,7 +48,7 @@ export default function ServiceCard({
         <div className="flex items-start justify-between">
           <span
             className={`text-[11px] font-semibold tracking-[0.2em] ${
-              featured ? "text-white/40" : "text-[#71838a]"
+              featured ? "text-white/40" : "text-secondary"
             }`}
           >
             {number}
@@ -57,8 +57,8 @@ export default function ServiceCard({
           <div
             className={`flex h-12 w-12 items-center justify-center rounded-2xl transition-all duration-500 group-hover:rotate-6 ${
               featured
-                ? "bg-white text-[#082f3a]"
-                : "bg-[#082f3a]/5 text-[#082f3a]"
+                ? "bg-white text-primary"
+                : "bg-primary/5 text-primary"
             }`}
           >
             {icon}
@@ -73,7 +73,7 @@ export default function ServiceCard({
 
           <p
             className={`mt-5 max-w-md text-sm leading-7 ${
-              featured ? "text-white/60" : "text-[#71838a]"
+              featured ? "text-white/60" : "text-secondary"
             }`}
           >
             {description}
@@ -95,7 +95,7 @@ export default function ServiceCard({
                 className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
                   featured
                     ? "bg-white/10 text-white"
-                    : "bg-[#082f3a]/5 text-[#082f3a]"
+                    : "bg-primary/5 text-primary"
                 }`}
               >
                 <Check size={11} strokeWidth={2.5} />
@@ -103,7 +103,7 @@ export default function ServiceCard({
 
               <span
                 className={`text-[11px] font-medium ${
-                  featured ? "text-white/75" : "text-[#082f3a]/70"
+                  featured ? "text-white/75" : "text-primary/70"
                 }`}
               >
                 {service}
@@ -115,12 +115,12 @@ export default function ServiceCard({
         {/* Bottom */}
         <div
           className={`mt-10 flex items-center justify-between border-t pt-6 ${
-            featured ? "border-white/10" : "border-[#082f3a]/[0.07]"
+            featured ? "border-white/10" : "border-primary/7"
           }`}
         >
           <span
             className={`text-[10px] font-semibold uppercase tracking-[0.2em] ${
-              featured ? "text-white/40" : "text-[#71838a]"
+              featured ? "text-white/40" : "text-secondary"
             }`}
           >
             {exploreLabel}
@@ -129,8 +129,8 @@ export default function ServiceCard({
           <div
             className={`flex h-10 w-10 items-center justify-center rounded-full transition-all duration-300 group-hover:rotate-45 ${
               featured
-                ? "bg-white text-[#082f3a]"
-                : "bg-[#082f3a] text-white"
+                ? "bg-white text-primary"
+                : "bg-primary text-white"
             }`}
           >
             <ArrowUpRight size={15} />

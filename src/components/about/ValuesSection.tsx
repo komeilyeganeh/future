@@ -14,7 +14,7 @@ export default function ValuesSection() {
       {/* Ambient background */}
       <div className="pointer-events-none absolute -left-64 top-20 h-150 w-150 rounded-full bg-[#08788c]/4.5 blur-[140px]" />
 
-      <div className="pointer-events-none absolute -right-72 bottom-0 h-175 w-175 rounded-full bg-[#082f3a]/2.5 blur-[160px]" />
+      <div className="pointer-events-none absolute -right-72 bottom-0 h-175 w-175 rounded-full bg-primary/2.5 blur-[160px]" />
 
       <div className="relative mx-auto max-w-310">
         {/* =====================================================
@@ -38,7 +38,7 @@ export default function ValuesSection() {
             </span>
           </div>
 
-          <h2 className="mt-6 max-w-205 text-[48px] font-black leading-[.9] tracking-[-.08em] text-[#082f3a] sm:text-[70px]">
+          <h2 className="mt-6 max-w-205 text-[48px] font-black leading-[.9] tracking-[-.08em] text-primary sm:text-[70px]">
             {t("title")}
 
             <br />
@@ -46,7 +46,7 @@ export default function ValuesSection() {
             <span className="text-[#08788c]">{t("accent")}</span>
           </h2>
 
-          <p className="mt-8 max-w-162.5 text-[14px] leading-[1.95] text-[#71838a]">
+          <p className="mt-8 max-w-162.5 text-[14px] leading-[1.95] text-secondary">
             {t("description")}
           </p>
         </motion.div>
@@ -175,7 +175,7 @@ export default function ValuesSection() {
                         justify-center
                         rounded-full
                         border
-                        border-[#082f3a]/[0.07]
+                        border-primary/7
                         bg-[#f7fafb]
                         text-[#08788c]
                         transition-all
@@ -221,7 +221,7 @@ export default function ValuesSection() {
                         justify-center
                         rounded-full
                         border
-                        border-[#082f3a]/[0.07]
+                        border-primary/7
                         bg-[#f7fafb]
                         text-[#08788c]
                         transition-all
@@ -247,7 +247,7 @@ export default function ValuesSection() {
                         font-black
                         leading-[.95]
                         tracking-[-.06em]
-                        text-[#082f3a]
+                        text-primary
                         transition-all
                         duration-500
                         group-hover:translate-x-2
@@ -263,7 +263,7 @@ export default function ValuesSection() {
                         max-w-130
                         text-[12px]
                         leading-[1.95]
-                        text-[#71838a]
+                        text-secondary
                         transition-colors
                         duration-500
                         group-hover:text-[#506870]
@@ -320,7 +320,7 @@ export default function ValuesSection() {
             </span>
           </div>
 
-          <div className="h-px flex-1 bg-[#082f3a]/6 sm:mx-8" />
+          <div className="h-px flex-1 bg-primary/6 sm:mx-8" />
 
           <span className="text-[9px] font-bold uppercase tracking-[.16em] text-[#08788c]">
             Built with purpose.

@@ -22,7 +22,7 @@ export default function AboutSection() {
           <div className="absolute -left-10 top-10 h-95 w-95 rounded-full bg-[#08788c]/6 blur-[80px]" />
 
           <div className="relative overflow-hidden rounded-[42px] border border-white bg-white/45 p-4 shadow-[0_35px_100px_rgba(8,47,58,.08)] backdrop-blur-2xl">
-            <div className="relative min-h-125 overflow-hidden rounded-[34px] bg-[#082f3a] p-8">
+            <div className="relative min-h-125 overflow-hidden rounded-[34px] bg-primary p-8">
               <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full border border-white/10" />
 
               <div className="absolute -bottom-32 -left-24 h-96 w-96 rounded-full border border-white/10" />
@@ -80,15 +80,15 @@ export default function AboutSection() {
             {t("eyebrow")}
           </span>
 
-          <h2 className="mt-5 max-w-175 text-[46px] font-black leading-[.94] tracking-[-.075em] text-[#082f3a] sm:text-[64px]">
+          <h2 className="mt-5 max-w-175 text-[46px] font-black leading-[.94] tracking-[-.075em] text-primary sm:text-[64px]">
             {t("title")}
           </h2>
 
-          <p className="mt-8 max-w-162.5 text-[14px] leading-[1.95] text-[#71838a]">
+          <p className="mt-8 max-w-162.5 text-[14px] leading-[1.95] text-secondary">
             {t("description")}
           </p>
 
-          <p className="mt-5 max-w-162.5 text-[14px] leading-[1.95] text-[#71838a]">
+          <p className="mt-5 max-w-162.5 text-[14px] leading-[1.95] text-secondary">
             {t("description2")}
           </p>
 

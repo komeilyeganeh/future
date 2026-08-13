@@ -29,15 +29,15 @@ export default function WebDesignTypes() {
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         {/* Heading */}
         <div className="max-w-2xl">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
             {t("eyebrow")}
           </span>
 
-          <h2 className="mt-5 text-4xl font-semibold tracking-[-0.04em] text-[#082f3a] md:text-5xl">
+          <h2 className="mt-5 text-4xl font-semibold tracking-[-0.04em] text-primary md:text-5xl">
             {t("title")}
           </h2>
 
-          <p className="mt-6 max-w-xl text-sm leading-7 text-[#71838a]">
+          <p className="mt-6 max-w-xl text-sm leading-7 text-secondary">
             {t("description")}
           </p>
         </div>
@@ -58,25 +58,25 @@ export default function WebDesignTypes() {
                   delay: index * 0.1,
                 }}
                 whileHover={{ y: -8 }}
-                className="group relative overflow-hidden rounded-[30px] border border-[#082f3a]/[0.07] bg-[#f8faf9] p-7 transition-all duration-500 hover:border-[#082f3a]/15 hover:bg-white hover:shadow-[0_30px_90px_rgba(8,47,58,0.08)] md:p-8"
+                className="group relative overflow-hidden rounded-[30px] border border-primary/7 bg-background-soft p-7 transition-all duration-500 hover:border-[#082f3a]/15 hover:bg-white hover:shadow-[0_30px_90px_rgba(8,47,58,0.08)] md:p-8"
               >
                 {/* Number */}
                 <div className="flex items-start justify-between">
-                  <span className="text-[10px] font-semibold tracking-[0.2em] text-[#71838a]">
+                  <span className="text-[10px] font-semibold tracking-[0.2em] text-secondary">
                     0{index + 1}
                   </span>
 
-                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/5 text-[#082f3a] transition-all duration-500 group-hover:rotate-6 group-hover:bg-[#082f3a] group-hover:text-white">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/5 text-primary transition-all duration-500 group-hover:rotate-6 group-hover:bg-primary group-hover:text-white">
                     <Icon size={19} strokeWidth={1.7} />
                   </div>
                 </div>
 
                 <div className="mt-12">
-                  <h3 className="text-2xl font-semibold tracking-tight text-[#082f3a]">
+                  <h3 className="text-2xl font-semibold tracking-tight text-primary">
                     {t(`${item.key}.title`)}
                   </h3>
 
-                  <p className="mt-5 text-sm leading-7 text-[#71838a]">
+                  <p className="mt-5 text-sm leading-7 text-secondary">
                     {t(`${item.key}.description`)}
                   </p>
                 </div>
@@ -89,9 +89,9 @@ export default function WebDesignTypes() {
                         key={feature}
                         className="flex items-center gap-3 border-b border-[#082f3a]/6 pb-3 last:border-0"
                       >
-                        <span className="h-1.5 w-1.5 rounded-full bg-[#082f3a]/30" />
+                        <span className="h-1.5 w-1.5 rounded-full bg-primary/30" />
 
-                        <span className="text-[11px] font-medium text-[#082f3a]/65">
+                        <span className="text-[11px] font-medium text-primary/65">
                           {feature}
                         </span>
                       </div>
@@ -100,12 +100,12 @@ export default function WebDesignTypes() {
                 </div>
 
                 {/* Bottom */}
-                <div className="mt-9 flex items-center justify-between border-t border-[#082f3a]/[0.07] pt-6">
-                  <span className="text-[9px] font-semibold uppercase tracking-[0.2em] text-[#71838a]">
+                <div className="mt-9 flex items-center justify-between border-t border-primary/7 pt-6">
+                  <span className="text-[9px] font-semibold uppercase tracking-[0.2em] text-secondary">
                     {t("explore")}
                   </span>
 
-                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#082f3a] text-white transition-transform duration-300 group-hover:rotate-45">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:rotate-45">
                     <ArrowUpRight size={14} />
                   </div>
                 </div>

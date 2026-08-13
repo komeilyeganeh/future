@@ -24,7 +24,7 @@ export default function ERPModules() {
   const t = useTranslations("ERP.modules");
 
   return (
-    <section className="bg-[#082f3a] text-white">
+    <section className="bg-primary text-white">
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         <div className="grid gap-14 lg:grid-cols-[0.7fr_1.3fr]">
           <div>

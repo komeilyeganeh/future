@@ -19,7 +19,7 @@ export default function MMSOverview() {
             transition={{ duration: 0.7 }}
             className="relative"
           >
-            <div className="flex h-28 w-28 items-center justify-center rounded-full bg-[#082f3a] shadow-[0_25px_70px_rgba(8,47,58,0.15)]">
+            <div className="flex h-28 w-28 items-center justify-center rounded-full bg-primary shadow-[0_25px_70px_rgba(8,47,58,0.15)]">
               <div className="text-center text-white">
                 <Database size={22} className="mx-auto opacity-70" />
 
@@ -29,8 +29,8 @@ export default function MMSOverview() {
               </div>
             </div>
 
-            <div className="absolute left-20 top-20 flex h-14 w-14 items-center justify-center rounded-full border border-[#082f3a]/10 bg-[#f8faf9]">
-              <Layers3 size={17} className="text-[#082f3a]" />
+            <div className="absolute left-20 top-20 flex h-14 w-14 items-center justify-center rounded-full border border-[#082f3a]/10 bg-background-soft">
+              <Layers3 size={17} className="text-primary" />
             </div>
           </motion.div>
 
@@ -41,20 +41,20 @@ export default function MMSOverview() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
               {t("eyebrow")}
             </span>
 
-            <h2 className="mt-5 max-w-3xl text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-[#082f3a] md:text-5xl">
+            <h2 className="mt-5 max-w-3xl text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-primary md:text-5xl">
               {t("title")}
             </h2>
 
-            <p className="mt-6 max-w-2xl text-sm leading-7 text-[#71838a]">
+            <p className="mt-6 max-w-2xl text-sm leading-7 text-secondary">
               {t("description")}
             </p>
 
-            <div className="mt-8 flex items-center gap-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#082f3a]">
-              <span className="h-px w-8 bg-[#082f3a]" />
+            <div className="mt-8 flex items-center gap-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-primary">
+              <span className="h-px w-8 bg-primary" />
               {t("highlight")}
               <ArrowUpRight size={13} />
             </div>

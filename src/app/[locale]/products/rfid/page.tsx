@@ -7,7 +7,7 @@ import RFIDCTA from "@/components/products/rfid/RFIDCTA";
 
 export default function RFIDPage() {
   return (
-    <main className="overflow-hidden bg-[#f8faf9]">
+    <main className="overflow-hidden bg-background-soft">
       <RFIDHero />
       <RFIDOverview />
       <RFIDHowItWorks />

@@ -58,20 +58,20 @@ export default function ProductsGrid() {
   return (
     <section
       id="products"
-      className="relative overflow-hidden bg-[#f8faf9] py-24 md:py-32"
+      className="relative overflow-hidden bg-background-soft py-24 md:py-32"
     >
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         {/* Heading */}
         <div className="max-w-2xl">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
             {t("catalog.eyebrow")}
           </span>
 
-          <h2 className="mt-5 text-4xl font-semibold tracking-[-0.04em] text-[#082f3a] md:text-5xl">
+          <h2 className="mt-5 text-4xl font-semibold tracking-[-0.04em] text-primary md:text-5xl">
             {t("catalog.title")}
           </h2>
 
-          <p className="mt-6 max-w-xl text-sm leading-7 text-[#71838a]">
+          <p className="mt-6 max-w-xl text-sm leading-7 text-secondary">
             {t("catalog.description")}
           </p>
         </div>

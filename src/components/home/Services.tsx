@@ -46,11 +46,11 @@ export default function Services() {
           {t("services.kicker")}
         </span>
 
-        <h2 className="mt-4 max-w-[760px] text-[44px] font-extrabold leading-[.97] tracking-[-.07em] text-[#082f3a] sm:text-[62px]">
+        <h2 className="mt-4 max-w-[760px] text-[44px] font-extrabold leading-[.97] tracking-[-.07em] text-primary sm:text-[62px]">
           {t("services.title")}
         </h2>
 
-        <p className="mt-6 max-w-152.5 text-[14px] leading-[1.9] text-[#71838a]">
+        <p className="mt-6 max-w-152.5 text-[14px] leading-[1.9] text-secondary">
           {t("services.description")}
         </p>
 
@@ -85,11 +85,11 @@ export default function Services() {
                 </div>
 
                 <div className="relative mt-16">
-                  <h3 className="text-[23px] font-bold tracking-[-.045em] text-[#082f3a]">
+                  <h3 className="text-[23px] font-bold tracking-[-.045em] text-primary">
                     {t(`services.${service.key}.title`)}
                   </h3>
 
-                  <p className="mt-4 max-w-125 text-[12px] leading-[1.85] text-[#71838a]">
+                  <p className="mt-4 max-w-125 text-[12px] leading-[1.85] text-secondary">
                     {t(`services.${service.key}.description`)}
                   </p>
                 </div>

@@ -11,19 +11,20 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function ERPHero() {
   const t = useTranslations("ERP.hero");
 
   return (
-    <section className="relative overflow-hidden bg-[#f8faf9]">
+    <section className="relative overflow-hidden bg-background-soft">
       {/* Background */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        <div className="absolute -right-40 -top-40 h-105 w-105 rounded-full bg-[#082f3a]/[0.035] blur-3xl" />
+        <div className="absolute -right-40 -top-40 h-105 w-105 rounded-full bg-primary/[0.035] blur-3xl" />
 
-        <div className="absolute -bottom-40 -left-40 h-105 w-105 rounded-full bg-[#082f3a]/2 blur-3xl" />
+        <div className="absolute -bottom-40 -left-40 h-105 w-105 rounded-full bg-primary/2 blur-3xl" />
 
-        <div className="absolute left-1/2 top-0 h-full w-px bg-[#082f3a]/2.5" />
+        <div className="absolute left-1/2 top-0 h-full w-px bg-primary/2.5" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-16 pt-28 md:px-8 md:pb-24 md:pt-36 lg:pb-28 lg:pt-40">
@@ -39,9 +40,9 @@ export default function ERPHero() {
               transition={{ duration: 0.6 }}
               className="mb-6 flex items-center gap-3"
             >
-              <span className="h-px w-8 bg-[#082f3a]" />
+              <span className="h-px w-8 bg-primary" />
 
-              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
                 {t("eyebrow")}
               </span>
             </motion.div>
@@ -50,7 +51,7 @@ export default function ERPHero() {
               initial={{ opacity: 0, y: 25 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="max-w-2xl text-5xl font-semibold leading-[0.94] tracking-[-0.055em] text-[#082f3a] sm:text-6xl lg:text-7xl"
+              className="max-w-2xl text-5xl font-semibold leading-[0.94] tracking-[-0.055em] text-primary sm:text-6xl lg:text-7xl"
             >
               {t("title")}
             </motion.h1>
@@ -59,7 +60,7 @@ export default function ERPHero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.25 }}
-              className="mt-7 max-w-xl text-sm leading-7 text-[#71838a] md:text-base"
+              className="mt-7 max-w-xl text-sm leading-7 text-secondary md:text-base"
             >
               {t("description")}
             </motion.p>
@@ -71,9 +72,9 @@ export default function ERPHero() {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="mt-8 flex flex-col gap-3 sm:flex-row"
             >
-              <a
+              <Link
                 href="#overview"
-                className="group inline-flex items-center justify-center gap-3 rounded-full bg-[#082f3a] px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                className="group inline-flex items-center justify-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
                 {t("primaryButton")}
 
@@ -81,16 +82,16 @@ export default function ERPHero() {
                   size={14}
                   className="transition-transform duration-300 group-hover:translate-y-0.5"
                 />
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="#contact"
-                className="inline-flex items-center justify-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-[#082f3a] transition-all duration-300 hover:-translate-y-1 hover:border-[#082f3a]/20"
+                className="inline-flex items-center justify-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:border-[#082f3a]/20"
               >
                 {t("secondaryButton")}
 
                 <ArrowUpRight size={14} />
-              </a>
+              </Link>
             </motion.div>
           </div>
 
@@ -108,9 +109,9 @@ export default function ERPHero() {
               {/* Main Dashboard */}
               <div className="relative overflow-hidden rounded-[28px] border border-[#082f3a]/8 bg-white shadow-[0_30px_100px_rgba(8,47,58,0.10)]">
                 {/* Dashboard Header */}
-                <div className="flex items-center justify-between border-b border-[#082f3a]/[0.07] px-5 py-4 sm:px-6">
+                <div className="flex items-center justify-between border-b border-primary/7 px-5 py-4 sm:px-6">
                   <div className="flex items-center gap-3">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#082f3a]">
+                    <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary">
                       <Layers3
                         size={16}
                         strokeWidth={1.8}
@@ -119,19 +120,19 @@ export default function ERPHero() {
                     </div>
 
                     <div>
-                      <p className="text-[10px] font-semibold text-[#082f3a]">
+                      <p className="text-[10px] font-semibold text-primary">
                         RoshaSoft ERP
                       </p>
 
-                      <p className="mt-0.5 text-[8px] text-[#71838a]">
+                      <p className="mt-0.5 text-[8px] text-secondary">
                         {t("visualLabel")}
                       </p>
                     </div>
                   </div>
 
                   <div className="hidden items-center gap-2 sm:flex">
-                    <span className="h-2 w-2 rounded-full bg-[#082f3a]/30" />
-                    <span className="text-[8px] font-medium text-[#71838a]">
+                    <span className="h-2 w-2 rounded-full bg-primary/30" />
+                    <span className="text-[8px] font-medium text-secondary">
                       ERP
                     </span>
                   </div>
@@ -162,19 +163,19 @@ export default function ERPHero() {
                   </div>
 
                   {/* Main Chart */}
-                  <div className="mt-4 rounded-2xl border border-[#082f3a]/6 bg-[#f8faf9] p-4 sm:p-5">
+                  <div className="mt-4 rounded-2xl border border-[#082f3a]/6 bg-background-soft p-4 sm:p-5">
                     <div className="flex items-start justify-between">
                       <div>
-                        <p className="text-[9px] font-semibold uppercase tracking-[0.15em] text-[#71838a]">
+                        <p className="text-[9px] font-semibold uppercase tracking-[0.15em] text-secondary">
                           Business overview
                         </p>
 
-                        <p className="mt-1 text-lg font-semibold tracking-tight text-[#082f3a] sm:text-xl">
+                        <p className="mt-1 text-lg font-semibold tracking-tight text-primary sm:text-xl">
                           Performance
                         </p>
                       </div>
 
-                      <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-white text-[#082f3a] shadow-sm">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-white text-primary shadow-sm">
                         <BarChart3 size={15} />
                       </div>
                     </div>
@@ -191,7 +192,7 @@ export default function ERPHero() {
                               duration: 0.8,
                               delay: 0.45 + index * 0.05,
                             }}
-                            className="flex-1 rounded-t-lg bg-[#082f3a]/10"
+                            className="flex-1 rounded-t-lg bg-primary/10"
                           />
                         )
                       )}
@@ -220,19 +221,19 @@ export default function ERPHero() {
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.8 }}
-                className="absolute -bottom-5 left-5 hidden rounded-2xl border border-[#082f3a]/[0.07] bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.10)] sm:block lg:-left-8"
+                className="absolute -bottom-5 left-5 hidden rounded-2xl border border-primary/7 bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.10)] sm:block lg:-left-8"
               >
                 <div className="flex items-center gap-3">
-                  <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#082f3a]/5">
-                    <span className="h-2 w-2 rounded-full bg-[#082f3a]" />
+                  <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/5">
+                    <span className="h-2 w-2 rounded-full bg-primary" />
                   </div>
 
                   <div>
-                    <p className="text-[8px] uppercase tracking-[0.15em] text-[#71838a]">
+                    <p className="text-[8px] uppercase tracking-[0.15em] text-secondary">
                       System
                     </p>
 
-                    <p className="mt-0.5 text-[10px] font-semibold text-[#082f3a]">
+                    <p className="mt-0.5 text-[10px] font-semibold text-primary">
                       Connected & Ready
                     </p>
                   </div>
@@ -244,7 +245,7 @@ export default function ERPHero() {
                 initial={{ opacity: 0, x: 15 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.7, delay: 0.9 }}
-                className="absolute -right-5 top-10 hidden rounded-2xl bg-[#082f3a] px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.18)] sm:block lg:-right-8"
+                className="absolute -right-5 top-10 hidden rounded-2xl bg-primary px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.18)] sm:block lg:-right-8"
               >
                 <p className="text-[8px] uppercase tracking-[0.2em] text-white/40">
                   RoshaSoft
@@ -282,16 +283,16 @@ function DashboardStat({
       className={`rounded-2xl border border-[#082f3a]/6 bg-white p-4 ${className}`}
     >
       <div className="flex items-center justify-between">
-        <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-[#082f3a]/5 text-[#082f3a]">
+        <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-primary/5 text-primary">
           <Icon size={14} strokeWidth={1.7} />
         </div>
 
-        <span className="text-[9px] font-semibold text-[#082f3a]/40">
+        <span className="text-[9px] font-semibold text-primary/40">
           {value}
         </span>
       </div>
 
-      <p className="mt-4 text-[9px] font-medium text-[#71838a]">
+      <p className="mt-4 text-[9px] font-medium text-secondary">
         {label}
       </p>
     </div>
@@ -313,16 +314,16 @@ function ModuleCard({
 }) {
   return (
     <div className="flex items-center gap-3 rounded-2xl border border-[#082f3a]/6 bg-white p-3.5">
-      <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#082f3a]/5 text-[#082f3a]">
+      <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-primary/5 text-primary">
         <Icon size={14} strokeWidth={1.7} />
       </div>
 
       <div className="min-w-0">
-        <p className="truncate text-[9px] font-semibold text-[#082f3a]">
+        <p className="truncate text-[9px] font-semibold text-primary">
           {title}
         </p>
 
-        <p className="mt-0.5 text-[8px] text-[#71838a]">
+        <p className="mt-0.5 text-[8px] text-secondary">
           {description}
         </p>
       </div>

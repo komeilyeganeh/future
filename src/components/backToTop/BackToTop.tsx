@@ -55,7 +55,7 @@ export default function BackToTop() {
             rounded-full
             border
             border-white/10
-            bg-[#082f3a]
+            bg-primary
             text-white
             shadow-[0_15px_40px_rgba(8,47,58,0.22)]
             backdrop-blur-md

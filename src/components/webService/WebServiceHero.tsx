@@ -10,19 +10,20 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function WebServiceHero() {
   const t = useTranslations("WebService.hero");
 
   return (
-    <section className="relative overflow-hidden bg-[#f8faf9]">
+    <section className="relative overflow-hidden bg-background-soft">
       {/* Background */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        <div className="absolute -left-45 top-[10%] h-[420px] w-[420px] rounded-full bg-[#082f3a]/2.5 blur-3xl" />
+        <div className="absolute -left-45 top-[10%] h-[420px] w-[420px] rounded-full bg-primary/2.5 blur-3xl" />
 
-        <div className="absolute right-[-140px] top-[30%] h-[420px] w-[420px] rounded-full bg-[#082f3a]/2 blur-3xl" />
+        <div className="absolute right-[-140px] top-[30%] h-[420px] w-[420px] rounded-full bg-primary/2 blur-3xl" />
 
-        <div className="absolute inset-x-0 bottom-0 h-px bg-[#082f3a]/6" />
+        <div className="absolute inset-x-0 bottom-0 h-px bg-primary/6" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -35,9 +36,9 @@ export default function WebServiceHero() {
               transition={{ duration: 0.7 }}
               className="mb-7 flex items-center gap-3"
             >
-              <span className="h-px w-8 bg-[#082f3a]" />
+              <span className="h-px w-8 bg-primary" />
 
-              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
                 {t("eyebrow")}
               </span>
             </motion.div>
@@ -46,10 +47,10 @@ export default function WebServiceHero() {
               initial={{ opacity: 0, y: 25 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="max-w-2xl text-5xl font-semibold leading-[0.96] tracking-tighter text-[#082f3a] sm:text-6xl lg:text-[76px]"
+              className="max-w-2xl text-5xl font-semibold leading-[0.96] tracking-tighter text-primary sm:text-6xl lg:text-[76px]"
             >
               {t("title")}
-              <span className="block text-[#71838a]">
+              <span className="block text-secondary">
                 {t("titleAccent")}
               </span>
             </motion.h1>
@@ -58,7 +59,7 @@ export default function WebServiceHero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.25 }}
-              className="mt-8 max-w-xl text-sm leading-7 text-[#71838a] md:text-base"
+              className="mt-8 max-w-xl text-sm leading-7 text-secondary md:text-base"
             >
               {t("description")}
             </motion.p>
@@ -69,9 +70,9 @@ export default function WebServiceHero() {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="mt-9 flex flex-wrap gap-3"
             >
-              <a
+              <Link
                 href="#features"
-                className="group flex items-center gap-3 rounded-full bg-[#082f3a] px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                className="group flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
                 {t("primaryButton")}
 
@@ -79,15 +80,15 @@ export default function WebServiceHero() {
                   size={14}
                   className="transition-transform duration-300 group-hover:translate-y-0.5"
                 />
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="#contact"
-                className="flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-[#082f3a] transition-all duration-300 hover:-translate-y-1 hover:border-[#082f3a]/20"
+                className="flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:border-[#082f3a]/20"
               >
                 {t("secondaryButton")}
                 <ArrowUpRight size={14} />
-              </a>
+              </Link>
             </motion.div>
 
             {/* Mini stats */}
@@ -98,21 +99,21 @@ export default function WebServiceHero() {
               className="mt-12 flex items-center gap-8"
             >
               <div>
-                <p className="text-lg font-semibold tracking-tight text-[#082f3a]">
+                <p className="text-lg font-semibold tracking-tight text-primary">
                   99.9%
                 </p>
-                <p className="mt-1 text-[8px] font-medium uppercase tracking-[0.18em] text-[#71838a]">
+                <p className="mt-1 text-[8px] font-medium uppercase tracking-[0.18em] text-secondary">
                   {t("stats.reliability")}
                 </p>
               </div>
 
-              <div className="h-8 w-px bg-[#082f3a]/10" />
+              <div className="h-8 w-px bg-primary/10" />
 
               <div>
-                <p className="text-lg font-semibold tracking-tight text-[#082f3a]">
+                <p className="text-lg font-semibold tracking-tight text-primary">
                   24/7
                 </p>
-                <p className="mt-1 text-[8px] font-medium uppercase tracking-[0.18em] text-[#71838a]">
+                <p className="mt-1 text-[8px] font-medium uppercase tracking-[0.18em] text-secondary">
                   {t("stats.availability")}
                 </p>
               </div>
@@ -128,69 +129,69 @@ export default function WebServiceHero() {
           >
             <div className="relative mx-auto w-full max-w-[650px]">
               {/* Browser shadow */}
-              <div className="absolute inset-x-8 bottom-[-25px] h-20 rounded-full bg-[#082f3a]/10 blur-3xl" />
+              <div className="absolute inset-x-8 bottom-[-25px] h-20 rounded-full bg-primary/10 blur-3xl" />
 
               {/* Browser */}
               <div className="relative overflow-hidden rounded-[26px] border border-[#082f3a]/10 bg-white shadow-[0_35px_100px_rgba(8,47,58,0.13)]">
                 {/* Browser bar */}
-                <div className="flex h-14 items-center gap-4 border-b border-[#082f3a]/[0.07] px-5">
+                <div className="flex h-14 items-center gap-4 border-b border-primary/7 px-5">
                   {/* Traffic lights */}
                   <div className="flex gap-1.5">
-                    <span className="h-2 w-2 rounded-full bg-[#082f3a]/15" />
-                    <span className="h-2 w-2 rounded-full bg-[#082f3a]/15" />
-                    <span className="h-2 w-2 rounded-full bg-[#082f3a]/15" />
+                    <span className="h-2 w-2 rounded-full bg-primary/15" />
+                    <span className="h-2 w-2 rounded-full bg-primary/15" />
+                    <span className="h-2 w-2 rounded-full bg-primary/15" />
                   </div>
 
                   {/* Address */}
-                  <div className="flex h-7 flex-1 items-center gap-2 rounded-lg bg-[#f8faf9] px-3">
-                    <Lock size={9} className="text-[#71838a]" />
+                  <div className="flex h-7 flex-1 items-center gap-2 rounded-lg bg-background-soft px-3">
+                    <Lock size={9} className="text-secondary" />
 
-                    <span className="text-[8px] font-medium text-[#71838a]">
+                    <span className="text-[8px] font-medium text-secondary">
                       app.roshasoft.com
                     </span>
                   </div>
 
-                  <Wifi size={13} className="text-[#082f3a]/30" />
+                  <Wifi size={13} className="text-primary/30" />
                 </div>
 
                 {/* Website */}
-                <div className="relative min-h-[390px] bg-[#f8faf9] p-5 md:p-7">
+                <div className="relative min-h-[390px] bg-background-soft p-5 md:p-7">
                   {/* Fake nav */}
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
-                      <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#082f3a]">
+                      <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary">
                         <Globe2
                           size={13}
                           className="text-white"
                         />
                       </div>
 
-                      <span className="text-[9px] font-bold tracking-tight text-[#082f3a]">
+                      <span className="text-[9px] font-bold tracking-tight text-primary">
                         ROSHA
                       </span>
                     </div>
 
                     <div className="hidden gap-5 sm:flex">
-                      <span className="text-[7px] font-medium text-[#71838a]">
+                      <span className="text-[7px] font-medium text-secondary">
                         Dashboard
                       </span>
 
-                      <span className="text-[7px] font-medium text-[#71838a]">
+                      <span className="text-[7px] font-medium text-secondary">
                         Analytics
                       </span>
 
-                      <span className="text-[7px] font-medium text-[#082f3a]">
+                      <span className="text-[7px] font-medium text-primary">
                         Account
                       </span>
                     </div>
 
-                    <div className="h-6 w-6 rounded-full bg-[#082f3a]/10" />
+                    <div className="h-6 w-6 rounded-full bg-primary/10" />
                   </div>
 
                   {/* Main UI */}
                   <div className="mt-10 grid gap-4 sm:grid-cols-[1.2fr_0.8fr]">
                     {/* Main card */}
-                    <div className="rounded-2xl bg-[#082f3a] p-6">
+                    <div className="rounded-2xl bg-primary p-6">
                       <div className="flex items-center justify-between">
                         <span className="text-[8px] font-medium uppercase tracking-[0.2em] text-white/40">
                           {t("visual.dashboard")}
@@ -233,36 +234,36 @@ export default function WebServiceHero() {
 
                     {/* Side cards */}
                     <div className="grid gap-4">
-                      <div className="rounded-2xl border border-[#082f3a]/[0.07] bg-white p-5">
+                      <div className="rounded-2xl border border-primary/7 bg-white p-5">
                         <div className="flex items-center justify-between">
-                          <span className="text-[8px] text-[#71838a]">
+                          <span className="text-[8px] text-secondary">
                             Requests
                           </span>
 
                           <Globe2
                             size={13}
-                            className="text-[#082f3a]/30"
+                            className="text-primary/30"
                           />
                         </div>
 
-                        <p className="mt-5 text-2xl font-semibold tracking-tight text-[#082f3a]">
+                        <p className="mt-5 text-2xl font-semibold tracking-tight text-primary">
                           24.8K
                         </p>
 
-                        <div className="mt-3 h-1 overflow-hidden rounded-full bg-[#082f3a]/6">
-                          <div className="h-full w-[78%] rounded-full bg-[#082f3a]" />
+                        <div className="mt-3 h-1 overflow-hidden rounded-full bg-primary/6">
+                          <div className="h-full w-[78%] rounded-full bg-primary" />
                         </div>
                       </div>
 
-                      <div className="rounded-2xl border border-[#082f3a]/[0.07] bg-white p-5">
-                        <span className="text-[8px] text-[#71838a]">
+                      <div className="rounded-2xl border border-primary/7 bg-white p-5">
+                        <span className="text-[8px] text-secondary">
                           System status
                         </span>
 
                         <div className="mt-5 flex items-center gap-2">
-                          <span className="h-2 w-2 rounded-full bg-[#082f3a]" />
+                          <span className="h-2 w-2 rounded-full bg-primary" />
 
-                          <span className="text-[10px] font-semibold text-[#082f3a]">
+                          <span className="text-[10px] font-semibold text-primary">
                             {t("visual.operational")}
                           </span>
                         </div>
@@ -286,7 +287,7 @@ export default function WebServiceHero() {
                     <MousePointer2
                       size={22}
                       fill="#082f3a"
-                      className="text-[#082f3a]"
+                      className="text-primary"
                     />
                   </motion.div>
                 </div>
@@ -300,12 +301,12 @@ export default function WebServiceHero() {
                   repeat: Infinity,
                   ease: "easeInOut",
                 }}
-                className="absolute -right-3 top-[12%] rounded-2xl border border-[#082f3a]/[0.07] bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.1)] md:-right-8"
+                className="absolute -right-3 top-[12%] rounded-2xl border border-primary/7 bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.1)] md:-right-8"
               >
                 <div className="flex items-center gap-2">
-                  <span className="h-2 w-2 rounded-full bg-[#082f3a]" />
+                  <span className="h-2 w-2 rounded-full bg-primary" />
 
-                  <span className="text-[8px] font-semibold text-[#082f3a]">
+                  <span className="text-[8px] font-semibold text-primary">
                     {t("visual.connected")}
                   </span>
                 </div>
@@ -319,19 +320,19 @@ export default function WebServiceHero() {
                   repeat: Infinity,
                   ease: "easeInOut",
                 }}
-                className="absolute -bottom-5 left-4 rounded-2xl border border-[#082f3a]/[0.07] bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.1)] md:-left-7"
+                className="absolute -bottom-5 left-4 rounded-2xl border border-primary/7 bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.1)] md:-left-7"
               >
                 <div className="flex items-center gap-3">
-                  <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#082f3a]/5">
-                    <Wifi size={12} className="text-[#082f3a]" />
+                  <div className="flex h-7 w-7 items-center justify-center rounded-full bg-primary/5">
+                    <Wifi size={12} className="text-primary" />
                   </div>
 
                   <div>
-                    <p className="text-[8px] font-semibold text-[#082f3a]">
+                    <p className="text-[8px] font-semibold text-primary">
                       {t("visual.fastAndReliable")}
                     </p>
 
-                    <p className="mt-0.5 text-[7px] text-[#71838a]">
+                    <p className="mt-0.5 text-[7px] text-secondary">
                       {t("visual.infrastructure")}
                     </p>
                   </div>

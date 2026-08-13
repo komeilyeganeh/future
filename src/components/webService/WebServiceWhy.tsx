@@ -36,19 +36,19 @@ export default function WebServiceWhy() {
   const t = useTranslations("WebService.why");
 
   return (
-    <section className="bg-[#f8faf9] px-5 py-24 md:px-8 md:py-32">
+    <section className="bg-background-soft px-5 py-24 md:px-8 md:py-32">
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
           <div>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
               {t("eyebrow")}
             </span>
 
-            <h2 className="mt-5 max-w-lg text-4xl font-semibold tracking-[-0.04em] text-[#082f3a] md:text-5xl">
+            <h2 className="mt-5 max-w-lg text-4xl font-semibold tracking-[-0.04em] text-primary md:text-5xl">
               {t("title")}
             </h2>
 
-            <p className="mt-6 max-w-md text-sm leading-7 text-[#71838a]">
+            <p className="mt-6 max-w-md text-sm leading-7 text-secondary">
               {t("description")}
             </p>
           </div>
@@ -67,17 +67,17 @@ export default function WebServiceWhy() {
                     duration: 0.6,
                     delay: index * 0.08,
                   }}
-                  className="rounded-[26px] border border-[#082f3a]/[0.07] bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(8,47,58,0.06)]"
+                  className="rounded-[26px] border border-primary/7 bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(8,47,58,0.06)]"
                 >
-                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#082f3a]/5 text-[#082f3a]">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/5 text-primary">
                     <Icon />
                   </div>
 
-                  <h3 className="mt-7 text-lg font-semibold text-[#082f3a]">
+                  <h3 className="mt-7 text-lg font-semibold text-primary">
                     {t(`${item.key}.title`)}
                   </h3>
 
-                  <p className="mt-3 text-xs leading-6 text-[#71838a]">
+                  <p className="mt-3 text-xs leading-6 text-secondary">
                     {t(`${item.key}.description`)}
                   </p>
                 </motion.div>

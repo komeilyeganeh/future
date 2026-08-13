@@ -26,20 +26,20 @@ export default function RFIDBenefits() {
   ];
 
   return (
-    <section className="bg-[#f8faf9] py-24 md:py-32">
+    <section className="bg-background-soft py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <div className="grid items-center gap-16 lg:grid-cols-[1fr_0.9fr]">
           {/* Left */}
           <div>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#71838a]">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
               {t("eyebrow")}
             </span>
 
-            <h2 className="mt-5 max-w-xl text-4xl font-semibold tracking-[-0.045em] text-[#082f3a] md:text-5xl">
+            <h2 className="mt-5 max-w-xl text-4xl font-semibold tracking-[-0.045em] text-primary md:text-5xl">
               {t("title")}
             </h2>
 
-            <p className="mt-6 max-w-xl text-sm leading-7 text-[#71838a]">
+            <p className="mt-6 max-w-xl text-sm leading-7 text-secondary">
               {t("description")}
             </p>
 
@@ -54,11 +54,11 @@ export default function RFIDBenefits() {
                   key={point}
                   className="flex items-center gap-3"
                 >
-                  <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#082f3a] text-white">
+                  <span className="flex h-5 w-5 items-center justify-center rounded-full bg-primary text-white">
                     <Check size={11} strokeWidth={2.5} />
                   </span>
 
-                  <span className="text-xs font-medium text-[#082f3a]/70">
+                  <span className="text-xs font-medium text-primary/70">
                     {point}
                   </span>
                 </div>
@@ -81,18 +81,18 @@ export default function RFIDBenefits() {
                     duration: 0.6,
                     delay: index * 0.1,
                   }}
-                  className="flex gap-5 rounded-[26px] border border-[#082f3a]/[0.07] bg-white p-6"
+                  className="flex gap-5 rounded-[26px] border border-primary/7 bg-white p-6"
                 >
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#082f3a] text-white">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-primary text-white">
                     <Icon size={18} strokeWidth={1.6} />
                   </div>
 
                   <div>
-                    <h3 className="text-base font-semibold text-[#082f3a]">
+                    <h3 className="text-base font-semibold text-primary">
                       {benefit.title}
                     </h3>
 
-                    <p className="mt-2 text-xs leading-6 text-[#71838a]">
+                    <p className="mt-2 text-xs leading-6 text-secondary">
                       {benefit.description}
                     </p>
                   </div>

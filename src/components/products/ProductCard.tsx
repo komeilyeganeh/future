@@ -31,14 +31,14 @@ export default function ProductCard({
       whileHover={{ y: -8 }}
       className={`group relative overflow-hidden rounded-4xl border p-7 transition-all duration-500 md:p-9 ${
         featured
-          ? "border-[#082f3a] bg-[#082f3a] text-white"
-          : "border-[#082f3a]/8 bg-white text-[#082f3a] hover:border-[#082f3a]/20 hover:shadow-[0_25px_80px_rgba(8,47,58,0.08)]"
+          ? "border-[#082f3a] bg-primary text-white"
+          : "border-[#082f3a]/8 bg-white text-primary hover:border-[#082f3a]/20 hover:shadow-[0_25px_80px_rgba(8,47,58,0.08)]"
       }`}
     >
       {/* Decoration */}
       <div
         className={`absolute -right-20 -top-20 h-48 w-48 rounded-full transition-transform duration-700 group-hover:scale-125 ${
-          featured ? "bg-white/[0.035]" : "bg-[#082f3a]/2.5"
+          featured ? "bg-white/[0.035]" : "bg-primary/2.5"
         }`}
       />
 
@@ -47,7 +47,7 @@ export default function ProductCard({
         <div className="flex items-start justify-between">
           <span
             className={`text-[10px] font-semibold tracking-[0.25em] ${
-              featured ? "text-white/35" : "text-[#71838a]"
+              featured ? "text-white/35" : "text-secondary"
             }`}
           >
             {number}
@@ -56,8 +56,8 @@ export default function ProductCard({
           <div
             className={`flex h-12 w-12 items-center justify-center rounded-2xl transition-all duration-500 group-hover:rotate-6 ${
               featured
-                ? "bg-white text-[#082f3a]"
-                : "bg-[#082f3a]/5 text-[#082f3a]"
+                ? "bg-white text-primary"
+                : "bg-primary/5 text-primary"
             }`}
           >
             {icon}
@@ -68,7 +68,7 @@ export default function ProductCard({
         <div className="mt-12">
           <span
             className={`text-[10px] font-bold uppercase tracking-[0.3em] ${
-              featured ? "text-white/35" : "text-[#71838a]"
+              featured ? "text-white/35" : "text-secondary"
             }`}
           >
             {shortName}
@@ -80,7 +80,7 @@ export default function ProductCard({
 
           <p
             className={`mt-5 max-w-md text-sm leading-7 ${
-              featured ? "text-white/55" : "text-[#71838a]"
+              featured ? "text-white/55" : "text-secondary"
             }`}
           >
             {description}
@@ -102,7 +102,7 @@ export default function ProductCard({
                 className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
                   featured
                     ? "bg-white/10 text-white"
-                    : "bg-[#082f3a]/5 text-[#082f3a]"
+                    : "bg-primary/5 text-primary"
                 }`}
               >
                 <Check size={11} strokeWidth={2.5} />
@@ -110,7 +110,7 @@ export default function ProductCard({
 
               <span
                 className={`text-[11px] font-medium ${
-                  featured ? "text-white/70" : "text-[#082f3a]/70"
+                  featured ? "text-white/70" : "text-primary/70"
                 }`}
               >
                 {feature}
@@ -122,12 +122,12 @@ export default function ProductCard({
         {/* Bottom */}
         <div
           className={`mt-10 flex items-center justify-between border-t pt-6 ${
-            featured ? "border-white/10" : "border-[#082f3a]/[0.07]"
+            featured ? "border-white/10" : "border-primary/7"
           }`}
         >
           <span
             className={`text-[9px] font-semibold uppercase tracking-[0.2em] ${
-              featured ? "text-white/35" : "text-[#71838a]"
+              featured ? "text-white/35" : "text-secondary"
             }`}
           >
             Explore product
@@ -136,8 +136,8 @@ export default function ProductCard({
           <div
             className={`flex h-10 w-10 items-center justify-center rounded-full transition-all duration-300 group-hover:rotate-45 ${
               featured
-                ? "bg-white text-[#082f3a]"
-                : "bg-[#082f3a] text-white"
+                ? "bg-white text-primary"
+                : "bg-primary text-white"
             }`}
           >
             <ArrowUpRight size={15} />

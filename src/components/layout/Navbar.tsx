@@ -36,31 +36,31 @@ export default function Navbar() {
         <nav className="hidden items-center gap-8 md:flex">
           <Link
             href="/about"
-            className="text-[11px] font-semibold text-[#71838a] transition hover:text-[#082f3a]"
+            className="text-[11px] font-semibold text-secondary transition hover:text-primary"
           >
             {t("nav.about")}
           </Link>
 
           <Link
             href="/services"
-            className="text-[11px] font-semibold text-[#71838a] transition hover:text-[#082f3a]"
+            className="text-[11px] font-semibold text-secondary transition hover:text-primary"
           >
             {t("nav.services")}
           </Link>
 
           <Link
             href="/products"
-            className="text-[11px] font-semibold text-[#71838a] transition hover:text-[#082f3a]"
+            className="text-[11px] font-semibold text-secondary transition hover:text-primary"
           >
             {t("nav.products")}
           </Link>
 
-          <a
+          <Link
             href="#contact"
-            className="text-[11px] font-semibold text-[#71838a] transition hover:text-[#082f3a]"
+            className="text-[11px] font-semibold text-secondary transition hover:text-primary"
           >
             {t("nav.contact")}
-          </a>
+          </Link>
         </nav>
 
         <div className="hidden items-center gap-1 rounded-full border border-[#082f3a]/10 bg-white/70 p-1 shadow-[0_4px_20px_rgba(8,47,58,0.06)] backdrop-blur-md md:flex">
@@ -69,8 +69,8 @@ export default function Navbar() {
             locale="en"
             className={`rounded-full px-3.5 py-2 text-[9px] font-bold tracking-[0.12em] transition-all duration-300 ${
               locale === "en"
-                ? "bg-[#082f3a] text-white shadow-[0_4px_12px_rgba(8,47,58,0.18)]"
-                : "text-[#71838a] hover:bg-[#082f3a]/5 hover:text-[#082f3a]"
+                ? "bg-primary text-white shadow-[0_4px_12px_rgba(8,47,58,0.18)]"
+                : "text-secondary hover:bg-primary/5 hover:text-primary"
             }`}
           >
             EN
@@ -81,29 +81,29 @@ export default function Navbar() {
             locale="tr"
             className={`rounded-full px-3.5 py-2 text-[9px] font-bold tracking-[0.12em] transition-all duration-300 ${
               locale === "tr"
-                ? "bg-[#082f3a] text-white shadow-[0_4px_12px_rgba(8,47,58,0.18)]"
-                : "text-[#71838a] hover:bg-[#082f3a]/5 hover:text-[#082f3a]"
+                ? "bg-primary text-white shadow-[0_4px_12px_rgba(8,47,58,0.18)]"
+                : "text-secondary hover:bg-primary/5 hover:text-primary"
             }`}
           >
             TR
           </Link>
 
-          <a
+          <Link
             href="#contact"
-            className="ml-1 flex items-center gap-2 rounded-full bg-[#082f3a] px-5 py-3 text-[10px] font-bold text-white shadow-[0_6px_20px_rgba(8,47,58,0.14)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#0b414f] hover:shadow-[0_8px_24px_rgba(8,47,58,0.2)]"
+            className="ml-1 flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-[10px] font-bold text-white shadow-[0_6px_20px_rgba(8,47,58,0.14)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#0b414f] hover:shadow-[0_8px_24px_rgba(8,47,58,0.2)]"
           >
             {t("nav.startProject")}
             <ArrowUpRight
               size={13}
               className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
             />
-          </a>
+          </Link>
         </div>
 
         <button
           type="button"
           onClick={() => setMenuOpen(!menuOpen)}
-          className="flex h-10 w-10 items-center justify-center rounded-full bg-[#082f3a]/5 md:hidden"
+          className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/5 md:hidden"
         >
           {menuOpen ? <X size={18} /> : <Menu size={18} />}
         </button>
@@ -127,7 +127,7 @@ export default function Navbar() {
                 key={href}
                 href={href}
                 onClick={() => setMenuOpen(false)}
-                className="block rounded-2xl px-4 py-3 text-[12px] font-semibold text-[#63747b] hover:bg-[#082f3a]/4"
+                className="block rounded-2xl px-4 py-3 text-[12px] font-semibold text-[#63747b] hover:bg-primary/4"
               >
                 {label}
               </Link>
@@ -139,8 +139,8 @@ export default function Navbar() {
                 locale="en"
                 className={`flex flex-1 items-center justify-center rounded-xl py-3 text-[10px] font-bold tracking-[0.12em] transition-all duration-300 ${
                   locale === "en"
-                    ? "bg-[#082f3a] text-white shadow-[0_4px_12px_rgba(8,47,58,0.18)]"
-                    : "text-[#71838a] hover:bg-[#082f3a]/5 hover:text-[#082f3a]"
+                    ? "bg-primary text-white shadow-[0_4px_12px_rgba(8,47,58,0.18)]"
+                    : "text-secondary hover:bg-primary/5 hover:text-primary"
                 }`}
               >
                 EN
@@ -151,8 +151,8 @@ export default function Navbar() {
                 locale="tr"
                 className={`flex flex-1 items-center justify-center rounded-xl py-3 text-[10px] font-bold tracking-[0.12em] transition-all duration-300 ${
                   locale === "tr"
-                    ? "bg-[#082f3a] text-white shadow-[0_4px_12px_rgba(8,47,58,0.18)]"
-                    : "text-[#71838a] hover:bg-[#082f3a]/5 hover:text-[#082f3a]"
+                    ? "bg-primary text-white shadow-[0_4px_12px_rgba(8,47,58,0.18)]"
+                    : "text-secondary hover:bg-primary/5 hover:text-primary"
                 }`}
               >
                 TR
