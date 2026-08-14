@@ -27,7 +27,7 @@ export default function Hero() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="absolute -left-[260px] -top-[220px] h-[650px] w-[650px] rounded-full bg-[#12627b]/[0.10] blur-[110px]"
+          className="absolute -left-[260px] -top-[220px] h-[650px] w-[650px] rounded-full bg-[#08788c]/10 blur-[110px]"
         />
 
         <motion.div
@@ -41,7 +41,7 @@ export default function Hero() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="absolute -right-[240px] top-[80px] h-[560px] w-[560px] rounded-full bg-[#42bdd5]/[0.10] blur-[110px]"
+          className="absolute -right-[240px] top-[80px] h-[560px] w-[560px] rounded-full bg-[#70dce7]/10 blur-[110px]"
         />
 
         <div
@@ -63,7 +63,7 @@ export default function Hero() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="absolute left-[11%] top-[27%] h-2 w-2 rounded-full bg-[#277b94]"
+          className="absolute left-[11%] top-[27%] h-2 w-2 rounded-full bg-[#d4af37]"
         />
 
         <motion.span
@@ -78,7 +78,7 @@ export default function Hero() {
             ease: "easeInOut",
             delay: 1,
           }}
-          className="absolute right-[19%] top-[24%] h-1.5 w-1.5 rounded-full bg-[#3daec5]"
+          className="absolute right-[19%] top-[24%] h-1.5 w-1.5 rounded-full bg-[#70dce7]"
         />
 
         <motion.span
@@ -92,12 +92,13 @@ export default function Hero() {
             ease: "easeInOut",
             delay: 1.8,
           }}
-          className="absolute bottom-[18%] right-[35%] h-2 w-2 rounded-full bg-[#174d60]/50"
+          className="absolute bottom-[18%] right-[35%] h-2 w-2 rounded-full bg-[#164e63]/50"
         />
       </div>
 
       <div className="relative mx-auto max-w-310 px-5 pb-24 pt-24 sm:px-8 sm:pb-32 sm:pt-32 lg:px-10 lg:pb-36 lg:pt-36">
         <div className="grid items-center gap-16 lg:grid-cols-[1.04fr_.96fr] lg:gap-20">
+          {/* Content */}
           <div className="relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 15 }}
@@ -106,7 +107,7 @@ export default function Hero() {
                 duration: 0.7,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="mb-7 inline-flex items-center gap-2 rounded-full border border-[#164d61]/10 bg-white/65 px-3.5 py-2 shadow-[0_10px_35px_rgba(20,70,85,.05)] backdrop-blur-xl"
+              className="mb-7 inline-flex items-center gap-2 rounded-full border border-[#d4af37]/25 bg-white/65 px-3.5 py-2 shadow-[0_10px_35px_rgba(20,70,85,.05)] backdrop-blur-xl"
             >
               <motion.span
                 animate={{
@@ -117,10 +118,10 @@ export default function Hero() {
                   duration: 2,
                   repeat: Infinity,
                 }}
-                className="h-1.5 w-1.5 rounded-full bg-[#287d98]"
+                className="h-1.5 w-1.5 rounded-full bg-[#d4af37]"
               />
 
-              <span className="text-[9px] font-bold uppercase tracking-[.2em] text-[#28657b]">
+              <span className="text-[9px] font-bold uppercase tracking-[.2em] text-[#d4af37]">
                 {t("floatingLabel")}
               </span>
             </motion.div>
@@ -140,7 +141,7 @@ export default function Hero() {
 
                 <br />
 
-                <span className="relative inline-block text-[#24758f]">
+                <span className="relative inline-block text-[#08788c]">
                   {t("titleLineTwo")}
 
                   <motion.span
@@ -157,7 +158,7 @@ export default function Hero() {
                       delay: 0.85,
                       ease: [0.16, 1, 0.3, 1],
                     }}
-                    className="absolute -bottom-2 left-0 h-[3px] w-full origin-left rounded-full bg-linear-to-r from-[#24758f] via-[#43bdd3] to-transparent sm:-bottom-3"
+                    className="absolute -bottom-2 left-0 h-[3px] w-full origin-left rounded-full bg-linear-to-r from-[#08788c] via-[#d4af37] to-transparent sm:-bottom-3"
                   />
                 </span>
               </motion.h1>
@@ -199,29 +200,31 @@ export default function Hero() {
             >
               <Link
                 href="/#contact"
-                className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-[#103d4e] px-6 py-4 text-[10px] font-bold text-white shadow-[0_20px_50px_rgba(16,61,78,.18)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_28px_60px_rgba(16,61,78,.25)]"
+                className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-[#103d4e] px-6 py-4 text-[10px] font-bold text-white shadow-[0_20px_50px_rgba(16,61,78,.18)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_28px_60px_rgba(8,120,140,.25)]"
               >
                 <span className="absolute inset-y-0 -left-12 w-10 rotate-[20deg] bg-white/20 blur-md transition-all duration-700 group-hover:left-[120%]" />
 
-                <span className="relative">{t("primaryButton")}</span>
+                <span className="relative">
+                  {t("primaryButton")}
+                </span>
 
-                <span className="relative flex h-6 w-6 items-center justify-center rounded-full bg-white/10">
+                <span className="relative flex h-6 w-6 items-center justify-center rounded-full bg-[#d4af37]/20">
                   <ArrowUpRight
                     size={13}
-                    className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                    className="text-[#d4af37] transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
                   />
                 </span>
               </Link>
 
               <Link
                 href="/#services"
-                className="group inline-flex items-center gap-2 rounded-full border border-[#103d4e]/10 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:bg-white"
+                className="group inline-flex items-center gap-2 rounded-full border border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-[#d4af37]/40 hover:bg-white"
               >
                 {t("secondaryButton")}
 
                 <ArrowDown
                   size={13}
-                  className="transition-transform duration-300 group-hover:translate-y-1"
+                  className="text-[#d4af37] transition-transform duration-300 group-hover:translate-y-1"
                 />
               </Link>
             </motion.div>
@@ -262,7 +265,7 @@ export default function Hero() {
                     ease: "easeInOut",
                     delay: 0.3,
                   }}
-                  className="h-8 w-8 rounded-full border-2 border-white bg-[#4d9eb2]"
+                  className="h-8 w-8 rounded-full border-2 border-white bg-[#08788c]"
                 />
 
                 <motion.span
@@ -273,7 +276,7 @@ export default function Hero() {
                     ease: "easeInOut",
                     delay: 0.6,
                   }}
-                  className="h-8 w-8 rounded-full border-2 border-white bg-[#a6dce7]"
+                  className="h-8 w-8 rounded-full border-2 border-white bg-[#70dce7]"
                 />
               </div>
 
@@ -301,6 +304,7 @@ export default function Hero() {
             </motion.div>
           </div>
 
+          {/* Visual */}
           <motion.div
             initial={{
               opacity: 0,
@@ -329,18 +333,16 @@ export default function Hero() {
                 repeat: Infinity,
                 ease: "easeInOut",
               }}
-              className="absolute left-1/2 top-1/2 h-[390px] w-[390px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#2d9ab5]/[0.10] blur-[80px]"
+              className="absolute left-1/2 top-1/2 h-[390px] w-[390px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#08788c]/10 blur-[80px]"
             />
 
-            <motion.div
-              className="relative overflow-hidden rounded-[38px] border border-white/70 bg-white/55 p-4 shadow-[0_40px_100px_rgba(24,71,88,.13)] backdrop-blur-2xl sm:p-5"
-            >
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_15%,rgba(80,198,220,.20),transparent_30%),radial-gradient(circle_at_90%_85%,rgba(25,100,125,.13),transparent_35%)]" />
+            <motion.div className="relative overflow-hidden rounded-[38px] border border-white/70 bg-white/55 p-4 shadow-[0_40px_100px_rgba(24,71,88,.13)] backdrop-blur-2xl sm:p-5">
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_15%,rgba(112,220,231,.20),transparent_30%),radial-gradient(circle_at_90%_85%,rgba(25,100,125,.13),transparent_35%)]" />
 
               <div className="relative flex items-center justify-between rounded-3xl border border-white/80 bg-white/65 px-4 py-3 backdrop-blur-xl">
                 <div className="flex items-center gap-2">
-                  <span className="h-2 w-2 rounded-full bg-[#2d8ba5]" />
-                  <span className="h-2 w-2 rounded-full bg-[#73b9c8]" />
+                  <span className="h-2 w-2 rounded-full bg-[#08788c]" />
+                  <span className="h-2 w-2 rounded-full bg-[#d4af37]" />
                   <span className="h-2 w-2 rounded-full bg-[#c0dfe6]" />
                 </div>
 
@@ -367,10 +369,10 @@ export default function Hero() {
                     repeat: Infinity,
                     ease: "linear",
                   }}
-                  className="absolute -bottom-24 -left-20 h-75 w-75 rounded-full border border-[#61d2e7]/15"
+                  className="absolute -bottom-24 -left-20 h-75 w-75 rounded-full border border-[#d4af37]/15"
                 />
 
-                <div className="absolute right-8 top-8 h-28 w-28 rounded-full bg-[#46bfd5]/10 blur-2xl" />
+                <div className="absolute right-8 top-8 h-28 w-28 rounded-full bg-[#d4af37]/10 blur-2xl" />
 
                 <motion.div
                   animate={{
@@ -382,7 +384,7 @@ export default function Hero() {
                     repeat: Infinity,
                     ease: "easeInOut",
                   }}
-                  className="relative flex h-16 w-16 items-center justify-center rounded-[20px] border border-white/10 bg-white/10 text-[#83dceb] backdrop-blur-xl"
+                  className="relative flex h-16 w-16 items-center justify-center rounded-[20px] border border-[#d4af37]/20 bg-[#d4af37]/10 text-[#d4af37] backdrop-blur-xl"
                 >
                   <Sparkles size={25} strokeWidth={1.5} />
                 </motion.div>
@@ -395,7 +397,7 @@ export default function Hero() {
                   <h3 className="mt-4 max-w-[390px] text-[31px] font-bold leading-[1.05] tracking-[-.055em] text-white sm:text-[38px]">
                     Technology
                     <br />
-                    <span className="text-[#76d6e5]">
+                    <span className="text-[#d4af37]">
                       built for tomorrow.
                     </span>
                   </h3>
@@ -413,9 +415,12 @@ export default function Hero() {
                         duration: 2,
                         repeat: Infinity,
                       }}
-                      className="flex h-8 w-8 items-center justify-center rounded-full bg-white/10"
+                      className="flex h-8 w-8 items-center justify-center rounded-full bg-[#d4af37]/15"
                     >
-                      <MoveUpRight size={13} className="text-white/70" />
+                      <MoveUpRight
+                        size={13}
+                        className="text-[#d4af37]"
+                      />
                     </motion.div>
                   </div>
                 </div>
@@ -435,7 +440,7 @@ export default function Hero() {
                       98%
                     </strong>
 
-                    <span className="mb-1 h-1.5 w-1.5 rounded-full bg-[#39a778]" />
+                    <span className="mb-1 h-1.5 w-1.5 rounded-full bg-[#d4af37]" />
                   </div>
                 </motion.div>
 
@@ -452,7 +457,7 @@ export default function Hero() {
                       24/7
                     </strong>
 
-                    <span className="mb-1 h-1.5 w-1.5 rounded-full bg-[#2d8ba5]" />
+                    <span className="mb-1 h-1.5 w-1.5 rounded-full bg-[#08788c]" />
                   </div>
                 </motion.div>
               </div>
@@ -471,7 +476,7 @@ export default function Hero() {
               className="absolute -right-3 top-[17%] rounded-2xl border border-white/80 bg-white/75 px-4 py-3 shadow-[0_20px_50px_rgba(20,70,85,.12)] backdrop-blur-xl sm:-right-6"
             >
               <div className="flex items-center gap-2">
-                <span className="flex h-7 w-7 items-center justify-center rounded-xl bg-[#164e63]/8 text-[#287d98]">
+                <span className="flex h-7 w-7 items-center justify-center rounded-xl bg-[#d4af37]/10 text-[#d4af37]">
                   <Sparkles size={13} />
                 </span>
 
@@ -480,7 +485,9 @@ export default function Hero() {
                     Smart
                   </div>
 
-                  <div className="text-[8px] text-[#9aa8ae]">Solutions</div>
+                  <div className="text-[8px] text-[#9aa8ae]">
+                    Solutions
+                  </div>
                 </div>
               </div>
             </motion.div>

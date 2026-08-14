@@ -5,21 +5,22 @@ import { Award, ShieldCheck, Sparkles, Target, Users } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export default function ValuesSection() {
-    const t = useTranslations("About.values")
+  const t = useTranslations("About.values");
+
   return (
     <section
       id="values"
       className="relative overflow-hidden bg-white px-5 py-28 sm:px-8 sm:py-36"
     >
       {/* Ambient background */}
-      <div className="pointer-events-none absolute -left-64 top-20 h-150 w-150 rounded-full bg-[#08788c]/4.5 blur-[140px]" />
+      <div className="pointer-events-none absolute -left-64 top-20 h-150 w-150 rounded-full bg-accent/5 blur-[140px]" />
 
       <div className="pointer-events-none absolute -right-72 bottom-0 h-175 w-175 rounded-full bg-primary/2.5 blur-[160px]" />
 
       <div className="relative mx-auto max-w-310">
         {/* =====================================================
-        HEADER
-    ===================================================== */}
+            HEADER
+        ===================================================== */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -31,9 +32,9 @@ export default function ValuesSection() {
           className="max-w-212.5"
         >
           <div className="flex items-center gap-3">
-            <span className="h-px w-8 bg-[#08788c]" />
+            <span className="h-px w-8 bg-accent" />
 
-            <span className="text-[10px] font-black uppercase tracking-[.22em] text-[#08788c]">
+            <span className="text-[10px] font-black uppercase tracking-[.22em] text-accent">
               {t("eyebrow")}
             </span>
           </div>
@@ -52,11 +53,11 @@ export default function ValuesSection() {
         </motion.div>
 
         {/* =====================================================
-        VALUES MANIFESTO
-    ===================================================== */}
+            VALUES MANIFESTO
+        ===================================================== */}
         <div className="relative mt-24">
           {/* Central timeline */}
-          <div className="absolute bottom-0 left-4.75 top-0 w-px bg-linear-to-b from-transparent via-[#08788c]/20 to-transparent sm:left-9.75" />
+          <div className="absolute bottom-0 left-4.75 top-0 w-px bg-linear-to-b from-transparent via-accent/25 to-transparent sm:left-9.75" />
 
           <div className="space-y-0">
             {[
@@ -116,23 +117,23 @@ export default function ValuesSection() {
                   className="group relative"
                 >
                   {/* =================================================
-                  ITEM
-              ================================================= */}
-                  <div className="relative grid min-h-52.5 grid-cols-[60px_1fr] gap-6 border-b border-[#082f3a]/6 py-10 sm:grid-cols-[80px_190px_1fr] sm:gap-8 sm:py-14">
+                      ITEM
+                  ================================================= */}
+                  <div className="relative grid min-h-52.5 grid-cols-[60px_1fr] gap-6 border-b border-primary/6 py-10 sm:grid-cols-[80px_190px_1fr] sm:gap-8 sm:py-14">
                     {/* =================================================
-                    NUMBER
-                ================================================= */}
+                        NUMBER
+                    ================================================= */}
                     <div className="relative z-10 flex items-start justify-center">
                       <span
                         className="
-                      text-[12px]
-                      font-black
-                      tracking-widest
-                      text-[#b6c3c7]
-                      transition-all
-                      duration-500
-                      group-hover:text-[#08788c]
-                    "
+                          text-[12px]
+                          font-black
+                          tracking-widest
+                          text-[#b6c3c7]
+                          transition-all
+                          duration-500
+                          group-hover:text-accent
+                        "
                       >
                         {item.number}
                       </span>
@@ -140,66 +141,66 @@ export default function ValuesSection() {
                       {/* Timeline node */}
                       <span
                         className="
-                      absolute
-                      left-1/2
-                      top-14.5
-                      h-2
-                      w-2
-                      -translate-x-1/2
-                      rounded-full
-                      border
-                      border-[#08788c]/30
-                      bg-white
-                      transition-all
-                      duration-500
-                      group-hover:h-3
-                      group-hover:w-3
-                      group-hover:border-[#08788c]
-                      group-hover:bg-[#70d9e5]
-                      group-hover:shadow-[0_0_0_6px_rgba(8,120,140,.07)]
-                    "
+                          absolute
+                          left-1/2
+                          top-14.5
+                          h-2
+                          w-2
+                          -translate-x-1/2
+                          rounded-full
+                          border
+                          border-accent/30
+                          bg-white
+                          transition-all
+                          duration-500
+                          group-hover:h-3
+                          group-hover:w-3
+                          group-hover:border-accent
+                          group-hover:bg-accent
+                          group-hover:shadow-[0_0_0_6px_rgba(212,175,55,.10)]
+                        "
                       />
                     </div>
 
                     {/* =================================================
-                    ICON / LABEL
-                ================================================= */}
+                        ICON / LABEL
+                    ================================================= */}
                     <div className="hidden sm:block">
                       <div className="flex items-center gap-4">
                         <div
                           className="
-                        flex
-                        h-12
-                        w-12
-                        items-center
-                        justify-center
-                        rounded-full
-                        border
-                        border-primary/7
-                        bg-[#f7fafb]
-                        text-[#08788c]
-                        transition-all
-                        duration-500
-                        group-hover:border-[#08788c]/20
-                        group-hover:bg-[#08788c]
-                        group-hover:text-white
-                        group-hover:shadow-[0_15px_35px_rgba(8,120,140,.18)]
-                      "
+                            flex
+                            h-12
+                            w-12
+                            items-center
+                            justify-center
+                            rounded-full
+                            border
+                            border-primary/7
+                            bg-[#f7fafb]
+                            text-accent
+                            transition-all
+                            duration-500
+                            group-hover:border-accent/25
+                            group-hover:bg-accent
+                            group-hover:text-white
+                            group-hover:shadow-[0_15px_35px_rgba(212,175,55,.18)]
+                          "
                         >
                           <Icon size={18} />
                         </div>
 
                         <span
                           className="
-                        text-[8px]
-                        font-black
-                        uppercase
-                        tracking-[.18em]
-                        text-[#a2b0b5]
-                        transition-colors
-                        duration-500
-                        group-hover:text-[#08788c]
-                      "
+                            text-[8px]
+                            font-black
+                            uppercase
+                            tracking-[.18em]
+                            text-[#a2b0b5]
+                            transition-colors
+                            duration-500
+                            group-hover:text-accent
+                          "
                         >
                           {item.label}
                         </span>
@@ -207,28 +208,29 @@ export default function ValuesSection() {
                     </div>
 
                     {/* =================================================
-                    CONTENT
-                ================================================= */}
+                        CONTENT
+                    ================================================= */}
                     <div className="min-w-0">
                       {/* Mobile icon */}
                       <div className="mb-6 flex items-center gap-3 sm:hidden">
                         <div
                           className="
-                        flex
-                        h-10
-                        w-10
-                        items-center
-                        justify-center
-                        rounded-full
-                        border
-                        border-primary/7
-                        bg-[#f7fafb]
-                        text-[#08788c]
-                        transition-all
-                        duration-500
-                        group-hover:bg-[#08788c]
-                        group-hover:text-white
-                      "
+                            flex
+                            h-10
+                            w-10
+                            items-center
+                            justify-center
+                            rounded-full
+                            border
+                            border-primary/7
+                            bg-[#f7fafb]
+                            text-accent
+                            transition-all
+                            duration-500
+                            group-hover:border-accent/25
+                            group-hover:bg-accent
+                            group-hover:text-white
+                          "
                         >
                           <Icon size={16} />
                         </div>
@@ -242,17 +244,17 @@ export default function ValuesSection() {
                         {/* Title */}
                         <h3
                           className="
-                        max-w-105
-                        text-[29px]
-                        font-black
-                        leading-[.95]
-                        tracking-[-.06em]
-                        text-primary
-                        transition-all
-                        duration-500
-                        group-hover:translate-x-2
-                        sm:text-[38px]
-                      "
+                            max-w-105
+                            text-[29px]
+                            font-black
+                            leading-[.95]
+                            tracking-[-.06em]
+                            text-primary
+                            transition-all
+                            duration-500
+                            group-hover:translate-x-2
+                            sm:text-[38px]
+                          "
                         >
                           {item.label}
                         </h3>
@@ -260,15 +262,15 @@ export default function ValuesSection() {
                         {/* Description */}
                         <p
                           className="
-                        max-w-130
-                        text-[12px]
-                        leading-[1.95]
-                        text-secondary
-                        transition-colors
-                        duration-500
-                        group-hover:text-[#506870]
-                        sm:text-[13px]
-                      "
+                            max-w-130
+                            text-[12px]
+                            leading-[1.95]
+                            text-secondary
+                            transition-colors
+                            duration-500
+                            group-hover:text-[#506870]
+                            sm:text-[13px]
+                          "
                         >
                           {item.label}
                         </p>
@@ -276,24 +278,24 @@ export default function ValuesSection() {
                     </div>
 
                     {/* =================================================
-                    HOVER LINE
-                ================================================= */}
+                        HOVER LINE
+                    ================================================= */}
                     <motion.div
                       initial={{ scaleX: 0 }}
                       whileHover={{ scaleX: 1 }}
                       className="
-                    pointer-events-none
-                    absolute
-                    -bottom-px
-                    left-0
-                    h-0.5
-                    w-full
-                    origin-left
-                    bg-linear-to-r
-                    from-[#08788c]
-                    via-[#70d9e5]
-                    to-transparent
-                  "
+                        pointer-events-none
+                        absolute
+                        -bottom-px
+                        left-0
+                        h-0.5
+                        w-full
+                        origin-left
+                        bg-linear-to-r
+                        from-accent
+                        via-accent-hover
+                        to-transparent
+                      "
                     />
                   </div>
                 </motion.article>
@@ -303,8 +305,8 @@ export default function ValuesSection() {
         </div>
 
         {/* =====================================================
-        BOTTOM STATEMENT
-    ===================================================== */}
+            BOTTOM STATEMENT
+        ===================================================== */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -313,7 +315,7 @@ export default function ValuesSection() {
           className="mt-16 flex flex-col justify-between gap-6 sm:flex-row sm:items-center"
         >
           <div className="flex items-center gap-3">
-            <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-[#08788c]" />
+            <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-accent" />
 
             <span className="text-[8px] font-black uppercase tracking-[.18em] text-[#9aa9ae]">
               RoshaSoft / Core principles
@@ -322,7 +324,7 @@ export default function ValuesSection() {
 
           <div className="h-px flex-1 bg-primary/6 sm:mx-8" />
 
-          <span className="text-[9px] font-bold uppercase tracking-[.16em] text-[#08788c]">
+          <span className="text-[9px] font-bold uppercase tracking-[.16em] text-accent">
             Built with purpose.
           </span>
         </motion.div>

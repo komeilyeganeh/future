@@ -20,9 +20,12 @@ export default function MobileAppHero() {
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-1/2 -top-45 h-125 w-125 -translate-x-1/2 rounded-full bg-primary/2.5 blur-3xl" />
 
-        <div className="absolute -bottom-45 -right-25 h-100 w-100 rounded-full bg-primary/2.5 blur-3xl" />
+        <div className="absolute -bottom-45 -right-25 h-100 w-100 rounded-full bg-[#c9a96e]/5 blur-3xl" />
 
         <div className="absolute left-[8%] top-[25%] h-px w-[84%] bg-primary/5" />
+
+        {/* Subtle gold glow */}
+        <div className="absolute right-[12%] top-[18%] h-70 w-70 rounded-full bg-[#c9a96e]/6 blur-[100px]" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -35,9 +38,11 @@ export default function MobileAppHero() {
               transition={{ duration: 0.6 }}
               className="mb-7 flex items-center gap-3"
             >
-              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white">
+              <span className="flex h-8 w-8 items-center justify-center rounded-full border border-[#c9a96e]/25 bg-[#c9a96e]/10 text-[#b99654]">
                 <Smartphone size={13} />
               </span>
+
+              <span className="h-px w-6 bg-[#c9a96e]/50" />
 
               <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
                 {t("eyebrow")}
@@ -52,7 +57,7 @@ export default function MobileAppHero() {
             >
               {t("title")}
 
-              <span className="block text-secondary">
+              <span className="block text-[#b99654]">
                 {t("titleAccent")}
               </span>
             </motion.h1>
@@ -86,11 +91,11 @@ export default function MobileAppHero() {
 
               <Link
                 href="#contact"
-                className="flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all hover:-translate-y-1 hover:border-[#082f3a]/20"
+                className="flex items-center gap-2 rounded-full border border-[#c9a96e]/30 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all hover:-translate-y-1 hover:border-[#c9a96e]/60"
               >
                 {t("secondaryButton")}
 
-                <ArrowUpRight size={14} />
+                <ArrowUpRight size={14} className="text-[#b99654]" />
               </Link>
             </motion.div>
           </div>
@@ -104,12 +109,20 @@ export default function MobileAppHero() {
           >
             <div className="relative aspect-square">
               {/* Outer rings */}
-              <div className="absolute inset-[5%] rounded-full border border-[#082f3a]/6" />
+              <div className="absolute inset-[5%] rounded-full border border-primary/6" />
 
-              <div className="absolute inset-[15%] rounded-full border border-[#082f3a]/6" />
+              <div className="absolute inset-[15%] rounded-full border border-[#c9a96e]/20" />
+
+              <div className="absolute inset-[25%] rounded-full border border-primary/5" />
+
+              {/* Gold orbit accent */}
+              <div className="absolute inset-[15%] rounded-full border border-transparent border-t-[#c9a96e]/50 rotate-[-25deg]" />
 
               {/* Phone */}
               <div className="absolute left-1/2 top-1/2 h-97.5 w-50 -translate-x-1/2 -translate-y-1/2 rounded-[38px] border-[6px] border-[#082f3a] bg-primary shadow-[0_40px_100px_rgba(8,47,58,0.18)]">
+                {/* Gold phone edge */}
+                <div className="pointer-events-none absolute inset-[-6px] rounded-[40px] border border-[#c9a96e]/25" />
+
                 {/* Screen */}
                 <div className="relative h-full overflow-hidden rounded-[30px] bg-background-soft">
                   {/* Notch */}
@@ -121,7 +134,7 @@ export default function MobileAppHero() {
                         ROSHASOFT
                       </span>
 
-                      <div className="flex h-7 w-7 items-center justify-center rounded-full bg-primary text-white">
+                      <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#c9a96e] text-primary">
                         <Sparkles size={11} />
                       </div>
                     </div>
@@ -137,7 +150,7 @@ export default function MobileAppHero() {
                     </div>
 
                     <div className="mt-7 rounded-2xl bg-primary p-4 text-white">
-                      <Code2 size={16} />
+                      <Code2 size={16} className="text-[#d8bb82]" />
 
                       <p className="mt-6 text-[9px] font-medium text-white/50">
                         {t("visual.cardLabel")}
@@ -146,11 +159,15 @@ export default function MobileAppHero() {
                       <p className="mt-1 text-sm font-semibold">
                         {t("visual.cardTitle")}
                       </p>
+
+                      <div className="mt-4 h-px w-1/2 bg-[#c9a96e]/40" />
                     </div>
 
                     <div className="mt-auto grid grid-cols-3 gap-2">
                       <div className="h-12 rounded-xl bg-primary/5" />
-                      <div className="h-12 rounded-xl bg-primary/8" />
+
+                      <div className="h-12 rounded-xl bg-[#c9a96e]/12" />
+
                       <div className="h-12 rounded-xl bg-primary/5" />
                     </div>
                   </div>
@@ -158,21 +175,24 @@ export default function MobileAppHero() {
               </div>
 
               {/* Floating cards */}
-              <div className="absolute left-[0%] top-[25%] rounded-2xl border border-primary/7 bg-white p-4 shadow-[0_20px_60px_rgba(8,47,58,0.08)]">
-                <Smartphone size={18} className="text-primary" />
+              <div className="absolute left-[0%] top-[25%] rounded-2xl border border-[#c9a96e]/25 bg-white p-4 shadow-[0_20px_60px_rgba(8,47,58,0.08)] transition-transform duration-500 hover:-translate-y-1">
+                <Smartphone size={18} className="text-[#b99654]" />
 
                 <p className="mt-2 text-[9px] font-semibold text-primary">
                   {t("visual.mobile")}
                 </p>
               </div>
 
-              <div className="absolute bottom-[20%] right-[0%] rounded-2xl border border-primary/7 bg-white p-4 shadow-[0_20px_60px_rgba(8,47,58,0.08)]">
-                <Code2 size={18} className="text-primary" />
+              <div className="absolute bottom-[20%] right-[0%] rounded-2xl border border-[#c9a96e]/25 bg-white p-4 shadow-[0_20px_60px_rgba(8,47,58,0.08)] transition-transform duration-500 hover:-translate-y-1">
+                <Code2 size={18} className="text-[#b99654]" />
 
                 <p className="mt-2 text-[9px] font-semibold text-primary">
                   {t("visual.development")}
                 </p>
               </div>
+
+              {/* Small gold marker */}
+              <div className="absolute bottom-[8%] left-[17%] h-2 w-2 rounded-full bg-[#c9a96e] shadow-[0_0_0_6px_rgba(201,169,110,0.10)]" />
             </div>
           </motion.div>
         </div>

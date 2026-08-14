@@ -25,14 +25,14 @@ export default function ERPHero() {
         <div className="absolute -bottom-40 -left-40 h-105 w-105 rounded-full bg-primary/2 blur-3xl" />
 
         <div className="absolute left-1/2 top-0 h-full w-px bg-primary/2.5" />
+
+        {/* Gold accent */}
+        <div className="absolute right-[12%] top-[22%] h-40 w-40 rounded-full bg-[#c9a45c]/[0.06] blur-3xl" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-16 pt-28 md:px-8 md:pb-24 md:pt-36 lg:pb-28 lg:pt-40">
         <div className="grid items-center gap-14 lg:grid-cols-[0.95fr_1.05fr] lg:gap-20">
-          {/* ========================================================= */}
           {/* LEFT — CONTENT */}
-          {/* ========================================================= */}
-
           <div className="max-w-2xl">
             <motion.div
               initial={{ opacity: 0, y: 15 }}
@@ -40,9 +40,9 @@ export default function ERPHero() {
               transition={{ duration: 0.6 }}
               className="mb-6 flex items-center gap-3"
             >
-              <span className="h-px w-8 bg-primary" />
+              <span className="h-px w-8 bg-[#c9a45c]" />
 
-              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#c7a45d]">
                 {t("eyebrow")}
               </span>
             </motion.div>
@@ -86,7 +86,7 @@ export default function ERPHero() {
 
               <Link
                 href="#contact"
-                className="inline-flex items-center justify-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:border-[#082f3a]/20"
+                className="inline-flex items-center justify-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:border-[#c9a45c]/40"
               >
                 {t("secondaryButton")}
 
@@ -95,10 +95,7 @@ export default function ERPHero() {
             </motion.div>
           </div>
 
-          {/* ========================================================= */}
           {/* RIGHT — ERP DASHBOARD VISUAL */}
-          {/* ========================================================= */}
-
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
@@ -131,7 +128,8 @@ export default function ERPHero() {
                   </div>
 
                   <div className="hidden items-center gap-2 sm:flex">
-                    <span className="h-2 w-2 rounded-full bg-primary/30" />
+                    <span className="h-2 w-2 rounded-full bg-[#c9a45c]" />
+
                     <span className="text-[8px] font-medium text-secondary">
                       ERP
                     </span>
@@ -192,7 +190,11 @@ export default function ERPHero() {
                               duration: 0.8,
                               delay: 0.45 + index * 0.05,
                             }}
-                            className="flex-1 rounded-t-lg bg-primary/10"
+                            className={`flex-1 rounded-t-lg ${
+                              index === 7
+                                ? "bg-[#c9a45c]"
+                                : "bg-primary/10"
+                            }`}
                           />
                         )
                       )}
@@ -224,8 +226,8 @@ export default function ERPHero() {
                 className="absolute -bottom-5 left-5 hidden rounded-2xl border border-primary/7 bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.10)] sm:block lg:-left-8"
               >
                 <div className="flex items-center gap-3">
-                  <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/5">
-                    <span className="h-2 w-2 rounded-full bg-primary" />
+                  <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#c9a45c]/10">
+                    <span className="h-2 w-2 rounded-full bg-[#c9a45c]" />
                   </div>
 
                   <div>
@@ -251,7 +253,7 @@ export default function ERPHero() {
                   RoshaSoft
                 </p>
 
-                <p className="mt-1 text-sm font-semibold text-white">
+                <p className="mt-1 text-sm font-semibold text-[#d8bd7b]">
                   ERP
                 </p>
               </motion.div>
@@ -280,14 +282,14 @@ function DashboardStat({
 }) {
   return (
     <div
-      className={`rounded-2xl border border-[#082f3a]/6 bg-white p-4 ${className}`}
+      className={`rounded-2xl border border-[#082f3a]/6 bg-white p-4`}
     >
       <div className="flex items-center justify-between">
         <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-primary/5 text-primary">
           <Icon size={14} strokeWidth={1.7} />
         </div>
 
-        <span className="text-[9px] font-semibold text-primary/40">
+        <span className="text-[9px] font-semibold text-[#c9a45c]">
           {value}
         </span>
       </div>
@@ -314,7 +316,7 @@ function ModuleCard({
 }) {
   return (
     <div className="flex items-center gap-3 rounded-2xl border border-[#082f3a]/6 bg-white p-3.5">
-      <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-primary/5 text-primary">
+      <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#c9a45c]/10 text-[#a98743]">
         <Icon size={14} strokeWidth={1.7} />
       </div>
 

@@ -19,21 +19,25 @@ export default function About() {
           <div className="absolute left-0 top-12 h-[360px] w-[360px] rounded-[45px] bg-[#eef4f5]" />
 
           <div className="relative left-[8%] aspect-square max-w-105 overflow-hidden rounded-[45px] bg-linear-to-br from-[#063b4a] via-[#08788c] to-[#18a1b1] shadow-[0_40px_90px_rgba(8,72,87,.18)]">
-            <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full border border-white/10" />
+            {/* Decorative rings */}
+            <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full border border-accent/20" />
 
-            <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full border border-white/10" />
+            <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full border border-accent/15" />
 
-            <Sparkles
-              size={26}
-              className="absolute left-9 top-9 text-white/60"
-            />
+            {/* Accent icon */}
+            <div className="absolute left-8 top-8 flex h-12 w-12 items-center justify-center rounded-2xl border border-accent/20 bg-accent/10 backdrop-blur-sm">
+              <Sparkles
+                size={21}
+                className="text-accent"
+              />
+            </div>
 
             <div className="absolute bottom-9 left-9 right-9">
-              <span className="text-[9px] font-bold uppercase tracking-[.2em] text-white/40">
+              <span className="text-[9px] font-bold uppercase tracking-[.2em] text-accent/70">
                 RoshaSoft
               </span>
 
-              <div className="mt-4 h-px bg-white/15" />
+              <div className="mt-4 h-px bg-accent/25" />
 
               <p className="mt-5 max-w-[280px] text-[27px] font-bold leading-tight tracking-[-.045em] text-white">
                 {t("about.visualTitle")}
@@ -41,13 +45,14 @@ export default function About() {
             </div>
           </div>
 
-          <div className="absolute bottom-0 right-0 rounded-3xl border border-white bg-white p-5 shadow-[0_25px_70px_rgba(7,47,58,.12)]">
+          {/* Experience card */}
+          <div className="absolute bottom-0 right-0 rounded-3xl border border-accent/20 bg-white p-5 shadow-[0_25px_70px_rgba(7,47,58,.12)]">
             <span className="text-[8px] font-bold uppercase tracking-[.15em] text-[#99a9ae]">
               {t("about.cardLabel")}
             </span>
 
             <strong className="mt-1 block text-[32px] tracking-[-.06em] text-primary">
-              20+
+              <span className="text-accent">20+</span>
             </strong>
           </div>
         </motion.div>
@@ -57,7 +62,7 @@ export default function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
         >
-          <span className="text-[10px] font-bold uppercase tracking-[.18em] text-[#08788c]">
+          <span className="text-[10px] font-bold uppercase tracking-[.18em] text-accent">
             {t("about.kicker")}
           </span>
 
@@ -76,7 +81,7 @@ export default function About() {
               t("about.pointThree"),
             ].map((point) => (
               <div key={point} className="flex items-center gap-3">
-                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#08788c]/8 text-[#08788c]">
+                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-accent/12 text-accent">
                   <Check size={13} />
                 </span>
 

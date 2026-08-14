@@ -51,7 +51,7 @@ export default function CTA() {
           />
         </motion.div>
 
-        <div className="relative mx-auto mt-7 max-w-[760px]">
+        <div className="relative mx-auto mt-7 max-w-190">
           <span className="text-[9px] font-bold uppercase tracking-[.2em] text-white/30">
             RoshaSoft
           </span>
@@ -60,7 +60,7 @@ export default function CTA() {
             {t("title")}
           </h2>
 
-          <p className="mx-auto mt-6 max-w-[590px] text-[13px] leading-[1.9] text-white/45">
+          <p className="mx-auto mt-6 max-w-147.5 text-[13px] leading-[1.9] text-white/45">
             {t("description")}
           </p>
 

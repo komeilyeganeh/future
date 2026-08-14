@@ -81,33 +81,33 @@
       "activeStatus": "Active",
 
       "his": {
-        "title": "Hospital Information System",
-        "shortDescription": "A complete digital platform for modern healthcare organizations.",
-        "description": "A comprehensive hospital management platform that connects patients, medical teams, administrative processes, and operational data in one intelligent system."
+        "title": "HIS",
+        "shortDescription": "Health Information System.",
+        "description": "HIS is the beating heart of modern healthcare. It’s a comprehensive system that streamlines all health-related activities such as planning, monitoring, coordination, and decision-making."
       },
 
-      "cms": {
-        "title": "Content Management System",
-        "shortDescription": "Flexible tools for managing digital content and operations.",
-        "description": "A powerful content management platform designed to help organizations create, manage, publish, and organize digital content efficiently."
+      "crm": {
+        "title": "CRM",
+        "shortDescription": "Customer Relationship Management.",
+        "description": "Customer relationship management is a process in which a business or other organization administers its interactions with customers, typically using data analysis to study large amounts of information."
       },
 
       "erp": {
-        "title": "Enterprise Resource Planning",
-        "shortDescription": "Integrated business management for connected operations.",
-        "description": "An integrated enterprise platform that connects business processes, financial data, resources, and operational workflows in one centralized environment."
+        "title": "ERP",
+        "shortDescription": "Enterprise Resource Planning.",
+        "description": "ERP is a comprehensive software solution designed to manage a company’s key business functions. It integrates various aspects of a company’s operations, such as finance, accounting, human resources, and supply chain management, into a single system."
       },
 
-      "ai": {
-        "title": "Artificial Intelligence",
-        "shortDescription": "Intelligent technologies for better decisions and automation.",
-        "description": "AI-powered solutions that help organizations analyze information, automate repetitive processes, discover patterns, and make better decisions."
+      "rfid": {
+        "title": "RFID",
+        "shortDescription": "Radio Frequency Identification.",
+        "description": "Radio Frequency Identification (RFID) is a technology that uses radio waves to automatically identify and track objects or people."
       },
 
-      "cloud": {
-        "title": "Cloud Infrastructure",
-        "shortDescription": "Secure and scalable infrastructure for modern applications.",
-        "description": "Reliable cloud infrastructure designed for scalability, performance, security, and continuous availability."
+      "mms": {
+        "title": "MMS",
+        "shortDescription": "Merchandise Management System.",
+        "description": "A Merchandise Management System (MMS) is a software solution that helps businesses manage their inventory, purchasing, and sales processes."
       }
     },
 
@@ -121,7 +121,49 @@
     "cta": {
       "title": "Let's build something meaningful together.",
       "description": "Have an idea, a business challenge, or a system that needs to evolve? Let's talk about how technology can create a better solution.",
-      "button": "Start a Conversation"
+      "button": "Start a Conversation",
+      "modal": {
+        "eyebrow": "RoshaSoft",
+        "title": "Start a conversation",
+        "description": "Tell us a little about your project. We will review your idea and get back to you with the next steps.",
+        "name": "Name",
+        "namePlaceholder": "Your name",
+        "email": "Email",
+        "emailPlaceholder": "you@example.com",
+        "phone": "Phone",
+        "phonePlaceholder": "+98 ...",
+        "projectType": "Project type",
+        "projectTypePlaceholder": "Select project type",
+        "projectTypes": {
+          "web": "Web Development",
+          "design": "UI / UX Design",
+          "mobile": "Mobile App",
+          "ai": "AI / Automation",
+          "marketing": "Digital Marketing",
+          "other": "Other"
+        },
+        "budget": "Estimated budget",
+        "budgets": {
+          "under2k": "Under $2k",
+          "2k5k": "$2k – $5k",
+          "5k10k": "$5k – $10k",
+          "10kPlus": "$10k+"
+        },
+        "projectDescription": "Project description",
+        "projectDescriptionHint": "Describe it in your own words",
+        "projectDescriptionPlaceholder": "For example: I need a website for my company where customers can...",
+        "ai": {
+          "title": "Let AI refine your idea",
+          "description": "We can turn your key points into a clear project brief.",
+          "button": "Improve with AI",
+          "loading": "Creating...",
+          "resultTitle": "AI Project Summary",
+          "useDescription": "Use this description"
+        },
+        "consent": "By submitting this form, you agree that RoshaSoft may contact you regarding your project.",
+        "submit": "Send project request",
+        "close": "Close"
+      }
     }
   },
   "About": {
@@ -143,8 +185,8 @@
       "description": "Our team of professionals has years of experience in web development, software engineering and cybersecurity. We are proud of delivering high-quality work designed around the real needs of our clients.",
       "quote": "Experience gives us perspective. Innovation gives us direction.",
       "label": "OUR JOURNEY",
-      "year": "2030",
-      "yearText": "The future starts here."
+      "text": "RoshaSoft",
+      "yearText": "A Brighter Way to Do Business."
     },
 
     "team": {
@@ -219,12 +261,13 @@
     },
 
     "location": {
-      "eyebrow": "OUR LOCATION",
-      "title": "Where we are based.",
-      "description": "We are proud to be located in a vibrant technology environment known for innovation and collaboration. Our location allows us to connect with a wide pool of talent and resources.",
-      "london": "London",
-      "uk": "United Kingdom",
-      "global": "Serving businesses globally"
+      "eyebrow": "Our Location",
+      "title": "Based in Istanbul.",
+      "description": "From Istanbul, Türkiye, RoshaSoft works with businesses and teams to build modern digital products, intelligent systems, and scalable technology solutions.",
+      "istanbul": "Istanbul",
+      "turkey": "Türkiye",
+      "global": "Serving globally",
+      "mainOffice": "Main Office"
     },
 
     "contact": {
@@ -2331,6 +2374,7 @@
     "contact": "Contact Us",
     "rights": "All rights reserved.",
     "careers": "Careers",
+    "news": "News",
     "privacy": "Privacy Policy",
     "rfid": "RFID",
     "erp": "ERP",

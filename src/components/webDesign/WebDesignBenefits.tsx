@@ -36,7 +36,7 @@ export default function WebDesignBenefits() {
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
           <div>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#c7a45d]">
               {t("eyebrow")}
             </span>
 
@@ -63,19 +63,24 @@ export default function WebDesignBenefits() {
                     duration: 0.55,
                     delay: index * 0.08,
                   }}
-                  className="group rounded-[28px] border border-primary/7 bg-background-soft p-7 transition-all duration-500 hover:-translate-y-1 hover:bg-white hover:shadow-[0_25px_70px_rgba(8,47,58,0.07)]"
+                  className="group relative overflow-hidden rounded-[28px] border border-primary/7 bg-background-soft p-7 transition-all duration-500 hover:-translate-y-1 hover:border-[#c9a227]/30 hover:bg-white hover:shadow-[0_25px_70px_rgba(8,47,58,0.07)]"
                 >
-                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary text-white">
-                    <Icon size={18} strokeWidth={1.7} />
+                  {/* Subtle gold glow */}
+                  <div className="pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full bg-[#c9a227]/[0.035] blur-2xl transition-transform duration-500 group-hover:scale-150" />
+
+                  <div className="relative z-10">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary text-white transition-all duration-500 group-hover:bg-[#c9a227] group-hover:text-white">
+                      <Icon size={18} strokeWidth={1.7} />
+                    </div>
+
+                    <h3 className="mt-7 text-lg font-semibold tracking-tight text-primary transition-colors duration-300 group-hover:text-[#a88416]">
+                      {t(`${item.key}.title`)}
+                    </h3>
+
+                    <p className="mt-3 text-xs leading-6 text-secondary">
+                      {t(`${item.key}.description`)}
+                    </p>
                   </div>
-
-                  <h3 className="mt-7 text-lg font-semibold tracking-tight text-primary">
-                    {t(`${item.key}.title`)}
-                  </h3>
-
-                  <p className="mt-3 text-xs leading-6 text-secondary">
-                    {t(`${item.key}.description`)}
-                  </p>
                 </motion.div>
               );
             })}

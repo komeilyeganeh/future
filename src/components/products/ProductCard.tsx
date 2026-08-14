@@ -32,18 +32,33 @@ export default function ProductCard({
       className={`group relative overflow-hidden rounded-4xl border p-7 transition-all duration-500 md:p-9 ${
         featured
           ? "border-[#082f3a] bg-primary text-white"
-          : "border-[#082f3a]/8 bg-white text-primary hover:border-[#082f3a]/20 hover:shadow-[0_25px_80px_rgba(8,47,58,0.08)]"
+          : "border-[#082f3a]/8 bg-white text-primary hover:border-[#c9a45c]/30 hover:shadow-[0_25px_80px_rgba(8,47,58,0.08)]"
       }`}
     >
-      {/* Decoration */}
+      {/* =========================================================
+          DECORATION
+      ========================================================= */}
       <div
-        className={`absolute -right-20 -top-20 h-48 w-48 rounded-full transition-transform duration-700 group-hover:scale-125 ${
-          featured ? "bg-white/[0.035]" : "bg-primary/2.5"
+        className={`absolute -right-20 -top-20 h-48 w-48 rounded-full transition-all duration-700 group-hover:scale-125 ${
+          featured
+            ? "bg-[#c9a45c]/[0.06]"
+            : "bg-[#c9a45c]/[0.035] group-hover:bg-[#c9a45c]/[0.06]"
+        }`}
+      />
+
+      {/* Subtle accent glow */}
+      <div
+        className={`pointer-events-none absolute -bottom-24 -left-24 h-48 w-48 rounded-full blur-3xl transition-opacity duration-700 ${
+          featured
+            ? "bg-[#c9a45c]/10 opacity-0 group-hover:opacity-100"
+            : "bg-[#08788c]/5 opacity-0 group-hover:opacity-100"
         }`}
       />
 
       <div className="relative z-10">
-        {/* Header */}
+        {/* =========================================================
+            HEADER
+        ========================================================= */}
         <div className="flex items-start justify-between">
           <span
             className={`text-[10px] font-semibold tracking-[0.25em] ${
@@ -56,19 +71,21 @@ export default function ProductCard({
           <div
             className={`flex h-12 w-12 items-center justify-center rounded-2xl transition-all duration-500 group-hover:rotate-6 ${
               featured
-                ? "bg-white text-primary"
-                : "bg-primary/5 text-primary"
+                ? "bg-[#c9a45c] text-primary shadow-[0_10px_30px_rgba(201,164,92,.18)]"
+                : "bg-[#c9a45c]/10 text-[#a98443] group-hover:bg-[#c9a45c] group-hover:text-primary group-hover:shadow-[0_10px_30px_rgba(201,164,92,.16)]"
             }`}
           >
             {icon}
           </div>
         </div>
 
-        {/* Product code */}
+        {/* =========================================================
+            PRODUCT INFO
+        ========================================================= */}
         <div className="mt-12">
           <span
             className={`text-[10px] font-bold uppercase tracking-[0.3em] ${
-              featured ? "text-white/35" : "text-secondary"
+              featured ? "text-[#e3c985]/70" : "text-[#a98443]"
             }`}
           >
             {shortName}
@@ -87,7 +104,9 @@ export default function ProductCard({
           </p>
         </div>
 
-        {/* Features */}
+        {/* =========================================================
+            FEATURES
+        ========================================================= */}
         <div className="mt-9 space-y-3">
           {features.map((feature) => (
             <div
@@ -101,8 +120,8 @@ export default function ProductCard({
               <span
                 className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
                   featured
-                    ? "bg-white/10 text-white"
-                    : "bg-primary/5 text-primary"
+                    ? "bg-[#c9a45c]/20 text-[#e3c985]"
+                    : "bg-[#c9a45c]/10 text-[#a98443]"
                 }`}
               >
                 <Check size={11} strokeWidth={2.5} />
@@ -119,7 +138,9 @@ export default function ProductCard({
           ))}
         </div>
 
-        {/* Bottom */}
+        {/* =========================================================
+            BOTTOM
+        ========================================================= */}
         <div
           className={`mt-10 flex items-center justify-between border-t pt-6 ${
             featured ? "border-white/10" : "border-primary/7"
@@ -127,7 +148,7 @@ export default function ProductCard({
         >
           <span
             className={`text-[9px] font-semibold uppercase tracking-[0.2em] ${
-              featured ? "text-white/35" : "text-secondary"
+              featured ? "text-white/35" : "text-[#a98443]"
             }`}
           >
             Explore product
@@ -136,13 +157,22 @@ export default function ProductCard({
           <div
             className={`flex h-10 w-10 items-center justify-center rounded-full transition-all duration-300 group-hover:rotate-45 ${
               featured
-                ? "bg-white text-primary"
-                : "bg-primary text-white"
+                ? "bg-[#c9a45c] text-primary shadow-[0_8px_25px_rgba(201,164,92,.18)]"
+                : "bg-primary text-white group-hover:bg-[#c9a45c] group-hover:text-primary"
             }`}
           >
             <ArrowUpRight size={15} />
           </div>
         </div>
+
+        {/* Bottom accent line */}
+        <div
+          className={`absolute bottom-0 left-0 h-0.5 w-0 transition-all duration-700 group-hover:w-full ${
+            featured
+              ? "bg-linear-to-r from-[#c9a45c] via-[#e3c985] to-transparent"
+              : "bg-linear-to-r from-[#08788c] via-[#c9a45c] to-transparent"
+          }`}
+        />
       </div>
     </motion.article>
   );

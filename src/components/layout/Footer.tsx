@@ -37,8 +37,9 @@ export default function Footer() {
 
             <div className="mt-5 flex flex-col gap-3 text-[10px] text-secondary">
               <Link href="/about">{t("about")}</Link>
-              <Link href="/services">{t("services")}</Link>
-              <Link href="/products">{t("products")}</Link>
+              <Link href="/careers">{t("careers")}</Link>
+              <Link href="/careers">{t("news")}</Link>
+              <Link href="/privacy">{t("privacy")}</Link>
             </div>
           </div>
 
@@ -51,8 +52,6 @@ export default function Footer() {
               <Link href="/mobile-app">{t("mobile")}</Link>
               <Link href="/web-service">{t("web")}</Link>
               <Link href="/web-design">{t("design")}</Link>
-              <Link href="/careers">{t("careers")}</Link>
-              <Link href="/privacy">{t("privacy")}</Link>
             </div>
           </div>
 

@@ -31,7 +31,7 @@ export default function RFIDBenefits() {
         <div className="grid items-center gap-16 lg:grid-cols-[1fr_0.9fr]">
           {/* Left */}
           <div>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#c7a45d]">
               {t("eyebrow")}
             </span>
 
@@ -50,10 +50,7 @@ export default function RFIDBenefits() {
                 t("points.three"),
                 t("points.four"),
               ].map((point) => (
-                <div
-                  key={point}
-                  className="flex items-center gap-3"
-                >
+                <div key={point} className="flex items-center gap-3">
                   <span className="flex h-5 w-5 items-center justify-center rounded-full bg-primary text-white">
                     <Check size={11} strokeWidth={2.5} />
                   </span>
@@ -81,14 +78,14 @@ export default function RFIDBenefits() {
                     duration: 0.6,
                     delay: index * 0.1,
                   }}
-                  className="flex gap-5 rounded-[26px] border border-primary/7 bg-white p-6"
+                  className="group flex gap-5 rounded-[26px] border border-primary/7 bg-white p-6 transition-all duration-500 hover:-translate-y-1 hover:border-[#b89a5a]/30 hover:shadow-[0_20px_60px_rgba(184,154,90,0.10)]"
                 >
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-primary text-white">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-primary text-white transition-all duration-500 group-hover:bg-[#b89a5a] group-hover:text-primary">
                     <Icon size={18} strokeWidth={1.6} />
                   </div>
 
                   <div>
-                    <h3 className="text-base font-semibold text-primary">
+                    <h3 className="text-base font-semibold text-primary transition-colors duration-300 group-hover:text-[#a88645]">
                       {benefit.title}
                     </h3>
 

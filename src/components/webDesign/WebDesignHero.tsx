@@ -20,9 +20,11 @@ export default function WebDesignHero() {
       <div className="absolute inset-0">
         <div className="absolute left-[8%] top-[20%] h-72 w-72 rounded-full bg-primary/2.5 blur-3xl" />
 
-        <div className="absolute right-[-150px] top-[-150px] h-125 w-125 rounded-full border border-[#082f3a]/4" />
+        <div className="absolute right-[-150px] top-[-150px] h-125 w-125 rounded-full border border-[#c9a45c]/10" />
 
         <div className="absolute -bottom-45 left-1/2 h-100 w-100 -translate-x-1/2 rounded-full bg-primary/2 blur-3xl" />
+
+        <div className="absolute right-[12%] top-[18%] h-72 w-72 rounded-full bg-[#c9a45c]/4 blur-3xl" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -35,9 +37,9 @@ export default function WebDesignHero() {
               transition={{ duration: 0.6 }}
               className="mb-7 flex items-center gap-3"
             >
-              <span className="h-px w-8 bg-primary" />
+              <span className="h-px w-8 bg-[#c9a45c]" />
 
-              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#c7a45d]">
                 {t("eyebrow")}
               </span>
             </motion.div>
@@ -74,16 +76,16 @@ export default function WebDesignHero() {
 
                 <ArrowDown
                   size={14}
-                  className="transition-transform duration-300 group-hover:translate-y-0.5"
+                  className="text-[#c9a45c] transition-transform duration-300 group-hover:translate-y-0.5"
                 />
               </Link>
 
               <Link
                 href="#contact"
-                className="flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all hover:-translate-y-1 hover:border-[#082f3a]/20"
+                className="flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all hover:-translate-y-1 hover:border-[#c9a45c]/30"
               >
                 {t("secondaryButton")}
-                <ArrowUpRight size={14} />
+                <ArrowUpRight size={14} className="text-[#b08a45]" />
               </Link>
             </motion.div>
           </div>
@@ -100,7 +102,7 @@ export default function WebDesignHero() {
               <div className="absolute left-[8%] top-[12%] w-[84%] overflow-hidden rounded-[28px] border border-[#082f3a]/10 bg-white shadow-[0_35px_100px_rgba(8,47,58,0.12)]">
                 {/* Browser top */}
                 <div className="flex items-center gap-2 border-b border-[#082f3a]/6 px-5 py-4">
-                  <span className="h-2 w-2 rounded-full bg-primary/15" />
+                  <span className="h-2 w-2 rounded-full bg-[#c9a45c]/70" />
                   <span className="h-2 w-2 rounded-full bg-primary/10" />
                   <span className="h-2 w-2 rounded-full bg-primary/10" />
 
@@ -130,12 +132,12 @@ export default function WebDesignHero() {
                       <div className="mt-6 h-8 w-24 rounded-full bg-primary" />
                     </div>
 
-                    <div className="rounded-2xl bg-primary/[0.045] p-4">
+                    <div className="rounded-2xl border border-[#c9a45c]/10 bg-[#c9a45c]/5 p-4">
                       <div className="flex h-full items-center justify-center">
                         <LayoutTemplate
                           size={48}
                           strokeWidth={1}
-                          className="text-primary/30"
+                          className="text-[#c9a45c]/45"
                         />
                       </div>
                     </div>
@@ -143,15 +145,15 @@ export default function WebDesignHero() {
 
                   <div className="mt-6 grid grid-cols-3 gap-3">
                     <div className="h-16 rounded-xl bg-primary/[0.035]" />
-                    <div className="h-16 rounded-xl bg-primary/[0.035]" />
+                    <div className="h-16 rounded-xl bg-[#c9a45c]/5" />
                     <div className="h-16 rounded-xl bg-primary/[0.035]" />
                   </div>
                 </div>
               </div>
 
               {/* Floating cards */}
-              <div className="absolute left-[0%] top-[30%] rounded-2xl border border-primary/7 bg-white p-4 shadow-[0_20px_60px_rgba(8,47,58,0.08)]">
-                <Monitor size={20} className="text-primary" />
+              <div className="absolute left-[0%] top-[30%] rounded-2xl border border-[#c9a45c]/20 bg-white p-4 shadow-[0_20px_60px_rgba(8,47,58,0.08)]">
+                <Monitor size={20} className="text-[#b08a45]" />
 
                 <p className="mt-2 text-[9px] font-semibold text-primary">
                   {t("visual.web")}
@@ -166,18 +168,20 @@ export default function WebDesignHero() {
                 </p>
               </div>
 
-              <div className="absolute bottom-[12%] right-[8%] rounded-2xl bg-primary px-5 py-4 text-white shadow-[0_20px_60px_rgba(8,47,58,0.18)]">
+              <div className="absolute bottom-[12%] right-[8%] rounded-2xl border border-[#c9a45c]/20 bg-primary px-5 py-4 text-white shadow-[0_20px_60px_rgba(8,47,58,0.18)]">
                 <p className="text-[8px] uppercase tracking-[0.25em] text-white/40">
                   {t("visual.status")}
                 </p>
 
-                <p className="mt-2 text-sm font-semibold">
+                <p className="mt-2 text-sm font-semibold text-white">
                   {t("visual.performance")}
                 </p>
+
+                <div className="mt-2 h-px w-8 bg-[#c9a45c]" />
               </div>
 
               <div className="absolute bottom-[8%] left-[7%]">
-                <p className="text-6xl font-semibold tracking-[-0.08em] text-primary/10">
+                <p className="text-6xl font-semibold tracking-[-0.08em] text-[#c9a45c]/10">
                   04
                 </p>
               </div>

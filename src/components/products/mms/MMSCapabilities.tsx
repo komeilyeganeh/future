@@ -41,7 +41,7 @@ export default function MMSCapabilities() {
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         {/* Heading */}
         <div className="max-w-2xl">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#c7a45d]">
             {t("eyebrow")}
           </span>
 
@@ -78,18 +78,18 @@ export default function MMSCapabilities() {
                   delay: index * 0.08,
                 }}
                 whileHover={{ y: -7 }}
-                className={`group relative overflow-hidden rounded-[30px] border p-7 md:p-9 ${
+                className={`group relative overflow-hidden rounded-[30px] border p-7 transition-all duration-500 md:p-9 ${
                   item.featured
-                    ? "border-[#082f3a] bg-primary text-white"
-                    : "border-primary/7 bg-white text-primary"
+                    ? "border-[#c9a45c]/30 bg-primary text-white shadow-[0_25px_80px_rgba(201,164,92,0.08)]"
+                    : "border-primary/7 bg-white text-primary hover:border-[#c9a45c]/30 hover:shadow-[0_25px_70px_rgba(201,164,92,0.08)]"
                 }`}
               >
                 {/* Decorative circle */}
                 <div
-                  className={`absolute -right-16 -top-16 h-40 w-40 rounded-full transition-transform duration-700 group-hover:scale-125 ${
+                  className={`absolute -right-16 -top-16 h-40 w-40 rounded-full transition-all duration-700 group-hover:scale-125 ${
                     item.featured
-                      ? "bg-white/4"
-                      : "bg-primary/2.5"
+                      ? "bg-[#c9a45c]/10"
+                      : "bg-[#c9a45c]/5"
                   }`}
                 />
 
@@ -98,17 +98,19 @@ export default function MMSCapabilities() {
                   <div className="flex items-start justify-between">
                     <span
                       className={`text-[10px] font-semibold tracking-[0.2em] ${
-                        item.featured ? "text-white/40" : "text-secondary"
+                        item.featured
+                          ? "text-[#d8bd82]/70"
+                          : "text-[#a98743]"
                       }`}
                     >
                       0{index + 1}
                     </span>
 
                     <div
-                      className={`flex h-12 w-12 items-center justify-center rounded-2xl ${
+                      className={`flex h-12 w-12 items-center justify-center rounded-2xl transition-all duration-500 group-hover:rotate-3 ${
                         item.featured
-                          ? "bg-white text-primary"
-                          : "bg-primary/5 text-primary"
+                          ? "bg-[#c9a45c] text-primary"
+                          : "bg-[#c9a45c]/10 text-[#a98743] group-hover:bg-[#c9a45c] group-hover:text-white"
                       }`}
                     >
                       <Icon size={20} strokeWidth={1.7} />
@@ -143,8 +145,8 @@ export default function MMSCapabilities() {
                         <span
                           className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
                             item.featured
-                              ? "bg-white/10 text-white"
-                              : "bg-primary/5 text-primary"
+                              ? "bg-[#c9a45c]/20 text-[#e0c88f]"
+                              : "bg-[#c9a45c]/10 text-[#a98743]"
                           }`}
                         >
                           <Check size={11} strokeWidth={2.5} />

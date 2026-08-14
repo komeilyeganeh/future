@@ -1,26 +1,29 @@
 "use client";
 
-import { motion, MotionConfig } from "framer-motion";
+import { motion } from "framer-motion";
 import { Target } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export default function HistorySection() {
   const t = useTranslations("About.history");
+
   return (
     <section
       id="history"
       className="relative overflow-hidden bg-white px-5 py-28 sm:px-8 sm:py-36"
     >
-      <div className="pointer-events-none absolute -right-62.5 -top-25 h-150 w-150 rounded-full bg-[#08788c]/5.5 blur-[120px]" />
+      {/* Accent glow */}
+      <div className="pointer-events-none absolute -right-62.5 -top-25 h-150 w-150 rounded-full bg-[#d4af37]/[0.035] blur-[120px]" />
 
       <div className="relative mx-auto max-w-310">
         <div className="grid items-center gap-16 lg:grid-cols-[1fr_.9fr] lg:gap-24">
+          {/* Content */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <span className="text-[10px] font-black uppercase tracking-[.2em] text-[#08788c]">
+            <span className="text-[10px] font-black uppercase tracking-[.2em] text-[#d4af37]">
               {t("eyebrow")}
             </span>
 
@@ -33,7 +36,7 @@ export default function HistorySection() {
             </p>
 
             <div className="mt-9 flex items-center gap-4">
-              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#08788c]/8 text-[#08788c]">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#d4af37]/20 bg-[#d4af37]/10 text-[#d4af37]">
                 <Target size={17} />
               </span>
 
@@ -43,41 +46,44 @@ export default function HistorySection() {
             </div>
           </motion.div>
 
+          {/* Visual */}
           <motion.div
             initial={{ opacity: 0, scale: 0.94 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="relative"
+            className="relative w-full min-w-0"
           >
             <div className="absolute inset-0 rounded-[45px] bg-[#08788c]/[0.07] blur-3xl" />
 
-            <div className="relative overflow-hidden rounded-[42px] border border-white/80 bg-white/55 p-4 shadow-[0_40px_110px_rgba(8,47,58,.10)] backdrop-blur-2xl">
-              <div className="relative min-h-112.5 overflow-hidden rounded-[34px] bg-primary p-8">
+            <div className="relative w-full min-w-0 overflow-hidden rounded-[42px] border border-white/80 bg-white/55 p-2.5 shadow-[0_40px_110px_rgba(8,47,58,.10)] backdrop-blur-2xl sm:p-4">
+              <div className="relative min-h-90 w-full overflow-hidden rounded-[30px] bg-primary p-6 sm:min-h-112.5 sm:rounded-[34px] sm:p-8 md:min-h-125">
                 <motion.div
-                  animate={{
-                    rotate: 360,
-                  }}
+                  animate={{ rotate: 360 }}
                   transition={{
                     duration: 28,
                     repeat: Infinity,
                     ease: "linear",
                   }}
-                  className="absolute -right-32 -top-32 h-107.5 w-107.5 rounded-full border border-white/10"
+                  className="absolute -right-24 -top-24 h-64 w-64 rounded-full border border-white/10 sm:-right-32 sm:-top-32 sm:h-107.5 sm:w-107.5"
                 />
 
-                <div className="relative">
-                  <span className="text-[9px] font-black uppercase tracking-[.2em] text-white/30">
+                {/* Subtle gold ambient light */}
+                <div className="absolute right-8 top-8 h-32 w-32 rounded-full bg-[#d4af37]/[0.055] blur-3xl" />
+
+                <div className="relative z-10 flex h-full min-h-77 flex-col sm:min-h-96.5 md:min-h-109">
+                  <span className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 sm:text-[9px]">
                     {t("label")}
                   </span>
 
-                  <div className="mt-20">
-                    <span className="text-[100px] font-black leading-none -tracking-widest text-white">
-                      {t("year")}
+                  <div className="mt-auto pt-16 sm:pt-20">
+                    <span className="block w-full max-w-full wrap-break-word text-[clamp(2.8rem,10vw,5rem)] font-black leading-[0.9] tracking-[-0.07em] text-white">
+                      {t("text")}
                     </span>
 
-                    <div className="mt-3 h-1 w-20 rounded-full bg-[#6ed9e5]" />
+                    {/* Gold accent line */}
+                    <div className="mt-3 h-1 w-14 rounded-full bg-[#d4af37] sm:w-20" />
 
-                    <p className="mt-7 max-w-75 text-4.75 font-bold leading-[1.2] tracking-[-.035em] text-white/70">
+                    <p className="mt-6 max-w-full text-[clamp(1rem,3.5vw,1.1875rem)] font-bold leading-tight tracking-[-.035em] text-white/70 sm:mt-7 sm:max-w-75">
                       {t("yearText")}
                     </p>
                   </div>

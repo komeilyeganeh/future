@@ -81,33 +81,33 @@
       "activeStatus": "Aktif",
 
       "his": {
-        "title": "Hastane Bilgi Sistemi",
-        "shortDescription": "Modern sağlık kuruluşları için kapsamlı dijital platform.",
-        "description": "Hastaları, sağlık ekiplerini, idari süreçleri ve operasyonel verileri tek bir akıllı sistemde bir araya getiren kapsamlı hastane yönetim platformu."
+        "title": "HIS",
+        "shortDescription": "Sağlık Bilgi Sistemi.",
+        "description": "HIS, modern sağlık hizmetlerinin kalbidir. Planlama, izleme, koordinasyon ve karar verme gibi sağlıkla ilgili tüm faaliyetleri kolaylaştıran kapsamlı bir sistemdir."
       },
 
-      "cms": {
-        "title": "İçerik Yönetim Sistemi",
-        "shortDescription": "Dijital içerik ve operasyonları yönetmek için esnek araçlar.",
-        "description": "Kuruluşların dijital içerikleri hızlı ve verimli bir şekilde oluşturmasına, yönetmesine, yayınlamasına ve organize etmesine yardımcı olan güçlü içerik yönetim platformu."
+      "crm": {
+        "title": "CRM",
+        "shortDescription": "Müşteri İlişkileri Yönetimi.",
+        "description": "Müşteri İlişkileri Yönetimi, bir işletmenin veya kuruluşun müşterileriyle olan etkileşimlerini yönettiği bir süreçtir. Genellikle büyük miktarda veriyi analiz ederek müşteri davranışlarını ve ilişkilerini daha iyi anlamaya yardımcı olur."
       },
 
       "erp": {
-        "title": "Kurumsal Kaynak Planlama",
-        "shortDescription": "Bağlantılı operasyonlar için entegre iş yönetimi.",
-        "description": "İş süreçlerini, finansal verileri, kaynakları ve operasyonel iş akışlarını merkezi bir ortamda bir araya getiren entegre kurumsal platform."
+        "title": "ERP",
+        "shortDescription": "Kurumsal Kaynak Planlaması.",
+        "description": "ERP, bir şirketin temel iş süreçlerini yönetmek için tasarlanmış kapsamlı bir yazılım çözümüdür. Finans, muhasebe, insan kaynakları ve tedarik zinciri yönetimi gibi farklı operasyonları tek bir sistem altında birleştirir."
       },
 
-      "ai": {
-        "title": "Yapay Zeka",
-        "shortDescription": "Daha iyi kararlar ve otomasyon için akıllı teknolojiler.",
-        "description": "Kuruluşların bilgileri analiz etmesine, tekrarlayan süreçleri otomatikleştirmesine, örüntüleri keşfetmesine ve daha doğru kararlar almasına yardımcı olan yapay zeka çözümleri."
+      "rfid": {
+        "title": "RFID",
+        "shortDescription": "Radyo Frekansı ile Tanımlama.",
+        "description": "RFID, nesneleri veya kişileri otomatik olarak tanımlamak ve takip etmek için radyo dalgalarını kullanan bir teknolojidir."
       },
 
-      "cloud": {
-        "title": "Bulut Altyapısı",
-        "shortDescription": "Modern uygulamalar için güvenli ve ölçeklenebilir altyapı.",
-        "description": "Ölçeklenebilirlik, performans, güvenlik ve sürekli erişilebilirlik için tasarlanmış güvenilir bulut altyapısı."
+      "mms": {
+        "title": "MMS",
+        "shortDescription": "Ürün Yönetim Sistemi.",
+        "description": "Ürün Yönetim Sistemi (MMS), işletmelerin stok, satın alma ve satış süreçlerini etkin bir şekilde yönetmesine yardımcı olan bir yazılım çözümüdür."
       }
     },
 
@@ -121,7 +121,49 @@
     "cta": {
       "title": "Birlikte anlamlı bir şey geliştirelim.",
       "description": "Bir fikriniz, iş probleminiz veya geliştirilmesi gereken bir sisteminiz mi var? Teknolojinin daha iyi bir çözüm oluşturmanıza nasıl yardımcı olabileceğini konuşalım.",
-      "button": "Görüşmeye Başla"
+      "button": "Görüşmeye Başla",
+      "modal": {
+        "eyebrow": "RoshaSoft",
+        "title": "Bir görüşme başlatın",
+        "description": "Projeniz hakkında bize biraz bilgi verin. Fikrinizi inceleyip sonraki adımlar için sizinle iletişime geçeceğiz.",
+        "name": "Ad Soyad",
+        "namePlaceholder": "Adınızı ve soyadınızı girin",
+        "email": "E-posta",
+        "emailPlaceholder": "ornek@email.com",
+        "phone": "Telefon",
+        "phonePlaceholder": "+90 ...",
+        "projectType": "Proje türü",
+        "projectTypePlaceholder": "Proje türünü seçin",
+        "projectTypes": {
+          "web": "Web Geliştirme",
+          "design": "UI / UX Tasarımı",
+          "mobile": "Mobil Uygulama",
+          "ai": "Yapay Zeka / Otomasyon",
+          "marketing": "Dijital Pazarlama",
+          "other": "Diğer"
+        },
+        "budget": "Tahmini bütçe",
+        "budgets": {
+          "under2k": "$2K altı",
+          "2k5k": "$2K – $5K",
+          "5k10k": "$5K – $10K",
+          "10kPlus": "$10K+"
+        },
+        "projectDescription": "Proje açıklaması",
+        "projectDescriptionHint": "Projenizi kendi kelimelerinizle anlatın",
+        "projectDescriptionPlaceholder": "Örneğin: Şirketim için müşterilerin ... yapabileceği bir web sitesi istiyorum.",
+        "ai": {
+          "title": "Fikrinizi yapay zeka ile geliştirin",
+          "description": "Belirttiğiniz temel noktaları anlaşılır bir proje özetine dönüştürebiliriz.",
+          "button": "Yapay zeka ile geliştir",
+          "loading": "Oluşturuluyor...",
+          "resultTitle": "Yapay Zeka Proje Özeti",
+          "useDescription": "Bu açıklamayı kullan"
+        },
+        "consent": "Bu formu göndererek RoshaSoft'un projeniz hakkında sizinle iletişime geçmesini kabul etmiş olursunuz.",
+        "submit": "Proje talebini gönder",
+        "close": "Kapat"
+      }
     }
   },
   "About": {
@@ -143,8 +185,8 @@
       "description": "Profesyonel ekibimiz web geliştirme, yazılım mühendisliği ve siber güvenlik alanlarında uzun yıllara dayanan deneyime sahiptir. Müşterilerimizin gerçek ihtiyaçlarına göre yüksek kaliteli çözümler üretmekten gurur duyuyoruz.",
       "quote": "Deneyim bize bakış açısı kazandırır. Yenilikçilik bize yön verir.",
       "label": "YOLCULUĞUMUZ",
-      "year": "2030",
-      "yearText": "Gelecek burada başlıyor."
+      "text": "RoshaSoft",
+      "yearText": "İşinizi daha iyi yapmanın daha aydınlık yolu."
     },
 
     "team": {
@@ -219,12 +261,13 @@
     },
 
     "location": {
-      "eyebrow": "KONUMUMUZ",
-      "title": "Neredeyiz?",
-      "description": "Yenilikçilik ve iş birliğiyle öne çıkan canlı bir teknoloji ortamında bulunmaktan gurur duyuyoruz. Konumumuz geniş bir yetenek ve kaynak ağına erişmemizi sağlıyor.",
-      "london": "Londra",
-      "uk": "Birleşik Krallık",
-      "global": "Dünya genelindeki işletmelere hizmet"
+      "eyebrow": "Our Location",
+      "title": "Based in Istanbul.",
+      "description": "From Istanbul, Türkiye, RoshaSoft works with businesses and teams to build modern digital products, intelligent systems, and scalable technology solutions.",
+      "istanbul": "Istanbul",
+      "turkey": "Türkiye",
+      "global": "Serving globally",
+      "mainOffice": "Main Office"
     },
 
     "contact": {
@@ -2332,6 +2375,7 @@
     "contact": "İletişim",
     "rights": "Tüm hakları saklıdır.",
     "careers": "Kariyer",
+    "news": "Haberler",
     "privacy": "Gizlilik Politikası",
     "rfid": "RFID",
     "erp": "ERP",

@@ -45,7 +45,7 @@ export default function ERPFeatures() {
     <section className="bg-background-soft">
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         <div className="max-w-2xl">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#c7a45d]">
             {t("eyebrow")}
           </span>
 
@@ -63,9 +63,9 @@ export default function ERPFeatures() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.05 }}
               whileHover={{ y: -6 }}
-              className="group rounded-[28px] border border-primary/7 bg-white p-7 transition-all duration-500 hover:shadow-[0_25px_70px_rgba(8,47,58,0.07)]"
+              className="group rounded-[28px] border border-primary/7 bg-white p-7 transition-all duration-500 hover:border-[#c9a45c]/25 hover:shadow-[0_25px_70px_rgba(8,47,58,0.07)]"
             >
-              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/5 text-primary transition-all group-hover:bg-primary group-hover:text-white">
+              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/5 text-primary transition-all duration-300 group-hover:bg-[#c9a45c] group-hover:text-white">
                 <Icon size={19} />
               </div>
 
@@ -76,6 +76,8 @@ export default function ERPFeatures() {
               <p className="mt-3 text-xs leading-6 text-secondary">
                 {t(`items.${key}.description`)}
               </p>
+
+              <div className="mt-6 h-px w-0 bg-[#c9a45c]/50 transition-all duration-500 group-hover:w-10" />
             </motion.article>
           ))}
         </div>

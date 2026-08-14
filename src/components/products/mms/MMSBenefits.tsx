@@ -46,7 +46,7 @@ export default function MMSBenefits() {
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         {/* Heading */}
         <div className="max-w-2xl">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#c7a45d]">
             {t("eyebrow")}
           </span>
 
@@ -74,15 +74,19 @@ export default function MMSBenefits() {
                   duration: 0.6,
                   delay: index * 0.06,
                 }}
-                className="group flex gap-5 border-t border-[#082f3a]/8 py-7"
+                className="group flex gap-5 border-t border-[#082f3a]/8 py-7 transition-all duration-300"
               >
                 {/* Icon */}
-                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-primary/4 text-primary transition-all duration-300 group-hover:bg-primary group-hover:text-white">
-                  <Icon size={18} strokeWidth={1.7} />
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#c9a45c]/10 text-[#a98743] transition-all duration-300 group-hover:bg-[#c9a45c] group-hover:text-white">
+                  <Icon
+                    size={18}
+                    strokeWidth={1.7}
+                    className="transition-transform duration-300 group-hover:scale-110"
+                  />
                 </div>
 
                 {/* Content */}
-                <div>
+                <div className="flex-1">
                   <h3 className="text-lg font-semibold tracking-tight text-primary">
                     {t(`items.${benefit.key}.title`)}
                   </h3>
@@ -90,6 +94,8 @@ export default function MMSBenefits() {
                   <p className="mt-2 text-xs leading-6 text-secondary">
                     {t(`items.${benefit.key}.description`)}
                   </p>
+
+                  <div className="mt-4 h-px w-0 bg-[#c9a45c]/50 transition-all duration-500 group-hover:w-8" />
                 </div>
               </motion.div>
             );

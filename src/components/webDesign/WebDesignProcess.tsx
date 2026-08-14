@@ -28,9 +28,12 @@ export default function WebDesignProcess() {
     <section className="relative overflow-hidden bg-background-soft">
       <div className="absolute right-[-180px] top-1/2 h-125 w-125 -translate-y-1/2 rounded-full bg-primary/2.5 blur-3xl" />
 
+      {/* Subtle gold glow */}
+      <div className="pointer-events-none absolute left-[-120px] top-1/4 h-80 w-80 rounded-full bg-[#c9a227]/[0.025] blur-3xl" />
+
       <div className="relative mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         <div className="max-w-2xl">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#c7a45d]">
             {t("eyebrow")}
           </span>
 
@@ -57,18 +60,18 @@ export default function WebDesignProcess() {
                   duration: 0.6,
                   delay: index * 0.08,
                 }}
-                className="group grid gap-6 border-b border-[#082f3a]/8 py-7 md:grid-cols-[80px_80px_1fr_auto] md:items-center"
+                className="group relative grid gap-6 border-b border-[#082f3a]/8 py-7 transition-colors duration-300 hover:border-[#c9a227]/20 md:grid-cols-[80px_80px_1fr_auto] md:items-center"
               >
-                <span className="text-[10px] font-semibold tracking-[0.2em] text-secondary">
+                <span className="text-[10px] font-semibold tracking-[0.2em] text-secondary transition-colors duration-300 group-hover:text-[#a88416]">
                   {String(index + 1).padStart(2, "0")}
                 </span>
 
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/5 text-primary transition-all duration-300 group-hover:bg-primary group-hover:text-white">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/5 text-primary transition-all duration-300 group-hover:bg-[#c9a227] group-hover:text-white">
                   <Icon size={16} />
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold tracking-tight text-primary">
+                  <h3 className="text-xl font-semibold tracking-tight text-primary transition-colors duration-300 group-hover:text-[#a88416]">
                     {t(`${step}.title`)}
                   </h3>
 
@@ -79,7 +82,7 @@ export default function WebDesignProcess() {
 
                 <ArrowRight
                   size={16}
-                  className="hidden text-primary/20 transition-transform duration-300 group-hover:translate-x-1 md:block"
+                  className="hidden text-[#c9a227]/35 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#a88416] md:block"
                 />
               </motion.div>
             );

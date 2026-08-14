@@ -40,7 +40,7 @@ export default function Services() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section Heading */}
         <div className="max-w-2xl">
-          <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-secondary">
+          <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#c7a45d]">
             {t("eyebrow")}
           </span>
 
