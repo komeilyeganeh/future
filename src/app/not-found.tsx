@@ -79,7 +79,7 @@ export default function NotFound() {
           >
             <Link
               href="/en"
-              className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-primary px-7 text-sm font-semibold text-white shadow-lg shadow-[#082f3a]/15 transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#0d4654] hover:shadow-xl"
+              className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-primary px-7 text-sm font-semibold text-white shadow-lg shadow-primary/15 transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#0d4654] hover:shadow-xl"
             >
               Back to home
 

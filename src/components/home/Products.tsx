@@ -74,7 +74,7 @@ export default function Products() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <span className="text-[10px] font-bold uppercase tracking-[.2em] text-[#08788c]">
+          <span className="text-[10px] font-bold uppercase tracking-[.2em] text-accent">
             {t("products.kicker")}
           </span>
 
@@ -88,7 +88,7 @@ export default function Products() {
         </motion.div>
 
         <div className="mt-16 grid gap-5 lg:grid-cols-[.72fr_1.28fr]">
-          <div className="rounded-[34px] border border-[#082f3a]/6 bg-[#f5f9fa] p-3">
+          <div className="rounded-[34px] border border-primary/6 bg-[#f5f9fa] p-3">
             {products.map((item, index) => {
               const Icon = item.icon;
               const isActive = activeProduct === index;

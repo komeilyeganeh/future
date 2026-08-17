@@ -1,21 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  ArrowUpRight,
-  Sparkles,
-} from "lucide-react";
+import { ArrowUpRight, Sparkles } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { useState } from "react";
+import ContactModal from "../contact/ContactModal";
+import Button from "../ui/Button";
 
 export default function CTA() {
   const t = useTranslations("Home.cta");
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section
-      id="contact"
-      className="bg-[#f6f7fb] px-4 pb-20 pt-4 sm:pb-28"
-    >
+    <section id="contact" className="bg-[#f6f7fb] px-4 pb-20 pt-4 sm:pb-28">
       <motion.div
         initial={{
           opacity: 0,
@@ -32,7 +29,7 @@ export default function CTA() {
       >
         {/* Ambient */}
 
-        <div className="pointer-events-none absolute left-1/2 top-1/2 h-150 w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(112,76,255,.3),rgba(54,200,232,.08)_38%,transparent_70%)] blur-3xl" />
+        <div className="pointer-events-none absolute left-1/2 top-1/2 h-150 w-225 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(112,76,255,.3),rgba(54,200,232,.08)_38%,transparent_70%)] blur-3xl" />
 
         <motion.div
           animate={{
@@ -45,10 +42,7 @@ export default function CTA() {
           }}
           className="relative mx-auto flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-white/[0.07] text-[#ad9eff] backdrop-blur-xl"
         >
-          <Sparkles
-            size={22}
-            strokeWidth={1.5}
-          />
+          <Sparkles size={22} strokeWidth={1.5} />
         </motion.div>
 
         <div className="relative mx-auto mt-7 max-w-190">
@@ -64,19 +58,19 @@ export default function CTA() {
             {t("description")}
           </p>
 
-          <Link
-            href="/#contact"
-            className="group mt-8 inline-flex items-center gap-3 rounded-full bg-white px-6 py-4 text-[10px] font-bold text-[#11131a] shadow-[0_20px_50px_rgba(0,0,0,.2)] transition hover:-translate-y-1"
+          <Button
+            type="button"
+            onClick={() => setIsOpen(true)}
+            variant="secondary"
+            icon={ArrowUpRight}
+            className="mt-9 bg-white px-6 py-4 text-[10px] font-black hover:bg-accent hover:shadow-[0_15px_40px_rgba(212,175,55,.18)]"
           >
             {t("button")}
-
-            <ArrowUpRight
-              size={14}
-              className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
-            />
-          </Link>
+          </Button>
         </div>
       </motion.div>
+      {/* Same contact modal */}
+      <ContactModal isOpen={isOpen} onClose={() => setIsOpen(false)} />
     </section>
   );
 }

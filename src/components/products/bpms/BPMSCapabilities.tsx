@@ -46,9 +46,13 @@ export default function BPMSCapabilities() {
     <section id="capabilities" className="bg-background-soft">
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         <div className="max-w-2xl">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
-            {t("eyebrow")}
-          </span>
+          <div className="flex items-center gap-3">
+            <span className="h-px w-8 bg-accent" />
+
+            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-accent">
+              {t("eyebrow")}
+            </span>
+          </div>
 
           <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-primary md:text-5xl">
             {t("title")}
@@ -81,18 +85,31 @@ export default function BPMSCapabilities() {
                   delay: index * 0.08,
                 }}
                 whileHover={{ y: -7 }}
-                className={`group relative overflow-hidden rounded-[30px] border p-7 md:p-9 ${
+                className={`group relative overflow-hidden rounded-[30px] border p-7 transition-all duration-300 md:p-9 ${
                   item.featured
-                    ? "border-[#082f3a] bg-primary text-white"
-                    : "border-primary/7 bg-white text-primary"
+                    ? "border-primary bg-primary text-white shadow-[0_25px_70px_rgba(8,47,58,0.12)]"
+                    : "border-primary/7 bg-white text-primary hover:border-accent/20 hover:shadow-[0_20px_60px_rgba(8,47,58,0.06)]"
                 }`}
               >
+                {/* Decorative accent */}
+                <div
+                  className={`absolute -right-20 -top-20 h-44 w-44 rounded-full transition-transform duration-700 group-hover:scale-125 ${
+                    item.featured
+                      ? "bg-accent/[0.06]"
+                      : "bg-accent/[0.035]"
+                  }`}
+                />
+
+                {item.featured && (
+                  <div className="absolute bottom-0 left-0 h-px w-0 bg-accent transition-all duration-700 group-hover:w-24" />
+                )}
+
                 <div className="relative z-10">
                   <div className="flex items-start justify-between">
                     <span
                       className={`text-[10px] font-semibold tracking-[0.2em] ${
                         item.featured
-                          ? "text-white/40"
+                          ? "text-accent/70"
                           : "text-secondary"
                       }`}
                     >
@@ -100,10 +117,10 @@ export default function BPMSCapabilities() {
                     </span>
 
                     <div
-                      className={`flex h-12 w-12 items-center justify-center rounded-2xl ${
+                      className={`flex h-12 w-12 items-center justify-center rounded-2xl transition-all duration-300 ${
                         item.featured
-                          ? "bg-white text-primary"
-                          : "bg-primary/5 text-primary"
+                          ? "bg-accent text-primary shadow-[0_10px_30px_rgba(212,175,55,0.18)]"
+                          : "bg-primary/5 text-primary group-hover:bg-accent group-hover:text-primary"
                       }`}
                     >
                       <Icon size={20} strokeWidth={1.7} />
@@ -131,14 +148,14 @@ export default function BPMSCapabilities() {
                         className={`flex items-center gap-3 border-b pb-3 last:border-0 ${
                           item.featured
                             ? "border-white/8"
-                            : "border-[#082f3a]/6"
+                            : "border-primary/6"
                         }`}
                       >
                         <span
-                          className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
+                          className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full transition-colors duration-300 ${
                             item.featured
-                              ? "bg-white/10 text-white"
-                              : "bg-primary/5 text-primary"
+                              ? "bg-accent text-primary"
+                              : "bg-primary/5 text-primary group-hover:bg-accent/15 group-hover:text-accent"
                           }`}
                         >
                           <Check size={11} strokeWidth={2.5} />

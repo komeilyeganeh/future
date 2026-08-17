@@ -12,11 +12,15 @@ export default function BPMSOverview() {
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         <div className="grid items-center gap-14 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
-              {t("eyebrow")}
-            </span>
+            <div className="mb-6 flex items-center gap-3">
+              <span className="h-px w-8 bg-accent" />
 
-            <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-primary md:text-5xl">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-accent">
+                {t("eyebrow")}
+              </span>
+            </div>
+
+            <h2 className="text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-primary md:text-5xl">
               {t("title")}
             </h2>
           </div>
@@ -27,13 +31,15 @@ export default function BPMSOverview() {
             </p>
 
             <div className="mt-8 flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-white">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-accent/10 text-accent">
                 <Workflow size={16} />
               </div>
 
               <span className="text-sm font-semibold text-primary">
                 {t("highlight")}
               </span>
+
+              <span className="h-px w-8 bg-accent/40" />
             </div>
           </div>
         </div>
@@ -74,26 +80,33 @@ function OverviewCard({
   return (
     <motion.article
       whileHover={{ y: -5 }}
-      className="group rounded-[28px] border border-primary/7 bg-background-soft p-7"
+      className="group relative overflow-hidden rounded-[28px] border border-primary/7 bg-background-soft p-7 transition-all duration-300 hover:border-accent/20 hover:bg-white hover:shadow-[0_20px_55px_rgba(8,47,58,0.07)]"
     >
-      <div className="flex items-center justify-between">
-        <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white text-primary">
-          <Icon size={18} strokeWidth={1.7} />
+      {/* Subtle gold glow */}
+      <div className="absolute -right-12 -top-12 h-28 w-28 rounded-full bg-accent/[0.035] transition-transform duration-500 group-hover:scale-150" />
+
+      <div className="relative z-10">
+        <div className="flex items-center justify-between">
+          <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary text-white transition-all duration-300 group-hover:bg-accent group-hover:text-primary">
+            <Icon size={18} strokeWidth={1.7} />
+          </div>
+
+          <ArrowUpRight
+            size={15}
+            className="text-primary/20 transition-all duration-300 group-hover:rotate-45 group-hover:text-accent"
+          />
         </div>
 
-        <ArrowUpRight
-          size={15}
-          className="text-primary/20 transition-transform group-hover:rotate-45"
-        />
+        <h3 className="mt-10 text-xl font-semibold tracking-tight text-primary">
+          {title}
+        </h3>
+
+        <p className="mt-3 text-xs leading-6 text-secondary">
+          {description}
+        </p>
+
+        <div className="mt-6 h-px w-8 bg-accent/40 transition-all duration-300 group-hover:w-14" />
       </div>
-
-      <h3 className="mt-10 text-xl font-semibold tracking-tight text-primary">
-        {title}
-      </h3>
-
-      <p className="mt-3 text-xs leading-6 text-secondary">
-        {description}
-      </p>
     </motion.article>
   );
 }

@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
+import Button from "../ui/Button";
 
 export default function Contact() {
   const t = useTranslations("Home");
@@ -131,20 +132,15 @@ export default function Contact() {
               {t("cta.description")}
             </p>
 
-            <button
+            <Button
               type="button"
               onClick={() => setIsOpen(true)}
-              className="group mt-8 inline-flex items-center gap-3 rounded-full bg-accent px-6 py-4 text-[10px] font-bold text-primary transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_45px_rgba(212,175,55,0.22)]"
+              variant="accent"
+              icon={ArrowUpRight}
+              className="mt-9 px-6 py-4 bg-accent text-[10px] font-black hover:bg-accent hover:shadow-[0_15px_40px_rgba(212,175,55,.18)]"
             >
-              {t("cta.button")}
-
-              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-primary/10">
-                <ArrowUpRight
-                  size={14}
-                  className="transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                />
-              </span>
-            </button>
+              {t("button")}
+            </Button>
           </div>
         </motion.div>
       </section>
@@ -331,9 +327,7 @@ export default function Contact() {
                         setProjectDescription(event.target.value)
                       }
                       rows={5}
-                      placeholder={t(
-                        "cta.modal.projectDescriptionPlaceholder",
-                      )}
+                      placeholder={t("cta.modal.projectDescriptionPlaceholder")}
                       className="w-full resize-none rounded-xl border border-border bg-background-soft p-4 text-sm leading-7 text-primary outline-none transition placeholder:text-text-muted focus:border-accent focus:ring-2 focus:ring-accent/10"
                     />
 

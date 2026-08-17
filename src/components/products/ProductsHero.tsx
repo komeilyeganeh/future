@@ -11,6 +11,7 @@ import {
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "../ui/Button";
 
 export default function ProductsHero() {
   const t = useTranslations("Products");
@@ -116,29 +117,23 @@ export default function ProductsHero() {
               }}
               className="mt-9 flex flex-wrap gap-3"
             >
-              <Link
-                href="#products"
-                className="group flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-bold text-white shadow-[0_15px_40px_rgba(8,47,58,.12)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#0b3b48] hover:shadow-xl"
+              <Button
+                href="/#contact"
+                icon={ArrowUpRight}
+                iconRotate
+                className="bg-[#103d4e] px-6 py-4 text-[10px] font-bold shadow-[0_20px_50px_rgba(16,61,78,.18)] hover:shadow-[0_28px_60px_rgba(8,120,140,.25)]"
               >
                 {t("hero.primaryButton")}
+              </Button>
 
-                <ArrowDown
-                  size={14}
-                  className="transition-transform duration-300 group-hover:translate-y-0.5"
-                />
-              </Link>
-
-              <Link
-                href="#contact"
-                className="group flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-bold text-primary shadow-[0_10px_30px_rgba(8,47,58,.04)] transition-all duration-300 hover:-translate-y-1 hover:border-[#c8a45d]/35 hover:shadow-lg"
+              <Button
+                href="/#services"
+                variant="secondary"
+                icon={ArrowDown}
+                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
               >
                 {t("hero.secondaryButton")}
-
-                <ArrowUpRight
-                  size={14}
-                  className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                />
-              </Link>
+              </Button>
             </motion.div>
 
             {/* Small metadata */}
@@ -186,7 +181,7 @@ export default function ProductsHero() {
                   repeat: Infinity,
                   ease: "linear",
                 }}
-                className="absolute inset-[5%] rounded-full border border-[#082f3a]/7"
+                className="absolute inset-[5%] rounded-full border border-primary/7"
               >
                 <span className="absolute left-1/2 top-[-3px] h-1.5 w-1.5 -translate-x-1/2 rounded-full bg-[#c8a45d] shadow-[0_0_15px_rgba(200,164,93,.5)]" />
               </motion.div>
@@ -258,9 +253,7 @@ export default function ProductsHero() {
                   <Database size={17} />
                 </div>
 
-                <p className="mt-3 text-[9px] font-bold text-primary">
-                  ERP
-                </p>
+                <p className="mt-3 text-[9px] font-bold text-primary">ERP</p>
 
                 <span className="mt-1 block text-[7px] uppercase tracking-[.14em] text-secondary">
                   Enterprise
@@ -286,9 +279,7 @@ export default function ProductsHero() {
                   <Cpu size={17} />
                 </div>
 
-                <p className="mt-3 text-[9px] font-bold text-primary">
-                  AI
-                </p>
+                <p className="mt-3 text-[9px] font-bold text-primary">AI</p>
 
                 <span className="mt-1 block text-[7px] uppercase tracking-[.14em] text-secondary">
                   Intelligence
@@ -326,7 +317,7 @@ export default function ProductsHero() {
               {/* =================================================
                   STATUS CHIP
               ================================================= */}
-              <div className="absolute bottom-[12%] left-[5%] z-20 flex items-center gap-2 rounded-full border border-[#082f3a]/7 bg-white/75 px-3 py-2 backdrop-blur-xl">
+              <div className="absolute bottom-[12%] left-[5%] z-20 flex items-center gap-2 rounded-full border border-primary/7 bg-white/75 px-3 py-2 backdrop-blur-xl">
                 <span className="relative flex h-1.5 w-1.5">
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#c8a45d]/50" />
                   <span className="relative h-1.5 w-1.5 rounded-full bg-[#c8a45d]" />

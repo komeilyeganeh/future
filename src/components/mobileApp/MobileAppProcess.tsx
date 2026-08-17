@@ -72,7 +72,7 @@ export default function MobileAppProcess() {
           </div>
 
           {/* Process */}
-          <div className="border-t border-[#082f3a]/8">
+          <div className="border-t border-primary/8">
             {steps.map((step, index) => {
               const Icon = step.icon;
 
@@ -86,7 +86,7 @@ export default function MobileAppProcess() {
                     duration: 0.6,
                     delay: index * 0.08,
                   }}
-                  className="group relative grid grid-cols-[60px_1fr_auto] items-center gap-5 border-b border-[#082f3a]/8 py-6 transition-all duration-300"
+                  className="group relative grid grid-cols-[60px_1fr_auto] items-center gap-5 border-b border-primary/8 py-6 transition-all duration-300"
                 >
                   {/* Gold progress indicator */}
                   <div className="absolute left-0 top-0 h-px w-0 bg-[#c9a45c] transition-all duration-500 group-hover:w-full" />

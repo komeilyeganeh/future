@@ -46,7 +46,7 @@ export default function WebDesignProcess() {
           </p>
         </div>
 
-        <div className="mt-16 border-t border-[#082f3a]/8">
+        <div className="mt-16 border-t border-primary/8">
           {steps.map((step, index) => {
             const Icon = icons[index];
 
@@ -60,7 +60,7 @@ export default function WebDesignProcess() {
                   duration: 0.6,
                   delay: index * 0.08,
                 }}
-                className="group relative grid gap-6 border-b border-[#082f3a]/8 py-7 transition-colors duration-300 hover:border-[#c9a227]/20 md:grid-cols-[80px_80px_1fr_auto] md:items-center"
+                className="group relative grid gap-6 border-b border-primary/8 py-7 transition-colors duration-300 hover:border-[#c9a227]/20 md:grid-cols-[80px_80px_1fr_auto] md:items-center"
               >
                 <span className="text-[10px] font-semibold tracking-[0.2em] text-secondary transition-colors duration-300 group-hover:text-[#a88416]">
                   {String(index + 1).padStart(2, "0")}

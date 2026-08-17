@@ -68,7 +68,7 @@ export default function MMSWorkflow() {
         </motion.div>
 
         {/* Steps */}
-        <div className="relative mt-16 border-t border-[#082f3a]/8 md:grid md:grid-cols-5">
+        <div className="relative mt-16 border-t border-primary/8 md:grid md:grid-cols-5">
           {/* Gold progress line */}
           <div className="pointer-events-none absolute left-0 right-0 top-0 hidden h-px bg-gradient-to-r from-transparent via-[#c7a45d]/50 to-transparent md:block" />
 
@@ -86,7 +86,7 @@ export default function MMSWorkflow() {
                   duration: 0.6,
                   delay: index * 0.08,
                 }}
-                className="group relative border-b border-[#082f3a]/8 py-8 md:border-b-0 md:border-r md:px-6 md:last:border-r-0"
+                className="group relative border-b border-primary/8 py-8 md:border-b-0 md:border-r md:px-6 md:last:border-r-0"
               >
                 {/* Step number + icon */}
                 <div className="flex items-center justify-between">

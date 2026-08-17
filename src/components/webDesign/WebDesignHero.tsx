@@ -10,6 +10,7 @@ import {
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "../ui/Button";
 
 export default function WebDesignHero() {
   const t = useTranslations("WebDesign.hero");
@@ -68,25 +69,23 @@ export default function WebDesignHero() {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="mt-9 flex flex-wrap gap-3"
             >
-              <Link
-                href="#types"
-                className="group flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+              <Button
+                href="/#contact"
+                icon={ArrowUpRight}
+                iconRotate
+                className="bg-[#103d4e] px-6 py-4 text-[10px] font-bold shadow-[0_20px_50px_rgba(16,61,78,.18)] hover:shadow-[0_28px_60px_rgba(8,120,140,.25)]"
               >
                 {t("primaryButton")}
+              </Button>
 
-                <ArrowDown
-                  size={14}
-                  className="text-[#c9a45c] transition-transform duration-300 group-hover:translate-y-0.5"
-                />
-              </Link>
-
-              <Link
-                href="#contact"
-                className="flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all hover:-translate-y-1 hover:border-[#c9a45c]/30"
+              <Button
+                href="/#services"
+                variant="secondary"
+                icon={ArrowDown}
+                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
               >
                 {t("secondaryButton")}
-                <ArrowUpRight size={14} className="text-[#b08a45]" />
-              </Link>
+              </Button>
             </motion.div>
           </div>
 
@@ -99,9 +98,9 @@ export default function WebDesignHero() {
           >
             <div className="relative aspect-square">
               {/* Browser */}
-              <div className="absolute left-[8%] top-[12%] w-[84%] overflow-hidden rounded-[28px] border border-[#082f3a]/10 bg-white shadow-[0_35px_100px_rgba(8,47,58,0.12)]">
+              <div className="absolute left-[8%] top-[12%] w-[84%] overflow-hidden rounded-[28px] border border-primary/10 bg-white shadow-[0_35px_100px_rgba(8,47,58,0.12)]">
                 {/* Browser top */}
-                <div className="flex items-center gap-2 border-b border-[#082f3a]/6 px-5 py-4">
+                <div className="flex items-center gap-2 border-b border-primary/6 px-5 py-4">
                   <span className="h-2 w-2 rounded-full bg-[#c9a45c]/70" />
                   <span className="h-2 w-2 rounded-full bg-primary/10" />
                   <span className="h-2 w-2 rounded-full bg-primary/10" />

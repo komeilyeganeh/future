@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import Button from "@/components/ui/Button";
 
 export default function BPMSHero() {
   const t = useTranslations("BPMS.hero");
@@ -24,9 +24,12 @@ export default function BPMSHero() {
 
         <div className="absolute -right-45 -bottom-45 h-125 w-125 rounded-full bg-primary/2.5 blur-3xl" />
 
+        {/* Gold accent glow */}
+        <div className="absolute right-[18%] top-[18%] h-56 w-56 rounded-full bg-accent/[0.035] blur-3xl" />
+
         {/* Workflow lines */}
         <div className="absolute left-[8%] top-[32%] hidden h-px w-[30%] bg-primary/4 lg:block" />
-        <div className="absolute right-[8%] top-[58%] hidden h-px w-[25%] bg-primary/4 lg:block" />
+        <div className="absolute right-[8%] top-[58%] hidden h-px w-[25%] bg-accent/10 lg:block" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -39,11 +42,11 @@ export default function BPMSHero() {
               transition={{ duration: 0.6 }}
               className="mb-7 flex items-center gap-3"
             >
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white">
+              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-accent">
                 <Workflow size={14} />
               </div>
 
-              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-accent">
                 {t("eyebrow")}
               </span>
             </motion.div>
@@ -72,25 +75,23 @@ export default function BPMSHero() {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="mt-9 flex flex-wrap gap-3"
             >
-              <Link
-                href="#capabilities"
-                className="group flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+              <Button
+                href="/#contact"
+                icon={ArrowUpRight}
+                iconRotate
+                className="bg-primary px-6 py-4 text-[10px] font-bold shadow-[0_20px_50px_rgba(16,61,78,.16)] hover:bg-[#0d3545] hover:shadow-[0_28px_60px_rgba(8,120,140,.22)]"
               >
                 {t("primaryButton")}
+              </Button>
 
-                <ArrowDown
-                  size={14}
-                  className="transition-transform duration-300 group-hover:translate-y-0.5"
-                />
-              </Link>
-
-              <Link
-                href="#contact"
-                className="flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all hover:-translate-y-1 hover:border-[#082f3a]/20"
+              <Button
+                href="/#services"
+                variant="secondary"
+                icon={ArrowDown}
+                className="border-[#08788c]/15 bg-white/70 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white hover:text-primary"
               >
                 {t("secondaryButton")}
-                <ArrowUpRight size={14} />
-              </Link>
+              </Button>
             </motion.div>
           </div>
 
@@ -101,7 +102,7 @@ export default function BPMSHero() {
             transition={{ duration: 0.9, delay: 0.15 }}
             className="relative mx-auto w-full max-w-162.5"
           >
-            <div className="relative rounded-[34px] border border-[#082f3a]/8 bg-white p-5 shadow-[0_35px_100px_rgba(8,47,58,0.08)] md:p-7">
+            <div className="relative rounded-[34px] border border-primary/8 bg-white p-5 shadow-[0_35px_100px_rgba(8,47,58,0.08)] md:p-7">
               {/* Header */}
               <div className="flex items-center justify-between border-b border-primary/7 pb-5">
                 <div>
@@ -114,10 +115,10 @@ export default function BPMSHero() {
                   </p>
                 </div>
 
-                <div className="flex items-center gap-2 rounded-full bg-primary/4 px-3 py-2">
-                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+                <div className="flex items-center gap-2 rounded-full bg-accent/8 px-3 py-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-accent" />
 
-                  <span className="text-[9px] font-medium text-secondary">
+                  <span className="text-[9px] font-medium text-primary/60">
                     {t("active")}
                   </span>
                 </div>
@@ -161,7 +162,7 @@ export default function BPMSHero() {
               <div className="grid gap-3 md:grid-cols-[1fr_auto]">
                 <div className="rounded-[22px] bg-background-soft p-5">
                   <div className="flex items-center gap-3">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-white">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-accent">
                       <Workflow size={17} />
                     </div>
 
@@ -184,7 +185,7 @@ export default function BPMSHero() {
                         duration: 1.2,
                         delay: 0.7,
                       }}
-                      className="h-full rounded-full bg-primary"
+                      className="h-full rounded-full bg-accent"
                     />
                   </div>
 
@@ -193,14 +194,14 @@ export default function BPMSHero() {
                       {t("progress")}
                     </span>
 
-                    <span className="text-[9px] font-semibold text-primary">
+                    <span className="text-[9px] font-semibold text-accent">
                       82%
                     </span>
                   </div>
                 </div>
 
                 <div className="flex min-w-36.25 flex-col justify-between rounded-[22px] bg-primary p-5 text-white">
-                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-accent text-primary">
                     <Play size={14} />
                   </div>
 
@@ -223,10 +224,10 @@ export default function BPMSHero() {
                 repeat: Infinity,
                 ease: "easeInOut",
               }}
-              className="absolute -left-5 top-[25%] hidden rounded-2xl border border-primary/7 bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.08)] md:block"
+              className="absolute -left-5 top-[25%] hidden rounded-2xl border border-accent/15 bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.08)] md:block"
             >
               <div className="flex items-center gap-2">
-                <CheckCircle2 size={14} className="text-primary" />
+                <CheckCircle2 size={14} className="text-accent" />
 
                 <span className="text-[9px] font-semibold text-primary">
                   {t("smartAutomation")}
@@ -244,13 +245,11 @@ export default function BPMSHero() {
               }}
               className="absolute -right-4 bottom-[15%] hidden rounded-2xl bg-primary px-5 py-4 text-white shadow-[0_20px_50px_rgba(8,47,58,0.15)] md:block"
             >
-              <p className="text-[9px] uppercase tracking-[0.2em] text-white/40">
+              <p className="text-[9px] uppercase tracking-[0.2em] text-accent/70">
                 {t("statusLabel")}
               </p>
 
-              <p className="mt-1 text-sm font-semibold">
-                {t("status")}
-              </p>
+              <p className="mt-1 text-sm font-semibold">{t("status")}</p>
             </motion.div>
           </motion.div>
         </div>
@@ -273,16 +272,20 @@ function WorkflowNode({
   return (
     <div className="relative z-10 text-center">
       <div
-        className={`mx-auto flex h-12 w-12 items-center justify-center rounded-2xl border ${
+        className={`mx-auto flex h-12 w-12 items-center justify-center rounded-2xl border transition-all duration-300 ${
           active
-            ? "border-[#082f3a] bg-primary text-white"
-            : "border-[#082f3a]/8 bg-white text-primary/30"
+            ? "border-accent bg-accent text-primary shadow-[0_10px_30px_rgba(212,175,55,.18)]"
+            : "border-primary/8 bg-white text-primary/30"
         }`}
       >
         <Icon size={17} />
       </div>
 
-      <span className="mt-3 block text-[8px] font-semibold tracking-[0.15em] text-secondary">
+      <span
+        className={`mt-3 block text-[8px] font-semibold tracking-[0.15em] ${
+          active ? "text-accent" : "text-secondary"
+        }`}
+      >
         {number}
       </span>
 

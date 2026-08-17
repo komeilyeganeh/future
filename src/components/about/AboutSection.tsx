@@ -21,7 +21,7 @@ export default function AboutSection() {
           className="relative"
         >
           {/* Subtle gold glow */}
-          <div className="absolute -left-10 top-10 h-95 w-95 rounded-full bg-[#d4af37]/[0.035] blur-[80px]" />
+          <div className="absolute -left-10 top-10 h-95 w-95 rounded-full bg-accent/[0.035] blur-[80px]" />
 
           <div className="relative overflow-hidden rounded-[42px] border border-white bg-white/45 p-4 shadow-[0_35px_100px_rgba(8,47,58,.08)] backdrop-blur-2xl">
             <div className="relative min-h-125 overflow-hidden rounded-[34px] bg-primary p-8">
@@ -30,7 +30,7 @@ export default function AboutSection() {
               <div className="absolute -bottom-32 -left-24 h-96 w-96 rounded-full border border-white/10" />
 
               {/* Subtle gold ambient glow */}
-              <div className="absolute right-10 top-16 h-32 w-32 rounded-full bg-[#d4af37]/[0.06] blur-3xl" />
+              <div className="absolute right-10 top-16 h-32 w-32 rounded-full bg-accent/6 blur-3xl" />
 
               <div className="relative flex h-full min-h-107.5 flex-col justify-between">
                 <div className="flex items-center justify-between">
@@ -38,13 +38,13 @@ export default function AboutSection() {
                     ROSHASOFT
                   </span>
 
-                  <span className="flex h-9 w-9 items-center justify-center rounded-full border border-[#d4af37]/20 bg-[#d4af37]/10 text-[#d4af37]">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-full border border-accent/20 bg-accent/10 text-accent">
                     <Building2 size={15} />
                   </span>
                 </div>
 
                 <div>
-                  <span className="text-[9px] font-bold uppercase tracking-[.2em] text-[#d4af37]">
+                  <span className="text-[9px] font-bold uppercase tracking-[.2em] text-accent">
                     {t("card")}
                   </span>
 
@@ -58,7 +58,7 @@ export default function AboutSection() {
                     {[t("point1"), t("point2"), t("point3")].map(
                       (item) => (
                         <div key={item} className="flex items-center gap-3">
-                          <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#d4af37]/10 text-[#d4af37]">
+                          <span className="flex h-7 w-7 items-center justify-center rounded-full bg-accent/10 text-accent">
                             <Check size={12} />
                           </span>
 
@@ -81,7 +81,7 @@ export default function AboutSection() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
         >
-          <span className="text-[10px] font-black uppercase tracking-[.2em] text-[#d4af37]">
+          <span className="text-[10px] font-black uppercase tracking-[.2em] text-accent">
             {t("eyebrow")}
           </span>
 
@@ -105,9 +105,9 @@ export default function AboutSection() {
                   whileHover={{
                     y: -4,
                   }}
-                  className="group rounded-[22px] border border-white bg-white/60 p-5 shadow-[0_15px_45px_rgba(8,47,58,.04)] backdrop-blur-xl transition-all duration-300 hover:border-[#d4af37]/25 hover:shadow-[0_18px_50px_rgba(8,47,58,.07)]"
+                  className="group rounded-[22px] border border-white bg-white/60 p-5 shadow-[0_15px_45px_rgba(8,47,58,.04)] backdrop-blur-xl transition-all duration-300 hover:border-accent/25 hover:shadow-[0_18px_50px_rgba(8,47,58,.07)]"
                 >
-                  <span className="text-[9px] font-black text-[#b0bdc1] transition-colors duration-300 group-hover:text-[#d4af37]">
+                  <span className="text-[9px] font-black text-[#b0bdc1] transition-colors duration-300 group-hover:text-accent">
                     0{index + 1}
                   </span>
 
@@ -116,7 +116,7 @@ export default function AboutSection() {
                   </div>
 
                   {/* Small gold accent */}
-                  <div className="mt-4 h-0.5 w-0 rounded-full bg-[#d4af37] transition-all duration-300 group-hover:w-8" />
+                  <div className="mt-4 h-0.5 w-0 rounded-full bg-accent transition-all duration-300 group-hover:w-8" />
                 </motion.div>
               ),
             )}

@@ -11,6 +11,7 @@ import {
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "../ui/Button";
 
 export default function WebServiceHero() {
   const t = useTranslations("WebService.hero");
@@ -24,12 +25,12 @@ export default function WebServiceHero() {
         <div className="absolute right-[-140px] top-[30%] h-[420px] w-[420px] rounded-full bg-primary/2 blur-3xl" />
 
         {/* Subtle golden glow */}
-        <div className="absolute right-[18%] top-[15%] h-[180px] w-[180px] rounded-full bg-[#D6B36A]/6 blur-3xl" />
+        <div className="absolute right-[18%] top-[15%] h-[180px] w-[180px] rounded-full bg-accent/6 blur-3xl" />
 
         <div className="absolute inset-x-0 bottom-0 h-px bg-primary/6" />
 
         {/* Golden line */}
-        <div className="absolute left-[8%] top-[18%] h-px w-[18%] bg-linear-to-r from-transparent via-[#D6B36A]/30 to-transparent" />
+        <div className="absolute left-[8%] top-[18%] h-px w-[18%] bg-linear-to-r from-transparent via-accent/30 to-transparent" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -42,7 +43,7 @@ export default function WebServiceHero() {
               transition={{ duration: 0.7 }}
               className="mb-7 flex items-center gap-3"
             >
-              <span className="h-px w-8 bg-[#D6B36A]" />
+              <span className="h-px w-8 bg-accent" />
 
               <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#c7a45d]">
                 {t("eyebrow")}
@@ -57,9 +58,7 @@ export default function WebServiceHero() {
             >
               {t("title")}
 
-              <span className="block text-secondary">
-                {t("titleAccent")}
-              </span>
+              <span className="block text-secondary">{t("titleAccent")}</span>
             </motion.h1>
 
             <motion.p
@@ -77,26 +76,23 @@ export default function WebServiceHero() {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="mt-9 flex flex-wrap gap-3"
             >
-              <Link
-                href="#features"
-                className="group flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+              <Button
+                href="/#contact"
+                icon={ArrowUpRight}
+                iconRotate
+                className="bg-[#103d4e] px-6 py-4 text-[10px] font-bold shadow-[0_20px_50px_rgba(16,61,78,.18)] hover:shadow-[0_28px_60px_rgba(8,120,140,.25)]"
               >
                 {t("primaryButton")}
+              </Button>
 
-                <ArrowDown
-                  size={14}
-                  className="transition-transform duration-300 group-hover:translate-y-0.5"
-                />
-              </Link>
-
-              <Link
-                href="#contact"
-                className="flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:border-[#D6B36A]/40"
+              <Button
+                href="/#services"
+                variant="secondary"
+                icon={ArrowDown}
+                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
               >
                 {t("secondaryButton")}
-
-                <ArrowUpRight size={14} />
-              </Link>
+              </Button>
             </motion.div>
 
             {/* Mini stats */}
@@ -132,7 +128,7 @@ export default function WebServiceHero() {
 
               <div className="hidden sm:block">
                 <p className="flex items-center gap-1.5 text-lg font-semibold tracking-tight text-primary">
-                  <span className="h-1.5 w-1.5 rounded-full bg-[#D6B36A]" />
+                  <span className="h-1.5 w-1.5 rounded-full bg-accent" />
                   Live
                 </p>
 
@@ -155,10 +151,10 @@ export default function WebServiceHero() {
               <div className="absolute inset-x-8 bottom-[-25px] h-20 rounded-full bg-primary/10 blur-3xl" />
 
               {/* Golden ambient glow */}
-              <div className="absolute -right-5 top-[15%] h-32 w-32 rounded-full bg-[#D6B36A]/10 blur-3xl" />
+              <div className="absolute -right-5 top-[15%] h-32 w-32 rounded-full bg-accent/10 blur-3xl" />
 
               {/* Browser */}
-              <div className="relative overflow-hidden rounded-[26px] border border-[#082f3a]/10 bg-white shadow-[0_35px_100px_rgba(8,47,58,0.13)]">
+              <div className="relative overflow-hidden rounded-[26px] border border-primary/10 bg-white shadow-[0_35px_100px_rgba(8,47,58,0.13)]">
                 {/* Browser bar */}
                 <div className="flex h-14 items-center gap-4 border-b border-primary/7 px-5">
                   {/* Traffic lights */}
@@ -167,12 +163,12 @@ export default function WebServiceHero() {
 
                     <span className="h-2 w-2 rounded-full bg-primary/15" />
 
-                    <span className="h-2 w-2 rounded-full bg-[#D6B36A]/60" />
+                    <span className="h-2 w-2 rounded-full bg-accent/60" />
                   </div>
 
                   {/* Address */}
                   <div className="flex h-7 flex-1 items-center gap-2 rounded-lg bg-background-soft px-3">
-                    <Lock size={9} className="text-[#D6B36A]" />
+                    <Lock size={9} className="text-accent" />
 
                     <span className="text-[8px] font-medium text-secondary">
                       app.roshasoft.com
@@ -188,10 +184,7 @@ export default function WebServiceHero() {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
                       <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary">
-                        <Globe2
-                          size={13}
-                          className="text-[#D6B36A]"
-                        />
+                        <Globe2 size={13} className="text-accent" />
                       </div>
 
                       <span className="text-[9px] font-bold tracking-tight text-primary">
@@ -221,7 +214,7 @@ export default function WebServiceHero() {
                     {/* Main card */}
                     <div className="relative overflow-hidden rounded-2xl bg-primary p-6">
                       {/* Golden glow */}
-                      <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-[#D6B36A]/10 blur-2xl" />
+                      <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-accent/10 blur-2xl" />
 
                       <div className="relative">
                         <div className="flex items-center justify-between">
@@ -230,7 +223,7 @@ export default function WebServiceHero() {
                           </span>
 
                           <span className="flex items-center gap-1.5 text-[7px] text-white/50">
-                            <span className="h-1.5 w-1.5 rounded-full bg-[#D6B36A]" />
+                            <span className="h-1.5 w-1.5 rounded-full bg-accent" />
                             Live
                           </span>
                         </div>
@@ -247,24 +240,22 @@ export default function WebServiceHero() {
 
                         {/* Graph */}
                         <div className="mt-8 flex h-20 items-end gap-1.5">
-                          {[
-                            25, 38, 30, 52, 45, 67, 58, 75, 65, 82, 72, 90,
-                          ].map((height, index) => (
-                            <motion.div
-                              key={index}
-                              initial={{ height: 0 }}
-                              animate={{ height: `${height}%` }}
-                              transition={{
-                                duration: 0.7,
-                                delay: 0.7 + index * 0.04,
-                              }}
-                              className={`flex-1 rounded-t-sm ${
-                                index === 11
-                                  ? "bg-[#D6B36A]"
-                                  : "bg-white/20"
-                              }`}
-                            />
-                          ))}
+                          {[25, 38, 30, 52, 45, 67, 58, 75, 65, 82, 72, 90].map(
+                            (height, index) => (
+                              <motion.div
+                                key={index}
+                                initial={{ height: 0 }}
+                                animate={{ height: `${height}%` }}
+                                transition={{
+                                  duration: 0.7,
+                                  delay: 0.7 + index * 0.04,
+                                }}
+                                className={`flex-1 rounded-t-sm ${
+                                  index === 11 ? "bg-accent" : "bg-white/20"
+                                }`}
+                              />
+                            ),
+                          )}
                         </div>
                       </div>
                     </div>
@@ -277,10 +268,7 @@ export default function WebServiceHero() {
                             Requests
                           </span>
 
-                          <Globe2
-                            size={13}
-                            className="text-[#D6B36A]"
-                          />
+                          <Globe2 size={13} className="text-accent" />
                         </div>
 
                         <p className="mt-5 text-2xl font-semibold tracking-tight text-primary">
@@ -288,7 +276,7 @@ export default function WebServiceHero() {
                         </p>
 
                         <div className="mt-3 h-1 overflow-hidden rounded-full bg-primary/6">
-                          <div className="h-full w-[78%] rounded-full bg-[#D6B36A]" />
+                          <div className="h-full w-[78%] rounded-full bg-accent" />
                         </div>
                       </div>
 
@@ -298,7 +286,7 @@ export default function WebServiceHero() {
                         </span>
 
                         <div className="mt-5 flex items-center gap-2">
-                          <span className="h-2 w-2 rounded-full bg-[#D6B36A]" />
+                          <span className="h-2 w-2 rounded-full bg-accent" />
 
                           <span className="text-[10px] font-semibold text-primary">
                             {t("visual.operational")}
@@ -324,7 +312,7 @@ export default function WebServiceHero() {
                     <MousePointer2
                       size={22}
                       fill="#D6B36A"
-                      className="text-[#D6B36A]"
+                      className="text-accent"
                     />
                   </motion.div>
                 </div>
@@ -338,10 +326,10 @@ export default function WebServiceHero() {
                   repeat: Infinity,
                   ease: "easeInOut",
                 }}
-                className="absolute -right-3 top-[12%] rounded-2xl border border-[#D6B36A]/20 bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.1)] md:-right-8"
+                className="absolute -right-3 top-[12%] rounded-2xl border border-accent/20 bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.1)] md:-right-8"
               >
                 <div className="flex items-center gap-2">
-                  <span className="h-2 w-2 rounded-full bg-[#D6B36A]" />
+                  <span className="h-2 w-2 rounded-full bg-accent" />
 
                   <span className="text-[8px] font-semibold text-primary">
                     {t("visual.connected")}
@@ -360,8 +348,8 @@ export default function WebServiceHero() {
                 className="absolute -bottom-5 left-4 rounded-2xl border border-primary/7 bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.1)] md:-left-7"
               >
                 <div className="flex items-center gap-3">
-                  <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#D6B36A]/10">
-                    <Wifi size={12} className="text-[#D6B36A]" />
+                  <div className="flex h-7 w-7 items-center justify-center rounded-full bg-accent/10">
+                    <Wifi size={12} className="text-accent" />
                   </div>
 
                   <div>

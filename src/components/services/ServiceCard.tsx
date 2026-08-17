@@ -35,8 +35,8 @@ export default function ServiceCard({
       whileHover={{ y: -8 }}
       className={`group relative overflow-hidden rounded-[30px] border p-7 transition-all duration-500 md:p-9 ${
         featured
-          ? "border-[#c7a45d]/25 bg-[#082f3a] text-white shadow-[0_30px_90px_rgba(8,47,58,.18)]"
-          : "border-[#082f3a]/8 bg-white text-primary shadow-[0_15px_50px_rgba(8,47,58,.035)] hover:border-[#c7a45d]/25 hover:shadow-[0_30px_90px_rgba(8,47,58,.10)]"
+          ? "border-[#c7a45d]/25 bg-primary text-white shadow-[0_30px_90px_rgba(8,47,58,.18)]"
+          : "border-primary/8 bg-white text-primary shadow-[0_15px_50px_rgba(8,47,58,.035)] hover:border-[#c7a45d]/25 hover:shadow-[0_30px_90px_rgba(8,47,58,.10)]"
       }`}
     >
       {/* Ambient glow */}
@@ -115,7 +115,7 @@ export default function ServiceCard({
               className={`flex items-center gap-3 border-b pb-3 last:border-0 ${
                 featured
                   ? "border-white/8"
-                  : "border-[#082f3a]/6"
+                  : "border-primary/6"
               }`}
             >
               <span
@@ -159,8 +159,8 @@ export default function ServiceCard({
             whileHover={{ scale: 1.08 }}
             className={`flex h-10 w-10 items-center justify-center rounded-full transition-all duration-300 group-hover:rotate-45 ${
               featured
-                ? "bg-[#d8b76a] text-[#082f3a] shadow-[0_10px_30px_rgba(199,164,93,.2)]"
-                : "bg-primary text-white group-hover:bg-[#c7a45d] group-hover:text-[#082f3a]"
+                ? "bg-[#d8b76a] text-primary shadow-[0_10px_30px_rgba(199,164,93,.2)]"
+                : "bg-primary text-white group-hover:bg-[#c7a45d] group-hover:text-primary"
             }`}
           >
             <ArrowUpRight size={15} />

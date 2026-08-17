@@ -76,7 +76,7 @@ export default function MobileAppDevelopment() {
                 className={`group relative overflow-hidden rounded-4xl border p-8 transition-all duration-500 ${
                   featured
                     ? "border-[#c9a45c]/40 bg-primary text-white shadow-[0_25px_80px_rgba(8,47,58,0.14)]"
-                    : "border-[#082f3a]/8 bg-white text-primary hover:border-[#c9a45c]/35 hover:shadow-[0_25px_80px_rgba(8,47,58,0.08)]"
+                    : "border-primary/8 bg-white text-primary hover:border-[#c9a45c]/35 hover:shadow-[0_25px_80px_rgba(8,47,58,0.08)]"
                 }`}
               >
                 {/* Decorative glow */}

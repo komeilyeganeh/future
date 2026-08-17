@@ -13,6 +13,7 @@ import {
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "@/components/ui/Button";
 
 export default function HISHero() {
   const t = useTranslations("HIS.hero");
@@ -22,10 +23,11 @@ export default function HISHero() {
       {/* Background */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -left-45 -top-45 h-130 w-130 rounded-full bg-primary/2.5 blur-3xl" />
-
         <div className="absolute -right-40 -bottom-45 h-125 w-125 rounded-full bg-primary/2.5 blur-3xl" />
-
         <div className="absolute inset-x-0 top-1/2 h-px bg-primary/2.5" />
+
+        {/* Gold ambient glow */}
+        <div className="absolute right-[15%] top-[18%] h-64 w-64 rounded-full bg-accent/[0.035] blur-3xl" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -42,7 +44,9 @@ export default function HISHero() {
                 <HeartPulse size={14} />
               </div>
 
-              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
+              <span className="h-px w-7 bg-accent/70" />
+
+              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-accent">
                 {t("eyebrow")}
               </span>
             </motion.div>
@@ -72,25 +76,23 @@ export default function HISHero() {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="mt-9 flex flex-wrap gap-3"
             >
-              <Link
-                href="#features"
-                className="group flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+              <Button
+                href="/#contact"
+                icon={ArrowUpRight}
+                iconRotate
+                className="bg-primary px-6 py-4 text-[10px] font-bold shadow-[0_20px_50px_rgba(16,61,78,.16)] hover:bg-[#0d3545] hover:shadow-[0_28px_60px_rgba(8,120,140,.22)]"
               >
                 {t("primaryButton")}
+              </Button>
 
-                <ArrowDown
-                  size={14}
-                  className="transition-transform duration-300 group-hover:translate-y-0.5"
-                />
-              </Link>
-
-              <Link
-                href="#contact"
-                className="flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all hover:-translate-y-1 hover:border-[#082f3a]/20"
+              <Button
+                href="/#services"
+                variant="secondary"
+                icon={ArrowDown}
+                className="border-[#08788c]/15 bg-white/70 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white hover:text-primary"
               >
                 {t("secondaryButton")}
-                <ArrowUpRight size={14} />
-              </Link>
+              </Button>
             </motion.div>
           </div>
 
@@ -101,7 +103,7 @@ export default function HISHero() {
             transition={{ duration: 0.9, delay: 0.15 }}
             className="relative mx-auto w-full max-w-155"
           >
-            <div className="relative rounded-[34px] border border-[#082f3a]/8 bg-white p-4 shadow-[0_35px_100px_rgba(8,47,58,0.08)] md:p-5">
+            <div className="relative rounded-[34px] border border-primary/8 bg-white p-4 shadow-[0_35px_100px_rgba(8,47,58,0.08)] md:p-5">
               {/* Dashboard header */}
               <div className="flex items-center justify-between border-b border-primary/7 px-3 pb-5">
                 <div className="flex items-center gap-3">
@@ -137,14 +139,12 @@ export default function HISHero() {
                       {t("patientOverview")}
                     </span>
 
-                    <ShieldCheck
-                      size={16}
-                      className="text-primary/40"
-                    />
+                    <ShieldCheck size={16} className="text-accent" />
                   </div>
 
                   <div className="mt-6 flex items-center gap-4">
-                    <div className="flex h-14 w-14 items-center justify-center rounded-full bg-primary text-white">
+                    <div className="relative flex h-14 w-14 items-center justify-center rounded-full bg-primary text-white">
+                      <span className="absolute inset-[-5px] rounded-full border border-accent/25" />
                       <Activity size={22} />
                     </div>
 
@@ -190,10 +190,7 @@ export default function HISHero() {
                       </p>
 
                       <div className="mt-3 flex items-center gap-1.5">
-                        <CheckCircle2
-                          size={14}
-                          className="text-emerald-600"
-                        />
+                        <CheckCircle2 size={14} className="text-accent" />
 
                         <span className="text-[9px] font-semibold text-primary">
                           {t("stable")}
@@ -204,35 +201,39 @@ export default function HISHero() {
                 </div>
 
                 {/* Schedule */}
-                <div className="rounded-3xl bg-primary p-5 text-white">
-                  <div className="flex items-center justify-between">
-                    <CalendarDays size={17} className="text-white/50" />
+                <div className="relative overflow-hidden rounded-3xl bg-primary p-5 text-white">
+                  <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full border border-accent/20" />
 
-                    <span className="text-[9px] uppercase tracking-[0.2em] text-white/40">
-                      {t("today")}
-                    </span>
-                  </div>
+                  <div className="relative">
+                    <div className="flex items-center justify-between">
+                      <CalendarDays size={17} className="text-accent" />
 
-                  <p className="mt-8 text-4xl font-semibold tracking-tight">
-                    24
-                  </p>
+                      <span className="text-[9px] uppercase tracking-[0.2em] text-white/40">
+                        {t("today")}
+                      </span>
+                    </div>
 
-                  <p className="mt-1 text-[10px] text-white/45">
-                    {t("appointments")}
-                  </p>
+                    <p className="mt-8 text-4xl font-semibold tracking-tight">
+                      24
+                    </p>
 
-                  <div className="mt-7 h-px bg-white/8" />
+                    <p className="mt-1 text-[10px] text-white/45">
+                      {t("appointments")}
+                    </p>
 
-                  <div className="mt-5 flex items-center justify-between">
-                    <span className="text-[9px] text-white/45">
-                      {t("completed")}
-                    </span>
+                    <div className="mt-7 h-px bg-white/8" />
 
-                    <span className="text-sm font-semibold">18</span>
-                  </div>
+                    <div className="mt-5 flex items-center justify-between">
+                      <span className="text-[9px] text-white/45">
+                        {t("completed")}
+                      </span>
 
-                  <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-white/10">
-                    <div className="h-full w-[75%] rounded-full bg-white/60" />
+                      <span className="text-sm font-semibold">18</span>
+                    </div>
+
+                    <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-white/10">
+                      <div className="h-full w-[75%] rounded-full bg-accent" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -255,21 +256,9 @@ export default function HISHero() {
 
                 {/* Timeline */}
                 <div className="mt-6 grid grid-cols-4 gap-3">
-                  <TimelineItem
-                    label={t("registration")}
-                    active
-                  />
-
-                  <TimelineItem
-                    label={t("examination")}
-                    active
-                  />
-
-                  <TimelineItem
-                    label={t("diagnosis")}
-                    active
-                  />
-
+                  <TimelineItem label={t("registration")} active />
+                  <TimelineItem label={t("examination")} active />
+                  <TimelineItem label={t("diagnosis")} active />
                   <TimelineItem label={t("followUp")} />
                 </div>
               </div>
@@ -286,7 +275,7 @@ export default function HISHero() {
               className="absolute -left-4 top-[22%] hidden rounded-2xl border border-primary/7 bg-white px-4 py-3 shadow-[0_20px_50px_rgba(8,47,58,0.08)] md:block"
             >
               <div className="flex items-center gap-2">
-                <Activity size={14} className="text-primary" />
+                <Activity size={14} className="text-accent" />
 
                 <span className="text-[9px] font-semibold text-primary">
                   {t("connectedCare")}
@@ -302,10 +291,10 @@ export default function HISHero() {
                 repeat: Infinity,
                 ease: "easeInOut",
               }}
-              className="absolute -right-4 bottom-[17%] hidden rounded-2xl bg-primary px-4 py-3 text-white shadow-[0_20px_50px_rgba(8,47,58,0.15)] md:block"
+              className="absolute -right-4 bottom-[17%] hidden rounded-2xl border border-accent/15 bg-primary px-4 py-3 text-white shadow-[0_20px_50px_rgba(8,47,58,0.15)] md:block"
             >
               <div className="flex items-center gap-2">
-                <CheckCircle2 size={14} className="text-white/60" />
+                <CheckCircle2 size={14} className="text-accent" />
 
                 <span className="text-[9px] font-semibold">
                   {t("systemReady")}
@@ -331,28 +320,26 @@ function TimelineItem({
       <div className="flex items-center gap-2">
         <span
           className={`h-2.5 w-2.5 rounded-full ${
-            active ? "bg-primary" : "bg-primary/10"
+            active ? "bg-accent" : "bg-primary/10"
           }`}
         />
 
         <div
           className={`h-px flex-1 ${
-            active ? "bg-primary/20" : "bg-primary/6"
+            active ? "bg-accent/30" : "bg-primary/6"
           }`}
         />
       </div>
 
-      <p className="mt-2 text-[8px] font-medium text-secondary">
-        {label}
-      </p>
+      <p className="mt-2 text-[8px] font-medium text-secondary">{label}</p>
     </div>
   );
 }
 
 function TrendingIndicator() {
   return (
-    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/4">
-      <Activity size={14} className="text-primary" />
+    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-accent/8">
+      <Activity size={14} className="text-accent" />
     </div>
   );
 }

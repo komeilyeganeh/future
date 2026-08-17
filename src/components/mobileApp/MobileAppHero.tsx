@@ -10,6 +10,7 @@ import {
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "../ui/Button";
 
 export default function MobileAppHero() {
   const t = useTranslations("MobileApp.hero");
@@ -57,9 +58,7 @@ export default function MobileAppHero() {
             >
               {t("title")}
 
-              <span className="block text-[#b99654]">
-                {t("titleAccent")}
-              </span>
+              <span className="block text-[#b99654]">{t("titleAccent")}</span>
             </motion.h1>
 
             <motion.p
@@ -77,26 +76,23 @@ export default function MobileAppHero() {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="mt-9 flex flex-wrap gap-3"
             >
-              <Link
-                href="#development"
-                className="group flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+              <Button
+                href="/#contact"
+                icon={ArrowUpRight}
+                iconRotate
+                className="bg-[#103d4e] px-6 py-4 text-[10px] font-bold shadow-[0_20px_50px_rgba(16,61,78,.18)] hover:shadow-[0_28px_60px_rgba(8,120,140,.25)]"
               >
                 {t("primaryButton")}
+              </Button>
 
-                <ArrowDown
-                  size={14}
-                  className="transition-transform duration-300 group-hover:translate-y-0.5"
-                />
-              </Link>
-
-              <Link
-                href="#contact"
-                className="flex items-center gap-2 rounded-full border border-[#c9a96e]/30 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all hover:-translate-y-1 hover:border-[#c9a96e]/60"
+              <Button
+                href="/#services"
+                variant="secondary"
+                icon={ArrowDown}
+                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
               >
                 {t("secondaryButton")}
-
-                <ArrowUpRight size={14} className="text-[#b99654]" />
-              </Link>
+              </Button>
             </motion.div>
           </div>
 
@@ -119,7 +115,7 @@ export default function MobileAppHero() {
               <div className="absolute inset-[15%] rounded-full border border-transparent border-t-[#c9a96e]/50 rotate-[-25deg]" />
 
               {/* Phone */}
-              <div className="absolute left-1/2 top-1/2 h-97.5 w-50 -translate-x-1/2 -translate-y-1/2 rounded-[38px] border-[6px] border-[#082f3a] bg-primary shadow-[0_40px_100px_rgba(8,47,58,0.18)]">
+              <div className="absolute left-1/2 top-1/2 h-97.5 w-50 -translate-x-1/2 -translate-y-1/2 rounded-[38px] border-[6px] border-primary bg-primary shadow-[0_40px_100px_rgba(8,47,58,0.18)]">
                 {/* Gold phone edge */}
                 <div className="pointer-events-none absolute inset-[-6px] rounded-[40px] border border-[#c9a96e]/25" />
 

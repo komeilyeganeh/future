@@ -4,6 +4,7 @@ import { ArrowUpRight, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "@/components/ui/Button";
 
 export default function MMSCTA() {
   const t = useTranslations("MMS.cta");
@@ -39,7 +40,7 @@ export default function MMSCTA() {
                 <Sparkles size={14} />
               </div>
 
-              <span className="text-[9px] font-semibold uppercase tracking-[0.3em] text-[#d6b36a]/70">
+              <span className="text-[9px] font-semibold uppercase tracking-[0.3em] text-accent/70">
                 {t("eyebrow")}
               </span>
             </div>
@@ -56,16 +57,15 @@ export default function MMSCTA() {
           </div>
 
           {/* CTA */}
-          <Link
-            href="mailto:hello@roshasoft.com"
-            className="group/button inline-flex w-fit items-center gap-4 rounded-full bg-[#d6b36a] px-6 py-4 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:bg-[#e0c27d] hover:shadow-[0_15px_45px_rgba(214,179,106,0.25)]"
+          <Button
+            type="button"
+            onClick={() => {}}
+            variant="accent"
+            icon={ArrowUpRight}
+            className="mt-9 px-6 py-4 bg-accent text-[10px] font-black hover:bg-accent hover:shadow-[0_15px_40px_rgba(212,175,55,.18)]"
           >
             {t("button")}
-
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-[#d6b36a] transition-all duration-300 group-hover/button:rotate-45 group-hover/button:bg-white">
-              <ArrowUpRight size={14} />
-            </span>
-          </Link>
+          </Button>
         </div>
       </motion.div>
     </section>

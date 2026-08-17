@@ -45,9 +45,13 @@ export default function CRMFeatures() {
     <section id="features" className="bg-background-soft">
       <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
         <div className="max-w-2xl">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
-            {t("eyebrow")}
-          </span>
+          <div className="flex items-center gap-3">
+            <span className="h-px w-8 bg-accent" />
+
+            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-accent">
+              {t("eyebrow")}
+            </span>
+          </div>
 
           <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-primary md:text-5xl">
             {t("title")}
@@ -73,18 +77,19 @@ export default function CRMFeatures() {
                   delay: index * 0.07,
                 }}
                 whileHover={{ y: -6 }}
-                className={`group relative overflow-hidden rounded-[28px] border p-7 ${
+                className={`group relative overflow-hidden rounded-[28px] border p-7 transition-all duration-500 ${
                   item.featured
-                    ? "border-[#082f3a] bg-primary text-white md:col-span-2"
-                    : "border-primary/7 bg-white text-primary"
+                    ? "border-primary bg-primary text-white md:col-span-2 hover:border-accent/40 hover:shadow-[0_25px_70px_rgba(8,47,58,0.16)]"
+                    : "border-primary/7 bg-white text-primary hover:border-accent/20 hover:shadow-[0_20px_60px_rgba(8,47,58,0.07)]"
                 }`}
               >
+                {/* Decorative gold glow */}
                 <div
-                  className={`absolute -right-16 -top-16 h-40 w-40 rounded-full ${
+                  className={`absolute -right-16 -top-16 h-40 w-40 rounded-full transition-all duration-700 group-hover:scale-125 ${
                     item.featured
-                      ? "bg-white/4"
-                      : "bg-primary/2.5"
-                  } transition-transform duration-700 group-hover:scale-125`}
+                      ? "bg-accent/[0.08] blur-xl"
+                      : "bg-accent/[0.05] blur-2xl"
+                  }`}
                 />
 
                 <div className="relative z-10">
@@ -100,17 +105,23 @@ export default function CRMFeatures() {
                     </span>
 
                     <div
-                      className={`flex h-11 w-11 items-center justify-center rounded-2xl ${
+                      className={`flex h-11 w-11 items-center justify-center rounded-2xl transition-all duration-300 ${
                         item.featured
-                          ? "bg-white text-primary"
-                          : "bg-primary/5 text-primary"
+                          ? "bg-white text-primary group-hover:bg-accent group-hover:text-primary"
+                          : "bg-accent/[0.08] text-accent group-hover:bg-accent group-hover:text-primary group-hover:shadow-[0_8px_25px_rgba(199,164,93,0.2)]"
                       }`}
                     >
                       <Icon size={19} strokeWidth={1.7} />
                     </div>
                   </div>
 
-                  <h3 className="mt-10 text-2xl font-semibold tracking-tight">
+                  <h3
+                    className={`mt-10 text-2xl font-semibold tracking-tight transition-colors duration-300 ${
+                      item.featured
+                        ? "group-hover:text-accent"
+                        : "group-hover:text-accent"
+                    }`}
+                  >
                     {t(`items.${item.key}.title`)}
                   </h3>
 
@@ -123,6 +134,13 @@ export default function CRMFeatures() {
                   >
                     {t(`items.${item.key}.description`)}
                   </p>
+
+                  {/* Gold accent line */}
+                  <div
+                    className={`mt-7 h-px w-0 bg-accent transition-all duration-500 group-hover:w-14 ${
+                      item.featured ? "bg-accent" : ""
+                    }`}
+                  />
                 </div>
               </motion.article>
             );

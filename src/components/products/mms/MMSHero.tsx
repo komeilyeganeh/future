@@ -11,6 +11,7 @@ import {
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "@/components/ui/Button";
 
 export default function MMSHero() {
   const t = useTranslations("MMS.hero");
@@ -101,31 +102,23 @@ export default function MMSHero() {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="mt-9 flex flex-wrap gap-3"
             >
-              <Link
-                href="#capabilities"
-                className="group inline-flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_45px_rgba(8,47,58,0.18)]"
+              <Button
+                href="/#contact"
+                icon={ArrowUpRight}
+                iconRotate
+                className="bg-[#103d4e] px-6 py-4 text-[10px] font-bold shadow-[0_20px_50px_rgba(16,61,78,.18)] hover:shadow-[0_28px_60px_rgba(8,120,140,.25)]"
               >
                 {t("secondaryButton")}
+              </Button>
 
-                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white/10">
-                  <ArrowDown
-                    size={13}
-                    className="transition-transform duration-300 group-hover:translate-y-0.5"
-                  />
-                </span>
-              </Link>
-
-              <Link
-                href="#contact"
-                className="group inline-flex items-center gap-3 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:border-[#082f3a]/20 hover:shadow-[0_15px_40px_rgba(8,47,58,0.08)]"
+              <Button
+                href="/#services"
+                variant="secondary"
+                icon={ArrowDown}
+                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
               >
                 {t("primaryButton")}
-
-                <ArrowUpRight
-                  size={14}
-                  className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                />
-              </Link>
+              </Button>
             </motion.div>
 
             {/* Small trust line */}
@@ -165,7 +158,7 @@ export default function MMSHero() {
               />
 
               {/* Main dashboard */}
-              <div className="group/dashboard relative overflow-hidden rounded-[30px] border border-[#082f3a]/8 bg-white shadow-[0_30px_100px_rgba(8,47,58,0.10)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_45px_120px_rgba(8,47,58,0.14)]">
+              <div className="group/dashboard relative overflow-hidden rounded-[30px] border border-primary/8 bg-white shadow-[0_30px_100px_rgba(8,47,58,0.10)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_45px_120px_rgba(8,47,58,0.14)]">
                 {/* Top bar */}
                 <div className="flex items-center justify-between border-b border-primary/7 px-5 py-4 sm:px-6">
                   <div className="flex items-center gap-3">
@@ -212,7 +205,7 @@ export default function MMSHero() {
                             duration: 0.5,
                             delay: 0.5 + index * 0.08,
                           }}
-                          className="group/stat rounded-2xl border border-[#082f3a]/6 bg-background-soft p-4 transition-all duration-300 hover:-translate-y-1 hover:border-primary/10 hover:bg-white hover:shadow-[0_15px_40px_rgba(8,47,58,0.06)]"
+                          className="group/stat rounded-2xl border border-primary/6 bg-background-soft p-4 transition-all duration-300 hover:-translate-y-1 hover:border-primary/10 hover:bg-white hover:shadow-[0_15px_40px_rgba(8,47,58,0.06)]"
                         >
                           <div className="flex items-center justify-between">
                             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white text-primary shadow-sm transition-transform duration-300 group-hover/stat:scale-105">
@@ -247,7 +240,7 @@ export default function MMSHero() {
                   </div>
 
                   {/* Analytics panel */}
-                  <div className="mt-3 rounded-2xl border border-[#082f3a]/6 bg-white p-4 transition-all duration-300 hover:border-primary/10">
+                  <div className="mt-3 rounded-2xl border border-primary/6 bg-white p-4 transition-all duration-300 hover:border-primary/10">
                     <div className="flex items-center justify-between">
                       <div>
                         <p className="text-[9px] uppercase tracking-[0.18em] text-secondary">
@@ -288,7 +281,7 @@ export default function MMSHero() {
                                 : "bg-primary/[0.07] group-hover/dashboard:bg-primary/[0.12]"
                             }`}
                           />
-                        )
+                        ),
                       )}
                     </div>
 
@@ -344,9 +337,7 @@ export default function MMSHero() {
                   RoshaSoft
                 </p>
 
-                <p className="mt-1 text-sm font-semibold text-white">
-                  MMS
-                </p>
+                <p className="mt-1 text-sm font-semibold text-white">MMS</p>
               </motion.div>
             </div>
           </motion.div>

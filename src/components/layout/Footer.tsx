@@ -88,7 +88,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col gap-3 border-t border-[#082f3a]/6 pt-6 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-14 flex flex-col gap-3 border-t border-primary/6 pt-6 sm:flex-row sm:items-center sm:justify-between">
           <span className="text-[9px] text-[#a1adb1]">
             © {new Date().getFullYear()} RoshaSoft. {t("rights")}
           </span>

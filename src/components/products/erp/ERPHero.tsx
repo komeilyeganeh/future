@@ -12,6 +12,7 @@ import {
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "@/components/ui/Button";
 
 export default function ERPHero() {
   const t = useTranslations("ERP.hero");
@@ -72,26 +73,23 @@ export default function ERPHero() {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="mt-8 flex flex-col gap-3 sm:flex-row"
             >
-              <Link
-                href="#overview"
-                className="group inline-flex items-center justify-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+              <Button
+                href="/#contact"
+                icon={ArrowUpRight}
+                iconRotate
+                className="bg-[#103d4e] px-6 py-4 text-[10px] font-bold shadow-[0_20px_50px_rgba(16,61,78,.18)] hover:shadow-[0_28px_60px_rgba(8,120,140,.25)]"
               >
                 {t("primaryButton")}
+              </Button>
 
-                <ArrowDown
-                  size={14}
-                  className="transition-transform duration-300 group-hover:translate-y-0.5"
-                />
-              </Link>
-
-              <Link
-                href="#contact"
-                className="inline-flex items-center justify-center gap-2 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:border-[#c9a45c]/40"
+              <Button
+                href="/#services"
+                variant="secondary"
+                icon={ArrowDown}
+                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
               >
                 {t("secondaryButton")}
-
-                <ArrowUpRight size={14} />
-              </Link>
+              </Button>
             </motion.div>
           </div>
 
@@ -104,7 +102,7 @@ export default function ERPHero() {
           >
             <div className="relative mx-auto w-full max-w-155">
               {/* Main Dashboard */}
-              <div className="relative overflow-hidden rounded-[28px] border border-[#082f3a]/8 bg-white shadow-[0_30px_100px_rgba(8,47,58,0.10)]">
+              <div className="relative overflow-hidden rounded-[28px] border border-primary/8 bg-white shadow-[0_30px_100px_rgba(8,47,58,0.10)]">
                 {/* Dashboard Header */}
                 <div className="flex items-center justify-between border-b border-primary/7 px-5 py-4 sm:px-6">
                   <div className="flex items-center gap-3">
@@ -161,7 +159,7 @@ export default function ERPHero() {
                   </div>
 
                   {/* Main Chart */}
-                  <div className="mt-4 rounded-2xl border border-[#082f3a]/6 bg-background-soft p-4 sm:p-5">
+                  <div className="mt-4 rounded-2xl border border-primary/6 bg-background-soft p-4 sm:p-5">
                     <div className="flex items-start justify-between">
                       <div>
                         <p className="text-[9px] font-semibold uppercase tracking-[0.15em] text-secondary">
@@ -180,24 +178,20 @@ export default function ERPHero() {
 
                     {/* Fake Chart */}
                     <div className="mt-6 flex h-32.5 items-end gap-2 sm:h-37.5 sm:gap-3">
-                      {[42, 58, 47, 72, 63, 84, 76, 94].map(
-                        (height, index) => (
-                          <motion.div
-                            key={index}
-                            initial={{ height: 0 }}
-                            animate={{ height: `${height}%` }}
-                            transition={{
-                              duration: 0.8,
-                              delay: 0.45 + index * 0.05,
-                            }}
-                            className={`flex-1 rounded-t-lg ${
-                              index === 7
-                                ? "bg-[#c9a45c]"
-                                : "bg-primary/10"
-                            }`}
-                          />
-                        )
-                      )}
+                      {[42, 58, 47, 72, 63, 84, 76, 94].map((height, index) => (
+                        <motion.div
+                          key={index}
+                          initial={{ height: 0 }}
+                          animate={{ height: `${height}%` }}
+                          transition={{
+                            duration: 0.8,
+                            delay: 0.45 + index * 0.05,
+                          }}
+                          className={`flex-1 rounded-t-lg ${
+                            index === 7 ? "bg-[#c9a45c]" : "bg-primary/10"
+                          }`}
+                        />
+                      ))}
                     </div>
                   </div>
 
@@ -253,9 +247,7 @@ export default function ERPHero() {
                   RoshaSoft
                 </p>
 
-                <p className="mt-1 text-sm font-semibold text-[#d8bd7b]">
-                  ERP
-                </p>
+                <p className="mt-1 text-sm font-semibold text-[#d8bd7b]">ERP</p>
               </motion.div>
             </div>
           </motion.div>
@@ -281,22 +273,16 @@ function DashboardStat({
   className?: string;
 }) {
   return (
-    <div
-      className={`rounded-2xl border border-[#082f3a]/6 bg-white p-4`}
-    >
+    <div className={`rounded-2xl border border-primary/6 bg-white p-4`}>
       <div className="flex items-center justify-between">
         <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-primary/5 text-primary">
           <Icon size={14} strokeWidth={1.7} />
         </div>
 
-        <span className="text-[9px] font-semibold text-[#c9a45c]">
-          {value}
-        </span>
+        <span className="text-[9px] font-semibold text-[#c9a45c]">{value}</span>
       </div>
 
-      <p className="mt-4 text-[9px] font-medium text-secondary">
-        {label}
-      </p>
+      <p className="mt-4 text-[9px] font-medium text-secondary">{label}</p>
     </div>
   );
 }
@@ -315,7 +301,7 @@ function ModuleCard({
   description: string;
 }) {
   return (
-    <div className="flex items-center gap-3 rounded-2xl border border-[#082f3a]/6 bg-white p-3.5">
+    <div className="flex items-center gap-3 rounded-2xl border border-primary/6 bg-white p-3.5">
       <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#c9a45c]/10 text-[#a98743]">
         <Icon size={14} strokeWidth={1.7} />
       </div>
@@ -325,9 +311,7 @@ function ModuleCard({
           {title}
         </p>
 
-        <p className="mt-0.5 text-[8px] text-secondary">
-          {description}
-        </p>
+        <p className="mt-0.5 text-[8px] text-secondary">{description}</p>
       </div>
     </div>
   );

@@ -49,7 +49,7 @@ export default function WebServiceProcess() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-0 border-t border-[#082f3a]/8 md:grid-cols-5">
+        <div className="mt-16 grid gap-0 border-t border-primary/8 md:grid-cols-5">
           {steps.map((step, index) => {
             const Icon = icons[index];
 
@@ -63,7 +63,7 @@ export default function WebServiceProcess() {
                   duration: 0.6,
                   delay: index * 0.08,
                 }}
-                className="group relative border-b border-[#082f3a]/8 py-8 md:border-b-0 md:border-r md:px-6 md:first:pl-0 md:last:border-r-0"
+                className="group relative border-b border-primary/8 py-8 md:border-b-0 md:border-r md:px-6 md:first:pl-0 md:last:border-r-0"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-[10px] font-semibold tracking-[0.2em] text-secondary">

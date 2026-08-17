@@ -43,7 +43,7 @@ export default function Services() {
     >
       <div className="mx-auto max-w-310">
         {/* Kicker */}
-        <span className="text-[10px] font-bold uppercase tracking-[.18em] text-[#d4af37]">
+        <span className="text-[10px] font-bold uppercase tracking-[.18em] text-accent">
           {t("services.kicker")}
         </span>
 
@@ -85,11 +85,11 @@ export default function Services() {
                 }`}
               >
                 {/* Gold accent glow */}
-                <div className="absolute -right-16 -top-16 h-48 w-48 rounded-full bg-[#d4af37]/[0.06] blur-3xl transition duration-700 group-hover:scale-150" />
+                <div className="absolute -right-16 -top-16 h-48 w-48 rounded-full bg-accent/[0.06] blur-3xl transition duration-700 group-hover:scale-150" />
 
                 <div className="relative flex items-start justify-between">
                   {/* Icon */}
-                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#d4af37]/10 text-[#d4af37] transition-colors duration-300 group-hover:bg-[#d4af37]/15">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-accent/10 text-accent transition-colors duration-300 group-hover:bg-accent/15">
                     <Icon size={21} />
                   </div>
 
@@ -110,7 +110,7 @@ export default function Services() {
                 </div>
 
                 {/* Small gold bottom accent */}
-                <div className="absolute bottom-0 left-7 h-0.5 w-0 bg-[#d4af37] transition-all duration-500 group-hover:w-14" />
+                <div className="absolute bottom-0 left-7 h-0.5 w-0 bg-accent transition-all duration-500 group-hover:w-14" />
               </motion.article>
             );
           })}

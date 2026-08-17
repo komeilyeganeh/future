@@ -125,10 +125,10 @@ export default function Preloader() {
           <div className="absolute inset-0 rounded-full border border-primary/7 animate-[spin_10s_linear_infinite]" />
 
           {/* Middle orbit */}
-          <div className="absolute inset-3.5 rounded-full border border-dashed border-[#082f3a]/10 animate-[spin_14s_linear_infinite_reverse]" />
+          <div className="absolute inset-3.5 rounded-full border border-dashed border-primary/10 animate-[spin_14s_linear_infinite_reverse]" />
 
           {/* Inner orbit */}
-          <div className="absolute inset-7.25 rounded-full border border-[#082f3a]/6" />
+          <div className="absolute inset-7.25 rounded-full border border-primary/6" />
 
           {/* Orbit dot */}
           <div className="absolute inset-0 animate-[spin_5s_linear_infinite]">

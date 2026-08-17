@@ -4,6 +4,7 @@ import { ArrowUpRight, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "../ui/Button";
 
 export default function CareersCTA() {
   const t = useTranslations("Careers");
@@ -54,16 +55,15 @@ export default function CareersCTA() {
             </p>
           </div>
 
-          <Link
-            href="mailto:careers@roshasoft.com"
-            className="group inline-flex w-fit items-center gap-4 rounded-full bg-white px-6 py-4 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          <Button
+            type="button"
+            onClick={() => {}}
+            variant="accent"
+            icon={ArrowUpRight}
+            className="mt-9 px-6 py-4 bg-accent text-[10px] font-black hover:bg-accent hover:shadow-[0_15px_40px_rgba(212,175,55,.18)]"
           >
             {t("cta.button")}
-
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#c9a96e] text-primary transition-all duration-300 group-hover:rotate-45 group-hover:bg-[#d8bb82]">
-              <ArrowUpRight size={14} />
-            </span>
-          </Link>
+          </Button>
         </div>
 
         {/* Subtle gold accent line */}

@@ -57,7 +57,7 @@ export default function MMSOverview() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.25 }}
               whileHover={{ y: -3, rotate: 3 }}
-              className="absolute left-20 top-20 flex h-14 w-14 items-center justify-center rounded-full border border-[#082f3a]/10 bg-background-soft shadow-[0_15px_40px_rgba(8,47,58,0.06)]"
+              className="absolute left-20 top-20 flex h-14 w-14 items-center justify-center rounded-full border border-primary/10 bg-background-soft shadow-[0_15px_40px_rgba(8,47,58,0.06)]"
             >
               <Layers3 size={17} strokeWidth={1.7} className="text-primary" />
             </motion.div>

@@ -72,7 +72,7 @@ export default function HISBenefits() {
                   duration: 0.6,
                   delay: index * 0.06,
                 }}
-                className="group flex gap-5 border-t border-[#082f3a]/8 py-7"
+                className="group flex gap-5 border-t border-primary/8 py-7"
               >
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-primary/4 text-primary transition-all duration-300 group-hover:bg-primary group-hover:text-white">
                   <Icon size={18} strokeWidth={1.7} />

@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import Button from "@/components/ui/Button";
 
 const sectionIcons = [
   Database,
@@ -62,9 +63,12 @@ export default function PrivacyPage() {
         <div className="absolute inset-0">
           <div className="absolute left-1/2 top-[-260px] h-[650px] w-[650px] -translate-x-1/2 rounded-full bg-primary/2.5 blur-3xl" />
 
-          <div className="absolute right-[-180px] top-[20%] h-[420px] w-[420px] rounded-full border border-[#082f3a]/4" />
+          <div className="absolute right-[-180px] top-[20%] h-[420px] w-[420px] rounded-full border border-accent/10" />
 
           <div className="absolute -bottom-45 left-[-160px] h-[420px] w-[420px] rounded-full bg-primary/2 blur-3xl" />
+
+          {/* subtle gold glow */}
+          <div className="absolute right-[8%] top-[15%] h-32 w-32 rounded-full bg-accent/5 blur-3xl" />
         </div>
 
         <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-28 md:px-8 md:pb-28 md:pt-40">
@@ -76,7 +80,7 @@ export default function PrivacyPage() {
                 transition={{ duration: 0.6 }}
                 className="mb-7 flex items-center gap-3"
               >
-                <span className="h-px w-8 bg-primary" />
+                <span className="h-px w-8 bg-accent" />
 
                 <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
                   {t("hero.eyebrow")}
@@ -90,7 +94,8 @@ export default function PrivacyPage() {
                 className="max-w-4xl text-5xl font-semibold leading-[0.95] tracking-[-0.055em] sm:text-6xl lg:text-8xl"
               >
                 {t("hero.title")}
-                <span className="block text-secondary">
+
+                <span className="block text-accent">
                   {t("hero.titleAccent")}
                 </span>
               </motion.h1>
@@ -112,13 +117,13 @@ export default function PrivacyPage() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="relative"
             >
-              <div className="rounded-[30px] border border-primary/7 bg-white p-7 shadow-[0_30px_90px_rgba(8,47,58,0.06)]">
+              <div className="rounded-[30px] border border-primary/7 bg-white p-7 shadow-[0_30px_90px_rgba(8,47,58,0.06)] transition-all duration-500 hover:-translate-y-1 hover:border-accent/20 hover:shadow-[0_35px_100px_rgba(8,47,58,0.08)]">
                 <div className="flex items-center justify-between">
                   <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary text-white">
                     <ShieldCheck size={20} strokeWidth={1.6} />
                   </div>
 
-                  <span className="text-[9px] font-semibold uppercase tracking-[0.25em] text-secondary">
+                  <span className="text-[9px] font-semibold uppercase tracking-[0.25em] text-accent">
                     {t("hero.badge")}
                   </span>
                 </div>
@@ -134,7 +139,10 @@ export default function PrivacyPage() {
                 </div>
 
                 <div className="mt-7 flex items-center gap-2 border-t border-primary/7 pt-5">
-                  <span className="h-2 w-2 rounded-full bg-primary" />
+                  <span className="relative flex h-2 w-2">
+                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent/30" />
+                    <span className="relative h-2 w-2 rounded-full bg-accent" />
+                  </span>
 
                   <span className="text-[9px] font-medium uppercase tracking-[0.2em] text-secondary">
                     {t("hero.status")}
@@ -150,7 +158,7 @@ export default function PrivacyPage() {
       <section className="border-y border-primary/7 bg-white">
         <div className="mx-auto grid max-w-7xl gap-10 px-5 py-20 md:px-8 md:py-28 lg:grid-cols-[0.7fr_1.3fr]">
           <div>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-accent">
               {t("intro.eyebrow")}
             </span>
           </div>
@@ -165,7 +173,7 @@ export default function PrivacyPage() {
             </p>
 
             <div className="mt-8 flex items-center gap-3">
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/5">
+              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-accent/10 text-accent">
                 <Check size={14} />
               </div>
 
@@ -194,14 +202,14 @@ export default function PrivacyPage() {
                     duration: 0.6,
                     delay: index * 0.06,
                   }}
-                  className="group rounded-[30px] border border-primary/7 bg-white p-7 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_25px_80px_rgba(8,47,58,0.06)] md:p-9"
+                  className="group rounded-[30px] border border-primary/7 bg-white p-7 transition-all duration-500 hover:-translate-y-1 hover:border-accent/15 hover:shadow-[0_25px_80px_rgba(8,47,58,0.06)] md:p-9"
                 >
                   <div className="flex items-start justify-between">
-                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/5 text-primary transition-all duration-300 group-hover:bg-primary group-hover:text-white">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/5 text-primary transition-all duration-300 group-hover:bg-accent group-hover:text-white">
                       <Icon size={18} strokeWidth={1.6} />
                     </div>
 
-                    <span className="text-[10px] font-semibold tracking-[0.2em] text-primary/20">
+                    <span className="text-[10px] font-semibold tracking-[0.2em] text-accent/50">
                       {String(index + 1).padStart(2, "0")}
                     </span>
                   </div>
@@ -216,21 +224,20 @@ export default function PrivacyPage() {
 
                   {section.key === "information" && (
                     <ul className="mt-7 space-y-3">
-                      {(
-                        t.raw(
-                          "sections.information.items"
-                        ) as string[]
-                      ).map((item) => (
-                        <li
-                          key={item}
-                          className="flex items-center gap-3 text-xs text-primary/70"
-                        >
-                          <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary/5">
-                            <Check size={11} />
-                          </span>
-                          {item}
-                        </li>
-                      ))}
+                      {(t.raw("sections.information.items") as string[]).map(
+                        (item) => (
+                          <li
+                            key={item}
+                            className="flex items-center gap-3 text-xs text-primary/70"
+                          >
+                            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent">
+                              <Check size={11} />
+                            </span>
+
+                            {item}
+                          </li>
+                        )
+                      )}
                     </ul>
                   )}
                 </motion.article>
@@ -245,7 +252,7 @@ export default function PrivacyPage() {
         <div className="mx-auto max-w-7xl px-5 py-24 md:px-8 md:py-32">
           <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr]">
             <div>
-              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-white/40">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-accent/70">
                 {t("principles.eyebrow")}
               </span>
 
@@ -263,9 +270,9 @@ export default function PrivacyPage() {
               ).map((item, index) => (
                 <div
                   key={item.title}
-                  className="rounded-3xl border border-white/8 bg-white/[0.035] p-6"
+                  className="group rounded-3xl border border-white/8 bg-white/[0.035] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/25 hover:bg-white/[0.055]"
                 >
-                  <span className="text-[10px] font-semibold tracking-[0.2em] text-white/30">
+                  <span className="text-[10px] font-semibold tracking-[0.2em] text-accent/60">
                     {String(index + 1).padStart(2, "0")}
                   </span>
 
@@ -293,7 +300,7 @@ export default function PrivacyPage() {
         >
           <div className="flex flex-col justify-between gap-10 md:flex-row md:items-end">
             <div>
-              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-secondary">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-accent">
                 {t("cta.eyebrow")}
               </span>
 
@@ -306,16 +313,16 @@ export default function PrivacyPage() {
               </p>
             </div>
 
-            <Link
-              href="/#contact"
-              className="group inline-flex w-fit items-center gap-3 rounded-full bg-primary px-6 py-4 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+            <Button
+              type="button"
+              onClick={() => {}}
+              variant="accent"
+              icon={ArrowUpRight}
+              iconRotate
+              className="mt-9 px-6 py-4 text-[10px] font-black"
             >
               {t("cta.button")}
-
-              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-white text-primary transition-transform duration-300 group-hover:rotate-45">
-                <ArrowUpRight size={13} />
-              </span>
-            </Link>
+            </Button>
           </div>
         </motion.div>
       </section>
@@ -324,7 +331,7 @@ export default function PrivacyPage() {
       <section className="border-t border-primary/7 bg-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-10 md:flex-row md:items-center md:justify-between md:px-8">
           <div className="flex items-center gap-3">
-            <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary/5">
+            <div className="flex h-9 w-9 items-center justify-center rounded-full bg-accent/10 text-accent">
               <Mail size={15} />
             </div>
 
@@ -335,7 +342,7 @@ export default function PrivacyPage() {
 
           <Link
             href="mailto:info@roshasoft.com"
-            className="text-sm font-semibold text-primary transition-opacity hover:opacity-60"
+            className="text-sm font-semibold text-primary transition-colors hover:text-accent"
           >
             info@roshasoft.com
           </Link>

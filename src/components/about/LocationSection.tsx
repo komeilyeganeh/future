@@ -24,7 +24,7 @@ export default function LocationSection() {
             once: true,
           }}
         >
-          <span className="text-[10px] font-black uppercase tracking-[.2em] text-[#D4AF37]">
+          <span className="text-[10px] font-black uppercase tracking-[.2em] text-accent">
             {t("eyebrow")}
           </span>
 
@@ -37,9 +37,9 @@ export default function LocationSection() {
           </p>
 
           {/* Istanbul Location Card */}
-          <div className="mt-9 rounded-[28px] border border-[#082f3a]/6 bg-[#f5f9fa] p-5">
+          <div className="mt-9 rounded-[28px] border border-primary/6 bg-[#f5f9fa] p-5">
             <div className="flex items-center gap-4">
-              <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-[#D4AF37] shadow-sm">
+              <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-accent shadow-sm">
                 <MapPin size={19} />
               </span>
 
@@ -54,8 +54,8 @@ export default function LocationSection() {
               </div>
             </div>
 
-            <div className="mt-5 flex items-center gap-2 text-[9px] font-bold uppercase tracking-[.14em] text-[#D4AF37]">
-              <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-[#D4AF37]" />
+            <div className="mt-5 flex items-center gap-2 text-[9px] font-bold uppercase tracking-[.14em] text-accent">
+              <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-accent" />
 
               {t("global")}
             </div>
@@ -98,7 +98,7 @@ export default function LocationSection() {
                 duration: 5,
                 repeat: Infinity,
               }}
-              className="absolute left-[48%] top-[42%] h-52 w-52 -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#D4AF37]/30"
+              className="absolute left-[48%] top-[42%] h-52 w-52 -translate-x-1/2 -translate-y-1/2 rounded-full border border-accent/30"
             />
 
             <motion.div
@@ -111,14 +111,14 @@ export default function LocationSection() {
                 repeat: Infinity,
                 delay: 1,
               }}
-              className="absolute left-[48%] top-[42%] h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#D4AF37]/15"
+              className="absolute left-[48%] top-[42%] h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full border border-accent/15"
             />
 
             {/* Istanbul Location */}
             <div className="absolute left-[48%] top-[42%] -translate-x-1/2 -translate-y-1/2">
-              <span className="absolute -inset-5 animate-ping rounded-full bg-[#D4AF37]/20" />
+              <span className="absolute -inset-5 animate-ping rounded-full bg-accent/20" />
 
-              <span className="relative flex h-14 w-14 items-center justify-center rounded-full border border-white/20 bg-[#D4AF37] text-primary shadow-[0_0_50px_rgba(212,175,55,.35)]">
+              <span className="relative flex h-14 w-14 items-center justify-center rounded-full border border-white/20 bg-accent text-primary shadow-[0_0_50px_rgba(212,175,55,.35)]">
                 <MapPin size={21} />
               </span>
             </div>
@@ -140,7 +140,7 @@ export default function LocationSection() {
                   </span>
                 </div>
 
-                <Globe2 size={22} className="text-[#D4AF37]" />
+                <Globe2 size={22} className="text-accent" />
               </div>
             </div>
           </div>

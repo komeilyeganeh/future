@@ -4,9 +4,12 @@ import { ArrowUpRight, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import { useState } from "react";
+import Button from "../ui/Button";
 
 export default function ServicesCTA() {
   const t = useTranslations("Services");
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <section
@@ -72,16 +75,15 @@ export default function ServicesCTA() {
           </div>
 
           {/* CTA */}
-          <Link
-            href="mailto:hello@roshasoft.com"
-            className="group/btn inline-flex w-fit items-center gap-4 rounded-full bg-white px-6 py-4 text-[10px] font-semibold text-primary shadow-[0_15px_40px_rgba(0,0,0,.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          <Button
+            type="button"
+            onClick={() => setIsOpen(true)}
+            variant="accent"
+            icon={ArrowUpRight}
+            className="mt-9 px-6 py-4 bg-accent text-[10px] font-black hover:bg-accent hover:shadow-[0_15px_40px_rgba(212,175,55,.18)]"
           >
             {t("cta.button")}
-
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#c8a45d] text-[#082f3a] transition-all duration-300 group-hover/btn:rotate-45 group-hover/btn:bg-[#d8b76a]">
-              <ArrowUpRight size={14} />
-            </span>
-          </Link>
+          </Button>
         </div>
 
         {/* Bottom accent */}

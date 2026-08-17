@@ -13,7 +13,7 @@ export default function HistorySection() {
       className="relative overflow-hidden bg-white px-5 py-28 sm:px-8 sm:py-36"
     >
       {/* Accent glow */}
-      <div className="pointer-events-none absolute -right-62.5 -top-25 h-150 w-150 rounded-full bg-[#d4af37]/[0.035] blur-[120px]" />
+      <div className="pointer-events-none absolute -right-62.5 -top-25 h-150 w-150 rounded-full bg-accent/[0.035] blur-[120px]" />
 
       <div className="relative mx-auto max-w-310">
         <div className="grid items-center gap-16 lg:grid-cols-[1fr_.9fr] lg:gap-24">
@@ -23,7 +23,7 @@ export default function HistorySection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <span className="text-[10px] font-black uppercase tracking-[.2em] text-[#d4af37]">
+            <span className="text-[10px] font-black uppercase tracking-[.2em] text-accent">
               {t("eyebrow")}
             </span>
 
@@ -36,7 +36,7 @@ export default function HistorySection() {
             </p>
 
             <div className="mt-9 flex items-center gap-4">
-              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#d4af37]/20 bg-[#d4af37]/10 text-[#d4af37]">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-accent/20 bg-accent/10 text-accent">
                 <Target size={17} />
               </span>
 
@@ -68,7 +68,7 @@ export default function HistorySection() {
                 />
 
                 {/* Subtle gold ambient light */}
-                <div className="absolute right-8 top-8 h-32 w-32 rounded-full bg-[#d4af37]/[0.055] blur-3xl" />
+                <div className="absolute right-8 top-8 h-32 w-32 rounded-full bg-accent/[0.055] blur-3xl" />
 
                 <div className="relative z-10 flex h-full min-h-77 flex-col sm:min-h-96.5 md:min-h-109">
                   <span className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 sm:text-[9px]">
@@ -81,7 +81,7 @@ export default function HistorySection() {
                     </span>
 
                     {/* Gold accent line */}
-                    <div className="mt-3 h-1 w-14 rounded-full bg-[#d4af37] sm:w-20" />
+                    <div className="mt-3 h-1 w-14 rounded-full bg-accent sm:w-20" />
 
                     <p className="mt-6 max-w-full text-[clamp(1rem,3.5vw,1.1875rem)] font-bold leading-tight tracking-[-.035em] text-white/70 sm:mt-7 sm:max-w-75">
                       {t("yearText")}

@@ -1,14 +1,10 @@
 "use client";
 
-import {
-  ArrowDown,
-  ArrowUpRight,
-  Radio,
-  ScanLine,
-} from "lucide-react";
+import { ArrowDown, ArrowUpRight, Radio, ScanLine } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "@/components/ui/Button";
 
 export default function RFIDHero() {
   const t = useTranslations("RFID.hero");
@@ -68,26 +64,23 @@ export default function RFIDHero() {
             transition={{ duration: 0.7, delay: 0.4 }}
             className="mt-9 flex flex-wrap gap-3"
           >
-            <Link
-              href="#how-it-works"
-              className="group flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+            <Button
+              href="/#contact"
+              icon={ArrowUpRight}
+              iconRotate
+              className="bg-[#103d4e] px-6 py-4 text-[10px] font-bold shadow-[0_20px_50px_rgba(16,61,78,.18)] hover:shadow-[0_28px_60px_rgba(8,120,140,.25)]"
             >
               {t("explore")}
+            </Button>
 
-              <ArrowDown
-                size={14}
-                className="transition-transform duration-300 group-hover:translate-y-1"
-              />
-            </Link>
-
-            <Link
-              href="#contact"
-              className="flex items-center gap-2 rounded-full border border-[#c9a86a]/30 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:border-[#c9a86a]/60"
+            <Button
+              href="/#services"
+              variant="secondary"
+              icon={ArrowDown}
+              className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
             >
               {t("button")}
-
-              <ArrowUpRight size={14} className="text-[#b08d4f]" />
-            </Link>
+            </Button>
           </motion.div>
         </div>
 
@@ -103,16 +96,12 @@ export default function RFIDHero() {
 
           <div className="absolute inset-[18%] rounded-full border border-[#c9a86a]/15" />
 
-          <div className="absolute inset-[29%] rounded-full border border-[#082f3a]/9" />
+          <div className="absolute inset-[29%] rounded-full border border-primary/9" />
 
           {/* Center */}
           <div className="absolute left-1/2 top-1/2 flex h-36 w-36 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-primary shadow-[0_30px_100px_rgba(8,47,58,0.2)] md:h-44 md:w-44">
             <div className="relative flex h-24 w-24 items-center justify-center rounded-full border border-[#c9a86a]/25 md:h-28 md:w-28">
-              <Radio
-                size={34}
-                strokeWidth={1.2}
-                className="text-[#c9a86a]"
-              />
+              <Radio size={34} strokeWidth={1.2} className="text-[#c9a86a]" />
 
               <span className="absolute inset-0 animate-ping rounded-full border border-[#c9a86a]/20" />
             </div>

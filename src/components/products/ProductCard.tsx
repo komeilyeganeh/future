@@ -31,8 +31,8 @@ export default function ProductCard({
       whileHover={{ y: -8 }}
       className={`group relative overflow-hidden rounded-4xl border p-7 transition-all duration-500 md:p-9 ${
         featured
-          ? "border-[#082f3a] bg-primary text-white"
-          : "border-[#082f3a]/8 bg-white text-primary hover:border-[#c9a45c]/30 hover:shadow-[0_25px_80px_rgba(8,47,58,0.08)]"
+          ? "border-primary bg-primary text-white"
+          : "border-primary/8 bg-white text-primary hover:border-[#c9a45c]/30 hover:shadow-[0_25px_80px_rgba(8,47,58,0.08)]"
       }`}
     >
       {/* =========================================================
@@ -114,7 +114,7 @@ export default function ProductCard({
               className={`flex items-center gap-3 border-b pb-3 last:border-0 ${
                 featured
                   ? "border-white/8"
-                  : "border-[#082f3a]/6"
+                  : "border-primary/6"
               }`}
             >
               <span

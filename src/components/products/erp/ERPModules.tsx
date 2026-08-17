@@ -49,9 +49,9 @@ export default function ERPModules() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.06 }}
-                className="group rounded-3xl border border-white/8 bg-white/3 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#d4af37]/25 hover:bg-white/6"
+                className="group rounded-3xl border border-white/8 bg-white/3 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/25 hover:bg-white/6"
               >
-                <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-[#d4af37]/10 text-[#d4af37] transition-all duration-300 group-hover:bg-[#d4af37] group-hover:text-primary">
+                <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-accent/10 text-accent transition-all duration-300 group-hover:bg-accent group-hover:text-primary">
                   <Icon
                     size={19}
                     strokeWidth={1.7}
@@ -67,7 +67,7 @@ export default function ERPModules() {
                   {t(`items.${key}.description`)}
                 </p>
 
-                <div className="mt-5 h-px w-0 bg-[#d4af37]/50 transition-all duration-500 group-hover:w-10" />
+                <div className="mt-5 h-px w-0 bg-accent/50 transition-all duration-500 group-hover:w-10" />
               </motion.div>
             ))}
           </div>

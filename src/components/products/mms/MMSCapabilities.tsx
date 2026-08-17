@@ -139,7 +139,7 @@ export default function MMSCapabilities() {
                         className={`flex items-center gap-3 border-b pb-3 last:border-0 ${
                           item.featured
                             ? "border-white/8"
-                            : "border-[#082f3a]/6"
+                            : "border-primary/6"
                         }`}
                       >
                         <span

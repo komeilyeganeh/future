@@ -18,7 +18,7 @@ export default function Stats() {
             key={label}
             className={`relative px-5 py-9 text-center sm:px-10 ${
               index < 3
-                ? "border-b border-[#082f3a]/5 lg:border-b-0 lg:border-r"
+                ? "border-b border-primary/5 lg:border-b-0 lg:border-r"
                 : ""
             }`}
           >

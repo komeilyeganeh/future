@@ -65,7 +65,7 @@ export default function TeamSection() {
       <div className="pointer-events-none absolute -right-40 bottom-10 h-125 w-125 rounded-full bg-[#164e63]/5 blur-[120px]" />
 
       {/* Subtle gold atmosphere */}
-      <div className="pointer-events-none absolute right-[18%] top-[12%] h-72 w-72 rounded-full bg-[#d4af37]/[0.025] blur-[110px]" />
+      <div className="pointer-events-none absolute right-[18%] top-[12%] h-72 w-72 rounded-full bg-accent/[0.025] blur-[110px]" />
 
       <div className="relative mx-auto max-w-310">
         {/* Header */}
@@ -79,7 +79,7 @@ export default function TeamSection() {
           }}
           className="max-w-180"
         >
-          <span className="text-[10px] font-bold uppercase tracking-[.2em] text-[#d4af37]">
+          <span className="text-[10px] font-bold uppercase tracking-[.2em] text-accent">
             Our Team
           </span>
 
@@ -135,10 +135,10 @@ export default function TeamSection() {
                   />
 
                   {/* Main dark gradient */}
-                  <div className="absolute inset-0 bg-linear-to-b from-[#082f3a]/10 via-transparent to-[#082f3a]/95 opacity-90 transition-all duration-500 group-hover:from-[#082f3a]/20 group-hover:to-[#082f3a]" />
+                  <div className="absolute inset-0 bg-linear-to-b from-primary/10 via-transparent to-primary/95 opacity-90 transition-all duration-500 group-hover:from-primary/20 group-hover:to-primary" />
 
                   {/* Bottom atmospheric glow */}
-                  <div className="absolute inset-x-0 bottom-0 h-[65%] bg-linear-to-t from-[#082f3a]/80 via-[#082f3a]/20 to-transparent" />
+                  <div className="absolute inset-x-0 bottom-0 h-[65%] bg-linear-to-t from-primary/80 via-primary/20 to-transparent" />
 
                   {/* Soft glass highlight */}
                   <div className="absolute inset-x-0 top-0 h-40 bg-linear-to-b from-white/15 to-transparent" />
@@ -152,7 +152,7 @@ export default function TeamSection() {
                   {/* Top Meta */}
                   <div className="absolute left-5 right-5 top-5 flex items-center justify-between">
                     {/* Number */}
-                    <span className="flex h-8 min-w-8 items-center justify-center rounded-full border border-[#d4af37]/30 bg-[#d4af37]/10 px-2.5 text-[8px] font-bold tracking-[.16em] text-[#f0d77a] backdrop-blur-xl">
+                    <span className="flex h-8 min-w-8 items-center justify-center rounded-full border border-accent/30 bg-accent/10 px-2.5 text-[8px] font-bold tracking-[.16em] text-[#f0d77a] backdrop-blur-xl">
                       0{index + 1}
                     </span>
 
@@ -173,8 +173,8 @@ export default function TeamSection() {
                     <div className="flex items-end justify-between gap-4">
                       {/* Name / Role */}
                       <div className="min-w-0">
-                        <span className="mb-2 inline-flex items-center gap-2 text-[7px] font-bold uppercase tracking-[.18em] text-[#d4af37]">
-                          <span className="h-1.5 w-1.5 rounded-full bg-[#d4af37] shadow-[0_0_12px_rgba(212,175,55,.65)]" />
+                        <span className="mb-2 inline-flex items-center gap-2 text-[7px] font-bold uppercase tracking-[.18em] text-accent">
+                          <span className="h-1.5 w-1.5 rounded-full bg-accent shadow-[0_0_12px_rgba(212,175,55,.65)]" />
 
                           RoshaSoft
                         </span>
@@ -202,7 +202,7 @@ export default function TeamSection() {
                     </div>
 
                     {/* Social / Bottom Glass Bar */}
-                    <div className="mt-5 flex items-center justify-between rounded-[18px] border border-white/15 bg-white/8 px-3 py-2.5 backdrop-blur-xl transition-all duration-500 group-hover:border-[#d4af37]/15 group-hover:bg-white/12">
+                    <div className="mt-5 flex items-center justify-between rounded-[18px] border border-white/15 bg-white/8 px-3 py-2.5 backdrop-blur-xl transition-all duration-500 group-hover:border-accent/15 group-hover:bg-white/12">
                       <span className="text-[7px] font-bold uppercase tracking-[.16em] text-white/40">
                         Connect
                       </span>
@@ -214,7 +214,7 @@ export default function TeamSection() {
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label={`${member.name} LinkedIn`}
-                            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/15 bg-white/6 text-white/70 backdrop-blur-xl transition-all duration-300 hover:scale-110 hover:border-[#d4af37] hover:bg-[#d4af37] hover:text-primary"
+                            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/15 bg-white/6 text-white/70 backdrop-blur-xl transition-all duration-300 hover:scale-110 hover:border-accent hover:bg-accent hover:text-primary"
                           >
                             <svg
                               width="12"

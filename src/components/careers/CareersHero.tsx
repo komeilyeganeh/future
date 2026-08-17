@@ -11,6 +11,7 @@ import {
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "../ui/Button";
 
 export default function CareersHero() {
   const t = useTranslations("Careers");
@@ -54,7 +55,7 @@ export default function CareersHero() {
             duration: 0.6,
             ease: [0.16, 1, 0.3, 1],
           }}
-          className="flex items-center justify-between border-b border-[#082f3a]/8 pb-5"
+          className="flex items-center justify-between border-b border-primary/8 pb-5"
         >
           <div className="flex items-center gap-3">
             <span className="relative flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white">
@@ -182,7 +183,7 @@ export default function CareersHero() {
             BOTTOM CONTENT
         ======================================================= */}
 
-        <div className="grid gap-8 border-t border-[#082f3a]/8 pt-8 md:grid-cols-[1fr_auto] md:items-end">
+        <div className="grid gap-8 border-t border-primary/8 pt-8 md:grid-cols-[1fr_auto] md:items-end">
           {/* Left text */}
           <motion.div
             initial={{
@@ -206,28 +207,23 @@ export default function CareersHero() {
 
             {/* Buttons */}
             <div className="mt-7 flex flex-wrap gap-3">
-              <Link
-                href="#jobs"
-                className="group inline-flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[10px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_40px_rgba(8,47,58,0.18)]"
+              <Button
+                href="/#contact"
+                icon={ArrowUpRight}
+                iconRotate
+                className="bg-[#103d4e] px-6 py-4 text-[10px] font-bold shadow-[0_20px_50px_rgba(16,61,78,.18)] hover:shadow-[0_28px_60px_rgba(8,120,140,.25)]"
               >
                 {t("hero.primaryButton")}
+              </Button>
 
-                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-white/10 transition-all duration-300 group-hover:rotate-45 group-hover:bg-[#d6ad55] group-hover:text-primary">
-                  <ArrowUpRight size={13} />
-                </span>
-              </Link>
-
-              <Link
-                href="#culture"
-                className="group inline-flex items-center gap-3 rounded-full border border-[#082f3a]/10 bg-white px-6 py-3.5 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:border-[#d6ad55]/40 hover:shadow-[0_15px_40px_rgba(214,173,85,.08)]"
+              <Button
+                href="/#services"
+                variant="secondary"
+                icon={ArrowDown}
+                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
               >
                 {t("hero.secondaryButton")}
-
-                <ArrowDown
-                  size={13}
-                  className="transition-transform duration-300 group-hover:translate-y-1 group-hover:text-[#d6ad55]"
-                />
-              </Link>
+              </Button>
             </div>
           </motion.div>
 
@@ -251,7 +247,7 @@ export default function CareersHero() {
             }}
             className="relative w-full max-w-75 justify-self-start md:justify-self-end"
           >
-            <div className="group relative overflow-hidden rounded-[26px] border border-[#082f3a]/8 bg-white p-5 shadow-[0_25px_80px_rgba(8,47,58,0.06)] transition-all duration-500 hover:-translate-y-1 hover:border-[#d6ad55]/25 hover:shadow-[0_30px_90px_rgba(8,47,58,.09)]">
+            <div className="group relative overflow-hidden rounded-[26px] border border-primary/8 bg-white p-5 shadow-[0_25px_80px_rgba(8,47,58,0.06)] transition-all duration-500 hover:-translate-y-1 hover:border-[#d6ad55]/25 hover:shadow-[0_30px_90px_rgba(8,47,58,.09)]">
               {/* Card glow */}
               <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-primary/[0.035] blur-2xl" />
 
@@ -295,7 +291,7 @@ export default function CareersHero() {
                       <Users size={12} />
                     </div>
 
-                    <div className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[#71838a] text-white">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-secondary text-white">
                       <Sparkles size={12} />
                     </div>
                   </div>
@@ -329,10 +325,7 @@ export default function CareersHero() {
             className="flex w-max items-center"
           >
             {[...Array(2)].map((_, groupIndex) => (
-              <div
-                key={groupIndex}
-                className="flex items-center"
-              >
+              <div key={groupIndex} className="flex items-center">
                 <span className="mx-8 text-[9px] font-semibold uppercase tracking-[0.3em] text-primary/40">
                   {t("hero.ticker.development")}
                 </span>

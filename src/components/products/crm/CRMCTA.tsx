@@ -4,12 +4,16 @@ import { ArrowUpRight, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "@/components/ui/Button";
 
 export default function CRMCTA() {
   const t = useTranslations("CRM.cta");
 
   return (
-    <section id="contact" className="bg-background-soft px-5 py-6 md:px-8 md:py-8">
+    <section
+      id="contact"
+      className="bg-background-soft px-5 py-6 md:px-8 md:py-8"
+    >
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -45,16 +49,15 @@ export default function CRMCTA() {
             </p>
           </div>
 
-          <Link
-            href="mailto:hello@roshasoft.com"
-            className="group inline-flex w-fit items-center gap-4 rounded-full bg-white px-6 py-4 text-[10px] font-semibold text-primary transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          <Button
+            type="button"
+            onClick={() => {}}
+            variant="accent"
+            icon={ArrowUpRight}
+            className="mt-9 px-6 py-4 bg-accent text-[10px] font-black hover:bg-accent hover:shadow-[0_15px_40px_rgba(212,175,55,.18)]"
           >
             {t("button")}
-
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:rotate-45">
-              <ArrowUpRight size={14} />
-            </span>
-          </Link>
+          </Button>
         </div>
       </motion.div>
     </section>

@@ -12,6 +12,7 @@ import {
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Button from "../ui/Button";
 
 export default function ServicesHero() {
   const t = useTranslations("Services");
@@ -26,10 +27,10 @@ export default function ServicesHero() {
         <div className="absolute -left-32 top-20 h-96 w-96 rounded-full bg-[#08788c]/7 blur-[120px]" />
 
         {/* Gold glow */}
-        <div className="absolute right-[-120px] top-[12%] h-105 w-105 rounded-full bg-[#c9a45c]/10 blur-[120px]" />
+        <div className="absolute -right-30 top-[12%] h-105 w-105 rounded-full bg-[#c9a45c]/10 blur-[120px]" />
 
         {/* Bottom glow */}
-        <div className="absolute bottom-[-180px] left-1/2 h-125 w-125 -translate-x-1/2 rounded-full bg-primary/5 blur-[110px]" />
+        <div className="absolute -bottom-45 left-1/2 h-125 w-125 -translate-x-1/2 rounded-full bg-primary/5 blur-[110px]" />
 
         {/* Fine grid */}
         <div
@@ -63,7 +64,7 @@ export default function ServicesHero() {
             >
               <span className="h-px w-10 bg-[#c9a45c]" />
 
-              <span className="text-[9px] font-black uppercase tracking-[0.28em] text-[#08788c]">
+              <span className="text-[9px] font-black uppercase tracking-[0.28em] text-accent">
                 {t("hero.eyebrow")}
               </span>
 
@@ -119,29 +120,23 @@ export default function ServicesHero() {
               }}
               className="mt-9 flex flex-wrap gap-3"
             >
-              <Link
-                href="#services"
-                className="group inline-flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-[9px] font-black uppercase tracking-[0.08em] text-white shadow-[0_15px_40px_rgba(8,47,58,.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(8,47,58,.2)]"
-              >
-                {t("hero.secondaryButton")}
-
-                <ArrowDown
-                  size={14}
-                  className="transition-transform duration-300 group-hover:translate-y-1"
-                />
-              </Link>
-
-              <Link
-                href="#contact"
-                className="group inline-flex items-center gap-2 rounded-full border border-[#082f3a]/10 bg-white/80 px-6 py-3.5 text-[9px] font-black uppercase tracking-[0.08em] text-primary shadow-[0_10px_30px_rgba(8,47,58,.04)] backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-[#c9a45c]/50 hover:shadow-[0_15px_40px_rgba(8,47,58,.08)]"
+              <Button
+                href="/#contact"
+                icon={ArrowUpRight}
+                iconRotate
+                className="bg-[#103d4e] px-6 py-4 text-[10px] font-bold shadow-[0_20px_50px_rgba(16,61,78,.18)] hover:shadow-[0_28px_60px_rgba(8,120,140,.25)]"
               >
                 {t("hero.primaryButton")}
+              </Button>
 
-                <ArrowUpRight
-                  size={14}
-                  className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                />
-              </Link>
+              <Button
+                href="/#services"
+                variant="secondary"
+                icon={ArrowDown}
+                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
+              >
+                {t("hero.secondaryButton")}
+              </Button>
             </motion.div>
 
             {/* Small trust line */}
@@ -270,10 +265,7 @@ export default function ServicesHero() {
 
                       {/* Core */}
                       <div className="relative flex h-28 w-28 flex-col items-center justify-center rounded-full border border-white/10 bg-white/6 shadow-[0_20px_70px_rgba(0,0,0,.25)] backdrop-blur-xl sm:h-32 sm:w-32">
-                        <Sparkles
-                          size={17}
-                          className="mb-3 text-[#c9a45c]"
-                        />
+                        <Sparkles size={17} className="mb-3 text-[#c9a45c]" />
 
                         <span className="text-[8px] font-black uppercase tracking-[0.25em] text-white/35">
                           Digital

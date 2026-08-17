@@ -91,7 +91,7 @@ export default function WebDesignTypes() {
                       (feature) => (
                         <div
                           key={feature}
-                          className="flex items-center gap-3 border-b border-[#082f3a]/6 pb-3 last:border-0"
+                          className="flex items-center gap-3 border-b border-primary/6 pb-3 last:border-0"
                         >
                           <span className="h-1.5 w-1.5 rounded-full bg-[#c9a227]/55 transition-transform duration-300 group-hover:scale-125" />
 

@@ -77,7 +77,7 @@ export default function ServicesProcess() {
         </motion.div>
 
         {/* Steps */}
-        <div className="relative mt-16 grid gap-0 border-t border-[#082f3a]/8 md:grid-cols-4">
+        <div className="relative mt-16 grid gap-0 border-t border-primary/8 md:grid-cols-4">
           {steps.map((step, index) => {
             const Icon = step.icon;
 
@@ -92,7 +92,7 @@ export default function ServicesProcess() {
                   delay: index * 0.1,
                   ease: [0.16, 1, 0.3, 1],
                 }}
-                className="group relative border-b border-[#082f3a]/8 py-8 md:border-b-0 md:border-r md:px-7 md:first:pl-0 md:last:border-r-0"
+                className="group relative border-b border-primary/8 py-8 md:border-b-0 md:border-r md:px-7 md:first:pl-0 md:last:border-r-0"
               >
                 {/* Hover accent */}
                 <div className="absolute left-0 top-0 h-px w-0 bg-linear-to-r from-[#08788c] via-[#c8a45d] to-transparent transition-all duration-700 group-hover:w-full" />

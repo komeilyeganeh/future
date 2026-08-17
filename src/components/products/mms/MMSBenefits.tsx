@@ -74,7 +74,7 @@ export default function MMSBenefits() {
                   duration: 0.6,
                   delay: index * 0.06,
                 }}
-                className="group flex gap-5 border-t border-[#082f3a]/8 py-7 transition-all duration-300"
+                className="group flex gap-5 border-t border-primary/8 py-7 transition-all duration-300"
               >
                 {/* Icon */}
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#c9a45c]/10 text-[#a98743] transition-all duration-300 group-hover:bg-[#c9a45c] group-hover:text-white">
