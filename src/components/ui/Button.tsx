@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  ArrowDown,
   ArrowUpRight,
   type LucideIcon,
 } from "lucide-react";
@@ -89,7 +88,7 @@ function ButtonContent({
             className={
               iconRotate
                 ? "transition-transform duration-300 group-hover:rotate-45"
-                : "transition-transform duration-300  "
+                : "transition-transform duration-300"
             }
           />
         </span>
@@ -120,11 +119,15 @@ export default function Button({
     className,
   ].join(" ");
 
-  if ("href" in props && props.href) {
-    const { href } = props;
-
+  /*
+   * Link Button
+   */
+  if ("href" in props) {
     return (
-      <Link href={href} className={baseClassName}>
+      <Link
+        href={props.href!}
+        className={baseClassName}
+      >
         <ButtonContent
           icon={Icon}
           iconPosition={iconPosition}
@@ -136,7 +139,16 @@ export default function Button({
     );
   }
 
-  const { type = "button", disabled, onClick } = props;
+  /*
+   * Native Button
+   *
+   * TypeScript now knows that props is NativeButtonProps.
+   */
+  const {
+    type = "button",
+    disabled = false,
+    onClick,
+  } = props;
 
   return (
     <button
