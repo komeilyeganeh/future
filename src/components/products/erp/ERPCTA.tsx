@@ -28,7 +28,7 @@ export default function ERPCTA() {
 
         <div className="absolute -bottom-25 -left-25 h-62.5 w-62.5 rounded-full bg-[#c9a45c]/[0.035] blur-3xl" />
 
-        <div className="absolute bottom-0 left-1/2 h-px w-32 -translate-x-1/2 bg-gradient-to-r from-transparent via-[#c9a45c]/40 to-transparent" />
+        <div className="absolute bottom-0 left-1/2 h-px w-32 -translate-x-1/2 bg-linear-to-r from-transparent via-[#c9a45c]/40 to-transparent" />
 
         <div className="relative z-10 grid gap-12 lg:grid-cols-[1fr_auto] lg:items-end">
           <div>

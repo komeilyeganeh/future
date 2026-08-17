@@ -110,7 +110,7 @@ export default function CRMHero() {
                 href="/#services"
                 variant="secondary"
                 icon={ArrowDown}
-                className="border-[#08788c]/15 bg-white/70 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white hover:text-primary"
+                className="border-[#08788c]/15 bg-white/70 px-5 py-4 text-[10px] font-bold text-primary-soft shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white hover:text-primary"
               >
                 {t("secondaryButton")}
               </Button>

@@ -7,7 +7,7 @@ import Contact from "@/components/home/Contact";
 
 export default function HomePage() {
   return (
-    <main className="overflow-hidden bg-[#f6fafb] text-primary">
+    <main className="overflow-hidden bg-background-soft text-primary">
       <Hero />
       <About />
       <Services />

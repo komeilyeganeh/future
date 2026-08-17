@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, ArrowUpRight, MoveUpRight, Sparkles } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
 import Button from "../ui/Button";
 
 export default function Hero() {
@@ -23,7 +22,7 @@ export default function Hero() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="absolute -left-[260px] -top-[220px] h-[650px] w-[650px] rounded-full bg-[#08788c]/10 blur-[110px]"
+          className="absolute -left-65 -top-55 h-162.5 w-162.5 rounded-full bg-[#08788c]/10 blur-[110px]"
         />
 
         <motion.div
@@ -37,7 +36,7 @@ export default function Hero() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="absolute -right-[240px] top-[80px] h-[560px] w-[560px] rounded-full bg-[#70dce7]/10 blur-[110px]"
+          className="absolute -right-60 top-20 h-140 w-140 rounded-full bg-primary-light/10 blur-[110px]"
         />
 
         <div
@@ -74,7 +73,7 @@ export default function Hero() {
             ease: "easeInOut",
             delay: 1,
           }}
-          className="absolute right-[19%] top-[24%] h-1.5 w-1.5 rounded-full bg-[#70dce7]"
+          className="absolute right-[19%] top-[24%] h-1.5 w-1.5 rounded-full bg-primary-light"
         />
 
         <motion.span
@@ -131,7 +130,7 @@ export default function Hero() {
                   delay: 0.08,
                   ease: [0.16, 1, 0.3, 1],
                 }}
-                className="max-w-[780px] text-[48px] font-extrabold leading-[.96] tracking-[-.07em] text-[#103d4e] sm:text-[64px] lg:text-[78px]"
+                className="max-w-195 text-[48px] font-extrabold leading-[.96] tracking-[-.07em] text-[#103d4e] sm:text-[64px] lg:text-[78px]"
               >
                 {t("titleLineOne")}
 
@@ -154,7 +153,7 @@ export default function Hero() {
                       delay: 0.85,
                       ease: [0.16, 1, 0.3, 1],
                     }}
-                    className="absolute -bottom-2 left-0 h-[3px] w-full origin-left rounded-full bg-linear-to-r from-[#08788c] via-accent to-transparent sm:-bottom-3"
+                    className="absolute -bottom-2 left-0 h-0.75 w-full origin-left rounded-full bg-linear-to-r from-[#08788c] via-accent to-transparent sm:-bottom-3"
                   />
                 </span>
               </motion.h1>
@@ -207,7 +206,7 @@ export default function Hero() {
                 href="/#services"
                 variant="secondary"
                 icon={ArrowDown}
-                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
+                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-primary-soft shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
               >
                 {t("secondaryButton")}
               </Button>
@@ -260,12 +259,12 @@ export default function Hero() {
                     ease: "easeInOut",
                     delay: 0.6,
                   }}
-                  className="h-8 w-8 rounded-full border-2 border-white bg-[#70dce7]"
+                  className="h-8 w-8 rounded-full border-2 border-white bg-primary-light"
                 />
               </div>
 
               <div>
-                <div className="text-[9px] font-bold text-[#315d6b]">
+                <div className="text-[9px] font-bold text-primary-soft">
                   {t("floatingLabelTwo")}
                 </div>
 
@@ -305,7 +304,7 @@ export default function Hero() {
               delay: 0.25,
               ease: [0.16, 1, 0.3, 1],
             }}
-            className="relative mx-auto w-full max-w-[560px]"
+            className="relative mx-auto w-full max-w-140"
           >
             <motion.div
               animate={{
@@ -317,7 +316,7 @@ export default function Hero() {
                 repeat: Infinity,
                 ease: "easeInOut",
               }}
-              className="absolute left-1/2 top-1/2 h-[390px] w-[390px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#08788c]/10 blur-[80px]"
+              className="absolute left-1/2 top-1/2 h-97.5 w-97.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#08788c]/10 blur-[80px]"
             />
 
             <motion.div className="relative overflow-hidden rounded-[38px] border border-white/70 bg-white/55 p-4 shadow-[0_40px_100px_rgba(24,71,88,.13)] backdrop-blur-2xl sm:p-5">
@@ -343,7 +342,7 @@ export default function Hero() {
                     repeat: Infinity,
                     ease: "linear",
                   }}
-                  className="absolute -right-20 -top-20 h-[270px] w-[270px] rounded-full border border-white/10"
+                  className="absolute -right-20 -top-20 h-67.5 w-67.5 rounded-full border border-white/10"
                 />
 
                 <motion.div
@@ -378,7 +377,7 @@ export default function Hero() {
                     Digital Intelligence
                   </span>
 
-                  <h3 className="mt-4 max-w-[390px] text-[31px] font-bold leading-[1.05] tracking-[-.055em] text-white sm:text-[38px]">
+                  <h3 className="mt-4 max-w-97.5 text-[31px] font-bold leading-[1.05] tracking-[-.055em] text-white sm:text-[38px]">
                     Technology
                     <br />
                     <span className="text-accent">built for tomorrow.</span>
@@ -460,7 +459,7 @@ export default function Hero() {
                 </span>
 
                 <div>
-                  <div className="text-[9px] font-bold text-[#315d6b]">
+                  <div className="text-[9px] font-bold text-primary-soft">
                     Smart
                   </div>
 

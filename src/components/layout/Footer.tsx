@@ -20,12 +20,12 @@ export default function Footer() {
                 />
               </span>
 
-              <span className="text-[15px] font-extrabold tracking-[-.05em]">
+              <span className="text-[15px] font-extrabold tracking-tighter">
                 RoshaSoft
               </span>
             </Link>
 
-            <p className="mt-5 max-w-[330px] text-[11px] leading-[1.8] text-[#85959a]">
+            <p className="mt-5 max-w-82.5 text-[11px] leading-[1.8] text-[#85959a]">
               {t("description")}
             </p>
           </div>
@@ -79,11 +79,9 @@ export default function Footer() {
             <div className="mt-5 flex flex-col gap-3 text-[10px] text-secondary">
               <a href="mailto:hello@roshasoft.com">Email</a>
 
-              <a href="#" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/company/roshasoft" target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
-
-              <a href="#contact">{t("contact")}</a>
             </div>
           </div>
         </div>

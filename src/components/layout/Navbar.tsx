@@ -78,7 +78,7 @@ export default function Navbar() {
           }}
           className="
             relative
-            z-[110]
+            z-110
             flex
             h-16
             w-full
@@ -92,7 +92,7 @@ export default function Navbar() {
             backdrop-blur-2xl
             supports-[backdrop-filter]:bg-white/60
 
-            sm:h-[68px]
+            sm:h-17
             sm:rounded-full
             sm:px-4
 
@@ -107,7 +107,6 @@ export default function Navbar() {
               inset-x-6
               top-0
               h-px
-              bg-white/90
               sm:inset-x-10
             "
           />

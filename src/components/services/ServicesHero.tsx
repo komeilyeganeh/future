@@ -133,7 +133,7 @@ export default function ServicesHero() {
                 href="/#services"
                 variant="secondary"
                 icon={ArrowDown}
-                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
+                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-primary-soft shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
               >
                 {t("hero.secondaryButton")}
               </Button>
@@ -271,7 +271,7 @@ export default function ServicesHero() {
                           Digital
                         </span>
 
-                        <span className="mt-1 text-xl font-black tracking-[-.05em] text-white">
+                        <span className="mt-1 text-xl font-black tracking-tighter text-white">
                           Systems
                         </span>
                       </div>

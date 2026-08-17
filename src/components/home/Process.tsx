@@ -37,9 +37,9 @@ export default function Process() {
       id="process"
       className="relative overflow-hidden bg-[#11131a] py-28 text-white sm:py-36"
     >
-      <div className="pointer-events-none absolute right-[-200px] top-[-200px] h-[650px] w-[650px] rounded-full bg-[#6c4cff]/20 blur-[130px]" />
+      <div className="pointer-events-none absolute -right-50 -top-50 h-162.5 w-162.5 rounded-full bg-purple-accent/20 blur-[130px]" />
 
-      <div className="pointer-events-none absolute bottom-[-300px] left-[-200px] h-150 w-150 rounded-full bg-[#36c8e8]/10 blur-[130px]" />
+      <div className="pointer-events-none absolute -bottom-75 -left-50 h-150 w-150 rounded-full bg-[#36c8e8]/10 blur-[130px]" />
 
       <div className="relative mx-auto w-[calc(100%-30px)] max-w-310 md:w-[calc(100%-48px)]">
         <div className="grid gap-16 lg:grid-cols-[.7fr_1.3fr]">

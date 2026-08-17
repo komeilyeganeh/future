@@ -24,16 +24,16 @@ export default function CareersCTA() {
         <div className="absolute -right-20 -top-20 h-62.5 w-62.5 rounded-full border border-white/5" />
 
         {/* Gold ambient glow */}
-        <div className="pointer-events-none absolute -left-20 bottom-[-120px] h-80 w-80 rounded-full bg-[#c9a96e]/10 blur-[100px]" />
+        <div className="pointer-events-none absolute -left-20 bottom-[-120px] h-80 w-80 rounded-full bg-accent-soft/10 blur-[100px]" />
 
-        <div className="pointer-events-none absolute right-[18%] top-[-80px] h-60 w-60 rounded-full bg-[#c9a96e]/6 blur-[90px]" />
+        <div className="pointer-events-none absolute right-[18%] top-[-80px] h-60 w-60 rounded-full bg-accent-soft/6 blur-[90px]" />
 
         <div className="absolute -bottom-25 -left-25 h-62.5 w-62.5 rounded-full bg-white/2.5 blur-3xl" />
 
         <div className="relative z-10 grid gap-12 lg:grid-cols-[1fr_auto] lg:items-end">
           <div>
             <div className="mb-7 flex items-center gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-full border border-[#c9a96e]/20 bg-[#c9a96e]/10 text-[#d8bb82]">
+              <div className="flex h-9 w-9 items-center justify-center rounded-full border border-accent-soft/20 bg-accent-soft/10 text-[#d8bb82]">
                 <Sparkles size={14} />
               </div>
 
@@ -67,7 +67,7 @@ export default function CareersCTA() {
         </div>
 
         {/* Subtle gold accent line */}
-        <div className="absolute bottom-0 left-0 h-px w-1/3 bg-linear-to-r from-[#c9a96e]/60 to-transparent" />
+        <div className="absolute bottom-0 left-0 h-px w-1/3 bg-linear-to-r from-accent-soft/60 to-transparent" />
       </motion.div>
     </section>
   );

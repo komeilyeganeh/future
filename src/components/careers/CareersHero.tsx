@@ -34,9 +34,9 @@ export default function CareersHero() {
         <div className="absolute -bottom-45 left-1/2 h-105 w-105 -translate-x-1/2 rounded-full bg-primary/2.5 blur-3xl" />
 
         {/* Gold atmosphere */}
-        <div className="absolute left-[15%] top-[28%] h-55 w-55 rounded-full bg-[#d6ad55]/5 blur-[100px]" />
+        <div className="absolute left-[15%] top-[28%] h-55 w-55 rounded-full bg-accent-light/5 blur-[100px]" />
 
-        <div className="absolute right-[12%] top-[15%] h-45 w-45 rounded-full bg-[#d6ad55]/4 blur-[90px]" />
+        <div className="absolute right-[12%] top-[15%] h-45 w-45 rounded-full bg-accent-light/4 blur-[90px]" />
       </div>
 
       {/* =========================================================
@@ -61,7 +61,7 @@ export default function CareersHero() {
             <span className="relative flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white">
               <BriefcaseBusiness size={13} />
 
-              <span className="absolute inset-0 rounded-full bg-[#d6ad55]/20 blur-md" />
+              <span className="absolute inset-0 rounded-full bg-accent-light/20 blur-md" />
             </span>
 
             <span className="text-[9px] font-semibold uppercase tracking-[0.3em] text-secondary">
@@ -113,7 +113,7 @@ export default function CareersHero() {
               delay: 0.25,
               ease: [0.16, 1, 0.3, 1],
             }}
-            className="pointer-events-none absolute right-[12%] top-[18%] h-3 w-3 rounded-full bg-[#d6ad55] shadow-[0_0_0_7px_rgba(214,173,85,.08),0_0_25px_rgba(214,173,85,.35)]"
+            className="pointer-events-none absolute right-[12%] top-[18%] h-3 w-3 rounded-full bg-accent-light shadow-[0_0_0_7px_rgba(214,173,85,.08),0_0_25px_rgba(214,173,85,.35)]"
           />
 
           <div className="relative z-10 max-w-6xl">
@@ -172,7 +172,7 @@ export default function CareersHero() {
                     delay: 0.65,
                     ease: [0.16, 1, 0.3, 1],
                   }}
-                  className="absolute -bottom-3 left-0 h-1 w-20 origin-left rounded-full bg-linear-to-r from-[#d6ad55] to-transparent md:w-28"
+                  className="absolute -bottom-3 left-0 h-1 w-20 origin-left rounded-full bg-linear-to-r from-accent-light to-transparent md:w-28"
                 />
               </span>
             </motion.h1>
@@ -220,7 +220,7 @@ export default function CareersHero() {
                 href="/#services"
                 variant="secondary"
                 icon={ArrowDown}
-                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-[#315d6b] shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
+                className="border-[#08788c]/15 bg-white/65 px-5 py-4 text-[10px] font-bold text-primary-soft shadow-[0_10px_35px_rgba(20,70,85,.04)] backdrop-blur-xl hover:border-accent/40 hover:bg-white"
               >
                 {t("hero.secondaryButton")}
               </Button>
@@ -247,11 +247,11 @@ export default function CareersHero() {
             }}
             className="relative w-full max-w-75 justify-self-start md:justify-self-end"
           >
-            <div className="group relative overflow-hidden rounded-[26px] border border-primary/8 bg-white p-5 shadow-[0_25px_80px_rgba(8,47,58,0.06)] transition-all duration-500 hover:-translate-y-1 hover:border-[#d6ad55]/25 hover:shadow-[0_30px_90px_rgba(8,47,58,.09)]">
+            <div className="group relative overflow-hidden rounded-[26px] border border-primary/8 bg-white p-5 shadow-[0_25px_80px_rgba(8,47,58,0.06)] transition-all duration-500 hover:-translate-y-1 hover:border-accent-light/25 hover:shadow-[0_30px_90px_rgba(8,47,58,.09)]">
               {/* Card glow */}
               <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-primary/[0.035] blur-2xl" />
 
-              <div className="absolute -bottom-10 -right-10 h-24 w-24 rounded-full bg-[#d6ad55]/6 blur-3xl" />
+              <div className="absolute -bottom-10 -right-10 h-24 w-24 rounded-full bg-accent-light/6 blur-3xl" />
 
               <div className="relative">
                 {/* Card header */}
@@ -259,13 +259,13 @@ export default function CareersHero() {
                   <div className="relative flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-white">
                     <Sparkles size={15} />
 
-                    <span className="absolute inset-0 rounded-xl bg-[#d6ad55]/15 blur-md" />
+                    <span className="absolute inset-0 rounded-xl bg-accent-light/15 blur-md" />
                   </div>
 
                   <span className="flex items-center gap-2 text-[8px] font-semibold uppercase tracking-[0.2em] text-secondary">
                     <span className="relative flex h-1.5 w-1.5">
-                      <span className="absolute inset-0 animate-ping rounded-full bg-[#d6ad55]/50" />
-                      <span className="relative h-1.5 w-1.5 rounded-full bg-[#d6ad55]" />
+                      <span className="absolute inset-0 animate-ping rounded-full bg-accent-light/50" />
+                      <span className="relative h-1.5 w-1.5 rounded-full bg-accent-light" />
                     </span>
 
                     {t("hero.status")}
@@ -302,7 +302,7 @@ export default function CareersHero() {
                 </div>
 
                 {/* Gold divider */}
-                <div className="mt-5 h-px w-10 bg-linear-to-r from-[#d6ad55] to-transparent opacity-70 transition-all duration-500 group-hover:w-20" />
+                <div className="mt-5 h-px w-10 bg-linear-to-r from-accent-light to-transparent opacity-70 transition-all duration-500 group-hover:w-20" />
               </div>
             </div>
           </motion.div>
@@ -330,25 +330,25 @@ export default function CareersHero() {
                   {t("hero.ticker.development")}
                 </span>
 
-                <span className="h-1 w-1 rounded-full bg-[#d6ad55]/60" />
+                <span className="h-1 w-1 rounded-full bg-accent-light/60" />
 
                 <span className="mx-8 text-[9px] font-semibold uppercase tracking-[0.3em] text-primary/40">
                   {t("hero.ticker.design")}
                 </span>
 
-                <span className="h-1 w-1 rounded-full bg-[#d6ad55]/60" />
+                <span className="h-1 w-1 rounded-full bg-accent-light/60" />
 
                 <span className="mx-8 text-[9px] font-semibold uppercase tracking-[0.3em] text-primary/40">
                   {t("hero.ticker.ai")}
                 </span>
 
-                <span className="h-1 w-1 rounded-full bg-[#d6ad55]/60" />
+                <span className="h-1 w-1 rounded-full bg-accent-light/60" />
 
                 <span className="mx-8 text-[9px] font-semibold uppercase tracking-[0.3em] text-primary/40">
                   {t("hero.ticker.marketing")}
                 </span>
 
-                <span className="h-1 w-1 rounded-full bg-[#d6ad55]/60" />
+                <span className="h-1 w-1 rounded-full bg-accent-light/60" />
               </div>
             ))}
           </motion.div>

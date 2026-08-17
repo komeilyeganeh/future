@@ -70,7 +70,7 @@ export default function MMSWorkflow() {
         {/* Steps */}
         <div className="relative mt-16 border-t border-primary/8 md:grid md:grid-cols-5">
           {/* Gold progress line */}
-          <div className="pointer-events-none absolute left-0 right-0 top-0 hidden h-px bg-gradient-to-r from-transparent via-[#c7a45d]/50 to-transparent md:block" />
+          <div className="pointer-events-none absolute left-0 right-0 top-0 hidden h-px bg-linear-to-r from-transparent via-[#c7a45d]/50 to-transparent md:block" />
 
           {steps.map((step, index) => {
             const Icon = step.icon;

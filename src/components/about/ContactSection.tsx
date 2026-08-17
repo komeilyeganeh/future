@@ -16,7 +16,7 @@ export default function ContactSection() {
     <>
       <section
         id="contact"
-        className="bg-[#f4f9fa] px-5 py-28 sm:px-8 sm:py-36"
+        className="bg-background-subtle px-5 py-28 sm:px-8 sm:py-36"
       >
         <motion.div
           initial={{
@@ -36,7 +36,7 @@ export default function ContactSection() {
           <div className="pointer-events-none absolute left-1/2 top-1/2 h-150 w-225 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(48,190,207,.24),transparent_65%)] blur-3xl" />
 
           {/* Subtle gold glow */}
-          <div className="pointer-events-none absolute -right-32 -top-32 h-100 w-100 rounded-full bg-accent/[0.045] blur-[110px]" />
+          <div className="pointer-events-none absolute -right-32 -top-32 h-100 w-100 rounded-full bg-accent/4.5 blur-[110px]" />
 
           <div className="relative grid items-center gap-14 lg:grid-cols-[1fr_.55fr]">
             <div>
@@ -72,7 +72,7 @@ export default function ContactSection() {
               {/* Email */}
               <div className="group/card rounded-[26px] border border-white/10 bg-white/6 p-5 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-accent/20 hover:bg-white/[0.08]">
                 <div className="flex items-center gap-4">
-                  <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/10 text-[#70dce7] transition-colors duration-300 group-hover/card:bg-accent/10 group-hover/card:text-accent">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/10 text-primary-light transition-colors duration-300 group-hover/card:bg-accent/10 group-hover/card:text-accent">
                     <Mail size={17} />
                   </span>
 
@@ -94,7 +94,7 @@ export default function ContactSection() {
               {/* Location */}
               <div className="group/card rounded-[26px] border border-white/10 bg-white/6 p-5 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-accent/20 hover:bg-white/[0.08]">
                 <div className="flex items-center gap-4">
-                  <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/10 text-[#70dce7] transition-colors duration-300 group-hover/card:bg-accent/10 group-hover/card:text-accent">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/10 text-primary-light transition-colors duration-300 group-hover/card:bg-accent/10 group-hover/card:text-accent">
                     <MapPin size={17} />
                   </span>
 
@@ -113,7 +113,7 @@ export default function ContactSection() {
               {/* Phone */}
               <div className="group/card rounded-[26px] border border-white/10 bg-white/6 p-5 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-accent/20 hover:bg-white/[0.08]">
                 <div className="flex items-center gap-4">
-                  <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/10 text-[#70dce7] transition-colors duration-300 group-hover/card:bg-accent/10 group-hover/card:text-accent">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/10 text-primary-light transition-colors duration-300 group-hover/card:bg-accent/10 group-hover/card:text-accent">
                     <Phone size={17} />
                   </span>
 

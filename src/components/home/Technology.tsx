@@ -59,7 +59,7 @@ export default function Technology() {
           viewport={{ once: true }}
           className="mx-auto max-w-[760px] text-center"
         >
-          <span className="text-[10px] font-bold uppercase tracking-[.18em] text-[#6c4cff]">
+          <span className="text-[10px] font-bold uppercase tracking-[.18em] text-purple-accent">
             {t("kicker")}
           </span>
 
@@ -90,7 +90,7 @@ export default function Technology() {
                 className="group rounded-[25px] border border-black/6 bg-[#f8f9fc] p-6 transition-shadow duration-500 hover:shadow-[0_25px_60px_rgba(27,31,55,.08)]"
               >
                 <div className="flex items-center justify-between">
-                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-white text-[#6c4cff] shadow-[0_10px_25px_rgba(27,31,55,.05)]">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-white text-purple-accent shadow-[0_10px_25px_rgba(27,31,55,.05)]">
                     <Icon size={19} strokeWidth={1.7} />
                   </div>
 

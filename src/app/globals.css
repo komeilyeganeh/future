@@ -7,12 +7,16 @@
 
   --color-primary: #082f3a;
   --color-primary-hover: #0b4655;
+  --color-primary-light: #70dce7;
+  --color-primary-soft: #315d6b;
 
   --color-secondary: #71838a;
 
   /* Gold Accent */
   --color-accent: #d4af37;
+  --color-accent-light: #d6ad55;
   --color-accent-hover: #b8942f;
+  --color-accent-soft: #c9a96e;
 
 
   /* =========================================
@@ -22,6 +26,11 @@
   --color-background: #ffffff;
   --color-background-soft: #f8faf9;
   --color-background-muted: #eef5f6;
+  --color-background-subtle: #f4f9fa;
+
+
+
+  --color-purple-accent: #6c4cff;
 
 
   /* =========================================
@@ -30,6 +39,7 @@
 
   --color-text-primary: #082f3a;
   --color-text-secondary: #71838a;
+  --color-text-secondary-dark: #52747b;
   --color-text-muted: #9aa8ad;
 
   --color-text-on-primary: #ffffff;
@@ -87,11 +97,15 @@
 
   --color-primary: var(--color-primary);
   --color-primary-hover: var(--color-primary-hover);
+  --color-primary-light: var(--color-primary-light);
+  --color-primary-soft: var(--color-primary-soft);
 
   --color-secondary: var(--color-secondary);
 
   --color-accent: var(--color-accent);
+  --color-accent-light: var(--color-accent-light);
   --color-accent-hover: var(--color-accent-hover);
+  --color-accent-soft: var(--color-accent-soft);
 
 
   /* Surfaces */
@@ -99,12 +113,16 @@
   --color-background: var(--color-background);
   --color-background-soft: var(--color-background-soft);
   --color-background-muted: var(--color-background-muted);
+  --color-background-subtle: var(--color-background-subtle);
+
+  --color-purple-accent: var(--color-purple-accent);
 
 
   /* Text */
 
   --color-text-primary: var(--color-text-primary);
   --color-text-secondary: var(--color-text-secondary);
+  --color-text-secondary-dark: var(--color-text-secondary-dark);
   --color-text-muted: var(--color-text-muted);
 
   --color-text-on-primary: var(--color-text-on-primary);

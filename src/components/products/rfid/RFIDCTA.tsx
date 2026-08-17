@@ -28,7 +28,7 @@ export default function RFIDCTA() {
 
         <div className="pointer-events-none absolute -bottom-25 -left-25 h-62.5 w-62.5 rounded-full bg-[#c9a227]/8 blur-3xl" />
 
-        <div className="pointer-events-none absolute left-1/2 top-0 h-px w-1/3 -translate-x-1/2 bg-gradient-to-r from-transparent via-[#c9a227]/35 to-transparent" />
+        <div className="pointer-events-none absolute left-1/2 top-0 h-px w-1/3 -translate-x-1/2 bg-linear-to-r from-transparent via-[#c9a227]/35 to-transparent" />
 
         <div className="relative z-10 grid gap-12 lg:grid-cols-[1fr_auto] lg:items-end">
           <div>

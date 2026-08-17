@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function NotFound() {
   return (
-    <main className="relative h-screen overflow-hidden bg-[#f4f9fa] text-primary">
+    <main className="relative h-screen overflow-hidden bg-background-subtle text-primary">
       {/* Background decoration */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -left-32 -top-32 h-96 w-96 rounded-full bg-[#d9eef1] blur-3xl" />
@@ -64,7 +64,7 @@ export default function NotFound() {
               We lost this page.
             </h1>
 
-            <p className="mx-auto mt-5 max-w-xl text-base leading-7 text-[#52747b] sm:text-lg">
+            <p className="mx-auto mt-5 max-w-xl text-base leading-7 text-text-secondary-dark sm:text-lg">
               The page you are looking for doesn't exist, has been moved,
               or the address you entered is not available.
             </p>

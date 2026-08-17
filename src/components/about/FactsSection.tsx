@@ -8,7 +8,7 @@ export default function FactsSection() {
   const t = useTranslations("About.facts");
 
   return (
-    <section className="relative overflow-hidden bg-[#f4f9fa] px-5 py-28 sm:px-8 sm:py-36">
+    <section className="relative overflow-hidden bg-background-subtle px-5 py-28 sm:px-8 sm:py-36">
       {/* Ambient background */}
       <div className="pointer-events-none absolute left-45 top-[20%] h-125 w-125 rounded-full bg-[#08788c]/4.5 blur-[130px]" />
 
@@ -84,7 +84,7 @@ export default function FactsSection() {
                 className="group relative border-t border-primary/8"
               >
                 {/* Connecting node */}
-                <div className="absolute left-3 -top-1 hidden h-2 w-2 rounded-full border-2 border-[#f4f9fa] bg-[#08788c] transition-colors duration-300 group-hover:bg-accent sm:block" />
+                <div className="absolute left-3 -top-1 hidden h-2 w-2 rounded-full border-2 border-background-subtle bg-[#08788c] transition-colors duration-300 group-hover:bg-accent sm:block" />
 
                 <div
                   className={`

@@ -10,7 +10,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="bg-[#f4f9fa] px-5 py-28 sm:px-8 sm:py-36"
+      className="bg-background-subtle px-5 py-28 sm:px-8 sm:py-36"
     >
       <div className="mx-auto grid max-w-310 items-center gap-16 lg:grid-cols-[.9fr_1.1fr] lg:gap-24">
         {/* Visual */}
@@ -111,7 +111,7 @@ export default function AboutSection() {
                     0{index + 1}
                   </span>
 
-                  <div className="mt-5 text-[11px] font-bold text-[#315d6b]">
+                  <div className="mt-5 text-[11px] font-bold text-primary-soft">
                     {item}
                   </div>
 
